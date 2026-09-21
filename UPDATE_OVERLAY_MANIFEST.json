@@ -1,0 +1,3565 @@
+{
+  "generated_at_utc": "2026-09-21T02:40:55+00:00",
+  "purpose": "changed-file overlay; copy over repository root",
+  "base": "zip:D:\\GPT\\FIXON NEW\\FIXON\\outputs\\FIXON_partner_GitHub_Pages_49_markets_2026-09-19.zip",
+  "updated": "D:\\GPT\\FIXON NEW\\FIXON\\outputs\\fixon-partner-github-pages-49-markets-2026-09-20-release",
+  "output": "D:\\GPT\\FIXON NEW\\FIXON\\outputs\\FIXON_UPDATE_2026-09-20",
+  "changed_or_new_count": 503,
+  "removed_report_only_count": 0,
+  "unchanged_count": 6,
+  "excludes": [
+    ".git/**",
+    "**/.git/**",
+    ".agents/**",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/*.zip",
+    "**/*.7z",
+    "**/*.rar",
+    "**/*.tar",
+    "**/*.tar.gz",
+    "**/*.tgz",
+    "**/qa/**",
+    "**/*qa*/**",
+    "**/*QA*/**",
+    "**/screenshots/**",
+    "**/*screenshot*/**",
+    "**/*Screenshot*/**",
+    "**/playwright-report/**",
+    "**/test-results/**",
+    "**/.catalog-preview/**",
+    "**/.translation-cache/**",
+    "**/.translation-runtime/**",
+    "**/outputs/**",
+    "**/_staging*/**",
+    "UPDATE_OVERLAY_MANIFEST.json",
+    "UPDATE_OVERLAY_INSTRUCTIONS_PL.md",
+    "FIXON_MEDIA_REPORT.json"
+  ],
+  "changed_or_new_files": [
+    {
+      "path": "assets/fixon-media/0313a80ae46a9985fa42c0b826ddb838225301b1f5c6380dca59fda2ae231036.webp",
+      "status": "new",
+      "size": 5066,
+      "sha256": "0313a80ae46a9985fa42c0b826ddb838225301b1f5c6380dca59fda2ae231036",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/078bc85263da44df4045ad7eb32433350ec520ac57e6518e211a1b381cbe67e0.webp",
+      "status": "new",
+      "size": 8842,
+      "sha256": "078bc85263da44df4045ad7eb32433350ec520ac57e6518e211a1b381cbe67e0",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/09922a6476954eea6ec3b73ea2ef05b028140635cbad8e5934a02399c1446d14.webp",
+      "status": "new",
+      "size": 5002,
+      "sha256": "09922a6476954eea6ec3b73ea2ef05b028140635cbad8e5934a02399c1446d14",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/0a64abe88565fbf5482ade6647d63fe68b42dd27ecf300e6b1053b2ae3a7b44d.webp",
+      "status": "new",
+      "size": 64628,
+      "sha256": "0a64abe88565fbf5482ade6647d63fe68b42dd27ecf300e6b1053b2ae3a7b44d",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/0a8f18d28a2fa6b9486f74a64835c2b7500c8befba4a8306a81a926ec819eef7.webp",
+      "status": "new",
+      "size": 7044,
+      "sha256": "0a8f18d28a2fa6b9486f74a64835c2b7500c8befba4a8306a81a926ec819eef7",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/0d12289c445d91b0b08ceefff7917f2da0443748fac2c2628399148a27b38a7d.webp",
+      "status": "new",
+      "size": 33610,
+      "sha256": "0d12289c445d91b0b08ceefff7917f2da0443748fac2c2628399148a27b38a7d",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/0e893d1c1b84b4ab64e9e6b128125a0f723b9684f41bf079a5527c088426d29e.webp",
+      "status": "new",
+      "size": 66390,
+      "sha256": "0e893d1c1b84b4ab64e9e6b128125a0f723b9684f41bf079a5527c088426d29e",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/1230a006a27b5b58dedb5624010b586203cffee6d7e474900c9bd70ca7d08c1b.webp",
+      "status": "new",
+      "size": 3302,
+      "sha256": "1230a006a27b5b58dedb5624010b586203cffee6d7e474900c9bd70ca7d08c1b",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/1318f305d8ba3974be4865e7040ab1fb1b6b2be194a6550873c7dbf3eb8032ca.webp",
+      "status": "new",
+      "size": 7498,
+      "sha256": "1318f305d8ba3974be4865e7040ab1fb1b6b2be194a6550873c7dbf3eb8032ca",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/138e122129f3f215be937947469c69075e36f467cd2495fcdd2b64155f05fe32.webp",
+      "status": "new",
+      "size": 5256,
+      "sha256": "138e122129f3f215be937947469c69075e36f467cd2495fcdd2b64155f05fe32",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/1473265f82c981c10b6eab1c578d1b4d41bf069c29085971c74f9ecd74e7e5bb.webp",
+      "status": "new",
+      "size": 3118,
+      "sha256": "1473265f82c981c10b6eab1c578d1b4d41bf069c29085971c74f9ecd74e7e5bb",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/1655a858d8d091fb13ee1aafa981258eae0d5e0f8f437e7ff0e25c285a7ffdf8.webp",
+      "status": "new",
+      "size": 4552,
+      "sha256": "1655a858d8d091fb13ee1aafa981258eae0d5e0f8f437e7ff0e25c285a7ffdf8",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/1971363e93a66e37b6aaba7d4fdb9e57da87965d14c432ede3913c6453dbb950.webp",
+      "status": "new",
+      "size": 15294,
+      "sha256": "1971363e93a66e37b6aaba7d4fdb9e57da87965d14c432ede3913c6453dbb950",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/1ff7b4a3db8c0e8da660ab70f7f554adcf49bb2f32fbc12cf739323e7db6b671.webp",
+      "status": "new",
+      "size": 20136,
+      "sha256": "1ff7b4a3db8c0e8da660ab70f7f554adcf49bb2f32fbc12cf739323e7db6b671",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/21b9eadc36f5d02e732365f78c1a24c9915d5bd3105e68befa95cb39cbe09828.webp",
+      "status": "new",
+      "size": 3256,
+      "sha256": "21b9eadc36f5d02e732365f78c1a24c9915d5bd3105e68befa95cb39cbe09828",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/25572ef07f5fe4474d85cc2faac8332da401b067da08e3bf346a3b541c337e96.webp",
+      "status": "new",
+      "size": 8614,
+      "sha256": "25572ef07f5fe4474d85cc2faac8332da401b067da08e3bf346a3b541c337e96",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/29ec4894d41e3e08450c59216d9e4837a77f00e5e4ae0cdb585647098a27acfb.webp",
+      "status": "new",
+      "size": 76658,
+      "sha256": "29ec4894d41e3e08450c59216d9e4837a77f00e5e4ae0cdb585647098a27acfb",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/30b629c67a0a626a4c1a12b1e881645fd1ca4afa965b512dd2e71750f2700adc.webp",
+      "status": "new",
+      "size": 4254,
+      "sha256": "30b629c67a0a626a4c1a12b1e881645fd1ca4afa965b512dd2e71750f2700adc",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/3597d93f12170965a17d70a3bc183f57ec7de6113f6ae62eb7453e3a1580012c.webp",
+      "status": "new",
+      "size": 2210,
+      "sha256": "3597d93f12170965a17d70a3bc183f57ec7de6113f6ae62eb7453e3a1580012c",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/3e06099d86e0f12430a6006654ee84f2f71c2af8024e913b3dbf9fdd0afd9e85.svg",
+      "status": "new",
+      "size": 10165,
+      "sha256": "3e06099d86e0f12430a6006654ee84f2f71c2af8024e913b3dbf9fdd0afd9e85",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/43114fed9bb6d018a8b82e4f82e7111482b19ab280e72746476f42ae18d51c31.webp",
+      "status": "new",
+      "size": 3586,
+      "sha256": "43114fed9bb6d018a8b82e4f82e7111482b19ab280e72746476f42ae18d51c31",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/469b759309ad700525dfdd9b59305d1a5b469bb8ec898eb6a7935b94c0d9ac15.webp",
+      "status": "new",
+      "size": 3062,
+      "sha256": "469b759309ad700525dfdd9b59305d1a5b469bb8ec898eb6a7935b94c0d9ac15",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/47cf198bb4874e97de162bcabc5985e40abb860da239ef3b48ff50a1d5bee197.webp",
+      "status": "new",
+      "size": 71080,
+      "sha256": "47cf198bb4874e97de162bcabc5985e40abb860da239ef3b48ff50a1d5bee197",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/4f891092936e22000fa666c591a05a7b5c248bc06d838a2feb826e86588428ff.webp",
+      "status": "new",
+      "size": 70890,
+      "sha256": "4f891092936e22000fa666c591a05a7b5c248bc06d838a2feb826e86588428ff",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/503e6e7a56efe161e555c56e12227d2bc57fab5d824e24d12905164e91f5981d.webp",
+      "status": "new",
+      "size": 6674,
+      "sha256": "503e6e7a56efe161e555c56e12227d2bc57fab5d824e24d12905164e91f5981d",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/53af4a4b836ad39f79e4ef4fc5acf4d8966d6581e3cc72814b1f4fc8ea15f9e2.webp",
+      "status": "new",
+      "size": 9770,
+      "sha256": "53af4a4b836ad39f79e4ef4fc5acf4d8966d6581e3cc72814b1f4fc8ea15f9e2",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/54b1fcac975b5d6476349904f4f965686b77ceeb471af58ddbfd173c83ae6b96.webp",
+      "status": "new",
+      "size": 5094,
+      "sha256": "54b1fcac975b5d6476349904f4f965686b77ceeb471af58ddbfd173c83ae6b96",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/556f2230764af81a1297b1384410f8f600f4d1c8cbeaee05491823710ba272ac.webp",
+      "status": "new",
+      "size": 2320,
+      "sha256": "556f2230764af81a1297b1384410f8f600f4d1c8cbeaee05491823710ba272ac",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/56e65656924f2fc524bf0ffe230618ebab74cebe06393b17243d6e7c7a85add5.webp",
+      "status": "new",
+      "size": 4918,
+      "sha256": "56e65656924f2fc524bf0ffe230618ebab74cebe06393b17243d6e7c7a85add5",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/591a875ef25255f2c16105768d9c5901182299a3a0e5efb62556d3be4f7939e1.webp",
+      "status": "new",
+      "size": 80038,
+      "sha256": "591a875ef25255f2c16105768d9c5901182299a3a0e5efb62556d3be4f7939e1",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/5d730285eaa05e5acd7ab149a0e7fee82d932a078cc58c0955cbeb3beb0c3e43.webp",
+      "status": "new",
+      "size": 5378,
+      "sha256": "5d730285eaa05e5acd7ab149a0e7fee82d932a078cc58c0955cbeb3beb0c3e43",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/5df9f1c1466b2e3c27bef1f9cdeba886cc1c214aa2f7ef447511e5907b8999aa.webp",
+      "status": "new",
+      "size": 2936,
+      "sha256": "5df9f1c1466b2e3c27bef1f9cdeba886cc1c214aa2f7ef447511e5907b8999aa",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/60af2c9e3dbd57f192ae7c31ab25e6a62dfabe1c19a4981545891200f887e80e.webp",
+      "status": "new",
+      "size": 2174,
+      "sha256": "60af2c9e3dbd57f192ae7c31ab25e6a62dfabe1c19a4981545891200f887e80e",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/6295ab1815936ec3db9e3e986b1f6cc8fab6a4947254672badf39de7b85d1a73.webp",
+      "status": "new",
+      "size": 3332,
+      "sha256": "6295ab1815936ec3db9e3e986b1f6cc8fab6a4947254672badf39de7b85d1a73",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/641aa308d889e6d01c0a88a28b436374487c48b5dc551a055c83934fc3c6a882.webp",
+      "status": "new",
+      "size": 70204,
+      "sha256": "641aa308d889e6d01c0a88a28b436374487c48b5dc551a055c83934fc3c6a882",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/67e5fd058318072fd406e2f30ad8e467d37a97c11ba48a61e945bbae3ffd22d1.webp",
+      "status": "new",
+      "size": 24060,
+      "sha256": "67e5fd058318072fd406e2f30ad8e467d37a97c11ba48a61e945bbae3ffd22d1",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/71c278c8d17750ef11d7967a0458cc3dfe61ced9e8d520b8925d81b6d1a53177.webp",
+      "status": "new",
+      "size": 8126,
+      "sha256": "71c278c8d17750ef11d7967a0458cc3dfe61ced9e8d520b8925d81b6d1a53177",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/749e3b479e857b558036868d97a5c36ec7b38377060d4d1236c2c0e9abba38b0.webp",
+      "status": "new",
+      "size": 3518,
+      "sha256": "749e3b479e857b558036868d97a5c36ec7b38377060d4d1236c2c0e9abba38b0",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/74b655974c108c5af8c8cd1fa62d497fd9d7839bc9442f7986feb491df797b8c.webp",
+      "status": "new",
+      "size": 4384,
+      "sha256": "74b655974c108c5af8c8cd1fa62d497fd9d7839bc9442f7986feb491df797b8c",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/7731d8e25ffa136d120e5ac24008e5f1451e1f76c3492a38f0ad93d8f6503967.webp",
+      "status": "new",
+      "size": 3816,
+      "sha256": "7731d8e25ffa136d120e5ac24008e5f1451e1f76c3492a38f0ad93d8f6503967",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/77e5ca52d7405b98d32d6e87fdc13e9fccec5e1664f4b2d0f3604601358a3d8d.webp",
+      "status": "new",
+      "size": 70096,
+      "sha256": "77e5ca52d7405b98d32d6e87fdc13e9fccec5e1664f4b2d0f3604601358a3d8d",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/7f32a74a378dab74a4de1961d02eee64d17876fccc69d4a3a648378525033cd4.webp",
+      "status": "new",
+      "size": 11374,
+      "sha256": "7f32a74a378dab74a4de1961d02eee64d17876fccc69d4a3a648378525033cd4",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/82421cb551b4721be4a7052ca489e9a8b3deabb1f420567d689b14feb5f046cc.webp",
+      "status": "new",
+      "size": 4246,
+      "sha256": "82421cb551b4721be4a7052ca489e9a8b3deabb1f420567d689b14feb5f046cc",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/8490d7387bb6f4038c7da496a1e64e8442094b0caa98a4af334c1dbe9c4694fb.webp",
+      "status": "new",
+      "size": 3672,
+      "sha256": "8490d7387bb6f4038c7da496a1e64e8442094b0caa98a4af334c1dbe9c4694fb",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/8828666a131e3332e952be3c50eea4d0486f10018bbc3e7c83831bea491656fa.webp",
+      "status": "new",
+      "size": 69452,
+      "sha256": "8828666a131e3332e952be3c50eea4d0486f10018bbc3e7c83831bea491656fa",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/8f0492fc489e5f557bb196e931e7b715b8d944952aa1f448584c7c71565152fe.webp",
+      "status": "new",
+      "size": 6838,
+      "sha256": "8f0492fc489e5f557bb196e931e7b715b8d944952aa1f448584c7c71565152fe",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/9008a2fc1eba5347717e990f774c308df16e5c719b18148ee3040def21a6a570.webp",
+      "status": "new",
+      "size": 7854,
+      "sha256": "9008a2fc1eba5347717e990f774c308df16e5c719b18148ee3040def21a6a570",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/914c95e538a7f90a2b0114343c28a46a3595e19f9a38a8ad4da2f8b4e59ecfe6.webp",
+      "status": "new",
+      "size": 9260,
+      "sha256": "914c95e538a7f90a2b0114343c28a46a3595e19f9a38a8ad4da2f8b4e59ecfe6",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/91cca4f047f1bcab688436ca5be6868d35f16d4fed36b18f186035e2a227de3e.webp",
+      "status": "new",
+      "size": 2550,
+      "sha256": "91cca4f047f1bcab688436ca5be6868d35f16d4fed36b18f186035e2a227de3e",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/928168593ace02a5d72fb6a8256506134030ef031b3e075f3588e5fae30e6a14.webp",
+      "status": "new",
+      "size": 4324,
+      "sha256": "928168593ace02a5d72fb6a8256506134030ef031b3e075f3588e5fae30e6a14",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/932636a1df21629f0ee10036959613e1e2d5925c65686c2ee7702e153be601cd.webp",
+      "status": "new",
+      "size": 10734,
+      "sha256": "932636a1df21629f0ee10036959613e1e2d5925c65686c2ee7702e153be601cd",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/9457de6daa2efdf09828591e3a8efa22773e1907f58b1c6bcfe742e94ec48df7.webp",
+      "status": "new",
+      "size": 4540,
+      "sha256": "9457de6daa2efdf09828591e3a8efa22773e1907f58b1c6bcfe742e94ec48df7",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/96c009e368e9d93f3df0d3c996b1b3bab6148d42e4b040b72f2aad448bd4bd44.webp",
+      "status": "new",
+      "size": 3266,
+      "sha256": "96c009e368e9d93f3df0d3c996b1b3bab6148d42e4b040b72f2aad448bd4bd44",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/99f86a02aad103588d162e8ebe2cb10f0d756956a0b2444be9e4c97adda5bda6.webp",
+      "status": "new",
+      "size": 11356,
+      "sha256": "99f86a02aad103588d162e8ebe2cb10f0d756956a0b2444be9e4c97adda5bda6",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/a33f768d878ccfd53694e495aa56e27848245c158dc5fea36c767bcd8ba3eb5c.webp",
+      "status": "new",
+      "size": 4584,
+      "sha256": "a33f768d878ccfd53694e495aa56e27848245c158dc5fea36c767bcd8ba3eb5c",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/a43f70012992be4c39220f056ac04670a622aa9ec892b3061deff47818ac8986.webp",
+      "status": "new",
+      "size": 5430,
+      "sha256": "a43f70012992be4c39220f056ac04670a622aa9ec892b3061deff47818ac8986",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/a537923c7648117b4bb3d28bcdab71bde07cad8a77e2a6586e59e7068b7b7e24.webp",
+      "status": "new",
+      "size": 63910,
+      "sha256": "a537923c7648117b4bb3d28bcdab71bde07cad8a77e2a6586e59e7068b7b7e24",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/a57331a9d0e7a568c8f2517ccb25e4a195f88731d2f1a21cb15ae16deb6704ff.webp",
+      "status": "new",
+      "size": 8092,
+      "sha256": "a57331a9d0e7a568c8f2517ccb25e4a195f88731d2f1a21cb15ae16deb6704ff",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/a84e402814c4a41e103e736fa3d63606a5688791fea9b26af779dbb1c0150eed.webp",
+      "status": "new",
+      "size": 11402,
+      "sha256": "a84e402814c4a41e103e736fa3d63606a5688791fea9b26af779dbb1c0150eed",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/abc76d12ddeb157ea7bc8837d55e1e3ef8899edbde09e47101a30c678a813ada.webp",
+      "status": "new",
+      "size": 3042,
+      "sha256": "abc76d12ddeb157ea7bc8837d55e1e3ef8899edbde09e47101a30c678a813ada",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/acd764f51794f5630bf128ce62a1fc0d8637dc64b794bd69fd119e36be4e79a6.webp",
+      "status": "new",
+      "size": 6102,
+      "sha256": "acd764f51794f5630bf128ce62a1fc0d8637dc64b794bd69fd119e36be4e79a6",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/aed882b273957cf3ad05bbc5ef08c2e522b7a327567dcdba3a7bc970b23d3e35.webp",
+      "status": "new",
+      "size": 74582,
+      "sha256": "aed882b273957cf3ad05bbc5ef08c2e522b7a327567dcdba3a7bc970b23d3e35",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/af06ac5f679f249fe2b8d506bac97337848aa1432d052bce1d81bfd8e69d8fff.webp",
+      "status": "new",
+      "size": 67658,
+      "sha256": "af06ac5f679f249fe2b8d506bac97337848aa1432d052bce1d81bfd8e69d8fff",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/b87f9d35ed363cca00fca06d4f146b4d7eac14a74a2d96c2785e41362753cd20.webp",
+      "status": "new",
+      "size": 67730,
+      "sha256": "b87f9d35ed363cca00fca06d4f146b4d7eac14a74a2d96c2785e41362753cd20",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/bd451bbbf168f660220894972474f4890349d8941d1d009765943099cb77c4c5.webp",
+      "status": "new",
+      "size": 4804,
+      "sha256": "bd451bbbf168f660220894972474f4890349d8941d1d009765943099cb77c4c5",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/c42c62d58a8ac1aeb7e9710eacb8cfa878d41c33f33166771fe93b4e8a72dc2a.webp",
+      "status": "new",
+      "size": 5660,
+      "sha256": "c42c62d58a8ac1aeb7e9710eacb8cfa878d41c33f33166771fe93b4e8a72dc2a",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/c6a6592f74a0a4b932d5c3b76f5b9b872e349806c30742bd56f4fb191a2164e3.webp",
+      "status": "new",
+      "size": 8396,
+      "sha256": "c6a6592f74a0a4b932d5c3b76f5b9b872e349806c30742bd56f4fb191a2164e3",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/cbf3bf50f5cb3ca8aa2265200394f836460dd24622a2c58e11fea2368dc394ac.webp",
+      "status": "new",
+      "size": 4102,
+      "sha256": "cbf3bf50f5cb3ca8aa2265200394f836460dd24622a2c58e11fea2368dc394ac",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/ce907cc4d95ebe13d4ce9adc33aee079ac99f3a316255d9f9cf3d22f289178ce.webp",
+      "status": "new",
+      "size": 2880,
+      "sha256": "ce907cc4d95ebe13d4ce9adc33aee079ac99f3a316255d9f9cf3d22f289178ce",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/cfa5fe72d0d89e82cdf3b6a74836e0e3a4ef7941cc3776ad6ccfc60ec4e316b7.webp",
+      "status": "new",
+      "size": 16898,
+      "sha256": "cfa5fe72d0d89e82cdf3b6a74836e0e3a4ef7941cc3776ad6ccfc60ec4e316b7",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/cfb71e4c6d9bda7610d3804a9d3ca213f5e4f2d0f263b15e5fbc80cd54c5216c.webp",
+      "status": "new",
+      "size": 7970,
+      "sha256": "cfb71e4c6d9bda7610d3804a9d3ca213f5e4f2d0f263b15e5fbc80cd54c5216c",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/d6b7fc5d8b544106ca05a0c51c3a427017f77d7fd8111e4c9ebde35543aafa67.webp",
+      "status": "new",
+      "size": 3612,
+      "sha256": "d6b7fc5d8b544106ca05a0c51c3a427017f77d7fd8111e4c9ebde35543aafa67",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/d9e5baeba9d51c14f89db89de94ff0812b58ba8bf2bb01f02c5fe5572c5b2e12.webp",
+      "status": "new",
+      "size": 10786,
+      "sha256": "d9e5baeba9d51c14f89db89de94ff0812b58ba8bf2bb01f02c5fe5572c5b2e12",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/dced8a69381995cea6361d8ca5d296b9779214cc2a5e69bc8684293db2f06f64.webp",
+      "status": "new",
+      "size": 6710,
+      "sha256": "dced8a69381995cea6361d8ca5d296b9779214cc2a5e69bc8684293db2f06f64",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/decf6c1e486c35ab8fec8f09575f58f317c8d8a68760c4f2bf170761b9069a59.webp",
+      "status": "new",
+      "size": 60220,
+      "sha256": "decf6c1e486c35ab8fec8f09575f58f317c8d8a68760c4f2bf170761b9069a59",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/e4800bcf25ebbfd97e68fe54638ab11cf9e8e839390992c3cc53d248ed65638f.webp",
+      "status": "new",
+      "size": 3912,
+      "sha256": "e4800bcf25ebbfd97e68fe54638ab11cf9e8e839390992c3cc53d248ed65638f",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/e73c1fa128e0275c2c7c1f736a3587822c5f9cb68844d0784e58f555ccf2b89d.webp",
+      "status": "new",
+      "size": 7990,
+      "sha256": "e73c1fa128e0275c2c7c1f736a3587822c5f9cb68844d0784e58f555ccf2b89d",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/e9062c79c8019a666d3d9f1f12a4d87e6eae0d9e309a602258a9f7f93db6278a.webp",
+      "status": "new",
+      "size": 2616,
+      "sha256": "e9062c79c8019a666d3d9f1f12a4d87e6eae0d9e309a602258a9f7f93db6278a",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/e9130c015be85d97d20a1dd9ada32685b69e5673a85b273c11a02d76d9d80506.webp",
+      "status": "new",
+      "size": 72644,
+      "sha256": "e9130c015be85d97d20a1dd9ada32685b69e5673a85b273c11a02d76d9d80506",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/eb742a07af60585cacb43601e1f4c36adee2add3070bbdfb7bc7f9a974748ea4.webp",
+      "status": "new",
+      "size": 21546,
+      "sha256": "eb742a07af60585cacb43601e1f4c36adee2add3070bbdfb7bc7f9a974748ea4",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/f6ddc75aa53558a274e8cb9d6068f11b9e18d3a1ede537d7cb574afeb73146c7.webp",
+      "status": "new",
+      "size": 6856,
+      "sha256": "f6ddc75aa53558a274e8cb9d6068f11b9e18d3a1ede537d7cb574afeb73146c7",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/f9b2c01597d0926df4953f319f23908127e96e1dbd37997ee0a37c1f92fdb023.webp",
+      "status": "new",
+      "size": 4800,
+      "sha256": "f9b2c01597d0926df4953f319f23908127e96e1dbd37997ee0a37c1f92fdb023",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/fb0070db03b61388e417ef8ae62bd6a9f25f8e193368b410e2830738539e2ccb.webp",
+      "status": "new",
+      "size": 26578,
+      "sha256": "fb0070db03b61388e417ef8ae62bd6a9f25f8e193368b410e2830738539e2ccb",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/fb09d5b51dd0a9df409aeef1aa45a9e91f8f6f25d9d01c37788d918cbf90ea4d.webp",
+      "status": "new",
+      "size": 3892,
+      "sha256": "fb09d5b51dd0a9df409aeef1aa45a9e91f8f6f25d9d01c37788d918cbf90ea4d",
+      "base_sha256": null
+    },
+    {
+      "path": "assets/fixon-media/fe8f99f32316d0784d00cda3049dc686af9be043aa2d15c7cd1d58842bdf488d.webp",
+      "status": "new",
+      "size": 67854,
+      "sha256": "fe8f99f32316d0784d00cda3049dc686af9be043aa2d15c7cd1d58842bdf488d",
+      "base_sha256": null
+    },
+    {
+      "path": "index.html",
+      "status": "changed",
+      "size": 12742,
+      "sha256": "3b0a68f28cc2a9f1278ca21cad44243d295a0d5921a2c4b73c009b4890abf952",
+      "base_sha256": "d1a648948ff674a1bcd799da764f18758e6fc291d07506bdc30d318387fecd76"
+    },
+    {
+      "path": "manifest.json",
+      "status": "changed",
+      "size": 34222,
+      "sha256": "78303d9fab5ca31df51e43a4313fd720a526eb8416bc278db38dff21c2a0c5e3",
+      "base_sha256": "586d3716514d960e6faa1f203e632d7b12c40604019ecbd4e107817397f92e79"
+    },
+    {
+      "path": "markets/AD/ca/commercial-offer.html",
+      "status": "changed",
+      "size": 146546,
+      "sha256": "68602b1d6af161aafa96f8771366d1434939205af02ada26ae45c6b17864ad14",
+      "base_sha256": "8432dbdf731d2a797d7a08a73bdf7bdba3a4ff19563bfb7d5a5338a360df262e"
+    },
+    {
+      "path": "markets/AD/ca/index.html",
+      "status": "changed",
+      "size": 30816,
+      "sha256": "908572405b3573f321ff9cbef97f8addf435f15f23f6dfef93b003933348a95a",
+      "base_sha256": "c3bf9bb1b8b801541a46682d9afff908d7f3e5dbe394e672aea55feb267c5756"
+    },
+    {
+      "path": "markets/AD/ca/marketing-pack.html",
+      "status": "changed",
+      "size": 211981,
+      "sha256": "37a88134a6bd3e8ec8a33ba0db5c273fdb0f359eea4cef3f17a632666580464e",
+      "base_sha256": "d917356e6c75dcf05b273eda5339d7de8dc75c96ab3c7afec9ea3c859f4b8caa"
+    },
+    {
+      "path": "markets/AD/ca/news.html",
+      "status": "new",
+      "size": 14507,
+      "sha256": "9f165acc97f1430a2fd1aad368bbb5eb19f99d61571f4d8afe4bec4d684c93b4",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/AD/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278555,
+      "sha256": "edb8089c1af33cc60b996a11a5ac8b2917e3016ac467b92487ab463d11ee0e97",
+      "base_sha256": "3fa901ddc5543748187bb2bee7e49891aa07b2608e496ea759e58d8d1246001d"
+    },
+    {
+      "path": "markets/AD/index.html",
+      "status": "changed",
+      "size": 1415,
+      "sha256": "61e69122623d9475061f4f91340458745b14b80db1cbb85f791c69b42dde2a36",
+      "base_sha256": "5ccf2cc863d6c9ee74477b7b0f8aa65fa5ce4910a4fcfaff876b20e45f6fc94c"
+    },
+    {
+      "path": "markets/AL/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 281631,
+      "sha256": "8bd062209708d44108c3fe327977c90d2011a82735eeafdd5aa40844b020c09d",
+      "base_sha256": "4c01f68fd17dc3f953babed7d53b4af020ef72019471af8b9888410f22629f73"
+    },
+    {
+      "path": "markets/AL/index.html",
+      "status": "changed",
+      "size": 1422,
+      "sha256": "459efa3305fffcb2d35fdf97c4915ac4b41540c0148e12af4eafb69aa97bbec1",
+      "base_sha256": "46505ffb67c667d632520c2c23a99635406f28371cc097ebe64b28ac6c08a018"
+    },
+    {
+      "path": "markets/AL/sq/commercial-offer.html",
+      "status": "changed",
+      "size": 147311,
+      "sha256": "3994dd3c55422e2c1e3785bb5942805e857273cbc4114f4130673ecc76a31556",
+      "base_sha256": "2d65cc3de6ffd606722ac003dc269e1424af8c7ca192fa5ba6e41aa91888dce0"
+    },
+    {
+      "path": "markets/AL/sq/index.html",
+      "status": "changed",
+      "size": 31094,
+      "sha256": "38bb417ad285c734ac5b3097117c53a68383aba0d4659f9124efcb61e5485ed5",
+      "base_sha256": "7ed8923e69c881c0e3a26b46767471309167d246f458332afa8cfa07cfcbdfdb"
+    },
+    {
+      "path": "markets/AL/sq/marketing-pack.html",
+      "status": "changed",
+      "size": 213489,
+      "sha256": "e146e0b1518e632b958586fb11e8e38d66c4166fecd339e7f7b6d6fc8326d37e",
+      "base_sha256": "d9e0d1e89e707d9d419b8ca7809f4c614cb973f2f24ef074650c0aa767aa5ddf"
+    },
+    {
+      "path": "markets/AL/sq/news.html",
+      "status": "new",
+      "size": 14464,
+      "sha256": "ee54792a6a0c645788983664edae1b30790988246cb0501827f03380f33a914a",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/AM/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 302162,
+      "sha256": "b421bfcab2ebec2fee04e92c4cf36e076ef35a310e8f664e8577698e7cd5e813",
+      "base_sha256": "057d4386de453c0c49146ef90b5255da899dddf52208424633b5e93e4d1dfcf9"
+    },
+    {
+      "path": "markets/AM/hy/commercial-offer.html",
+      "status": "changed",
+      "size": 159250,
+      "sha256": "cacc93524f143142bdb54414e0e91233bffb05beb96e33f06a000ca0af0e9f29",
+      "base_sha256": "034e977de6a9cd7169c2c6932c8e0db41c84df6dca2d054168386abc16d145e4"
+    },
+    {
+      "path": "markets/AM/hy/index.html",
+      "status": "changed",
+      "size": 37595,
+      "sha256": "3ce7dc0aa803f8b845dfb117a1eb66791dc8ca60b8b116f1f7120f3194037fb9",
+      "base_sha256": "9653465af32bbcca376f580ef07c24fa0e89e03c672a19f96c168256d0ea1322"
+    },
+    {
+      "path": "markets/AM/hy/marketing-pack.html",
+      "status": "changed",
+      "size": 233686,
+      "sha256": "61afde44664b96cf3ea29ff91d2241dbd690d8b4ccf44c10025c893d116ac0c6",
+      "base_sha256": "f0de9331f3a0336cf1387599b339f0809f42956f7b1ab83aed97ebc8b14f38a0"
+    },
+    {
+      "path": "markets/AM/hy/news.html",
+      "status": "new",
+      "size": 15327,
+      "sha256": "7ab2e7561af45803c33b909fa6fef978d2314885a4e8c31a0116766bd347ba4e",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/AM/index.html",
+      "status": "changed",
+      "size": 1434,
+      "sha256": "7abed540ef8fc3caf96dcde47101e2228b327e2b863441b22eb674aadecbd591",
+      "base_sha256": "44cf132f491054f240c9387c6fc468a24bda72929a96cf52c828aabbfc94df8c"
+    },
+    {
+      "path": "markets/AT/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 277963,
+      "sha256": "cdfb864902a0cf43f295aef164847709355803f95a587f9a59e7c47cc954986c",
+      "base_sha256": "cbef3ffbf7668fbbf0eb5e8ab8602af26d63c8a34c370aea6e53f8bc837d85ac"
+    },
+    {
+      "path": "markets/AT/de/commercial-offer.html",
+      "status": "changed",
+      "size": 146882,
+      "sha256": "84381a61d2a7188bcacb1fbf6d8aacc5de0fd23874d66e37943d4a01b4c5cdc7",
+      "base_sha256": "968baf1c43335f8d2f6238bead910de1358f1d7e835ba2c019de906f0ffdc485"
+    },
+    {
+      "path": "markets/AT/de/index.html",
+      "status": "changed",
+      "size": 30707,
+      "sha256": "f1494e2b923a107dd268ada480f69bdb7bdb8f6362fe07d766c085248892353b",
+      "base_sha256": "0d1f5dcad8b5ba157dbb9774ed4aef9c282dcbd253e31d4a42a7e8b81940f4fd"
+    },
+    {
+      "path": "markets/AT/de/marketing-pack.html",
+      "status": "changed",
+      "size": 213397,
+      "sha256": "a7d395b1a78f6f4343d1148838cde757cd3cd71ce3b2ebd1632fc3df121bbba7",
+      "base_sha256": "fe451e504825b63227d2a79eea99ff68e772218b1f9dc66ae00199245297ad21"
+    },
+    {
+      "path": "markets/AT/de/news.html",
+      "status": "new",
+      "size": 14510,
+      "sha256": "0f12e2a9c8c19d68dce35184def6677810fb04c5e24a701c79fc0266008d2c6f",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/AT/index.html",
+      "status": "changed",
+      "size": 1422,
+      "sha256": "35fcbad55ecb62afcc63a619594d6fa7c0cbedfb9c2e8fb50205d20c2b096246",
+      "base_sha256": "ebde9378fe46b6151581aad0297c05fa2092c284c76c6c9bdea911aaa7d42d3d"
+    },
+    {
+      "path": "markets/AZ/az/commercial-offer.html",
+      "status": "changed",
+      "size": 147428,
+      "sha256": "de4d3049f18c75c6d4ce6c1ce3fac07eab5371b8ae0184fd6252a7459ef9d100",
+      "base_sha256": "7cf9df6ee973f2ae38a1775a8d5306e457d0e501020510b737ab63fbc111fef1"
+    },
+    {
+      "path": "markets/AZ/az/index.html",
+      "status": "changed",
+      "size": 31219,
+      "sha256": "7db36ed1c07aad6f36647c0a316f2e92c7dac96e02bc88b831e8700cdf662555",
+      "base_sha256": "e0688d25abdb2e48125e0590d9c747776607f4e0c97d9d1dfdf292741b8b10c6"
+    },
+    {
+      "path": "markets/AZ/az/marketing-pack.html",
+      "status": "changed",
+      "size": 214030,
+      "sha256": "85d634215d14306c2253df0e68915f6e3190e89ccffeaeab77ce325c610a6260",
+      "base_sha256": "87fcbc0a85985b87212ff3b80f71429636c0ed9ca4574088e04809b5b7612a33"
+    },
+    {
+      "path": "markets/AZ/az/news.html",
+      "status": "new",
+      "size": 14536,
+      "sha256": "db27ff498e6c66fd994125e09b21bc3557cc78aeb022c0c46bb8bca96564c2e6",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/AZ/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 283687,
+      "sha256": "3bb97e4155ef44b5e05db38d583b98fe039932a0e5e89d857939dcafab510053",
+      "base_sha256": "f5f1617822397fa2bacd2819767732668cc81922778f2e54cb1f1dc50bf34212"
+    },
+    {
+      "path": "markets/AZ/index.html",
+      "status": "changed",
+      "size": 1433,
+      "sha256": "2482cfbc38a9c72baf3b1978a0bf386d635e8df7888d9aba2d362f688ed8255c",
+      "base_sha256": "b6d424e0031081ae978b9da0845f749df37472b735fc18584730f6e4ee4d67c2"
+    },
+    {
+      "path": "markets/BA/bs/commercial-offer.html",
+      "status": "changed",
+      "size": 145584,
+      "sha256": "173968d9ac8012827720d27be612d35ed3b18cffc9a3505d865f07dce686e2c8",
+      "base_sha256": "4faa90dc43f128bb4301bb84eeb3a47b6b59bcbfd104d554c2b3e6be77345c4d"
+    },
+    {
+      "path": "markets/BA/bs/index.html",
+      "status": "changed",
+      "size": 30107,
+      "sha256": "de2950cc89aef0be1a80b43870656cfcd1c8db5a6a85f80fbdc4a98a41e8a211",
+      "base_sha256": "91ab26babe46abe27ea560a534206d04b84d6fc50608884311e71d09456b6aee"
+    },
+    {
+      "path": "markets/BA/bs/marketing-pack.html",
+      "status": "changed",
+      "size": 210633,
+      "sha256": "0ab80934bda7967f98cc2f444ba46734730a132c52511f42de92a2edf4de95b9",
+      "base_sha256": "7d2603fc1f48d297a2d27e367d5df8e5ab18ddbd8a3074846f7d4e395c016e5e"
+    },
+    {
+      "path": "markets/BA/bs/news.html",
+      "status": "new",
+      "size": 14463,
+      "sha256": "ca382768b681104c131b4b9afabb2a16734e4db9c3690ce83576caca159caed5",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/BA/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278932,
+      "sha256": "a37c7441188f7f8e3bbec16b1ed4e6f1dcb5265fced3a6b7a3f251b6f82f9550",
+      "base_sha256": "2974e16a581672abae03094806643185f92c5683f34a0d1ad31f7385c47f3b18"
+    },
+    {
+      "path": "markets/BA/hr/commercial-offer.html",
+      "status": "changed",
+      "size": 145606,
+      "sha256": "e1289574bdcfe5a8e94525d0fa37fc94948fd12828dd13dced54afc2e27d3ddd",
+      "base_sha256": "1357bfa60625587b6b391e9893d81e343d3e6694754cac112e4b186ef3306c43"
+    },
+    {
+      "path": "markets/BA/hr/index.html",
+      "status": "changed",
+      "size": 30114,
+      "sha256": "b08aad2727e94b3f178faa21dbd50ae0968644ca1064ae9f484f7abef34b3c0f",
+      "base_sha256": "0f77ff3d59f1a6a8c044c81179fe115cf42298ba712d4b7ec934933bf9260c99"
+    },
+    {
+      "path": "markets/BA/hr/marketing-pack.html",
+      "status": "changed",
+      "size": 210611,
+      "sha256": "74b8204a2ed77b83cebb2e56b8ef1a6ac36f4d86e2f5033028de4cc48655cec8",
+      "base_sha256": "e4673c6ae8343e76a5baac2fdd59ed0e0ddc25dad48d9d8dae5b60ab282df1f9"
+    },
+    {
+      "path": "markets/BA/hr/news.html",
+      "status": "new",
+      "size": 14457,
+      "sha256": "7b2eaab7a2e023effac1445b88fe59b5029fa7d0aff57375bdfb338b2635ac4a",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/BA/index.html",
+      "status": "changed",
+      "size": 1666,
+      "sha256": "3b569d48c68b7c6af2535703cc77e7d6b2954982072f978c0fc30f4c5b96d4f2",
+      "base_sha256": "b211bcc77f2eef05140656bdca12bdbd6e8686939c5c12f43f50c1ef63ddee19"
+    },
+    {
+      "path": "markets/BA/sr/commercial-offer.html",
+      "status": "changed",
+      "size": 156298,
+      "sha256": "d67d6d3e84619e3250fec11ecec004501eada33e2efa64f0cbebde0a298cac6e",
+      "base_sha256": "46d6f4cd04e0e0f8a40a018c90b4f60479cfcdeecd7880feed502a102e52ed0c"
+    },
+    {
+      "path": "markets/BA/sr/index.html",
+      "status": "changed",
+      "size": 35973,
+      "sha256": "62012c967509e318a1445f513ca0aa858eb3f7fc3d1474b3f4a1384e75781f48",
+      "base_sha256": "9fee7ef0619647d40e7c22c511f4c5b1b9dff1a48b70e82c7b96cfc7f458c601"
+    },
+    {
+      "path": "markets/BA/sr/marketing-pack.html",
+      "status": "changed",
+      "size": 229691,
+      "sha256": "1933def7d7ef23ddc31ecb56be5b230cadb3bed4c7c5f585747e948de4f554a2",
+      "base_sha256": "109d31da0438eb28b0d384990cc917e67cd3a42636b5edb51b897e720c10d739"
+    },
+    {
+      "path": "markets/BA/sr/news.html",
+      "status": "new",
+      "size": 14901,
+      "sha256": "fa7de48b22c99cb338fe5a5475e6eb7c50ccd196e725f5da4094e24d2cbe005b",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/BE/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 276297,
+      "sha256": "ca0f4e5164ee81450c3f2f6f1227b218045e5067707f3696d5ea2d835587c58f",
+      "base_sha256": "b60bc2d621b6253fb7793eff8fa3c3cc09889d9956c372750ae76f238dd8dd73"
+    },
+    {
+      "path": "markets/BE/de/commercial-offer.html",
+      "status": "changed",
+      "size": 146982,
+      "sha256": "b0155165e998c42ef4e0fb3338b3dde48241656f5701a72674cdc8a8882f630f",
+      "base_sha256": "eb65386dc338a946cd6b1cdf8486f1436df06613c4a09cab5d2411a4a40a28e5"
+    },
+    {
+      "path": "markets/BE/de/index.html",
+      "status": "changed",
+      "size": 30861,
+      "sha256": "ea22d9c4fff65ae36602dd8ca6ff740e5cda268d536a374e214d5267013d08b9",
+      "base_sha256": "7bf7d87f7900f7d7e3bd7b8a660b2cb89666d6439066122329bb7e8cd07d1131"
+    },
+    {
+      "path": "markets/BE/de/marketing-pack.html",
+      "status": "changed",
+      "size": 213497,
+      "sha256": "fa383cf9f5d5c3eb5a44095793060da7e4c1502186c20b2344d27113133342cd",
+      "base_sha256": "4f7ca93ddd0fafed79eaafa7fab2ddc2faf385adab5f768a347232e27d062738"
+    },
+    {
+      "path": "markets/BE/de/news.html",
+      "status": "new",
+      "size": 14510,
+      "sha256": "beb1bd5a87a57064269e1dc9b62ea9980ed79e2762bb30a8c4fc8fa402300579",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/BE/fr/commercial-offer.html",
+      "status": "changed",
+      "size": 147921,
+      "sha256": "605a208f5932ae482ac552ea3fda5e6d20acae7519e78a4b2333a58a9e9e371e",
+      "base_sha256": "020a3282196b0f8e9576458638c6ab31ae2fcc72147a070ee3ecee4113e965ca"
+    },
+    {
+      "path": "markets/BE/fr/index.html",
+      "status": "changed",
+      "size": 31612,
+      "sha256": "2148b30e93f70ba4f3c6000d8cec0b995386103e057b422e4ac302b30e24ffb7",
+      "base_sha256": "86b07e733b1673305456dd12d1d60610c8fbe36a358ed05b3934816d61589179"
+    },
+    {
+      "path": "markets/BE/fr/marketing-pack.html",
+      "status": "changed",
+      "size": 214634,
+      "sha256": "345884ce24cf1b7a354a1d79d8d885c43bf029d32f424d3f65db1ed553988bef",
+      "base_sha256": "f39124b8313ccb2b60fb39db52c215e78ec9a5b3c11e35c5831dd14a51f8dcf1"
+    },
+    {
+      "path": "markets/BE/fr/news.html",
+      "status": "new",
+      "size": 14503,
+      "sha256": "5124a7ce322509bfb6da6ce65f2c66a71d13717b577b543faceda2d79936083e",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/BE/index.html",
+      "status": "changed",
+      "size": 1675,
+      "sha256": "31bdfd2d05d1bc6c4dfc289cfec6b2188077bea6bad876f64cf86eda83325fc7",
+      "base_sha256": "a66aefc0f42bdc6db1f97b8164559cbd1b23176a27de96886907decb1113064b"
+    },
+    {
+      "path": "markets/BE/nl/commercial-offer.html",
+      "status": "changed",
+      "size": 146243,
+      "sha256": "afe370bbdaf194109e148373fb7da8e8ec189f1e71fcb6afbf752a7614536e6d",
+      "base_sha256": "f4a2bf8067eaba143d60ae4d45dc1f2414de3dcef8b4d958507557b248b214dd"
+    },
+    {
+      "path": "markets/BE/nl/index.html",
+      "status": "changed",
+      "size": 30668,
+      "sha256": "99e694a23f63b286c57d48c7fcf4b90b79aad749bf17970c7687940066cfeab0",
+      "base_sha256": "a6eeeac83b80b1f0f47bbbfca9b4057a7f3d1b0eb03226d8244d45d14795d843"
+    },
+    {
+      "path": "markets/BE/nl/marketing-pack.html",
+      "status": "changed",
+      "size": 211827,
+      "sha256": "78677489479267851dc782da682263548f4f852ea51e764e6025035ac0bcb574",
+      "base_sha256": "4e319f56ed7e5751f214677f71e152370132f61b32fb273c1c3d2a51b7a60069"
+    },
+    {
+      "path": "markets/BE/nl/news.html",
+      "status": "new",
+      "size": 14485,
+      "sha256": "27328e63c7e98fb9f2ed1986425c0b5aaced4715e13778c7e7975bf284cc15f6",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/BG/bg/commercial-offer.html",
+      "status": "changed",
+      "size": 158604,
+      "sha256": "81a83566c3b323592983794a5bb483754be04942aa1ca0393cac981ddfbec1f5",
+      "base_sha256": "ecd89de58e1b6a2959ea9b95c04fe942eadef65c9912f4c18470584c3e0ff61b"
+    },
+    {
+      "path": "markets/BG/bg/index.html",
+      "status": "changed",
+      "size": 37216,
+      "sha256": "2f75a1babc81a268d0337faf92dd4d9401ae7cf72c4977fee1e1d9016d0198a8",
+      "base_sha256": "f93fd8e7365ded3cc002ccd54e11d2d4ac514805e0f64754867cf0267a4b8093"
+    },
+    {
+      "path": "markets/BG/bg/marketing-pack.html",
+      "status": "changed",
+      "size": 232639,
+      "sha256": "73a5dc8e383864d3edaaf913dbc1521a4f98c441f27f2497f494adbf371a0de0",
+      "base_sha256": "b776d64bed353bbf55d68c61d5631634cd54c16cca5cb8091aee1046d897f403"
+    },
+    {
+      "path": "markets/BG/bg/news.html",
+      "status": "new",
+      "size": 15053,
+      "sha256": "ed70daa006f65ca162298aec0a9dac121f589184c269d56cd7fba03786c73810",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/BG/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 299297,
+      "sha256": "0d50c72e2a2bfe9e406e1f28b9022a1d9710e82a5085b103bc05356acf8c4f30",
+      "base_sha256": "658c571aa0865c3e70db534d2243b327e4e0b192ffb60438a30e0bd6eb77bd3e"
+    },
+    {
+      "path": "markets/BG/index.html",
+      "status": "changed",
+      "size": 1437,
+      "sha256": "d42af2d857a2e7a1d8b22bd58f89127e6749c61617eed885e37d7708a07e907e",
+      "base_sha256": "2cee2c5f604cfd59a0c3d66877dc20148020e10ae41e7e6b2c1cc01cad7e89f2"
+    },
+    {
+      "path": "markets/CH/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280117,
+      "sha256": "6dea8372eb7969b92125bd5719ac008dcd712e8ae263b8c52c1f2816d7f6092e",
+      "base_sha256": "3c7e43a5a9c9f51cf452244f01a920fd7a6106797d3718db62651ce0dd7a2793"
+    },
+    {
+      "path": "markets/CH/de/commercial-offer.html",
+      "status": "changed",
+      "size": 146959,
+      "sha256": "f1def313062b026120f1d1257ede73bd013133e096f8f8037d960e23c5d097fc",
+      "base_sha256": "bba15014f589f74fba30cf8d2b821ccd4825a8e9f29523e84c9d84f454112c16"
+    },
+    {
+      "path": "markets/CH/de/index.html",
+      "status": "changed",
+      "size": 30930,
+      "sha256": "8663821f7cd40ac1fbcd47e9053ba56c516791969f7fa29cb036be5b7b44aa0e",
+      "base_sha256": "9a891cc703a59cb32e8f61a38073f97e57a9400b105980d58a53eb1dc3773128"
+    },
+    {
+      "path": "markets/CH/de/marketing-pack.html",
+      "status": "changed",
+      "size": 213474,
+      "sha256": "5f11a6b575b95502c568f35316db31b2b233682e2e756b869319a073d021680d",
+      "base_sha256": "3224ebe65197a117d57e031e82cdafa0078e43d6c236e8e2b3c8e9f963c1d1c5"
+    },
+    {
+      "path": "markets/CH/de/news.html",
+      "status": "new",
+      "size": 14514,
+      "sha256": "0d1effcb283c8403bb7163e31f76f214d30f3f8aaa32bdaa49aac655ac17cefa",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/CH/fr/commercial-offer.html",
+      "status": "changed",
+      "size": 147925,
+      "sha256": "9ab14708427267d190ff8793a4bef56e22b8865e390b0d1ce2e9db4c470afb9a",
+      "base_sha256": "0810efb364eb34b7cb9c16cc99918927d933cb9271a558c8951036e3bea20fa9"
+    },
+    {
+      "path": "markets/CH/fr/index.html",
+      "status": "changed",
+      "size": 31633,
+      "sha256": "2ed8659fc9345f1177b843cc9631e79eaf320f308eb9286ddc702b98b4098134",
+      "base_sha256": "f6d34141d8319d920b74a951c7729114ce8a82f906226970cfa090d6b0685935"
+    },
+    {
+      "path": "markets/CH/fr/marketing-pack.html",
+      "status": "changed",
+      "size": 214638,
+      "sha256": "addcccd457442b1dc4dfd84325817e170dff3b03fdbfa73f7bfbed9f0174befe",
+      "base_sha256": "7213582e3cc7095c5541f77a4aafe445c8ca4b19f5277ebe8adcd39eb7fe1c96"
+    },
+    {
+      "path": "markets/CH/fr/news.html",
+      "status": "new",
+      "size": 14507,
+      "sha256": "26e14e4fce034b0fa44cd18966628206cdb501f2b4a9b4ff1a1e3863465314c4",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/CH/index.html",
+      "status": "changed",
+      "size": 1681,
+      "sha256": "85ea085a32f2d6b4e43525cf8621396c66fc56ee10dbd5ad101fc65aaad92f7c",
+      "base_sha256": "fdb90ba357577b6cddbb2c324b4ed62dbe107bbb465229b95b283bc9ffeb2547"
+    },
+    {
+      "path": "markets/CH/it/commercial-offer.html",
+      "status": "changed",
+      "size": 147110,
+      "sha256": "30aae6bfbeb230ba5cebaeac01fb8724c800cd02fe6d93d137f426ff94a3e139",
+      "base_sha256": "ad78d870df9d3875baf5e305c0cb8cf7a528d8ec86b9f4478496d1d95f8f5831"
+    },
+    {
+      "path": "markets/CH/it/index.html",
+      "status": "changed",
+      "size": 31047,
+      "sha256": "49486e8b34462458474708dca6acf52eee0488b51d085977b0560f42addc4230",
+      "base_sha256": "61060ff21a315224b5222f114670b021cd9c8d9942fd32129994abd35818a134"
+    },
+    {
+      "path": "markets/CH/it/marketing-pack.html",
+      "status": "changed",
+      "size": 213265,
+      "sha256": "14385cdb08cfd145ada0da4f1bc8551ad0a27f27f1c5cedf0da1728aa4c240a3",
+      "base_sha256": "c8b99b19297b3d1514cdf8372e13d42889b8077756d39a5aaf68a4192ebfab70"
+    },
+    {
+      "path": "markets/CH/it/news.html",
+      "status": "new",
+      "size": 14481,
+      "sha256": "2902260fbf1f86599a0ed2fda05ebc28873a42bb53d5efebb2ed65957dc49824",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/CY/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 301369,
+      "sha256": "d9e331157854c869978abe24feea40e2a0924f7d2654acea921477be5bd345b9",
+      "base_sha256": "30bf2befdb23411e0e11575c7b00618382ec50c3a0d4e77759c80f33ccca473f"
+    },
+    {
+      "path": "markets/CY/el/commercial-offer.html",
+      "status": "changed",
+      "size": 159694,
+      "sha256": "2ddf736fa2b35a4b06592dbcf3fd48e011d6334de3d0e166c22178b484b2e815",
+      "base_sha256": "d042af7b74304750c9d866328467c23f2ac2ecd50ab2502cd4115a8454801cd5"
+    },
+    {
+      "path": "markets/CY/el/index.html",
+      "status": "changed",
+      "size": 38562,
+      "sha256": "801b5e702dd0a2efc584bc686afa0a62a4c81b4320c41592c605eff9ace927ea",
+      "base_sha256": "8fb04453a33088c53da3a58aca8e5935dc3d9aa2ed01c11d0d799d6c8d85e267"
+    },
+    {
+      "path": "markets/CY/el/marketing-pack.html",
+      "status": "changed",
+      "size": 235741,
+      "sha256": "eb6277cf3efdc669c192334a3d7179709a23809b2bda955fb25e247c7fd056ff",
+      "base_sha256": "89c3e102aeb2e945350db6badf57aa6494e1a714724a879d9dc220a676771ac7"
+    },
+    {
+      "path": "markets/CY/el/news.html",
+      "status": "new",
+      "size": 14824,
+      "sha256": "55a8a58c012cb6cdfaf2c44971f9deb0c28707a96a2803da29abc06a82f00676",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/CY/index.html",
+      "status": "changed",
+      "size": 1512,
+      "sha256": "52e0c37142cf3e30da9ea080bde3543cb11eb51cfc9517c6eaedd1a6d5082ec8",
+      "base_sha256": "2542bf00cc065bb0e4f1e6a4279cf8f4f660556e94aa5b83e17af29b06e6191d"
+    },
+    {
+      "path": "markets/CY/tr/commercial-offer.html",
+      "status": "changed",
+      "size": 147145,
+      "sha256": "c88ffd5ded0033eb49fe5a0f3bf49c0e13d2059f52786df3a1b1d647ea07623a",
+      "base_sha256": "47cb0d9883df8986b9426c3efd69819a753e24246b9cd2f773b0c13b52e83c81"
+    },
+    {
+      "path": "markets/CY/tr/index.html",
+      "status": "changed",
+      "size": 30735,
+      "sha256": "20e593cbeed4fdd2a789851a54aa4da272f9645fbd1a5657c7cd15e39d2c9e22",
+      "base_sha256": "02b813a227b08037dcdc4eca60740ae7fe013ebc873103e0bb03e1197ca7221e"
+    },
+    {
+      "path": "markets/CY/tr/marketing-pack.html",
+      "status": "changed",
+      "size": 213175,
+      "sha256": "9b827a6737396d3820d35e6b07fd4cc5905580875e271c3010ecbd1763905cdc",
+      "base_sha256": "0a1063206161aca0785a973f2fe4e08d82e1eeae12ce7d051c2539d1987ed818"
+    },
+    {
+      "path": "markets/CY/tr/news.html",
+      "status": "new",
+      "size": 14694,
+      "sha256": "4c8267ded86761b9dad82f3a60f65cd4dbe980a1464c25d2aa30b8cc6586672e",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/CZ/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280625,
+      "sha256": "c404712bd5f25b19c029e30141aac2863b6683eb29c882b2b802189a6387c9ab",
+      "base_sha256": "5907f45b4332390a1c6cf7d1ebddde06a2c4f24b1e4389d9a34f40fe679ff4f4"
+    },
+    {
+      "path": "markets/CZ/cs/commercial-offer.html",
+      "status": "changed",
+      "size": 146510,
+      "sha256": "614dba09d4f38f1d9ada6ed33c0971bae1d249900ef94a46e448354b59739f87",
+      "base_sha256": "f3c385a7f8132dfe3d97176bb885560f09d9e75cb910792c54a5762054e37c4c"
+    },
+    {
+      "path": "markets/CZ/cs/index.html",
+      "status": "changed",
+      "size": 30710,
+      "sha256": "4213418fe0163ffac6ecc5d26d805b0c1dcfbac3b3eb88ad317634bbf64554ef",
+      "base_sha256": "93cb7131c45f3221f160aefcb5961b4b84c034eee17c2efbd9a54c8bd39df2b2"
+    },
+    {
+      "path": "markets/CZ/cs/marketing-pack.html",
+      "status": "changed",
+      "size": 212404,
+      "sha256": "f70541c2b18f95ca65f74e0f836f6ecd193cba494dc7c7605d012a2b06b1185e",
+      "base_sha256": "27f3fbd615fa00bcfbdeff33ed378965752c54b5c38c72649bdfd2d9f1ae13ea"
+    },
+    {
+      "path": "markets/CZ/cs/news.html",
+      "status": "new",
+      "size": 14533,
+      "sha256": "43cae61df72e45e7a9cb690c8b846d24e866c3477da35ee06f4554194d58015d",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/CZ/index.html",
+      "status": "changed",
+      "size": 1411,
+      "sha256": "260f4ec4d56e3cb32f9fd983310be31590bfa50fa79367df02adf7ac45aa63a6",
+      "base_sha256": "51a5223e439eb520b89d890e16c696860c07e95c1446f0b63593791fa14f1b19"
+    },
+    {
+      "path": "markets/DE/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 277987,
+      "sha256": "b497175d6dc5ef4fc63319a572b111ec9ae4b516ee0efe7416679a977dceb3a4",
+      "base_sha256": "93a72946b5672b8c20fbcfcf99d8fd60e8b042e8c6948ff94dadea11fa931fa5"
+    },
+    {
+      "path": "markets/DE/de/commercial-offer.html",
+      "status": "changed",
+      "size": 146906,
+      "sha256": "cd75d5e8211dc0585976868bc23dd82b8cdf1c2f6a4fec265107ea11655a13e9",
+      "base_sha256": "a097eca2a7f6f1dd88c2cd7af5158cdb5b692ad35ca0367f1d7a1a4ce8932ae6"
+    },
+    {
+      "path": "markets/DE/de/index.html",
+      "status": "changed",
+      "size": 30707,
+      "sha256": "13cdc1d7d0f623e771d4faf224ef51bd871db716b717716b022e04e6b6efe1e2",
+      "base_sha256": "312b450bf9d361c6cdf6108733a1a7eb14cde26736ccfe3b7f96e5294536f341"
+    },
+    {
+      "path": "markets/DE/de/marketing-pack.html",
+      "status": "changed",
+      "size": 213421,
+      "sha256": "a514389aeb949a927e8b7d99f170a44ae63c5d0e4e6dde2d020c0b9775fb5099",
+      "base_sha256": "bd078cadfaa5b946a8c03585c0118f8a6de018d3c8a765620b46eaa5ca6d6d3b"
+    },
+    {
+      "path": "markets/DE/de/news.html",
+      "status": "new",
+      "size": 14510,
+      "sha256": "5c6731c0fa21bab97b426b260f79cb00d0a57d879b7caa5d79e3d09e14ef0fd0",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/DE/index.html",
+      "status": "changed",
+      "size": 1422,
+      "sha256": "02f8e5ac62daf8a0d5707ec2a70c0578da5817e6fc7cc897a0295d150b9ef798",
+      "base_sha256": "96441e3213347377a036fcb69d7dfb63868348a87dd91a4e596a1c813ea7e827"
+    },
+    {
+      "path": "markets/DK/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278348,
+      "sha256": "75ef9a7b21bea6080179b08ce6097145f8950e4605acd2ab41bd37ee6eb74a92",
+      "base_sha256": "bf7d240f2deefaa0135a2ce5919c7e6f35e5199baed965689fbed3f78d2d7e47"
+    },
+    {
+      "path": "markets/DK/da/commercial-offer.html",
+      "status": "changed",
+      "size": 145225,
+      "sha256": "9ac0e9ae32fc4b8786a768e84037447a5c735666f62066be317a8b34704aac9c",
+      "base_sha256": "21732a47f09545c04e6604358f26f5af9b35b0efcb5b51a3434964a5d8df0a8f"
+    },
+    {
+      "path": "markets/DK/da/index.html",
+      "status": "changed",
+      "size": 30040,
+      "sha256": "0e69c8218bdbcaa1b8ac8212b7a6f0acf17b2b62658dd1bf1f8574e3ea3897a9",
+      "base_sha256": "594632bcb7139a58d338de0a7a2d782c1407fb4aace657eb32179b3c68cde4fe"
+    },
+    {
+      "path": "markets/DK/da/marketing-pack.html",
+      "status": "changed",
+      "size": 210629,
+      "sha256": "f1c2b92ba5fa84d841768ab2ffb6200820ee58574a276e841c0aeafab1ef1f95",
+      "base_sha256": "4234d000f802320df0df4223b2e3d87668ad46cc79116c26b3f8b7ed578da454"
+    },
+    {
+      "path": "markets/DK/da/news.html",
+      "status": "new",
+      "size": 14488,
+      "sha256": "080923abddd6eb2808b9fa6342c68cabe3ec031246aa40b93f3dd68122468c92",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/DK/index.html",
+      "status": "changed",
+      "size": 1414,
+      "sha256": "0dd8d8ed7a364677da57f2d3c0840d2d3ed706d084b9f19a376b930b7f587294",
+      "base_sha256": "e1ca3b66c8a70b8c6820554b388391bd3872075486bfd46651f7b3ad67083819"
+    },
+    {
+      "path": "markets/EE/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 274964,
+      "sha256": "b2203f092337f0d31ddddcaaa16e898b6461110ab285c94836d220fb4b277611",
+      "base_sha256": "f380d2369cbad5dd7f0a5a5e9901a22d0e0479be7288d9100f0dc8d91bc8100f"
+    },
+    {
+      "path": "markets/EE/et/commercial-offer.html",
+      "status": "changed",
+      "size": 145388,
+      "sha256": "2010bbbef58a5ddc73864b8ad7d6601e723463169f251ac3dc0fb71a57938668",
+      "base_sha256": "e33fd00995b0c1b9d5f3a0b94f1ca9a31b49caaf1bebc27986a030c432816fd4"
+    },
+    {
+      "path": "markets/EE/et/index.html",
+      "status": "changed",
+      "size": 29933,
+      "sha256": "0b2be230d2f0120954e850be0458f822afc70cdc2c8ce808fdbb4a3c08d531c2",
+      "base_sha256": "5278c6a7a600a261337022f1fe0e739debca0c8779c58a9ee616043cfcbf7486"
+    },
+    {
+      "path": "markets/EE/et/marketing-pack.html",
+      "status": "changed",
+      "size": 210167,
+      "sha256": "639e61716501cd87580191176ceb82e95d3b4fb1e5fbf2f166cfa7bcdc5b3b5e",
+      "base_sha256": "ad753e970ce1972f67ae16af7a5d33d2f6963463a6aa450d47f150790ee409ab"
+    },
+    {
+      "path": "markets/EE/et/news.html",
+      "status": "new",
+      "size": 14466,
+      "sha256": "8a138a37ca8e1b34418b7e0ea5463bec3c9206780780059ad6ecd49b209a0a4a",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/EE/index.html",
+      "status": "changed",
+      "size": 1412,
+      "sha256": "3cfa343eb5f20b42e3c30fdc189ef133dcf6e716211efbba0a92af741e9f6607",
+      "base_sha256": "d34b9da98a214d099c5a5ff0bf86705cd5d7545409492384c3a8c088d2e09104"
+    },
+    {
+      "path": "markets/ES/ca/commercial-offer.html",
+      "status": "changed",
+      "size": 146630,
+      "sha256": "216dcb3f022cbdadc568659411b82ff2f9407550657a63218d581c30827d7891",
+      "base_sha256": "a65dc4284ad1046e0b630e3a77366fe7e3d11cfcc6e8109c54d2f3ce23f64e11"
+    },
+    {
+      "path": "markets/ES/ca/index.html",
+      "status": "changed",
+      "size": 31004,
+      "sha256": "7bc3f1b6439dfebd38a92e6fa20b4e8f668675cff855ddaa3af098a23c21bbdc",
+      "base_sha256": "fbc673e6787c5bc9b1d73cd91843d78f54fca987817add6f49dd902986d7a4c9"
+    },
+    {
+      "path": "markets/ES/ca/marketing-pack.html",
+      "status": "changed",
+      "size": 212065,
+      "sha256": "9fd94cbdc4482912a4cc21685f66ed5fa09cddd3a4cf8a417ab391a526388899",
+      "base_sha256": "98d11664293783c70b77601aa14aae16bdc3a5afb2c2f2265162067eb4ab4591"
+    },
+    {
+      "path": "markets/ES/ca/news.html",
+      "status": "new",
+      "size": 14505,
+      "sha256": "1914a1fd1e7d4d094b213febda77619694e35b82996bc6b73fc6bfea92268bb9",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/ES/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 279602,
+      "sha256": "a39f59feac1ee53435e12c113c7beeb55abb7097000b242e6e90abef122c5d1d",
+      "base_sha256": "c607a03276b1c801bde1b85ca1a68db246f231ad7f6f7621ed3f4a70f9371042"
+    },
+    {
+      "path": "markets/ES/es/commercial-offer.html",
+      "status": "changed",
+      "size": 147038,
+      "sha256": "921025f9df63475ca23e5de95332775e26c039d543a530df55b8d9c2f661ae8f",
+      "base_sha256": "59794a428fb7c5cd9f7abae3edf2285fab80ff22b58b1afca0999166d8717311"
+    },
+    {
+      "path": "markets/ES/es/index.html",
+      "status": "changed",
+      "size": 31095,
+      "sha256": "b5c798c6b16e5860d9846ce7da77c79c7dcbf03da6f58801b8b5d741389f5e2a",
+      "base_sha256": "3d5f206d056d21f897bb3b53a9d8606143eb9dbd4e8adc0430bf9139470b85ac"
+    },
+    {
+      "path": "markets/ES/es/marketing-pack.html",
+      "status": "changed",
+      "size": 212996,
+      "sha256": "b984d180d42d5781e0d2371d10d6ba52dfe33ceb752ba6626d0149c18e544a35",
+      "base_sha256": "6a1f18d36b9464320231e800c262b09d62f4d0bff24399c448d8595c8b64ec2c"
+    },
+    {
+      "path": "markets/ES/es/news.html",
+      "status": "new",
+      "size": 14565,
+      "sha256": "70d471f1e2eeaa89d3c3a257052476d5fdb254f369df848b862dddfd56d4bf17",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/ES/eu/commercial-offer.html",
+      "status": "changed",
+      "size": 146495,
+      "sha256": "97044831e300b042ad2030fc7b5d3a663fc95cdc172e07c03f7220d69951ee05",
+      "base_sha256": "3fce8dc0e22714ebb534bb7f6d4fd6b2c0c03622c08b3723f2253c6d791822af"
+    },
+    {
+      "path": "markets/ES/eu/index.html",
+      "status": "changed",
+      "size": 30560,
+      "sha256": "884eac18998fb78b9beabee87a04b170cb0c99676216ee6bd5747c1c375a58cb",
+      "base_sha256": "0ad22c4b8130a7afd4d4064521304d57d829b472d1af5f272f4a07220ced2d3d"
+    },
+    {
+      "path": "markets/ES/eu/marketing-pack.html",
+      "status": "changed",
+      "size": 211762,
+      "sha256": "20ac31cf3c12c80dfdec7414ad3d490164df482d73acc466b01d599827610a41",
+      "base_sha256": "68e9758405d09c4ef5a2b99e0e18eb0bf58af0a69e283dee65620c664d827d77"
+    },
+    {
+      "path": "markets/ES/eu/news.html",
+      "status": "new",
+      "size": 14563,
+      "sha256": "a8c35735432acd6dbda0b60be60f2fa52f43e97c9b67ef569df84d09eaf4f29d",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/ES/gl/commercial-offer.html",
+      "status": "changed",
+      "size": 146566,
+      "sha256": "8fcd6b6ff50a6b1b301b5d1a3369091acf0c72a9581d51feae5ef82c76c41306",
+      "base_sha256": "45a69216edde7b14ae594cb8c193b5b7aec40769d97e30224825a54eb587a8c2"
+    },
+    {
+      "path": "markets/ES/gl/index.html",
+      "status": "changed",
+      "size": 30759,
+      "sha256": "e9630299b3533e7726342d8a6f24cb06cefae9f5754518b4deeeb09f88369a90",
+      "base_sha256": "69cfb5770df3113448304e8d24f0b9939e11c45343d5055321901344771107ff"
+    },
+    {
+      "path": "markets/ES/gl/marketing-pack.html",
+      "status": "changed",
+      "size": 212070,
+      "sha256": "a10d190477b956d1d54c64c9d6d3fef1609db9879552293d8a41f317b9533a93",
+      "base_sha256": "7e3e3a4a21afb98adc8f8e05f67c396b1cf2140ad6fcd7874f9e3b71029d8778"
+    },
+    {
+      "path": "markets/ES/gl/news.html",
+      "status": "new",
+      "size": 14494,
+      "sha256": "5f64108769de53dd59b3b00b03abe6da527fb4145f1fe58fbfa4158aaceb8581",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/ES/index.html",
+      "status": "changed",
+      "size": 1669,
+      "sha256": "d3bd54cd4b6fa63d6f2842188bae7090bad007cc02d6b7526eee4ab85bdbd37b",
+      "base_sha256": "21ad123222ef68d6045722624cbdbac3845cf63a3e8292d197e59dcf607ed214"
+    },
+    {
+      "path": "markets/FI/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 275315,
+      "sha256": "3eae89a5de33ca274c6cb36a58785ef6bed9d7fb79a5049a8732dc56d6f17935",
+      "base_sha256": "8df9b1bc09f2b52a121f97b689021dfce5b03e1414638063b07b59d47346ebd5"
+    },
+    {
+      "path": "markets/FI/fi/commercial-offer.html",
+      "status": "changed",
+      "size": 145727,
+      "sha256": "fecccbe2bd1ec185e14139878072d6cd50b34c8dde4a5b627259951bd8d16984",
+      "base_sha256": "0a1ea21ea83e856eac1a860b37f61eb296827ecc44762228522e945e1f255f3f"
+    },
+    {
+      "path": "markets/FI/fi/index.html",
+      "status": "changed",
+      "size": 30263,
+      "sha256": "766a979bd119a9e07e23b08a6b21d12d569434c239df2e8478faf7d3e9a0001a",
+      "base_sha256": "5acf7a9f2370955e156182b34c41c221e20dff0e503d74741d88441ff97c2ecb"
+    },
+    {
+      "path": "markets/FI/fi/marketing-pack.html",
+      "status": "changed",
+      "size": 210589,
+      "sha256": "ab50f3a64318961d663b2bbf1256b7e5c91d43bd6fc191a225af7f0e304f7dc7",
+      "base_sha256": "2bbe95db561d11fa6c9949d152a59e3b342e583c56fe70a6ff986961e5982f53"
+    },
+    {
+      "path": "markets/FI/fi/news.html",
+      "status": "new",
+      "size": 14424,
+      "sha256": "8bdfc017558a52d6895357a438a984f6c29833b2b3d544efb1f0f9d4b965ff76",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/FI/index.html",
+      "status": "changed",
+      "size": 1495,
+      "sha256": "5bbb9cfc291941f91cbc41be2ae5a84dea8a76c23166706e0da20819c8d394ad",
+      "base_sha256": "1b1141e65d846c9af32675d01da1590fa9606b17b5a0cb4fe0ecced976972be5"
+    },
+    {
+      "path": "markets/FI/sv/commercial-offer.html",
+      "status": "changed",
+      "size": 145500,
+      "sha256": "c26c365efa4864f70ac73f790c66dfdd83039fe844026d7683895d522682599a",
+      "base_sha256": "f77421f57b9bfa7b1656473705c3180926db0d9de29ab5cef6325d9a637d2232"
+    },
+    {
+      "path": "markets/FI/sv/index.html",
+      "status": "changed",
+      "size": 30330,
+      "sha256": "58a1e070815c3850da40e065aac47706d29fc232cb29c78daad859dd1d3fb2e3",
+      "base_sha256": "d2e3e1f01bafb80d5d832ec748a75c3a75ad9d74fc9b731d6174bf3dc12df79d"
+    },
+    {
+      "path": "markets/FI/sv/marketing-pack.html",
+      "status": "changed",
+      "size": 210804,
+      "sha256": "bf5933e80e09bbc3488ab7c271547bfb963743ad4ee6fb8b35fc731898774788",
+      "base_sha256": "046d959dd7e7274b0d4e29cb14ec24f91b75fdd2c734a0072d074a0cee3d49fe"
+    },
+    {
+      "path": "markets/FI/sv/news.html",
+      "status": "new",
+      "size": 14433,
+      "sha256": "6763e9cb7cf590f3195dbe951027ecf8af445e6ab742c3119ec7c55bca5eb503",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/FR/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280587,
+      "sha256": "7f07ce8252264a4d955dd9a448bd554b32116049bbd7ae164d7373f8f9da6f1b",
+      "base_sha256": "b817a3014d5246cc5e66f417b60753377921032effa63e9423bc147f8bc653ff"
+    },
+    {
+      "path": "markets/FR/fr/commercial-offer.html",
+      "status": "changed",
+      "size": 147866,
+      "sha256": "1ad79489314976c868d2016e2ce2c1ba0fab918ae52c7b858e5da30de0dfc462",
+      "base_sha256": "588f961691b952ab51dfa6377d32460b621c963677d311ebaf91c31f962756a7"
+    },
+    {
+      "path": "markets/FR/fr/index.html",
+      "status": "changed",
+      "size": 31448,
+      "sha256": "76c30fb6a9c50c6ca4e0bb4bb18e162c13646fcd9d20f52de1599e90530bf463",
+      "base_sha256": "2ae9a4b4aa1ec8ee02dbacfc83ed7151b6036cb6aba2ccdabbed6a89d0e029c8"
+    },
+    {
+      "path": "markets/FR/fr/marketing-pack.html",
+      "status": "changed",
+      "size": 214579,
+      "sha256": "73e13235d32a81458b991e279e3080ba70a6043145e46550f1c7e42f182f8b22",
+      "base_sha256": "4dfadf030d7094f09d4594e83a90149f9226bb9e5207de2e4af96ba8cd9881c9"
+    },
+    {
+      "path": "markets/FR/fr/news.html",
+      "status": "new",
+      "size": 14502,
+      "sha256": "e8698532ad9d7529cfca9b9d2aa8767cc4dbadad06a7e0410101b704b955d406",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/FR/index.html",
+      "status": "changed",
+      "size": 1410,
+      "sha256": "3c5ce695e4e46de60fcd369047e4660f16cc280cbd3d6c86509de2eadaf90eb7",
+      "base_sha256": "0c33aa8122fb18fcc1c0d745364bc43a273beccc65896823195984fe219324ab"
+    },
+    {
+      "path": "markets/GB/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 272018,
+      "sha256": "d20adee354cd99d42549a812d9c81517f2463214fd486074913f7d13e1e7f2ea",
+      "base_sha256": "731812a509ea48a4ed68417c03dd54b8ce1f54c817157fcf21faaba4e7d1721e"
+    },
+    {
+      "path": "markets/GB/cy/commercial-offer.html",
+      "status": "changed",
+      "size": 145743,
+      "sha256": "d4a2414df10e57fc4955534758995e22ae6c8d63ee72f512eabd763ac478158a",
+      "base_sha256": "98434b77f09a9278ce23b01ab5a2a654422c01ceb22d16575e90c0b996cd22f8"
+    },
+    {
+      "path": "markets/GB/cy/index.html",
+      "status": "changed",
+      "size": 30355,
+      "sha256": "429f802a0f351ef41ba6229a4fd4b13aabc21b0f0c2dba2a236de6f5e9b399c4",
+      "base_sha256": "c894d33d2aa7bd59763ddb4effdf819e42ca18d438a2e41cd9c8aaae6cb3be95"
+    },
+    {
+      "path": "markets/GB/cy/marketing-pack.html",
+      "status": "changed",
+      "size": 210852,
+      "sha256": "ac017a2369c16837fb55c0525c25f5d1e0cea11f8582030f8acd399701d5f05c",
+      "base_sha256": "498bcf275e29820aea8ecca4a47108d5081e726e768b8b8de2c72672fd73ddd8"
+    },
+    {
+      "path": "markets/GB/cy/news.html",
+      "status": "new",
+      "size": 14392,
+      "sha256": "81259008b0c43a75d88bf7aa767f0e0d933121484b1f2b74af9378e51b8a34b0",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/GB/en/commercial-offer.html",
+      "status": "changed",
+      "size": 143767,
+      "sha256": "9f21318b2530a8184ef4fe0f47660729c2615e944d70e76a3428e3761c9e2ce8",
+      "base_sha256": "35bf41dda9da9d3c81f01e1d847710c7e9475b6dbe3cf1ee5414078b27446a4c"
+    },
+    {
+      "path": "markets/GB/en/index.html",
+      "status": "changed",
+      "size": 29185,
+      "sha256": "42379b278287439362c13b5fd38585171123f5b5235c0fffe2259b61feeee927",
+      "base_sha256": "34fb67cade92bcc3d2d17a65fbd85cb04102e2b52d13e9522aaf9fa3958a7f72"
+    },
+    {
+      "path": "markets/GB/en/marketing-pack.html",
+      "status": "changed",
+      "size": 208141,
+      "sha256": "41455d1c5b7bf4ae0103610afcdc1390570dc7c73b4852d0a5e8ced743b242b5",
+      "base_sha256": "e71ece3c12823c5bcdffe2ba02f410fcaad6bb49bbd6aaacbc30b19122687440"
+    },
+    {
+      "path": "markets/GB/en/news.html",
+      "status": "new",
+      "size": 14428,
+      "sha256": "660790db6d8ac14c6e9f3a75c289ffd79fdbc2dd3efd6d32078a387a1542e575",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/GB/index.html",
+      "status": "changed",
+      "size": 1534,
+      "sha256": "ff74e806f0475027906c41b26e3e2c6b92d1af8fa0a9ff46acc8c1b9f2e8c137",
+      "base_sha256": "390e0548a93a82a7f3584c5dc5b2952470c9ac2afa145c516d9738754302a733"
+    },
+    {
+      "path": "markets/GE/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 327312,
+      "sha256": "435ca4f29964b1fb91ffdb9f9f4fc056badd1a6b6c769d5a240a49e87ee11c78",
+      "base_sha256": "9fd8a2de445bc25f2aa5d1df9eb63a5f172371a1824d09054f69fd75b6457157"
+    },
+    {
+      "path": "markets/GE/index.html",
+      "status": "changed",
+      "size": 1462,
+      "sha256": "42df9fb80104dc7bc379e4fdcf92ae00943a2f738eb9c086adf4f2d7b1f98917",
+      "base_sha256": "d934018c5527f12e4c96e78402280f4ab1af10fedc6301bdb6d78234fd6db110"
+    },
+    {
+      "path": "markets/GE/ka/commercial-offer.html",
+      "status": "changed",
+      "size": 171834,
+      "sha256": "a900c0d9b824c8038103563cd08b2a4029a992cd6d9fb666f2c9c9f92669d801",
+      "base_sha256": "2869bb5dc43dbe38574ed85714bdb5c4984a9946ac86e08e98438f4b9391318b"
+    },
+    {
+      "path": "markets/GE/ka/index.html",
+      "status": "changed",
+      "size": 44577,
+      "sha256": "ae9fc3ccad70a02e22cacfe36aa3fa5e9d8a1d411abb24dbda2a15cd47a7d65e",
+      "base_sha256": "7989f0c66384340e29c571ba12629e8cfd7c5d1ed668c6cfada2ec373cf48962"
+    },
+    {
+      "path": "markets/GE/ka/marketing-pack.html",
+      "status": "changed",
+      "size": 254778,
+      "sha256": "9ad51891fdb7291ebf24b8be1032f6d97b3156ce3e8d52a4a01223da437aece7",
+      "base_sha256": "e68c869b7ba94ec92ab2a9800bfce74c530adf3fcf8f2388e5a3d2eee518ed61"
+    },
+    {
+      "path": "markets/GE/ka/news.html",
+      "status": "new",
+      "size": 16007,
+      "sha256": "c94a994c8e1817a15c6a29f0739add5c69c6580bc8d265af81066595ae938ab3",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/GR/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 301333,
+      "sha256": "feddc9e3ca0ac41002bf08cced65817c982753a5a78a8e13e14801ff4a9503bd",
+      "base_sha256": "44d9b41ba7a0faa9ed3272f1c01121c2c92d5d0fe7fa6400ddf100f6b7988962"
+    },
+    {
+      "path": "markets/GR/el/commercial-offer.html",
+      "status": "changed",
+      "size": 159729,
+      "sha256": "bf69f863c31bc84d56b43c3eb6a67f97d3ac6f2fe7345f4a71829b3486e5a472",
+      "base_sha256": "f546bde4b8cd31aaf397228674101ef99c1ea40b8d2a48988e78754480d48883"
+    },
+    {
+      "path": "markets/GR/el/index.html",
+      "status": "changed",
+      "size": 38496,
+      "sha256": "999482aba1eb790753aa5891a465768a23ca6c16ef3c2f230a3173649ad60a2c",
+      "base_sha256": "27410b8e8915bcebd162e834b6935fa16984bd9a80ed2607e0631eaa9fb4b353"
+    },
+    {
+      "path": "markets/GR/el/marketing-pack.html",
+      "status": "changed",
+      "size": 235776,
+      "sha256": "421161dd1b61c9f674b7f95c243df72514a2d262ceb10eee9969f4b487102eb9",
+      "base_sha256": "188c6b8c08415f3bc40f4cb972eec9179a6539cf7874b0f957d0092a10b0bd2f"
+    },
+    {
+      "path": "markets/GR/el/news.html",
+      "status": "new",
+      "size": 14824,
+      "sha256": "a262e8b44d73b1b1b359647c94fb5418d0990b055c5c9a5a190e1755bd6525fb",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/GR/index.html",
+      "status": "changed",
+      "size": 1421,
+      "sha256": "efe980d2a05ef8a6f092e5c6f263d362561f0e4cf7a4415201b32c6d0d1b2abe",
+      "base_sha256": "7fd1eae427cd630f31eba85af79b229827af51beb0cbd6c42339557f7cc5e465"
+    },
+    {
+      "path": "markets/HR/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 276633,
+      "sha256": "c906bcdd45105046922d67a17531e28f46830cb1c759dfac343093a73d9f2b9b",
+      "base_sha256": "9604d41a873b9cd0f63e453d24b352601e91fe93bcb1f7dbb467dea199b7cba7"
+    },
+    {
+      "path": "markets/HR/hr/commercial-offer.html",
+      "status": "changed",
+      "size": 145517,
+      "sha256": "ca08a18449b20612bac20784d23c86da20062df82000283036e191cf627b4fa5",
+      "base_sha256": "c7a8416531637b98bbb7e603b8f0e568fb3a6a61df15c2a826a768dc2357efb4"
+    },
+    {
+      "path": "markets/HR/hr/index.html",
+      "status": "changed",
+      "size": 29896,
+      "sha256": "4fa8c2b742757ffd75babcc2df8f8b4d4dd88fbae36a9a0ea0cbfdddbbc405c7",
+      "base_sha256": "eae8322d30ce6205e09564b54fdb4fc7569916233ee6972c07c40b26867fbc0b"
+    },
+    {
+      "path": "markets/HR/hr/marketing-pack.html",
+      "status": "changed",
+      "size": 210522,
+      "sha256": "4ca2fb970f5291c6c06c7818fee588aae452cbc30ddbbe7bb2e44a0668905975",
+      "base_sha256": "edfa13d3232fab2f3452fea321695c19a9e07f0c4d16be8488279d148662775a"
+    },
+    {
+      "path": "markets/HR/hr/news.html",
+      "status": "new",
+      "size": 14442,
+      "sha256": "a36903ea19c7ec150be44a3ab1822165989b459e5f2c470eca1c8db539bcf543",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/HR/index.html",
+      "status": "changed",
+      "size": 1418,
+      "sha256": "bb27ca5862d2e3709b1af64586f1ec9e76af3b11091a8f145032c04dad2257ef",
+      "base_sha256": "6322eb5461161d9e7c19c04faf4de76049c55feb011a19d7137670508f69c8e0"
+    },
+    {
+      "path": "markets/HU/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 283191,
+      "sha256": "031db35cd85e42a2c8ff53a33925391045a0108b3c11675b065ed8b46af35b0f",
+      "base_sha256": "9df0516d5ec9f1ab4ee834599ebeaf182dd5b693f93775df4ecd36795574907a"
+    },
+    {
+      "path": "markets/HU/hu/commercial-offer.html",
+      "status": "changed",
+      "size": 147646,
+      "sha256": "c6ba3222ed8516171aa8ac014cd095f06c498c1514edc6a0dfcd63f97fd8c6d3",
+      "base_sha256": "99605556ee1672bdf195344646e7c99896fbdd9598447a00f3179fb6ec809caa"
+    },
+    {
+      "path": "markets/HU/hu/index.html",
+      "status": "changed",
+      "size": 31154,
+      "sha256": "dc76308f441db5a702d844300d67696fe9c3f1b69469923b3151352b2fdb9475",
+      "base_sha256": "689588b72ecb3ecbc07168b0aae37ffe36ec2d37e8fa2ba82637b4a12f0afbbb"
+    },
+    {
+      "path": "markets/HU/hu/marketing-pack.html",
+      "status": "changed",
+      "size": 214142,
+      "sha256": "a9c2d40d1fdcf45d1dd7333342bba5c412b2fb9d2ee7eff46af8def6caac8680",
+      "base_sha256": "e3deaa0a91eb325afa724492143ba564dfe069ca18cd548e5e6d2539ae3b1474"
+    },
+    {
+      "path": "markets/HU/hu/news.html",
+      "status": "new",
+      "size": 14621,
+      "sha256": "24884e2ee1a35eb2d42e9360fbfd42df5aff4ae5bdd09223fe04a2981403717f",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/HU/index.html",
+      "status": "changed",
+      "size": 1429,
+      "sha256": "b7750e0dcfdf097f48fc799866bc358d160d03174e856c01b90adff64f1f292a",
+      "base_sha256": "a9d13ecac7b350fb26fefce13a90fea2eecb382a0a7efaa7479797010c590042"
+    },
+    {
+      "path": "markets/IE/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278196,
+      "sha256": "1d365cd34b9caa834846cfb2ccca33e63768313c930d0c1aebfb4e2e5afb7baa",
+      "base_sha256": "0b5128e620e72f23c06e37afba8e0e4482d122dcae33f8495a764f17ba2533ed"
+    },
+    {
+      "path": "markets/IE/en/commercial-offer.html",
+      "status": "changed",
+      "size": 143699,
+      "sha256": "e561cf12b13d1ef35b84c9dcd7badcd79cb02111a2b0aa157bc4fbcb539ba41c",
+      "base_sha256": "89ce1c93dba9ef6f3febb0c0f6335c50bf53c2c1ce397d6f8463615ac6d96396"
+    },
+    {
+      "path": "markets/IE/en/index.html",
+      "status": "changed",
+      "size": 29143,
+      "sha256": "715a81d9be850df80f0efd05190b0dd5fbb667ec45c75762690d95c7a6998874",
+      "base_sha256": "38ae9e72ab1db31383987ecbe618db01deea9fc253977f25e5fab05ef951bfb7"
+    },
+    {
+      "path": "markets/IE/en/marketing-pack.html",
+      "status": "changed",
+      "size": 208073,
+      "sha256": "5387d01f99fc2c2af31d8007b8e8cf03efa737ec74465ae8e37cbc85f820239f",
+      "base_sha256": "62c2fad8115487d310f78553e4d972bdf7b97f95988f3b064fbd69dd4196ecf8"
+    },
+    {
+      "path": "markets/IE/en/news.html",
+      "status": "new",
+      "size": 14421,
+      "sha256": "f1a2832defe4ebb138dc38f19da896dc0b511eead421b542c37f2e70ae742366",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/IE/ga/commercial-offer.html",
+      "status": "changed",
+      "size": 147759,
+      "sha256": "04c65288a5f3aa8e435298decb72e2e2781c2e542f818fd11748f559e9e74a08",
+      "base_sha256": "8ba48f29c9a58d115d7a260b289412c0967ad64f63603a62fcb640d49f175350"
+    },
+    {
+      "path": "markets/IE/ga/index.html",
+      "status": "changed",
+      "size": 31340,
+      "sha256": "08b908ecfe34f7ea3df6bfd552dfa75e3a27f1b05fe1f678421128a98bc5846a",
+      "base_sha256": "ab1cd44abca25c1692fdda9e7146f9b3560007065745e1796ed6b68338c3a204"
+    },
+    {
+      "path": "markets/IE/ga/marketing-pack.html",
+      "status": "changed",
+      "size": 214252,
+      "sha256": "5d610340f53ea91bab61b4b13f8cab7ef181c5eff315f85854a0b8fa1f6aa66b",
+      "base_sha256": "af4a2b2cdebe0dfda0767bfabeb9ce953629e35359dd74f64236bf4a09326f35"
+    },
+    {
+      "path": "markets/IE/ga/news.html",
+      "status": "new",
+      "size": 14435,
+      "sha256": "72eb06d38ff7a425c8d170beda7626f99de88da7834981a00879677303b1295c",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/IE/index.html",
+      "status": "changed",
+      "size": 1499,
+      "sha256": "98229923df66543c8f24e78d1f814543642c9cf3a714b86ca9068f5655c04c1f",
+      "base_sha256": "a022fb2c62c540b20ab74100cb58e36d3abf37525d602a7867624003a0fa06c2"
+    },
+    {
+      "path": "markets/IS/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 279244,
+      "sha256": "3109b1cbb6d7c3321bf3883d5078c20ef62205b74c28e06f92b79c021f580ec6",
+      "base_sha256": "254632f5af985ecc6dd38a804399cc37ea3081ac655d82ef0015f4d8096493fb"
+    },
+    {
+      "path": "markets/IS/index.html",
+      "status": "changed",
+      "size": 1417,
+      "sha256": "9e62ca1c45153264114d547929d2fa87a7821184c6a8bc1e45270886112ec29e",
+      "base_sha256": "07c68b677e306c5ebe7f5f984389b46f3c91a6f9c5583cf5f6171e5c6203945a"
+    },
+    {
+      "path": "markets/IS/is/commercial-offer.html",
+      "status": "changed",
+      "size": 145933,
+      "sha256": "b4db74aa092b135212226706f19876dbe83cfc6b2c057cde23f3642856512532",
+      "base_sha256": "faf2e974546272867ceeff4931300a0d19925fb8f0cfca00a767847bd7cc3ef9"
+    },
+    {
+      "path": "markets/IS/is/index.html",
+      "status": "changed",
+      "size": 30338,
+      "sha256": "c3ca496f52b97e39a6e9d06d077e89a8d1a31101bc9769c6b89cffe455e85c4d",
+      "base_sha256": "e8d42435796a652a9de4539bbd480f564e2ef67c535458ba4f2f302d1731485b"
+    },
+    {
+      "path": "markets/IS/is/marketing-pack.html",
+      "status": "changed",
+      "size": 211555,
+      "sha256": "79780b958837c6c8527fa5140f2c72603a00fb37b164cc16340c8fc64ffa957f",
+      "base_sha256": "67f974a48a9ce3c20c66e001f781dce9b78a3bb467b37f7510de2fc19a065d26"
+    },
+    {
+      "path": "markets/IS/is/news.html",
+      "status": "new",
+      "size": 14452,
+      "sha256": "4585f0c571d3ff2ff7f2aeb43db29043bf0257fba77fb1ccc26dd3cab15cdade",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/IT/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 279378,
+      "sha256": "7c302845a370739ff34e45afa4c1e962050e46891bc67a5c716a61452a42e8b8",
+      "base_sha256": "4267ed6a83bb68e950a5c5af2ba0e2d3b2f80c79e41913b4ecaf0b4bc70d8d2a"
+    },
+    {
+      "path": "markets/IT/index.html",
+      "status": "changed",
+      "size": 1409,
+      "sha256": "ff000a0ed052894350f0287d33aa2de690d62bd5079ef1ab1339de0f1b90d492",
+      "base_sha256": "d10e9c94d24c01e53f98cf39be39b067f2c1ccdf57a6214fabc83c3bdc210ff7"
+    },
+    {
+      "path": "markets/IT/it/commercial-offer.html",
+      "status": "changed",
+      "size": 147040,
+      "sha256": "64e15c4f1e174634d8ea7a6ac9b00647f3d648ab02736520244c86645812e966",
+      "base_sha256": "b606798efc09eb1374eac50f92b00e34595462ffb15eaf4302e07dacccff6fcc"
+    },
+    {
+      "path": "markets/IT/it/index.html",
+      "status": "changed",
+      "size": 30858,
+      "sha256": "e2f430f6fd8b704baa24c05ac7be8b58501c26f5813c8a1261b500e09a867b8a",
+      "base_sha256": "66af87c8cabf8c2080475588ccd5cc3a5e6b8ca3960eb80f450bcfdd14081746"
+    },
+    {
+      "path": "markets/IT/it/marketing-pack.html",
+      "status": "changed",
+      "size": 213195,
+      "sha256": "3e9dac6a9c48b2873b102e1023767ebb197d137045227ac1f6ec5356ddbf9381",
+      "base_sha256": "9ab959dc26037686c47072afb59dc9b4e3850e8f873ddc670795a57ce4f9c6c9"
+    },
+    {
+      "path": "markets/IT/it/news.html",
+      "status": "new",
+      "size": 14475,
+      "sha256": "cb7ae17e097a8a1a66ba534076ae8fbffb6cb07222c654057cf9a4f0cd844312",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/KZ/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 300176,
+      "sha256": "99376cad57bc381461c3f720c88bf7c3d768fb15e17861dc7f95045be29045c1",
+      "base_sha256": "b472a2912c966595a3e341b7b48c6b5be03c7abdbe891e70b236a62ecca0a8d5"
+    },
+    {
+      "path": "markets/KZ/index.html",
+      "status": "changed",
+      "size": 1539,
+      "sha256": "0c24a3a0cfb090a05d1294a449a3bb8d26f7c9b9cc472f15b85de1fcd519218f",
+      "base_sha256": "6293f0af89d601d9e2b0b7389114dc89fc44a50acf27e62bdf881cfa43ce2fc0"
+    },
+    {
+      "path": "markets/KZ/kk/commercial-offer.html",
+      "status": "changed",
+      "size": 158048,
+      "sha256": "2242eb1129ba739a01b0783d6071a0e697456e69704917b421dc67970f90e76f",
+      "base_sha256": "e57a5737d028dce8087e91442fdf8d7e54dfd5eb8572cd84a10242768b727ca6"
+    },
+    {
+      "path": "markets/KZ/kk/index.html",
+      "status": "changed",
+      "size": 37064,
+      "sha256": "c9ff19da10a487cf229efa0ed7e64a790e4e40ecbfe4f5c7493c648edc3104f3",
+      "base_sha256": "639b70ee2d827c0126dd52bca8b52dfe4189fbfad8476c608a8a2357bccd9070"
+    },
+    {
+      "path": "markets/KZ/kk/marketing-pack.html",
+      "status": "changed",
+      "size": 232355,
+      "sha256": "b0c8c21ad83fbfcc83a06b1d48b7cf365f64b53184d74c5c699fe1462a438ebd",
+      "base_sha256": "587589034a18c1ae07f748bf5c6f7131155244d5eb97da1ee222e4b9114569be"
+    },
+    {
+      "path": "markets/KZ/kk/news.html",
+      "status": "new",
+      "size": 15358,
+      "sha256": "0cdfa29b3cb3c4ac7254750560fec5e73225d7271e0e0e38d55a2d3c223872bd",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/KZ/ru/commercial-offer.html",
+      "status": "changed",
+      "size": 158301,
+      "sha256": "ec500460e54555f4471a0de1b5550fe1f383fe533d143d8b6eb5b480166ec6e9",
+      "base_sha256": "328d297012569d5d8c20df5ed29e14ed465c714ba3a374ad433e60f283ac6312"
+    },
+    {
+      "path": "markets/KZ/ru/index.html",
+      "status": "changed",
+      "size": 36877,
+      "sha256": "1a925c11b8bed03326e6faa95f228c63b5695b4cb82c206c09f1bca9c06b3038",
+      "base_sha256": "b7428b15feff107e97bc396488fd44d9a599096e117412377810d05d294f20eb"
+    },
+    {
+      "path": "markets/KZ/ru/marketing-pack.html",
+      "status": "changed",
+      "size": 233226,
+      "sha256": "886c906d152bd86f1a3ebd4f793840142123321af576d2691e21717f39b3b288",
+      "base_sha256": "4219a111c00154b0e2114dbe5fc7c37953d35837bf8eac86020d3aa5a236491a"
+    },
+    {
+      "path": "markets/KZ/ru/news.html",
+      "status": "new",
+      "size": 14878,
+      "sha256": "2ce2c2058866193456f36153f29c44e79deb30bb031869e3520453641f189614",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/LI/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280134,
+      "sha256": "216275cf70bd14a8d208c778c41783bca8d0871b35ba0aae2918b93d45280d41",
+      "base_sha256": "f5aa2f970d5b530b4a18f42b74102ea938eb9eeb27e29d13fec3f0ff8f639f75"
+    },
+    {
+      "path": "markets/LI/de/commercial-offer.html",
+      "status": "changed",
+      "size": 146923,
+      "sha256": "737ac88ce80e139d3782955a1cb22356abff55a7711d2f72405424eb1053dc4a",
+      "base_sha256": "e8b63fcf92ff68eb5c8a0457820629fd056cc25e9ab9139c26454565c70c76b3"
+    },
+    {
+      "path": "markets/LI/de/index.html",
+      "status": "changed",
+      "size": 30739,
+      "sha256": "18858a566965fbc31988108f72b8e54f719a2b3aa3cbdd50d9a022f100cea809",
+      "base_sha256": "32b3ed5b7452c25be866705b8a3933a827b5deb559ec0e2800e6d31dca71afcb"
+    },
+    {
+      "path": "markets/LI/de/marketing-pack.html",
+      "status": "changed",
+      "size": 213438,
+      "sha256": "fb545673e55d837e4958b7adbf89c10b72bbadee74ddfa9cf9b3e12f1bd30c41",
+      "base_sha256": "9e67ac9658c95224485bedf44219346dbb300fb8c765dd4b31d93f83a653a11e"
+    },
+    {
+      "path": "markets/LI/de/news.html",
+      "status": "new",
+      "size": 14516,
+      "sha256": "831b04ec274cf50f5010f1af3331d7d88f3a3f176d6ba3fe8a91d7b8873c1f71",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/LI/index.html",
+      "status": "changed",
+      "size": 1438,
+      "sha256": "597715863fc348b9ba5bbc1434cb71580b03fc03282c2cb32ff6af01e4622342",
+      "base_sha256": "2873242b4e9704e7667128c6398bf4ef6eeb69e46286b61e7c9eb45535035edc"
+    },
+    {
+      "path": "markets/LT/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 277887,
+      "sha256": "448415823b4cb49718ecf040a26234ca2e0ca1facd7b570dd0117d0854f401b1",
+      "base_sha256": "53db0a95435bf258ce82245e70166067a134bb8579e27c84f399a0f30c3da760"
+    },
+    {
+      "path": "markets/LT/index.html",
+      "status": "changed",
+      "size": 1422,
+      "sha256": "dd12eaab5eaf2b1b1622d8abb6b7bde9aabd945b393d5509b501b3114ab5f1df",
+      "base_sha256": "f6d3b92f52c972d58dde8d85d4d7e75c82077460340e70ec9a6e944d4ff16830"
+    },
+    {
+      "path": "markets/LT/lt/commercial-offer.html",
+      "status": "changed",
+      "size": 146407,
+      "sha256": "e6485c5481156bdbb60ebf964823845396d5db75f1b5f8a2555c6da58bbdc4a2",
+      "base_sha256": "c51d25086ac4407ff007d073da5c61fa2c2010659155b3f7eb017758fafe310f"
+    },
+    {
+      "path": "markets/LT/lt/index.html",
+      "status": "changed",
+      "size": 30478,
+      "sha256": "27b8aaa64951f3c3a324d16feceec3d2a51dbe8567d14235846a5481126bcbc2",
+      "base_sha256": "aac5f3f13f33b196c5e8ea69aaf151c589383923d74e838a54aebe4611c5a5c4"
+    },
+    {
+      "path": "markets/LT/lt/marketing-pack.html",
+      "status": "changed",
+      "size": 212460,
+      "sha256": "861439561ed0e208d17b5c5bef455ac2d6671cde1d988b2ca288ea0a5957f2fe",
+      "base_sha256": "75f7b984208a5216bf635feca7e11febd4f13d60d32bc6b8261b1d735ce10466"
+    },
+    {
+      "path": "markets/LT/lt/news.html",
+      "status": "new",
+      "size": 14435,
+      "sha256": "5c761e435beefeaaa51791bdd7ad2f29c9db5b2000efde4b86d95d9c7bbcdb1b",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/LU/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280624,
+      "sha256": "f87bfc7f96853b41f3c0cc9f29933893f2e751a03ac8efb46f4938983ee96090",
+      "base_sha256": "d3c3b88cd40c9e7dee5cac885f1c09c646bab4db9c4fcb4e194c8287da9170af"
+    },
+    {
+      "path": "markets/LU/de/commercial-offer.html",
+      "status": "changed",
+      "size": 146949,
+      "sha256": "9c8ca6e5030f0d9994ffe344cb9ea258b09bfe087133a76440cf3e5e0cb5ca67",
+      "base_sha256": "c7bc757bc7475636576c4716c9008daca597aabadf81f9498f14dbc06edd9102"
+    },
+    {
+      "path": "markets/LU/de/index.html",
+      "status": "changed",
+      "size": 30880,
+      "sha256": "0ff3190e2b92552cf75f8229f17ead586ba7b3ae241a6f4793feb6b15cf047aa",
+      "base_sha256": "4b9f2d48ccaf3b43f2f498556e01a9f25f42ae25d0a667947749f9504b2e9452"
+    },
+    {
+      "path": "markets/LU/de/marketing-pack.html",
+      "status": "changed",
+      "size": 213464,
+      "sha256": "94d750740eb9d8197807c5c6b4bdbaa3ca72007d8b668232026a818c53421e36",
+      "base_sha256": "99b6e144533a581c30dfd9b7883ae24574401d453a0c83c64f71cb7c4fec73e2"
+    },
+    {
+      "path": "markets/LU/de/news.html",
+      "status": "new",
+      "size": 14513,
+      "sha256": "f02b22e65e5ad8c151f6a81e7918f5919d7c64739b0b79b4f8f7cb25f50f1ca3",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/LU/fr/commercial-offer.html",
+      "status": "changed",
+      "size": 147872,
+      "sha256": "105f1a645fe952d3b2fdaf8ac07db3d9320b1f561a036daa589557b073b19245",
+      "base_sha256": "e6348447f055f3b72a7d537feaeefadfb8270356d3d05233548da9b32602da2c"
+    },
+    {
+      "path": "markets/LU/fr/index.html",
+      "status": "changed",
+      "size": 31679,
+      "sha256": "2182f56437490d0ec33e54a96dfe5ac2dc7e4d806a64400e50adc19b4a24b73b",
+      "base_sha256": "c912dd5f5a30ff0a496ffb96c06d76cc30be7b4343fabfbde444af5b3220f327"
+    },
+    {
+      "path": "markets/LU/fr/marketing-pack.html",
+      "status": "changed",
+      "size": 214585,
+      "sha256": "962c77fe3879bdf1c4bce4359dbbfbba559bcaf26469be6547b64a6d2c960d4e",
+      "base_sha256": "637e2a7f6ab2d794c16c903ba9070ded45af1a364c6adb47df6bd2f8a0c7bd2f"
+    },
+    {
+      "path": "markets/LU/fr/news.html",
+      "status": "new",
+      "size": 14506,
+      "sha256": "0c1716ac8552f2d470aa62af62a700d55b17374f2338dfa7e6397fcc5fd8beb9",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/LU/index.html",
+      "status": "changed",
+      "size": 1673,
+      "sha256": "235a06c327548c8ade24a576d396384560a8074a5f10693c7038bd522c7106a6",
+      "base_sha256": "a6402ece198665862973eb0f7f077f447432ef6f4dc61e3e504ca3f1774e3aa1"
+    },
+    {
+      "path": "markets/LU/lb/commercial-offer.html",
+      "status": "changed",
+      "size": 146204,
+      "sha256": "e2054e4e987160b0349e25433a14236c3ee798aa06205a0edeabc54db2943653",
+      "base_sha256": "c5e5ba25069f87e119daf95121539f45d6aea12cf6431ad910b7b3ea83d99ac7"
+    },
+    {
+      "path": "markets/LU/lb/index.html",
+      "status": "changed",
+      "size": 30720,
+      "sha256": "a73f66c485f2ab8fccec526cb69c36c8ef056dfc8313af0142ebcd047b5985a2",
+      "base_sha256": "3ace5a1eb865a61ab702b418142d324e66ba761d14503d8865d1b6ad6e4c88ab"
+    },
+    {
+      "path": "markets/LU/lb/marketing-pack.html",
+      "status": "changed",
+      "size": 211926,
+      "sha256": "88a5dd5fe9d02030d43f02a3a9494284d82031cd637202f6f23b9e61bfa0bd0a",
+      "base_sha256": "8f5a395fb82dae31867261954b3f2fcee854e01a28db8e229e513254bb4f0260"
+    },
+    {
+      "path": "markets/LU/lb/news.html",
+      "status": "new",
+      "size": 14438,
+      "sha256": "6c33b7c855938eba14eef00701cd3495cbdac1ca76a3ce6d20aed62cafb9bbcc",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/LV/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278709,
+      "sha256": "285ca9e4a5bf0ee030ae653d85f5191761a4530aedd2f81fc1b038e685fb118f",
+      "base_sha256": "d05ffbe9c5a20d7be0659255640388636aa85c71a353a002a5afd88a08e80699"
+    },
+    {
+      "path": "markets/LV/index.html",
+      "status": "changed",
+      "size": 1413,
+      "sha256": "837be999742954c95905f74ac4278dc4ae66ca6b54cb930670be4e99f42f525c",
+      "base_sha256": "62391e698e0c052b312caba59804662614fc92689066b3f5d89327dcf1727d36"
+    },
+    {
+      "path": "markets/LV/lv/commercial-offer.html",
+      "status": "changed",
+      "size": 146407,
+      "sha256": "2fc6276227fbb8ec8ed959b499727a8a559a8e2d24050c7d1326e14d8b832143",
+      "base_sha256": "77d37311cbbe2d55bd07b12458649ab00425629bed23af575991ed19d6da2ec3"
+    },
+    {
+      "path": "markets/LV/lv/index.html",
+      "status": "changed",
+      "size": 30513,
+      "sha256": "1b66c2903275cafebc5cfc31676feead61d0ea8438f446e1da55e23348c5f03a",
+      "base_sha256": "8e7d0943e2dffe99ac8d6dd190a8c1e6dd3d761599afa42963704aabd511d68e"
+    },
+    {
+      "path": "markets/LV/lv/marketing-pack.html",
+      "status": "changed",
+      "size": 212372,
+      "sha256": "4caf29abbedb9c9e9a4689abe7de18579f454ff34242b9f75bb54dffbbd60c71",
+      "base_sha256": "ca89947a35316d711b8b67a2e7c4ea9f9b625112d7bd7343608b5d770eb3ab62"
+    },
+    {
+      "path": "markets/LV/lv/news.html",
+      "status": "new",
+      "size": 14418,
+      "sha256": "7f5366081a7754c516340005d5388c010a380fd72671e2f14ba37f9460885465",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/MC/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280733,
+      "sha256": "cbdc8bc0f92d83a64b1ecfa2a7373143cb3c6dc676e9d25e1e08a692deeb2739",
+      "base_sha256": "5da9d78d69aef890b84071c26b06964d41f0cec112e52033b6e8b219fa0e1463"
+    },
+    {
+      "path": "markets/MC/fr/commercial-offer.html",
+      "status": "changed",
+      "size": 147793,
+      "sha256": "f27352310733b122151f00caf6d071911c13a094a17842ed18bd272fa55457c7",
+      "base_sha256": "a0749c67ee8d48457dd369ee2c4971686f8b381d6dcf8f3c962a3c63ae735049"
+    },
+    {
+      "path": "markets/MC/fr/index.html",
+      "status": "changed",
+      "size": 31448,
+      "sha256": "66bc6fa175b9b2237ea291425e767ecc923136213c8cdbbcfcba0a01d0cde95b",
+      "base_sha256": "85586415233d896ae741d6eedeedbb46adf7a076334991a96db159f61b076a5a"
+    },
+    {
+      "path": "markets/MC/fr/marketing-pack.html",
+      "status": "changed",
+      "size": 214506,
+      "sha256": "9ba5ba280b2504069d780ddad4a62a7518a8ff91f65c2d1a594128be60fdc7f2",
+      "base_sha256": "f8e5d3fb405f879d0da13b472c722422cde2a48ff28d7c4e0e980eabaa762131"
+    },
+    {
+      "path": "markets/MC/fr/news.html",
+      "status": "new",
+      "size": 14502,
+      "sha256": "41113eaeb34c11aa6eded400143e92da7de789921f61859630f3d9d29ea551e9",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/MC/index.html",
+      "status": "changed",
+      "size": 1410,
+      "sha256": "1358231b086eacb9d329fd2e76235d240815aabd9c94886039eb4f49cf5bb81c",
+      "base_sha256": "45627691f2dc659d9d43bd29a083a7c87a242c6653a0645518c59f1a54c7942a"
+    },
+    {
+      "path": "markets/MD/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280999,
+      "sha256": "5ba3b7b6a667ac5fd59605a0fbff9a91b00c4aeab5fac77180d24dae847d7bdc",
+      "base_sha256": "4f1ccdeac1bfe61859b330de39a06aafa323ed5f09e52435f0bd6cf2df78fa48"
+    },
+    {
+      "path": "markets/MD/index.html",
+      "status": "changed",
+      "size": 1416,
+      "sha256": "771fb3ccacc7dcdbd77024056bb058313985eb83fb0012ee57205411717e7846",
+      "base_sha256": "6d55d55dcd807932110e50817634afaf4692e35f7e76a3eccc8742b87f0c971b"
+    },
+    {
+      "path": "markets/MD/ro/commercial-offer.html",
+      "status": "changed",
+      "size": 147277,
+      "sha256": "13767c429e3291dd2fa7d5b2eb3ae767dece54645e29c5d33f5ed45424089803",
+      "base_sha256": "617100058a359c69589262673b72b9d386208c45f521eab65ba0e5509173b9f6"
+    },
+    {
+      "path": "markets/MD/ro/index.html",
+      "status": "changed",
+      "size": 31005,
+      "sha256": "e4703375f0f2224219d653a92625767759ca913910dee4f7262efe3ca620c755",
+      "base_sha256": "9f1baa4e3f5dd57e980753b80ef16eb86913b68b85a653bdb08018c772d54b95"
+    },
+    {
+      "path": "markets/MD/ro/marketing-pack.html",
+      "status": "changed",
+      "size": 213457,
+      "sha256": "4ed5d55b305b213d366c09d831b6be8345b483120478acca75d267da73e834c4",
+      "base_sha256": "9074932998b6d0bbaf0fd7bc35a70d3158787e86a28c81e4c5bfb27b221e57b9"
+    },
+    {
+      "path": "markets/MD/ro/news.html",
+      "status": "new",
+      "size": 14569,
+      "sha256": "b630029fc1266d6d7cd8faedac1ac16158a64512a841b99d8a3c53e58b6712db",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/ME/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 295447,
+      "sha256": "0b8d19478e00f40205f8ddcc6107ffdb0284e15951a59f4a3687c8196397d504",
+      "base_sha256": "46d8c7ce052078a1b9a6f93aa6b8b45bc3698109ed25ec9e35c959657d61396c"
+    },
+    {
+      "path": "markets/ME/index.html",
+      "status": "changed",
+      "size": 1439,
+      "sha256": "f19f0c9b3739003cc4a8095edb51c6a5eb13e049f6b3eeb3f5919e479a65fc43",
+      "base_sha256": "49ba3f6ca6d8817ed9ffbc582de029500e0c36d714ec9d849945d598e9bb3a6e"
+    },
+    {
+      "path": "markets/ME/sr/commercial-offer.html",
+      "status": "changed",
+      "size": 156168,
+      "sha256": "7cfab6d6b4df434d24207ee6094ce0aebf0ebe73b698c5f030b574a548565e62",
+      "base_sha256": "584af6636f30bda7b698bed6911ad4315fc4932663a37f45278923fc62084c77"
+    },
+    {
+      "path": "markets/ME/sr/index.html",
+      "status": "changed",
+      "size": 35868,
+      "sha256": "ea81f82b161157793601e655670d6af439da44ca4e1c86daf57eef7b91cecfbb",
+      "base_sha256": "0a6d9040e47d47cea1b893a19c83b87cea9031b06b5d89824e1ef1d602e5b8b9"
+    },
+    {
+      "path": "markets/ME/sr/marketing-pack.html",
+      "status": "changed",
+      "size": 229561,
+      "sha256": "30de29283661ee23daf13fc9e3eaca9d0e27dd5e4f919b285d5c474c49b13aaa",
+      "base_sha256": "db9b8a34634ecf0785cbc899aab27cabf567edbaa63f03e90e51db1333f67474"
+    },
+    {
+      "path": "markets/ME/sr/news.html",
+      "status": "new",
+      "size": 14889,
+      "sha256": "f76e7ef8726bd3cedde87404cf27bed34839643317cb8ebc70cb48def9d2046b",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/MK/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 301093,
+      "sha256": "cb844c868d25c4948454043f6c0f728312963ca12da9215c2d65ab260a800be0",
+      "base_sha256": "6b80ba993118509f8c967c66b45770dc106039ed1670526b35486ae4bbb074b9"
+    },
+    {
+      "path": "markets/MK/index.html",
+      "status": "changed",
+      "size": 1605,
+      "sha256": "c9e84e42b0a8cc365e35fc329aff8f4bf73b4517faa44c7e194589ac294c755d",
+      "base_sha256": "8d85aeab528c6dd3da6f3e4df5bbc5462c85fede9117d9bcf39113bd61e00410"
+    },
+    {
+      "path": "markets/MK/mk/commercial-offer.html",
+      "status": "changed",
+      "size": 158597,
+      "sha256": "3209f4dbb4759be132cb9b16c708be567009cdb044a90df6573e8a3ad2a22cb1",
+      "base_sha256": "1c4bdc234973271026c87ab5c96f6c79aac92867b7dac974fa3c317a22feacb4"
+    },
+    {
+      "path": "markets/MK/mk/index.html",
+      "status": "changed",
+      "size": 37334,
+      "sha256": "e58ae3a1539cef1b26b9145fc8330567da0635cd8597848e481c44d379c366de",
+      "base_sha256": "02c40bdc1852c3be19f9769b012e22f061e9875b3687e1bee135804ae4541bb6"
+    },
+    {
+      "path": "markets/MK/mk/marketing-pack.html",
+      "status": "changed",
+      "size": 232920,
+      "sha256": "aad8d6ec7368e0042602f6702245f8c86dc0b8c0a5b167462cd42a0256f442e7",
+      "base_sha256": "451b864bd6e3fa68b1af65c29fb2fd22791d77ea1001236b26478cc2998ac881"
+    },
+    {
+      "path": "markets/MK/mk/news.html",
+      "status": "new",
+      "size": 15022,
+      "sha256": "a8d9be146bfd02e2c3e8e9abafa336f51c120b871a62ee861233cf9a28e9e399",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/MK/sq/commercial-offer.html",
+      "status": "changed",
+      "size": 147253,
+      "sha256": "dc25d194e846fa143a9620390e66c5e0126ef4ac9293da3ceef83f00525f9a56",
+      "base_sha256": "832e1ec0c54f16e1ed22dde6adc92dc818ac250bc5b016ce0964144c248da47d"
+    },
+    {
+      "path": "markets/MK/sq/index.html",
+      "status": "changed",
+      "size": 31228,
+      "sha256": "7f5d186c2952cbc715d10872373106b345d7eecb9c14e83cda86eb790e0eb18e",
+      "base_sha256": "8a7ed68201a0d52e6ebc80aa55066f68d7a019b1e0264bbb9f6ad8a65ddd181a"
+    },
+    {
+      "path": "markets/MK/sq/marketing-pack.html",
+      "status": "changed",
+      "size": 213431,
+      "sha256": "317cfe37fb6a5748b4f3c0b409a0ab14d70a2754afedbcd279ea311f57f4b22d",
+      "base_sha256": "a4aab245de072d40df2406ab325e4ed82a60d244ade9ae698d0d0d54a681c6d4"
+    },
+    {
+      "path": "markets/MK/sq/news.html",
+      "status": "new",
+      "size": 14472,
+      "sha256": "d03dbde5ab437486505b0551fc201dada2bee1610527c08f9bd3aca56ce6e27f",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/MT/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278752,
+      "sha256": "2fe3d6fc103676bfbbf06a8295c743320b1f6d3f07fbc68f3d132fce491d404c",
+      "base_sha256": "290fee2ac77df85fdd8c0e26302bbbda2dc2e09e1f29a6eb62e75efc00ed72fa"
+    },
+    {
+      "path": "markets/MT/index.html",
+      "status": "changed",
+      "size": 1407,
+      "sha256": "9b0343a824331fc04f7d10f987d800e257e40490ebc7798b02e90c55975eb807",
+      "base_sha256": "85eb03f25bc9e990e2b13c24036f3cfebdc544355fe335dd93e528c52b221bd5"
+    },
+    {
+      "path": "markets/MT/mt/commercial-offer.html",
+      "status": "changed",
+      "size": 146677,
+      "sha256": "1d13c6441380b81e51a9bcfc23ee9e8b189594e63dba01f8fc535a213675b78e",
+      "base_sha256": "79bd97fd3ab3787befed6c6f3790c756645ea320169898cad927f34759920cff"
+    },
+    {
+      "path": "markets/MT/mt/index.html",
+      "status": "changed",
+      "size": 30945,
+      "sha256": "5bdd6f8725d3f311e19899aa21e2b032a87625ba140011468cffafbf6bf283dd",
+      "base_sha256": "c8dd918c9b44f315baedc0275fff412c812998c6d7ee23db10ac96588ca43acc"
+    },
+    {
+      "path": "markets/MT/mt/marketing-pack.html",
+      "status": "changed",
+      "size": 212420,
+      "sha256": "562e5dec2cf01d7726eab80fe817445da94548d5e92fa0d8d0daa6e4581b671f",
+      "base_sha256": "6e16b9d08a6c7151d1cb51681467c31590f29bff41cc19ed8e0bde3ad4b753ba"
+    },
+    {
+      "path": "markets/MT/mt/news.html",
+      "status": "new",
+      "size": 14461,
+      "sha256": "53951c6dc6bb21b6dc64b52f0c014f3ce513621fb6a51d1d11b8275f6fba8be9",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/NL/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 276331,
+      "sha256": "d1e512ab811b6db85b04302b89a12659a8014347e9ea125dea5397c827c7c849",
+      "base_sha256": "186440337355d91a5ae156215bbf57387abbabeb1424cac589ef03c184332fd2"
+    },
+    {
+      "path": "markets/NL/index.html",
+      "status": "changed",
+      "size": 1425,
+      "sha256": "030aaf2a201720757f27a44bc6f8f36006a078a4cdd887d32425757d752e10e3",
+      "base_sha256": "83f0374c40aaf2ca2bc78831ef384a432c63422b127dc74fc336f0f0d42a9531"
+    },
+    {
+      "path": "markets/NL/nl/commercial-offer.html",
+      "status": "changed",
+      "size": 146220,
+      "sha256": "8ede294da7866a6d883033ec54c36544c21ec5f54aeab0695d9c4020fc3d255d",
+      "base_sha256": "eaf04b051c9970e6fa111d7920905c5802a80035106e10d660a74b10d9861cb8"
+    },
+    {
+      "path": "markets/NL/nl/index.html",
+      "status": "changed",
+      "size": 30483,
+      "sha256": "ad1d2988afd0f140035bbc9b06d5261c5fd25c9aebaafeb9cec85a3cd521e828",
+      "base_sha256": "301f32aac1d6290ea9573b6be1f6684e205a22e403b798f71574a2b03f6dc87d"
+    },
+    {
+      "path": "markets/NL/nl/marketing-pack.html",
+      "status": "changed",
+      "size": 211804,
+      "sha256": "b27fab1f166bc4b8175b72f1e05491cd0ee9fd8fc63a8af816db58e5855b3bf6",
+      "base_sha256": "7611e28c86e68d9dc584f400b293c77e3d4fd3d652c49e6f0762312573c8ad99"
+    },
+    {
+      "path": "markets/NL/nl/news.html",
+      "status": "new",
+      "size": 14489,
+      "sha256": "7906bb2eb73d86a117d5dbd2996453ad208a2e47d50f51effd7979081ec68efa",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/NO/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278786,
+      "sha256": "785e0c99dd10ef0caf2089b76b011172d163b220fc488b8625e454623a8d5326",
+      "base_sha256": "12d2dc075d1d0400434c40a3229104e680f9bbc7d01c727ae6668d90cbf9ac9e"
+    },
+    {
+      "path": "markets/NO/index.html",
+      "status": "changed",
+      "size": 1411,
+      "sha256": "7af58067a9eb80d27225b435bb55728f8f4e4f7458d3708c6c7e0bef0b41fbde",
+      "base_sha256": "dcc50fdd044b596c7d01d3481568e61530b3febe5a1b0d11a5d70475e75c0b6a"
+    },
+    {
+      "path": "markets/NO/no/commercial-offer.html",
+      "status": "changed",
+      "size": 144861,
+      "sha256": "0ac367dc4ccee2dac9b9b2e6c46d1458cbde304884bbbf8bc57f0a9edca7410c",
+      "base_sha256": "e2f299e7c56f51cd1e75589fa376d23af843c184964fbd2e39cb01a71ec88052"
+    },
+    {
+      "path": "markets/NO/no/index.html",
+      "status": "changed",
+      "size": 29908,
+      "sha256": "fcc14317250c57ad8a7ff9f7bea9de9324bc4a13e54d6b1d1beb7ae6cad1cce4",
+      "base_sha256": "600c5b142c6dcb9bffe2818c1b01225ef8f8d2a1613e5addbdc5ba8730e9c277"
+    },
+    {
+      "path": "markets/NO/no/marketing-pack.html",
+      "status": "changed",
+      "size": 210033,
+      "sha256": "fa880b20f7e8955765db76fa7cb56fdfcfdf382d079131d45152945ae8d93d82",
+      "base_sha256": "d0711015208a5b22b89244a7256126119d8a126b106837f3d35d856ccf412f6f"
+    },
+    {
+      "path": "markets/NO/no/news.html",
+      "status": "new",
+      "size": 14465,
+      "sha256": "f3a2ce27bb095e87af166283b384a922250643cf081f0288c6630e48de71c40e",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/PL/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 273110,
+      "sha256": "af827a1b758194fb024c287d9b573a17e16de3c0e577c53c0b98074078869710",
+      "base_sha256": "e9a8a6cafa6c38e23238049e41e930874acf3c86ef782ed64ef74881a03b12ab"
+    },
+    {
+      "path": "markets/PL/index.html",
+      "status": "changed",
+      "size": 1410,
+      "sha256": "e33ee04b058688a3ce6da31712751f27ddaffbba10b7c0a8fbcd819da1f8d139",
+      "base_sha256": "9cf1effac21f11a5849c27b07723335ae93d0fba339fa311ce0d93c0d83f96ea"
+    },
+    {
+      "path": "markets/PL/pl/commercial-offer.html",
+      "status": "changed",
+      "size": 144733,
+      "sha256": "50ac7a2f236c2375d9391cb6d9aded71548c76e75333369a74ae665883a409fb",
+      "base_sha256": "91360b47e644b0689b4be810829c67520bc594aabdd2e617d68fa354aed99f25"
+    },
+    {
+      "path": "markets/PL/pl/index.html",
+      "status": "changed",
+      "size": 29644,
+      "sha256": "b0bc7e9dbe2d059bc4746040926c26ab8d4984dda049b3e3222277d336d365f7",
+      "base_sha256": "b287f35d453fb8001e6f5dd8c02872fd4a90792e35b45f94204f6e1bb786c45a"
+    },
+    {
+      "path": "markets/PL/pl/marketing-pack.html",
+      "status": "changed",
+      "size": 210512,
+      "sha256": "d0c6a8bffb759c15aec67fda56c4bfc1bed45d4ff66d18ee7489e16c29b7c603",
+      "base_sha256": "db04300d371b1f50ee308a0c062e34ae5ca14df6ce72f598154d0c0923271ed5"
+    },
+    {
+      "path": "markets/PL/pl/news.html",
+      "status": "new",
+      "size": 14375,
+      "sha256": "d48f7dc34b27bc6d3c21539b6caee91dcb53eb4adeab105de4bc6396a2c3b11d",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/PT/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278383,
+      "sha256": "eb1a950e94fc1e57e8086c71db57220311708cee3af8cc44dac79c5f52dd5a2a",
+      "base_sha256": "dd9b5db0fbea2cdcd09fbda2cc03ac24318aa3febc1344963f02d195c1eede96"
+    },
+    {
+      "path": "markets/PT/index.html",
+      "status": "changed",
+      "size": 1422,
+      "sha256": "13982651b3c51a841e8a903d757e4ad4633d6f27bd85228bcdc9acf1243d6c00",
+      "base_sha256": "08b152da9b063c57a051fc10b3fbe357798fae4643fdab83957b05175b3aef86"
+    },
+    {
+      "path": "markets/PT/pt/commercial-offer.html",
+      "status": "changed",
+      "size": 146750,
+      "sha256": "4e88600bae8c85f36369d152badd2d53f22694f7a807e8d83b943eb10389fb79",
+      "base_sha256": "16cf22a056f063ed4bf46752f4522516b7d4874f4d0b694318e30f02d3d3c1b6"
+    },
+    {
+      "path": "markets/PT/pt/index.html",
+      "status": "changed",
+      "size": 30781,
+      "sha256": "baa8ee256a1b4104c13c873e7222f4a708303b9f1693bc021d7d95eef61f4b8a",
+      "base_sha256": "b63ef20e24824dfab8c2019f2a1c32b628844531a536fe472f0af31e5f4e4976"
+    },
+    {
+      "path": "markets/PT/pt/marketing-pack.html",
+      "status": "changed",
+      "size": 212452,
+      "sha256": "dba52272abe6832163d9e483a23ffbe16934f6b3635d3cbe5258425abf9d842f",
+      "base_sha256": "bfed838f77535a5e4154d145a023816b162e88731aaf5162d9f420e825bc9267"
+    },
+    {
+      "path": "markets/PT/pt/news.html",
+      "status": "new",
+      "size": 14563,
+      "sha256": "9bde86a94a400f0badbc8ea5f3fe250c835b6129b539a1705b03ab550302b367",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/RO/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 280555,
+      "sha256": "8308345ac9bc9e727867810fe465ae431c6723073201751b4072425c75c64f2b",
+      "base_sha256": "e79fbc42db2258a673c9b3b01366ea836ef003618b3b87ba5c3eca43d43025ca"
+    },
+    {
+      "path": "markets/RO/index.html",
+      "status": "changed",
+      "size": 1418,
+      "sha256": "002a0a60b29bb335539b85b1d9f2213773a15c2d92c171ee94e69508542b4270",
+      "base_sha256": "c57230a0ecf6109b49a06f2b539d61cb8deb947a7a6d4c27cdf420eda148496b"
+    },
+    {
+      "path": "markets/RO/ro/commercial-offer.html",
+      "status": "changed",
+      "size": 147328,
+      "sha256": "0046ec9a4b447a5d4715e32c6840c1474ad534ce1ed968a8218f38e64f04be9d",
+      "base_sha256": "86fde8d87079bef65dba4866d3e55dc8a702279bf4b7ab8ba31bcd89b3183ee9"
+    },
+    {
+      "path": "markets/RO/ro/index.html",
+      "status": "changed",
+      "size": 31006,
+      "sha256": "133dc7375a6a7d3e0798d89e33a5dbf689bd2b6727276bc0b74eea48fbf62389",
+      "base_sha256": "918fe6c2be839a72645b5ca46f9170cd0342ccb5d8c383f16b4120a256f9d044"
+    },
+    {
+      "path": "markets/RO/ro/marketing-pack.html",
+      "status": "changed",
+      "size": 213508,
+      "sha256": "811f5d841d5cbcb80e60dc77f765884730c78dd60c0b758e473343aa6c5842e2",
+      "base_sha256": "350a19eea3433e3489fdff46e6ff138d1be7929d5a87535706fb355f34107b76"
+    },
+    {
+      "path": "markets/RO/ro/news.html",
+      "status": "new",
+      "size": 14569,
+      "sha256": "7bcbd6f594aaecdae440ddd860e21a4654a62cc424f1763b48691819a1827378",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/RS/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 297956,
+      "sha256": "1b15a7a05466a6540d8bdd904f7445f7307b0fa062072d1b97ab654f6b634d24",
+      "base_sha256": "d6c8a6d6f26384571d2973677369e56a447b91e480ea669b385a33318800bc82"
+    },
+    {
+      "path": "markets/RS/index.html",
+      "status": "changed",
+      "size": 1423,
+      "sha256": "556429181026161baf93d1fc57c9359c4a1c0ab69cfd4c050c82942dbfd4a499",
+      "base_sha256": "b98e6cec7c6d8f6c9600644173a5f8949485d81499131e4eed741b6f1662be61"
+    },
+    {
+      "path": "markets/RS/sr/commercial-offer.html",
+      "status": "changed",
+      "size": 156119,
+      "sha256": "565bf9141ebb17c060644404b6640924f04c2d2aedebcb8daa43ac5f0aca30ae",
+      "base_sha256": "d9132e3ea049e4ffc63f85aee013c132e7c06e0a7bb50f67e929c9e3c3fbf2d8"
+    },
+    {
+      "path": "markets/RS/sr/index.html",
+      "status": "changed",
+      "size": 35753,
+      "sha256": "1f5071e6d13c9d9dfa5b97bb439fb18c758e2f59eb589c015ac0c9b7081f8cba",
+      "base_sha256": "63074d9c8d08ccf13936456b0cf514390d3ac0a0769287fff63a550654c3b45e"
+    },
+    {
+      "path": "markets/RS/sr/marketing-pack.html",
+      "status": "changed",
+      "size": 229512,
+      "sha256": "0b330c3f0fb2c2e9cfba892dc8bd076a917ced8d3a6ce7b37fc1e87349df4611",
+      "base_sha256": "f2895302601f71aaff3ee5dcc4cd819626a95966e715673185e82b1b81aba451"
+    },
+    {
+      "path": "markets/RS/sr/news.html",
+      "status": "new",
+      "size": 14885,
+      "sha256": "77adcc1de2698f578d58385e257c62134ef41fd8bd25365dcf66a7034011da1c",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/SE/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278106,
+      "sha256": "76a68c3521dc31e4a05392cf2427c8d015cf36f1d096480be845f7e0dc203d87",
+      "base_sha256": "66f870613dbd4435491abaa05c3ca64a691bc9bc92199636aaf4014dc2608ea4"
+    },
+    {
+      "path": "markets/SE/index.html",
+      "status": "changed",
+      "size": 1413,
+      "sha256": "c38da7ebf0dd4101bb91d40aba3cf9877f76b9736977109f4e58e7f05c5f769e",
+      "base_sha256": "ec78e75909dc28f657b7323cbbd10b8b3651ee363fe972cea7431023817c8561"
+    },
+    {
+      "path": "markets/SE/sv/commercial-offer.html",
+      "status": "changed",
+      "size": 145482,
+      "sha256": "aeeb4b1d5e3052c0316f624af8814c4db5383fd9b5220cf8575768d1dfd79a32",
+      "base_sha256": "aa4f5e0f945b21da8c661f9e6b54c21f2475a634f697fa729b7ef98b4bf1022c"
+    },
+    {
+      "path": "markets/SE/sv/index.html",
+      "status": "changed",
+      "size": 30261,
+      "sha256": "3cb90f97bd731a04798c87d16650580dd56bd856657341471e9dd0d040d95255",
+      "base_sha256": "ede351a48d572c340f318b769efefd64e2a8b34b056dce16af9320030079e9fa"
+    },
+    {
+      "path": "markets/SE/sv/marketing-pack.html",
+      "status": "changed",
+      "size": 210786,
+      "sha256": "15eee11806344ee749670cda45bb641df9dc5f342567ca8ebff3d7174d228bc9",
+      "base_sha256": "4743999513086482a3856141300ca677b2c5db18d40dfdf86f32e1fa01f06d2b"
+    },
+    {
+      "path": "markets/SE/sv/news.html",
+      "status": "new",
+      "size": 14432,
+      "sha256": "556045aef441c75944d405df7d5bbbbd8ad23882b49b20984242de5ff265ba24",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/SI/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 276186,
+      "sha256": "228ccebe41c7fa36327fb1b093b3f68b7b8c39ed90288e8d3efb8bc075422866",
+      "base_sha256": "8b821921b3fc6414e957a0c88dacab6fd78b3d19b68a906c2662b790987899ab"
+    },
+    {
+      "path": "markets/SI/index.html",
+      "status": "changed",
+      "size": 1423,
+      "sha256": "6f47a47f47bfc8919595b250c87f96fd5f4fbc4bb6d0e7593d6326485984469a",
+      "base_sha256": "e3fe595b85ecacbe70786a2defff09d72b8351293c283d41db08dba548e174b8"
+    },
+    {
+      "path": "markets/SI/sl/commercial-offer.html",
+      "status": "changed",
+      "size": 145070,
+      "sha256": "9d5f9137af68b1b2029ff941bdb1f136fac676e21825d3c187ce402c8646c54d",
+      "base_sha256": "e99ebfb8d0d46f22e3eaa2da842ad36b5ffb95446f536d3d945d5f1c2446378f"
+    },
+    {
+      "path": "markets/SI/sl/index.html",
+      "status": "changed",
+      "size": 29874,
+      "sha256": "b5f1dae197a839d3a27edd9ec4351caf21df6b4a124414f48e855c4a0631ffc5",
+      "base_sha256": "2682891d2110ad1b513313e18a2de9059799460d58700407f1ee9647cbb19067"
+    },
+    {
+      "path": "markets/SI/sl/marketing-pack.html",
+      "status": "changed",
+      "size": 210421,
+      "sha256": "b4de2a61e8c380516acd449d795ac6948a14493f5b9293faba3b0f863653a079",
+      "base_sha256": "ed4de0b3b7754e73468ce9fc2b250fad76a6b9fc8c00b180c0270a904183be63"
+    },
+    {
+      "path": "markets/SI/sl/news.html",
+      "status": "new",
+      "size": 14386,
+      "sha256": "9fb44d5e8fdf003b98c5dfd5a845322c39d6860a5023c2b6f8e53b7986e636ba",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/SK/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278613,
+      "sha256": "cf417f7770fdfb706025fa9915275c5d599781ee4694478d2e96a2c5f4f4c0fd",
+      "base_sha256": "8d9c246628481f6bbb67a86c883d89846de3edeabea71dc9083efed26c31f24e"
+    },
+    {
+      "path": "markets/SK/index.html",
+      "status": "changed",
+      "size": 1420,
+      "sha256": "79a762552974df27411e75afda8d21906bcc26f958d5143c3cf39f1d0367e416",
+      "base_sha256": "d517daca0d216c238699f501cd38d7742d8fe1a6aaa8348b90f973904a7686d9"
+    },
+    {
+      "path": "markets/SK/sk/commercial-offer.html",
+      "status": "changed",
+      "size": 146654,
+      "sha256": "4600a329ab22632771936938ca206546dde419a3dca4885941370200c00029a6",
+      "base_sha256": "cf5b12c70241a51b12dfd905210c0634c99ea6edbea6890c1cc2da3846b3a7ba"
+    },
+    {
+      "path": "markets/SK/sk/index.html",
+      "status": "changed",
+      "size": 30709,
+      "sha256": "2b4ee075c79cbeef36197904a78b28d44a0b82e5308ff31545be18c4e559e6e7",
+      "base_sha256": "cf4ab75a20b18b503c0f834210b802a62efe89da45da82ab4795137bbb01545d"
+    },
+    {
+      "path": "markets/SK/sk/marketing-pack.html",
+      "status": "changed",
+      "size": 212388,
+      "sha256": "088030d5ce426bbcb4b5a0dcc72fc75414fb229e1b2a8c5b9e344a3644fffa96",
+      "base_sha256": "fa360d8bf594ce5e8394a4d87f9f598389b66d0b78aa107b7f0e98a71828120f"
+    },
+    {
+      "path": "markets/SK/sk/news.html",
+      "status": "new",
+      "size": 14518,
+      "sha256": "85ef32a42613f95f4fa827714c470edb460f38eb24cca6853611352977276bb7",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/SM/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 279586,
+      "sha256": "5372813de154520490edee9263954d4449e94743d1094c3598c3d5888073f08d",
+      "base_sha256": "87eb224deb338057abfb215719f05d87d5e48053bfda41f105c535ca4b398675"
+    },
+    {
+      "path": "markets/SM/index.html",
+      "status": "changed",
+      "size": 1427,
+      "sha256": "525a7454e5318a8ee08da5186ce03b28ea212c4d20fe208296edf7f416d8c6b8",
+      "base_sha256": "391e22d233e92a816e8edeef40a370caa610a3c1c8800bc3a853db43ff78ebb9"
+    },
+    {
+      "path": "markets/SM/it/commercial-offer.html",
+      "status": "changed",
+      "size": 147035,
+      "sha256": "5d397a830fff790dce8ed1fa3a568265cf31988bb78ef85cfcc1f2f845a8fe90",
+      "base_sha256": "7d5cec5d0bc12d9dffbaa5e53f6434e5da133a0e73de95ebe480c5cd8b94bf54"
+    },
+    {
+      "path": "markets/SM/it/index.html",
+      "status": "changed",
+      "size": 30887,
+      "sha256": "cba177ec1df270b37d38725ea7c5e2d82f2df4e639ecaef03134d20127659eca",
+      "base_sha256": "23fd168ccfd8b8b0fec1bfe6391b70fa4f53845d9658a493e0124403b44a45a3"
+    },
+    {
+      "path": "markets/SM/it/marketing-pack.html",
+      "status": "changed",
+      "size": 213190,
+      "sha256": "ad19acc9b75d787c9b5f4305bf0fa8b3cc7cb7c935737b18c678f733920b6a84",
+      "base_sha256": "34a00ec45851bdd70cc0a139ffe2bef98dbfcb388b9fe912301c5855095c580f"
+    },
+    {
+      "path": "markets/SM/it/news.html",
+      "status": "new",
+      "size": 14480,
+      "sha256": "98e2cb115c38ebde6b27c29a008b49926b48fd071eb34b1ce67439a6e691dc19",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/TR/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 282141,
+      "sha256": "f7a68ef3eb430704e6d9e198b0c53700591c227c3c6954cd0a55573de91bcf28",
+      "base_sha256": "9f117a7d81e184156d45d3af43e8d19d9338266c8e216c65c82c113f3070782b"
+    },
+    {
+      "path": "markets/TR/index.html",
+      "status": "changed",
+      "size": 1415,
+      "sha256": "690788094ae45df13b44cdad569c60a6f816ab0b03a7516c28df7595f0f5d7a3",
+      "base_sha256": "abc362df0b97033a52b883864d84d7e24807a8d917f6bf6bf1c38d64455fecec"
+    },
+    {
+      "path": "markets/TR/tr/commercial-offer.html",
+      "status": "changed",
+      "size": 147103,
+      "sha256": "251d312df3d94f11cf857edfc6f075d580d236c4a47d69f925156915571a4c62",
+      "base_sha256": "c30f7081a463f078d2c70897c9c9819af117af3d443a85746669adef36c24da5"
+    },
+    {
+      "path": "markets/TR/tr/index.html",
+      "status": "changed",
+      "size": 30667,
+      "sha256": "0fe14d3d0f01a211ed2d3e7dfed1e7f8b803baf67dbd0931ece774f60319670f",
+      "base_sha256": "484ef39d6c1358d2c076bdaca21022812ba1a0f70003425bd11d451d12cb4672"
+    },
+    {
+      "path": "markets/TR/tr/marketing-pack.html",
+      "status": "changed",
+      "size": 213133,
+      "sha256": "37684b93cfb9292b0bf121b649864217ca40b0a050cf4ae723abdd37c0f7b1c9",
+      "base_sha256": "3bbb4d1aa3f4b1943157c017d3cbb956aab1727ae86b26b3c04f48e64d1e4d3b"
+    },
+    {
+      "path": "markets/TR/tr/news.html",
+      "status": "new",
+      "size": 14694,
+      "sha256": "24efdb55f0bf3b624f3a7a2a7add26745deb7e36ecb8782930d91ddcfc566622",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/UA/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 302224,
+      "sha256": "3a6008a82f77ee507aabb6d4314648fdc86a21bcb9a847d3afae6a93564b7942",
+      "base_sha256": "5f61a4e5ee0d6132fb339f6ed0d6c98ba8b74d7a8fcffde20bb6cdba254e0849"
+    },
+    {
+      "path": "markets/UA/index.html",
+      "status": "changed",
+      "size": 1431,
+      "sha256": "cf3a579f7db842aa420d29fe1de771eb14f4fc415867f6610c6ab4c1b78fc7ad",
+      "base_sha256": "53801aeee4e098f717236f8ef4ce0dea2dcda58cbc7a549586991127be68d564"
+    },
+    {
+      "path": "markets/UA/uk/commercial-offer.html",
+      "status": "changed",
+      "size": 157989,
+      "sha256": "820baa93db66bf10269dff6924cb673fb06a92c56a6a02d647d4d51ba6ea5fd3",
+      "base_sha256": "0387360611812651c83de903a69b15cb8a326c755b3c7fd95aaf35a7997664ec"
+    },
+    {
+      "path": "markets/UA/uk/index.html",
+      "status": "changed",
+      "size": 36945,
+      "sha256": "5bc74a1ed87b5129ce86f89fa300dc3a725698a5fc3f906b46ed1ea7aa0abc00",
+      "base_sha256": "315c01be8ab89d19ef2fb53aa811d885843fb025815bb0b4a55c8f292eec2eb8"
+    },
+    {
+      "path": "markets/UA/uk/marketing-pack.html",
+      "status": "changed",
+      "size": 232304,
+      "sha256": "c2334a306d4450629b4e17ec8cbd99e0801b8850e5a8ff9ac7e6d970fb36fdf1",
+      "base_sha256": "1c2e835c02074ca46e0bd49ebab53e4503f947c55fd51eff68c0a7bbedcb1bfa"
+    },
+    {
+      "path": "markets/UA/uk/news.html",
+      "status": "new",
+      "size": 14833,
+      "sha256": "3b4b17347714131bc21940de3e0b71debb95c8dcb49f30d9a4f065b0b3154d32",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/VA/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 279624,
+      "sha256": "b6144cf22406b019f38014e15d04ce4bc898bfd5c95b2eff6e4ac79adb73824d",
+      "base_sha256": "7b583e20d2ca880d9489c073d22c0314b37f573fc57f8e5e9d90a88e78138ffa"
+    },
+    {
+      "path": "markets/VA/index.html",
+      "status": "changed",
+      "size": 1449,
+      "sha256": "580d671fe142d06889695221e66a497cdd8e9b53934f4103835b1e9bbe3897c8",
+      "base_sha256": "9795b6944d5b79b2f8b6fc9cc1a990ab9a8d3824f8fb913c004a2236ac1a03ca"
+    },
+    {
+      "path": "markets/VA/it/commercial-offer.html",
+      "status": "changed",
+      "size": 147144,
+      "sha256": "66332fa32dd7266dd75cf1e811d79eb55f8ae127534cc1253488796af26ff65d",
+      "base_sha256": "53420986c7391045c0eb8f31d186d895e5bac0c7284ac65d2c2f88fc75f6f312"
+    },
+    {
+      "path": "markets/VA/it/index.html",
+      "status": "changed",
+      "size": 30906,
+      "sha256": "b81b06131d7507032deb583c0ad9922e00b8e397e8c5fece471d71e709c9a29f",
+      "base_sha256": "ca86795df4329eb335884782cb44c78c79e915eb2ed4b80f85996a774823c1f5"
+    },
+    {
+      "path": "markets/VA/it/marketing-pack.html",
+      "status": "changed",
+      "size": 213299,
+      "sha256": "a6d5f301366501c6dfbe52b4d6de6950bb1b8009a687ab8f2f47b935102dbbc0",
+      "base_sha256": "c951348be9292db9ece1d54ba1ce41bfbe02710c00cbd17dfa34d72fb62b62b6"
+    },
+    {
+      "path": "markets/VA/it/news.html",
+      "status": "new",
+      "size": 14482,
+      "sha256": "4ae04e8d0bad1f6e86606e7b01e13f5a1ebcc758dbeb00f186aa3d71b50c8948",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/XK/client-qualification-catalog.html",
+      "status": "changed",
+      "size": 278996,
+      "sha256": "baf4f6144c8ac6e33fbb2bafc8ef6ac856566307589919ab6aeec8fedd7d1a5d",
+      "base_sha256": "ed320dfbc78dc3fd7641218cf91345cd5fd47d14e8a867195fed95b4ade39af7"
+    },
+    {
+      "path": "markets/XK/index.html",
+      "status": "changed",
+      "size": 1497,
+      "sha256": "059e32b881e26d32285d7171ea85636de5f0d442b43b28ffea3d25bd8fda88b1",
+      "base_sha256": "910957668489e61b19b348854ad59b5c05d831b0490f34838431a0cf8cfa3a46"
+    },
+    {
+      "path": "markets/XK/sq/commercial-offer.html",
+      "status": "changed",
+      "size": 147204,
+      "sha256": "c5ace8605367321be066f962bc8f715fb5c67a2859e7f3b02c3d9c8461848e64",
+      "base_sha256": "d25beea42b67ac6bce1fe8f41b4a3802d86f5767e7f4c82d1d4657df478c9673"
+    },
+    {
+      "path": "markets/XK/sq/index.html",
+      "status": "changed",
+      "size": 31151,
+      "sha256": "708485be4075e53bd70909c5414ee1da872fdde161fce5b03c659a6fa8d83b3f",
+      "base_sha256": "0a6ca6f0e8f02e9181335eabc794a1a6ee4d76d077f1f80545b41fd5d32deb0a"
+    },
+    {
+      "path": "markets/XK/sq/marketing-pack.html",
+      "status": "changed",
+      "size": 213382,
+      "sha256": "0cf73f30ba3f9680a19d6c7f5b4c3cc92aa4fe4976b90b6ea9c77954b564b19d",
+      "base_sha256": "931d70f478bd1d590b7f33130cb6e87db9c14e9d869bc9ba8ebdf43b0d6471e6"
+    },
+    {
+      "path": "markets/XK/sq/news.html",
+      "status": "new",
+      "size": 14463,
+      "sha256": "d34a51b8928bad9a8b3aa14f6d00810682ad4c239aa76f02c4579a5b7beaf0d9",
+      "base_sha256": null
+    },
+    {
+      "path": "markets/XK/sr/commercial-offer.html",
+      "status": "changed",
+      "size": 156134,
+      "sha256": "e27abe9d3e7e3b14a9d8d1baabd501cc17254e5f93d68f2126c5d8d3929430c8",
+      "base_sha256": "06add71b018b62208386aeea9411d2fab3e7128ab92f65167fc17c28c79eb805"
+    },
+    {
+      "path": "markets/XK/sr/index.html",
+      "status": "changed",
+      "size": 35814,
+      "sha256": "a07c5408cfcfdc5913be222cdd8af50fdf87c26024b5d5cabec3d0982becf273",
+      "base_sha256": "dd70f980f270419c6caa8f865c36b42c4a56fca2f740b521824966f1f688cc05"
+    },
+    {
+      "path": "markets/XK/sr/marketing-pack.html",
+      "status": "changed",
+      "size": 229527,
+      "sha256": "b7c698ad84ee06825052a022fe0e36e07c2b80b42dd6d3ba472868c1928900c4",
+      "base_sha256": "aba1ec4c1f2f9e2e6169814a4106228ab1ba392965c60ce2f2036ef9e0bbb9da"
+    },
+    {
+      "path": "markets/XK/sr/news.html",
+      "status": "new",
+      "size": 14885,
+      "sha256": "bf9a5ecb2b87aa7e3494d8c5e341c5faf9da79e8ec4def2597dd682e93bb30d1",
+      "base_sha256": null
+    },
+    {
+      "path": "prices/FIXON prices Albania.html",
+      "status": "changed",
+      "size": 3199219,
+      "sha256": "a13d00cee3b0fe673744fc687ee23fb96cd6cf1710e0cebb7c9431100c3f0cb4",
+      "base_sha256": "beb508b83c6c2a60a40f6d82c2fe4e16112e820d13634a34070ac878d78cb5ba"
+    },
+    {
+      "path": "prices/FIXON prices Andorra.html",
+      "status": "changed",
+      "size": 3155753,
+      "sha256": "7ad3660f69928fbc15104f6f09a80f3bd5ae7099d78b356c391f90430da69550",
+      "base_sha256": "8aad639acc63d2ea485659681d64bf30c879ad391423402ef65360e3a745290f"
+    },
+    {
+      "path": "prices/FIXON prices Armenia.html",
+      "status": "changed",
+      "size": 3316972,
+      "sha256": "58474446157311e80abb574df5ce2a92b9c68376e77943b38f35d9d661f461c6",
+      "base_sha256": "993f6cfb64252389e7cc7109c3db8bb0df6e5ada3bc680f84306d15f6a3aed7a"
+    },
+    {
+      "path": "prices/FIXON prices Austria.html",
+      "status": "changed",
+      "size": 3047327,
+      "sha256": "9e8653a256c0fb40890c134a43315ab57acde951b060ef98ade54864afb79ac8",
+      "base_sha256": "21cbbad8c41e8d3058d68b9d147569cb6a824f548806b9dd9ce70b7d07c699a1"
+    },
+    {
+      "path": "prices/FIXON prices Azerbaijan.html",
+      "status": "changed",
+      "size": 3188389,
+      "sha256": "2e2c561a82bf877fd8d260e431f0ff386db7f2d13708367eb46bf6975feb72b5",
+      "base_sha256": "bae7ba0845843a060343a0d4451f075d02c4ee28f622eda4f20b72151d132229"
+    },
+    {
+      "path": "prices/FIXON prices Belgium.html",
+      "status": "changed",
+      "size": 3049201,
+      "sha256": "357f84e98fe6129bb0122c46de38be1367005d02bac58fb1a1d781cb2f3d397a",
+      "base_sha256": "9c61002cc11512f5bf940f4de4ce1cbea9079e9424426bd92f1df16a4255b583"
+    },
+    {
+      "path": "prices/FIXON prices Bosnia and Herzegovina.html",
+      "status": "changed",
+      "size": 3195914,
+      "sha256": "a6a9ae1be6437c67ec9d15c6a45f772a6b86294e5fb09b466c850230f3e7f35f",
+      "base_sha256": "a7786c9606e81e4775253c1e28691c5a1674de8ff23f5931e8fa6394938ddcad"
+    },
+    {
+      "path": "prices/FIXON prices Bulgaria.html",
+      "status": "changed",
+      "size": 3175313,
+      "sha256": "b2a7fb8b4ab956fab5dfbe2915771deb8284fe6fe658aa314247db81bd523b7a",
+      "base_sha256": "85a8b5a2ccd515ef630e486e329f5c8a3ba788fd494f96685c4ad1dfe6664125"
+    },
+    {
+      "path": "prices/FIXON prices Croatia.html",
+      "status": "changed",
+      "size": 3009048,
+      "sha256": "ad7d4ecd2adad15433a89b4356276f2ce5a31cd96549e3379a3c1679d4520d6c",
+      "base_sha256": "3281f7d26599ae230d57d55ff13ef37ee65c40472376c801fb948756e8d59bd9"
+    },
+    {
+      "path": "prices/FIXON prices Cyprus.html",
+      "status": "changed",
+      "size": 3145942,
+      "sha256": "76561859a96206f2496989ae51fb03716a85cb85b15c603ac1534cbe66f2332a",
+      "base_sha256": "b88a26a0517714e769fadb2ccc3695c6c45fbd167d0bf01970aa1ee8c92c4b5d"
+    },
+    {
+      "path": "prices/FIXON prices Czechia.html",
+      "status": "changed",
+      "size": 3023629,
+      "sha256": "8126bd801e1121aa12efd811253b16a9dda2b50ddc8b67b6e8b1b398aeccb279",
+      "base_sha256": "3dd59140f86b66b28bedeefcf01a5d3d29e08691a2bc6a0e30be3a5e015404df"
+    },
+    {
+      "path": "prices/FIXON prices Denmark.html",
+      "status": "changed",
+      "size": 3038332,
+      "sha256": "2f069abeaa153be57ff73c48dbb95b5f1865775e439aec4912b3059eb4d2a05b",
+      "base_sha256": "be95d4c7b1c67c593f12ba45efb54ec741a3bdc989c1dd79169bad9a589cc320"
+    },
+    {
+      "path": "prices/FIXON prices Estonia.html",
+      "status": "changed",
+      "size": 3000562,
+      "sha256": "6838abf1bd5965ef54a5b5ee04a9caca94a74656ef7af36071de695721778131",
+      "base_sha256": "5896082034b26d37702a36f2d1f101db04c26bed9ff5ee892854a80c966e87d6"
+    },
+    {
+      "path": "prices/FIXON prices Finland.html",
+      "status": "changed",
+      "size": 3040222,
+      "sha256": "a948e08528ccd150c7950cbc70b6acf4c1c15f6cc0073c863de49a6b3fde0df5",
+      "base_sha256": "202e1341d69a2ccd52f1801d9e7c23f880f9cc1733586d4a274344ed11b1eea8"
+    },
+    {
+      "path": "prices/FIXON prices France.html",
+      "status": "changed",
+      "size": 3070630,
+      "sha256": "f2b4edb003fd3bb0a0b3a339ed5257d20ce5e4ef5d7912262341d14348a56295",
+      "base_sha256": "39907fa1e21fd0c9adbea0741f82caa98f35f013ff0edf0a80c6e6c67c64cb3a"
+    },
+    {
+      "path": "prices/FIXON prices Georgia.html",
+      "status": "changed",
+      "size": 3507292,
+      "sha256": "b719a8249322e837b7c6a44e8a8b4bf5cd0d419af38067441ee8f3032ea2159d",
+      "base_sha256": "64432891b76fbbd6bcdf4caf9796b02f2d6b61e8813c8a4be4f67b82ce9b2060"
+    },
+    {
+      "path": "prices/FIXON prices Germany.html",
+      "status": "changed",
+      "size": 3019955,
+      "sha256": "e41d177dc5dadaf5872701902962677344fdc44cc6c286cf81b92cf05bd79be6",
+      "base_sha256": "bd2e29670da4a6b046b0a53823879204a0bdd0234a322d4266c6c96f02840cc5"
+    },
+    {
+      "path": "prices/FIXON prices Greece.html",
+      "status": "changed",
+      "size": 3210334,
+      "sha256": "4d10c66355c4711953a7ebd4445142953a5f9ca2ba09aede7bbaba258790844b",
+      "base_sha256": "5b5e64ef3b00d710c7ca7456acbf51367c3e6a8b071f5b74f6b75e2c8b2cde00"
+    },
+    {
+      "path": "prices/FIXON prices Hungary.html",
+      "status": "changed",
+      "size": 3111427,
+      "sha256": "c0bc8ad377b53bdf5938d1c1242427f5b2ad1fb967e439146eba26b540588adb",
+      "base_sha256": "246e232920c9f73d84f7f3240440ca4394b21c6f907734d9bbf657ddf20cd4c2"
+    },
+    {
+      "path": "prices/FIXON prices Iceland.html",
+      "status": "changed",
+      "size": 3121733,
+      "sha256": "e5b155e8ce7ea6b6f9c5b9e9a7a7aafcb7985649d62ccba14096f28a609bf3f9",
+      "base_sha256": "9b383c9be735e850bde0503c011b5886e8980b9af34296e7802af2125bc6f6b2"
+    },
+    {
+      "path": "prices/FIXON prices Ireland.html",
+      "status": "changed",
+      "size": 3035211,
+      "sha256": "dacc48c8759e63c87066da1e2eac48bd5e7ef990d98a7a50a5e9c98ecca1cc1c",
+      "base_sha256": "9462b6c44947e1c6de2ed6621e6e7b7968b97920fb624fe0440e65f5164a2ad8"
+    },
+    {
+      "path": "prices/FIXON prices Italy.html",
+      "status": "changed",
+      "size": 3046083,
+      "sha256": "08c128593ae3b5fcee80ee0350d4f9cb560d6a283b4357dae32a0cdc39266705",
+      "base_sha256": "4b01ea8f5ab6276a7eff40cc6187aae7e5c178207f045d2e7f44501d6ff4ce18"
+    },
+    {
+      "path": "prices/FIXON prices Kazakhstan.html",
+      "status": "changed",
+      "size": 3280393,
+      "sha256": "a7b13140cdc68b339f629dc569fea4d4154c2066d2700b1671c60f954acedf68",
+      "base_sha256": "6993ccb2357cc2ca3c1daf6c7556d24ec8d32bf28dcb38fd2b29afad94465b83"
+    },
+    {
+      "path": "prices/FIXON prices Kosovo.html",
+      "status": "changed",
+      "size": 3147393,
+      "sha256": "5e836f67b7f77a1d555e595c5b70268d80f6a0c9529a9830336afbe2dc606e93",
+      "base_sha256": "8d8935e2b756b192e720f56f32772e4a888b0f6169a117fabe7b59fdabafd29b"
+    },
+    {
+      "path": "prices/FIXON prices Latvia.html",
+      "status": "changed",
+      "size": 3045682,
+      "sha256": "2e38eff839a382e288a84c2eff7f7725c22cf7625301f2bc00148375bd8d62c0",
+      "base_sha256": "f4652693692e20e1649de2ebc146431a6dea7e3441c3e6e8bc35d7299a77e292"
+    },
+    {
+      "path": "prices/FIXON prices Liechtenstein.html",
+      "status": "changed",
+      "size": 3146005,
+      "sha256": "c63741f5abc590a0b33ecafbca67eb22943944b732e6e22d6704415f7246b2b8",
+      "base_sha256": "ed4232f687b8e63dc0ecadf44ae6ec10ae01fc80aa9d88fb2690fde5959dfd63"
+    },
+    {
+      "path": "prices/FIXON prices Lithuania.html",
+      "status": "changed",
+      "size": 3026061,
+      "sha256": "7eeacac2173f4f067bcbd337b11329169eb373629321377217676deca3754a13",
+      "base_sha256": "f02a008a6da63775a6bbaec407a3317cdb5299fa14cb668b01a1731cb3eae90f"
+    },
+    {
+      "path": "prices/FIXON prices Luxembourg.html",
+      "status": "changed",
+      "size": 3063571,
+      "sha256": "1195fc1db457ba973fbc77df31d7042ed4bb1973a83f2d2923f71b5d3e65f738",
+      "base_sha256": "800d3bf2682b8f28bdb28ddc49f3716fcbfc75bae90154f3ae88857e4380e42b"
+    },
+    {
+      "path": "prices/FIXON prices Malta.html",
+      "status": "changed",
+      "size": 3008977,
+      "sha256": "7ba42ef53e7a1017f048c46594f1a31c9e82289e9b1cf00ad7c5fd3dddc899d6",
+      "base_sha256": "1ef328b8579ddc446afd534f46f87b8714f68433a84a8a485145abf0b24a4a61"
+    },
+    {
+      "path": "prices/FIXON prices Moldova.html",
+      "status": "changed",
+      "size": 3139346,
+      "sha256": "2e4a59d4ec4641b9d09fc08a022ddb7a978514e8e378676f018b053de9ff0f89",
+      "base_sha256": "3b34dc7a31e978c800c703d75df01e66f5cd1359f55033f7f924f8fa7031a3f2"
+    },
+    {
+      "path": "prices/FIXON prices Monaco.html",
+      "status": "changed",
+      "size": 3054355,
+      "sha256": "f9e180fed66693aa74366b9aca564c7612631b11d9c96f35ac864b67bfa2108e",
+      "base_sha256": "6ac0bca56d8ed1cba2c2a54bbf1c5f2638abec9f0bdcd6cec1446b603f2f089c"
+    },
+    {
+      "path": "prices/FIXON prices Montenegro.html",
+      "status": "changed",
+      "size": 3243472,
+      "sha256": "7bde49cc096e18b7f20ccb2a30b2a1b3755a1c9615f657046f15f6bb69bef573",
+      "base_sha256": "d7541342a009a6ec0be60d375bae5214b88981341a2388b9496cddb225d354fb"
+    },
+    {
+      "path": "prices/FIXON prices Netherlands.html",
+      "status": "changed",
+      "size": 3044298,
+      "sha256": "8d170eb93443dab579f4b17ac86c5a918d1f5dedd49496b1ceab2f33fe36fe80",
+      "base_sha256": "29482893cf66b3d4f720d519ee405ff838d0e76c225af44512cb11afc66292fb"
+    },
+    {
+      "path": "prices/FIXON prices North Macedonia.html",
+      "status": "changed",
+      "size": 3291935,
+      "sha256": "33d12a5023b983c3f54e6a1b40a89e534ae748ea7b53b976f4b8c7f758a01edf",
+      "base_sha256": "5fde49b01ed372bbbb285f38bc1cc880c102dd98d9b64ea8552125fe456eced6"
+    },
+    {
+      "path": "prices/FIXON prices Norway.html",
+      "status": "changed",
+      "size": 3216700,
+      "sha256": "e8002456ee371f7373d365693d83cd9288f164f969b6da0ca0a91d42e9892aff",
+      "base_sha256": "7ce85ebc61eb721004506fc8e33d72871f64eb1bf5dc2f6dc9e2561dcc8030b5"
+    },
+    {
+      "path": "prices/FIXON prices Poland.html",
+      "status": "changed",
+      "size": 2080140,
+      "sha256": "049ed9a62b0337be99bab04184782ab47e2cfa25952cda37c12d7bc2a15f0380",
+      "base_sha256": "554de74e5a9b5297defeee238bdd8e6d24e2309e1c9770d2d94efc8b04f0ba6e"
+    },
+    {
+      "path": "prices/FIXON prices Portugal.html",
+      "status": "changed",
+      "size": 3075175,
+      "sha256": "ce014dc58820cc1b0f379b6744d907f20f7dfb5d98016d6d3412b1458580bd59",
+      "base_sha256": "39a77cfa54cf550d5d12b5502501a64ca962d5d2db1af8726ad3634577f76e5c"
+    },
+    {
+      "path": "prices/FIXON prices Romania.html",
+      "status": "changed",
+      "size": 3046840,
+      "sha256": "96b4a96cf811daab56a80641e9a94bff05d993d2cf06c371117403ae3159cb88",
+      "base_sha256": "c3136e1fc63e29cb86efba0ea4cb90153120c8921d6cf38ccda05d85a0c565b1"
+    },
+    {
+      "path": "prices/FIXON prices San Marino.html",
+      "status": "changed",
+      "size": 3208519,
+      "sha256": "ad55f66987f013c6162c4deca7912643bd4765c1c96d6ff924f0d045c8e82565",
+      "base_sha256": "f5c84403e3ac73eb5ce39d0233db6895b877a9bf9a1867222f660991670f02cb"
+    },
+    {
+      "path": "prices/FIXON prices Serbia.html",
+      "status": "changed",
+      "size": 3310072,
+      "sha256": "e7c53463a8c84b7b364bc5687072ccd13d9a58f2e8bd0f6d07eef4b01f16ad02",
+      "base_sha256": "40662b4f7d8deb7da9eea5ab8a2ebc630a6f14712b0dc64c3b897c004f1a9fc5"
+    },
+    {
+      "path": "prices/FIXON prices Slovakia.html",
+      "status": "changed",
+      "size": 3006994,
+      "sha256": "85cdae36a0e28953c28a2a763722a02b7bbc2de6ee6f38ae28f3561188abff26",
+      "base_sha256": "55130de88cc8d9ddc1e14a8d4ebcf726cc3665bb1bc73d722ff0e08599f2f626"
+    },
+    {
+      "path": "prices/FIXON prices Slovenia.html",
+      "status": "changed",
+      "size": 3002171,
+      "sha256": "6b066cf7548a6490cc410ae5be93ab143bdac231019bc68691e184a6bd4c8ce6",
+      "base_sha256": "465a63380cde3160438d86cc295d6aef3a968ef9dd23db2e73f04c20861d1fd8"
+    },
+    {
+      "path": "prices/FIXON prices Spain.html",
+      "status": "changed",
+      "size": 3068908,
+      "sha256": "04109d0885107e3028c7223cd3bf31b2984a327267c668dc489730a2865f6d57",
+      "base_sha256": "8efe8f3161ef7f6d7e27eca6b20b023b082442151650689c126c7ac8ea8a623a"
+    },
+    {
+      "path": "prices/FIXON prices Sweden.html",
+      "status": "changed",
+      "size": 3055707,
+      "sha256": "d8d6ac1c65a1499bca1c1315f18cf21c3182aea43458fc03df76c03b26ce7af2",
+      "base_sha256": "eb1088aad8dfb54526cd5733002861b839c21137c688c51d87694a24aa073297"
+    },
+    {
+      "path": "prices/FIXON prices Switzerland.html",
+      "status": "changed",
+      "size": 3187678,
+      "sha256": "dcf5f0017b2c32c3067a76de36044d9506f8f234ea068a9a1da4f790686d3566",
+      "base_sha256": "e92db8050d6fc789097b6a8aafeabf6f3efa9fcdd3588c63dbca43202398a7ed"
+    },
+    {
+      "path": "prices/FIXON prices Turkey.html",
+      "status": "changed",
+      "size": 3233997,
+      "sha256": "287b7bef3e01076bc30619204c2373dc764abae2c89a86c25c0c0f3990d35dcf",
+      "base_sha256": "a61cba25021782c1de399aecdabce3eb423212aa15c0bfcbd1b7fc5dbc5df275"
+    },
+    {
+      "path": "prices/FIXON prices Ukraine.html",
+      "status": "changed",
+      "size": 3486816,
+      "sha256": "d7c70b02c1b384151fba3d95846d0dea9af9b3f60463bff0c24b17b191448192",
+      "base_sha256": "6ab5cda8306a7a4c9514d79ec10460be7fd57bb07337e29d294671da7681f739"
+    },
+    {
+      "path": "prices/FIXON prices United Kingdom.html",
+      "status": "changed",
+      "size": 2317351,
+      "sha256": "5009473959fd496b4228092f42c33e400338cc3820cc5ab1feb73dd9d89aad6f",
+      "base_sha256": "88631737eeaa23f449ad9fcfc15596aadb73a3e89704c77b515a63814aae4025"
+    },
+    {
+      "path": "prices/FIXON prices Vatican City.html",
+      "status": "changed",
+      "size": 3202393,
+      "sha256": "de5b5af1da3a7e2b0d67dfdb7dd6d1c08bdcdabffbe9f05af3a99c93f1c9c84e",
+      "base_sha256": "4259fe102385451b00b66f73ed2aaa0e649665674495eaac1dd686b7e7a95c68"
+    },
+    {
+      "path": "prices/index.html",
+      "status": "changed",
+      "size": 13956,
+      "sha256": "3f180f43f8eae4f525602eecc21d19cc7addfb45016dddaa0d63ca6c0d443d71",
+      "base_sha256": "472be2da27040e3dddee49d4b7f2989a71504c3cb049e8333e3fbed14651f049"
+    }
+  ],
+  "removed_files_report_only": []
+}
