@@ -30,7 +30,7 @@
 
 .doc-nav .nav-inner{position:relative}.doc-nav .contents-menu{position:static}.doc-nav .toc-sheet{left:0;right:auto;top:calc(100% + 8px);width:min(620px,100%);max-width:100%;grid-template-columns:minmax(0,1fr)}.toc-group[hidden],.toc-group a[hidden]{display:none!important}.fx-wa-brand{display:block;font-size:11px;line-height:1.2;font-weight:800;white-space:nowrap}.fx-primary:has(.fx-wa-brand),.fx-contact-dock a:has(.fx-wa-brand),.fixed-contact a:has(.fx-wa-brand),.btn:has(.fx-wa-brand){flex-direction:column;gap:3px;height:auto;max-height:none}
 </style>
-</head>
+<link rel="stylesheet" href="../../../assets/ui-r2.css" data-fixon-r2="css"/></head>
 <body>
   <header class="topbar"><div class="wrap topbar-inner">
     <a class="brand" href="../index.html" aria-label="FIXON"><img src="../../../assets/fixon-media/3e06099d86e0f12430a6006654ee84f2f71c2af8024e913b3dbf9fdd0afd9e85.svg" alt="FIXON Tools &amp; Tech"></a>
@@ -47,7 +47,7 @@
         <p class="hero-lead">Klientët tuaj duan të punojnë më lehtë. Prezantojuni veglat FIXON dhe hapni mundësi të reja shitjeje.</p>
         <p class="hero-copy">Na tregoni çfarë blejnë klientët tuaj. Së bashku do të zgjedhim veglat për porosinë e parë.</p>
         <div class="hero-stats"><span><strong>68</strong> Produktet</span><span><strong>PL</strong> Warsaw</span><span>Prodhuar në Varshavë, Poloni</span></div>
-        <div class="hero-actions"><a class="btn primary" href="https://wa.me/48570297007?text=P%C3%ABrsh%C3%ABndetje%21%20I%20lexova%20materialet%20e%20FIXON.%20Do%20t%C3%AB%20doja%20t%C3%AB%20bisedonim%20p%C3%ABr%20veglat%20q%C3%AB%20u%20p%C3%ABrshtaten%20klient%C3%ABve%20t%C3%AB%20mi%20dhe%20p%C3%ABr%20porosin%C3%AB%20e%20par%C3%AB.">Le ta vazhdojmë bisedën</a><a class="btn cyan" href="tel:+48570297007">Na telefononi +48 570 297 007</a><a class="btn" href="#materials">Njihuni me ofertën</a></div>
+        <div class="hero-actions"><a class="btn" href="#materials">Njihuni me ofertën</a></div>
       </div>
       <div class="photo-strip" aria-label="FIXON products"><figure class="product-photo reveal"><img src="../../../assets/fixon-media/56e65656924f2fc524bf0ffe230618ebab74cebe06393b17243d6e7c7a85add5.webp" alt="FIXON-019-LINEFIX" loading="lazy"><figcaption>FIXON-019-LINEFIX</figcaption></figure><figure class="product-photo reveal"><img src="../../../assets/fixon-media/5d730285eaa05e5acd7ab149a0e7fee82d932a078cc58c0955cbeb3beb0c3e43.webp" alt="FIXON-007-GRIX" loading="lazy"><figcaption>FIXON-007-GRIX</figcaption></figure><figure class="product-photo reveal"><img src="../../../assets/fixon-media/54b1fcac975b5d6476349904f4f965686b77ceeb471af58ddbfd173c83ae6b96.webp" alt="FIXON-067-PROFILFIX-150" loading="lazy"><figcaption>FIXON-067-PROFILFIX-150</figcaption></figure></div>
     </div></section>
@@ -82,5 +82,5 @@
     const panels=[...document.querySelectorAll('[data-copy-panel]')];
     buttons.forEach(button=>button.addEventListener('click',()=>{buttons.forEach(item=>item.classList.remove('active'));panels.forEach(item=>item.classList.toggle('active',item.dataset.copyPanel===button.dataset.panel));button.classList.add('active')}));
   </script>
-<script data-fixon-whatsapp-brand="1">document.querySelectorAll('.btn,.fixed-contact a').forEach(function(link){if(link.href.startsWith('https://wa.me/')&&!link.querySelector('.fx-wa-brand')){const brand=document.createElement('span');brand.className='fx-wa-brand';brand.textContent='WhatsApp';link.prepend(brand);}});</script></body>
+<script data-fixon-whatsapp-brand="1">document.querySelectorAll('.btn,.fixed-contact a').forEach(function(link){if(link.href.startsWith('https://wa.me/')&&!link.querySelector('.fx-wa-brand')){const brand=document.createElement('span');brand.className='fx-wa-brand';brand.textContent='WhatsApp';link.prepend(brand);}});</script><script src="../../../assets/ui-r2.js" defer data-fixon-r2="js"></script></body>
 </html>

@@ -30,7 +30,7 @@
 
 .doc-nav .nav-inner{position:relative}.doc-nav .contents-menu{position:static}.doc-nav .toc-sheet{left:0;right:auto;top:calc(100% + 8px);width:min(620px,100%);max-width:100%;grid-template-columns:minmax(0,1fr)}.toc-group[hidden],.toc-group a[hidden]{display:none!important}.fx-wa-brand{display:block;font-size:11px;line-height:1.2;font-weight:800;white-space:nowrap}.fx-primary:has(.fx-wa-brand),.fx-contact-dock a:has(.fx-wa-brand),.fixed-contact a:has(.fx-wa-brand),.btn:has(.fx-wa-brand){flex-direction:column;gap:3px;height:auto;max-height:none}
 </style>
-</head>
+<link rel="stylesheet" href="../../../assets/ui-r2.css" data-fixon-r2="css"/></head>
 <body>
   <header class="topbar"><div class="wrap topbar-inner">
     <a class="brand" href="../index.html" aria-label="FIXON"><img src="../../../assets/fixon-media/3e06099d86e0f12430a6006654ee84f2f71c2af8024e913b3dbf9fdd0afd9e85.svg" alt="FIXON Tools &amp; Tech"></a>
@@ -47,7 +47,7 @@
         <p class="hero-lead">Ձեր հաճախորդները ցանկանում են ավելի հեշտ աշխատել։ Ներկայացրեք նրանց FIXON գործիքները և բացեք վաճառքի նոր հնարավորություններ։</p>
         <p class="hero-copy">Ասեք՝ ինչ են գնում ձեր հաճախորդները։ Միասին կընտրենք գործիքներն առաջին պատվերի համար։</p>
         <div class="hero-stats"><span><strong>68</strong> Ապրանքներ</span><span><strong>PL</strong> Warsaw</span><span>Արտադրված է Վարշավայում, Լեհաստան</span></div>
-        <div class="hero-actions"><a class="btn primary" href="https://wa.me/48570297007?text=%D4%B2%D5%A1%D6%80%D6%87%20%D5%B1%D5%A5%D5%A6%D6%89%20%D4%BE%D5%A1%D5%B6%D5%B8%D5%A9%D5%A1%D6%81%D5%A1%20FIXON-%D5%AB%20%D5%B6%D5%B5%D5%B8%D6%82%D5%A9%D5%A5%D6%80%D5%AB%D5%B6%D6%89%20%D4%BF%D6%81%D5%A1%D5%B6%D5%AF%D5%A1%D5%B6%D5%A1%D5%B5%D5%AB%20%D6%84%D5%B6%D5%B6%D5%A1%D6%80%D5%AF%D5%A5%D5%AC%20%D5%AB%D5%B4%20%D5%B0%D5%A1%D5%B3%D5%A1%D5%AD%D5%B8%D6%80%D5%A4%D5%B6%D5%A5%D6%80%D5%AB%20%D5%B0%D5%A1%D5%B4%D5%A1%D6%80%20%D5%A3%D5%B8%D6%80%D5%AE%D5%AB%D6%84%D5%B6%D5%A5%D6%80%D5%AB%20%D5%A8%D5%B6%D5%BF%D6%80%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6%D5%B6%20%D5%B8%D6%82%20%D5%A1%D5%BC%D5%A1%D5%BB%D5%AB%D5%B6%20%D5%BA%D5%A1%D5%BF%D5%BE%D5%A5%D6%80%D5%A8%D6%89">Շարունակենք զրույցը</a><a class="btn cyan" href="tel:+48570297007">Զանգահարեք +48 570 297 007</a><a class="btn" href="#materials">Ծանոթացեք մեր առաջարկին</a></div>
+        <div class="hero-actions"><a class="btn" href="#materials">Ծանոթացեք մեր առաջարկին</a></div>
       </div>
       <div class="photo-strip" aria-label="FIXON products"><figure class="product-photo reveal"><img src="../../../assets/fixon-media/56e65656924f2fc524bf0ffe230618ebab74cebe06393b17243d6e7c7a85add5.webp" alt="FIXON-019-LINEFIX" loading="lazy"><figcaption>FIXON-019-LINEFIX</figcaption></figure><figure class="product-photo reveal"><img src="../../../assets/fixon-media/5d730285eaa05e5acd7ab149a0e7fee82d932a078cc58c0955cbeb3beb0c3e43.webp" alt="FIXON-007-GRIX" loading="lazy"><figcaption>FIXON-007-GRIX</figcaption></figure><figure class="product-photo reveal"><img src="../../../assets/fixon-media/54b1fcac975b5d6476349904f4f965686b77ceeb471af58ddbfd173c83ae6b96.webp" alt="FIXON-067-PROFILFIX-150" loading="lazy"><figcaption>FIXON-067-PROFILFIX-150</figcaption></figure></div>
     </div></section>
@@ -82,5 +82,5 @@
     const panels=[...document.querySelectorAll('[data-copy-panel]')];
     buttons.forEach(button=>button.addEventListener('click',()=>{buttons.forEach(item=>item.classList.remove('active'));panels.forEach(item=>item.classList.toggle('active',item.dataset.copyPanel===button.dataset.panel));button.classList.add('active')}));
   </script>
-<script data-fixon-whatsapp-brand="1">document.querySelectorAll('.btn,.fixed-contact a').forEach(function(link){if(link.href.startsWith('https://wa.me/')&&!link.querySelector('.fx-wa-brand')){const brand=document.createElement('span');brand.className='fx-wa-brand';brand.textContent='WhatsApp';link.prepend(brand);}});</script></body>
+<script data-fixon-whatsapp-brand="1">document.querySelectorAll('.btn,.fixed-contact a').forEach(function(link){if(link.href.startsWith('https://wa.me/')&&!link.querySelector('.fx-wa-brand')){const brand=document.createElement('span');brand.className='fx-wa-brand';brand.textContent='WhatsApp';link.prepend(brand);}});</script><script src="../../../assets/ui-r2.js" defer data-fixon-r2="js"></script></body>
 </html>
