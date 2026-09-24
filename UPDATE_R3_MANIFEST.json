@@ -1,0 +1,61 @@
+{
+  "zip": "FIXON_UPDATE_R3_FONTS_REF_2026-09-24.zip",
+  "generatedAt": "2026-09-24T05:41:44.700630+00:00",
+  "files": [
+    {
+      "path": "INSTRUKCJA_R3_PL.md",
+      "bytes": 2805,
+      "sha256": "c1fb38cb3653743eea78b1b2b7f0fcccc775a36448b93ba36238b3758c17598c"
+    },
+    {
+      "path": "assets/ui-r2.css",
+      "bytes": 7341,
+      "sha256": "72256a0567962a363989e49204e25316759d3146ff2f694c755a06f195a2e5aa"
+    },
+    {
+      "path": "assets/ui-r2.js",
+      "bytes": 7098,
+      "sha256": "009b807b5ddce2f68e13e69fddcf82360e898e3440dca607a3f0353fa38acd99"
+    },
+    {
+      "path": "assets/fonts/google/inter/Inter[opsz,wght].ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "assets/fonts/google/inter/OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "assets/fonts/google/oswald/Oswald[wght].ttf",
+      "bytes": 172088,
+      "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817"
+    },
+    {
+      "path": "assets/fonts/google/oswald/OFL.txt",
+      "bytes": 4483,
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652"
+    },
+    {
+      "path": "assets/fonts/google/roboto/Roboto[wdth,wght].ttf",
+      "bytes": 488584,
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/fonts/google/roboto/OFL.txt",
+      "bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/fonts/google/robotocondensed/RobotoCondensed[wght].ttf",
+      "bytes": 371616,
+      "sha256": "dace262afcee68a5276f200d8026c57221735c0118ab5fda8c2c0d3dc409a8d0"
+    },
+    {
+      "path": "assets/fonts/google/robotocondensed/OFL.txt",
+      "bytes": 4393,
+      "sha256": "0e4cc6ece88573545be2ed25835363662a6182ba4a4c1b5c8feda52add30e8a6"
+    }
+  ]
+}

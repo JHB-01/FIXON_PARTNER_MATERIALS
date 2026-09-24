@@ -1,19 +1,36 @@
 @font-face{
-  font-family:"Schueler XP Neue";
-  src:url("fonts/schueler-xp-neue/SchuelerXPNeue-Regular.otf") format("opentype");
-  font-weight:400;
+  font-family:"Inter";
+  src:url("fonts/google/inter/Inter[opsz,wght].ttf") format("truetype-variations");
+  font-weight:100 900;
   font-style:normal;
   font-display:swap;
 }
 @font-face{
-  font-family:"Schueler XP Neue";
-  src:url("fonts/schueler-xp-neue/SchuelerXPNeue-Bold.otf") format("opentype");
-  font-weight:700 900;
+  font-family:"Oswald";
+  src:url("fonts/google/oswald/Oswald[wght].ttf") format("truetype-variations");
+  font-weight:200 700;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Roboto";
+  src:url("fonts/google/roboto/Roboto[wdth,wght].ttf") format("truetype-variations");
+  font-weight:100 900;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Roboto Condensed";
+  src:url("fonts/google/robotocondensed/RobotoCondensed[wght].ttf") format("truetype-variations");
+  font-weight:100 900;
   font-style:normal;
   font-display:swap;
 }
 :root{
-  --fx-r2-primary-font:"Schueler XP Neue","Noto Sans","Noto Sans Georgian","Noto Sans Armenian","Noto Sans Hebrew","Noto Sans Arabic","Segoe UI",Arial,sans-serif;
+  --fx-r2-primary-font:"Inter","Noto Sans","Noto Sans Georgian","Noto Sans Armenian","Noto Sans Hebrew","Noto Sans Arabic","Segoe UI",Arial,sans-serif;
+  --fx-r2-heading-font:"Oswald","Roboto Condensed","Arial Narrow","Noto Sans","Noto Sans Georgian","Noto Sans Armenian","Segoe UI",Arial,sans-serif;
+  --fx-r2-compact-font:"Roboto Condensed","Arial Narrow","Inter","Noto Sans","Noto Sans Georgian","Noto Sans Armenian","Segoe UI",Arial,sans-serif;
+  --fx-r2-tabular-font:"Roboto","Inter","Noto Sans","Noto Sans Georgian","Noto Sans Armenian","Segoe UI",Arial,sans-serif;
   --fx-r2-font:var(--fx-r2-primary-font);
   --fx-r2-line:rgba(6,39,27,.18);
   --fx-r2-glow:rgba(199,223,71,.24);
@@ -36,12 +53,63 @@
 html,body,button,input,select,textarea,table{
   font-family:var(--fx-r2-font)!important;
 }
-body :where(*):not(i):not(svg):not(path):not(use):not([class*="icon"]):not([class*="Icon"]):not([class*="fa-"]):not([class^="fa"]){
+:where(body *:not(i):not(svg):not(path):not(use):not([class*="icon"]):not([class*="Icon"]):not([class*="fa-"]):not([class^="fa"])){
   font-family:var(--fx-r2-font)!important;
 }
+h1,h2,h3,h4,h5,h6,
+h1 *,h2 *,h3 *,h4 *,h5 *,h6 *,
+.hero-title,.hero-title *,
+.section-title,.section-title *,
+.market-title,.market-title *,
+.fx-card-title,.fx-card-title *,
+.product-title,.product-title *{
+  font-family:var(--fx-r2-heading-font)!important;
+}
 .fixon-suite-nav,
-.fixon-suite-nav a{
-  font-family:var(--fx-r2-font)!important;
+.fixon-suite-nav *,
+nav,
+nav *,
+.desktop-nav,
+.desktop-nav *,
+.direct-links,
+.direct-links *,
+.materials-menu summary,
+.materials-list,
+.materials-list *,
+button,
+button *,
+.button,
+.button *,
+.btn,
+.btn *,
+[class*="button"],
+[class*="button"] *,
+[class*="Button"],
+[class*="Button"] *,
+[class*="btn"],
+[class*="btn"] *,
+[class*="Btn"],
+[class*="Btn"] *,
+[role="button"],
+[role="button"] *{
+  font-family:var(--fx-r2-compact-font)!important;
+}
+table,
+table *,
+.fx-discount-table,
+.fx-discount-table *,
+.price,
+.price *,
+[class*="price"],
+[class*="Price"],
+[class*="pricelist"],
+[class*="Pricelist"]{
+  font-family:var(--fx-r2-tabular-font)!important;
+}
+/* Allow for Oswald's descent below tight heading line boxes. */
+h1,h2{
+  line-height:1.2!important;
+  padding-block-end:.16em!important;
 }
 .fx-r2-progress{
   position:fixed;
