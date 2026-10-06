@@ -1,0 +1,498 @@
+{
+  "hotfix": "dark-hero-2026-10-06",
+  "base": "R4-2026-10-05",
+  "scope": "Only hero background CSS",
+  "files": [
+    {
+      "path": "markets/AD/client-qualification-catalog.html",
+      "sourceSha256": "8e7674c92f00424e6b70fd2490b2993e88de1d28b242b7aba9927ab7feccb0bb",
+      "sha256": "7a1f4d0149fed87db75650b34f74718d6de92da6ca25f2a4db2022c18f689b29"
+    },
+    {
+      "path": "client-files/FIXON catalog Andorra.html",
+      "sourceSha256": "4fc4a1a9d29015f147902e8961b541672e3d891230e16852197a77a4d2e60bb7",
+      "sha256": "84c081b394b66e27929f1309fe476b32597eeb63a6031d09f5f5168b033d86a6"
+    },
+    {
+      "path": "markets/AL/client-qualification-catalog.html",
+      "sourceSha256": "d213522b8abd0f1049697c78edfb0205066e56c9ce27dd4d39af24d336c3b51e",
+      "sha256": "19f2e9a475eb24ac510b410597b24cfe453fe2de6da37da1ad607715fb8a1216"
+    },
+    {
+      "path": "client-files/FIXON catalog Albania.html",
+      "sourceSha256": "16999e218fee5fa7289c2406ada15ca6f45a6c095dc95efa0ea8c0802870fb05",
+      "sha256": "1517188a3284a69ebd6b427aeb631103e98c20d3dd40e6a210c3a7f8c4f0d987"
+    },
+    {
+      "path": "markets/AM/client-qualification-catalog.html",
+      "sourceSha256": "4a5d62136cd853ccf85d0f9ef25d07bcbd4fbf63087125025baccce0c333f05d",
+      "sha256": "bbc741099c32f4c14915300fdfdc05b748b1c9b40e4ff92f4c3958a8b2cbffb0"
+    },
+    {
+      "path": "client-files/FIXON catalog Armenia.html",
+      "sourceSha256": "2f7e50e8f546a302336ca93b1861c52204730505156927960fd34c26a582fd38",
+      "sha256": "b22644ee593a47d32e7f10f41bd23d5a6c4a3adca196c3dc7aad41af244e5ce8"
+    },
+    {
+      "path": "markets/AT/client-qualification-catalog.html",
+      "sourceSha256": "220f8c6fb476f4c4a551d05ef1430157d37ce0d605b60cff810266ec67267db6",
+      "sha256": "69907cc4499927e82d09be12b5cc24e009ff3bd41ad8f43e46e188982a316a0c"
+    },
+    {
+      "path": "client-files/FIXON catalog Austria.html",
+      "sourceSha256": "7b0219468425328ae24f7671195b1667e92e83213f58016129d14463d8ccbab7",
+      "sha256": "0f86a870e78cc455fcca1ff6c81ea635b26cf4f12990478d295c4c49426baa3f"
+    },
+    {
+      "path": "markets/AZ/client-qualification-catalog.html",
+      "sourceSha256": "f35581ac51bfff915197edcd593a55ac88d2243ec399627d94c6842619089c90",
+      "sha256": "b8cbf86d16cb82e35fdc253e024c071f60ef6319ccf504ff65d6afdb74305419"
+    },
+    {
+      "path": "client-files/FIXON catalog Azerbaijan.html",
+      "sourceSha256": "9824f2902e4b71458555a62ff8e072a5d40f62e0a00950dbec7dd4b38957a84d",
+      "sha256": "42f4b529ae8aee65d85bbda5982bab78bbd07b8a200520a428b4b711c1d074ad"
+    },
+    {
+      "path": "markets/BA/client-qualification-catalog.html",
+      "sourceSha256": "297179ebb730503bbfb9ccbcf6679c4cb4f7ef7268a1d78a6eb4cfcda6c4d11e",
+      "sha256": "b6aae39ede9636c5f04e44e287ef2b0a43e8c4c8062113eee67512aafa74aeae"
+    },
+    {
+      "path": "client-files/FIXON catalog Bosnia and Herzegovina.html",
+      "sourceSha256": "8a61ca1e8370a47fefe9acadbc2ae3c59a52a8d803a80921818d363c3d65bdf4",
+      "sha256": "f054e0bf48d620e027d34fdd12f6158bc11487cb40b7526ced1f2931cca86891"
+    },
+    {
+      "path": "markets/BE/client-qualification-catalog.html",
+      "sourceSha256": "0ed07d522b086a519b8f2bbd255aba7de3e69108933d5dfe0a22198b0fa019c3",
+      "sha256": "a6b07937fd2011e59f20b60e4c0f2e8bbef2519c1b6ffc327804247977aa23af"
+    },
+    {
+      "path": "client-files/FIXON catalog Belgium.html",
+      "sourceSha256": "c58e650a6face825966d293789271de50659ebbc6b6dd7877e038693b4b1e88b",
+      "sha256": "b1e98a5a5decd496867d24bcfa87c89d63f1b2257582d3560c8a28e8aff9cf93"
+    },
+    {
+      "path": "markets/BG/client-qualification-catalog.html",
+      "sourceSha256": "5d40ca5978bd06a78222e372d89272a3ae99293e615ddac710785025a3dc6af8",
+      "sha256": "b6abc74f1b9804334cc8aff89900b3a829465e51a0411882d5a5a99cb398d7d4"
+    },
+    {
+      "path": "client-files/FIXON catalog Bulgaria.html",
+      "sourceSha256": "ad5a7473518b1e3a32bab2d9a34f973fef52f9798a4a477400377a6668129815",
+      "sha256": "29551bf9294f92a5ee8f67ef0b6c7c0afe23d2e0e967f7c84da7d91440e16ba6"
+    },
+    {
+      "path": "markets/CH/client-qualification-catalog.html",
+      "sourceSha256": "de0c7f74641362dd9349110166e7b7034d2c938e61f50bcf5bd6b08684f22156",
+      "sha256": "9259110d2b1dc71ebad145a314b7c5c72061eda4f22c06684412e040f574a4db"
+    },
+    {
+      "path": "client-files/FIXON catalog Switzerland.html",
+      "sourceSha256": "a6d1444632cf6ebb4fdb1a3ce2f0bac3f85ccd640042b34339875af3710117f7",
+      "sha256": "62ada71f84826468a136e3a1215a01fa89d7609ce3e7960028d110856d0e9431"
+    },
+    {
+      "path": "markets/CY/client-qualification-catalog.html",
+      "sourceSha256": "4343621f70eff6045b9e5464fe3f5af14e6c43ab21dfe97c2dd2a6b3664f5f43",
+      "sha256": "66cc1763cc2516f6fa45429805052df9c599d35e23c9660d3bfb470923d50567"
+    },
+    {
+      "path": "client-files/FIXON catalog Cyprus.html",
+      "sourceSha256": "134e6099a7a8c0b240503672043517508233031ec63f26fd2f4f9ce9952f06a0",
+      "sha256": "9baba16d965db425d139988945c26e885f777b9df18e75a3de59e3d060aea168"
+    },
+    {
+      "path": "markets/CZ/client-qualification-catalog.html",
+      "sourceSha256": "a2bac5939257bf5577527d031ece6c0d5a4919ae71ee921242f01b916d225759",
+      "sha256": "325804b585b6a5dbe3eb42bb0626053f9ace3fe6a4f10f8a2ec2275e8a28e666"
+    },
+    {
+      "path": "client-files/FIXON catalog Czechia.html",
+      "sourceSha256": "fd45baa65345df22f6f549ab0d41d996a7e82ad4afe39f6717bf3de5100d6420",
+      "sha256": "bdcc9acfef130a404b97a49ba52bc58911f505cba5de740b8a6a756a8c9812ae"
+    },
+    {
+      "path": "markets/DE/client-qualification-catalog.html",
+      "sourceSha256": "593bbf6702c82141a1fc0495ce140200a0f20e5441a97d393d9308f409f1cb15",
+      "sha256": "ac0104762b85c0c1ed58e02a51ac4470b4bec002d3f08dc6daa0900b1c5638af"
+    },
+    {
+      "path": "client-files/FIXON catalog Germany.html",
+      "sourceSha256": "ea57a791b14f6bfbd75235f21183a86079a86d2cb5fc542238dc2d453ab5a4cf",
+      "sha256": "e842bfa6f457ae20945055b88d58a862ccd57c0c849c0b03165f2f20fccb774b"
+    },
+    {
+      "path": "markets/DK/client-qualification-catalog.html",
+      "sourceSha256": "02d2ccd380b730ca3bc9af43043ec5b3675124baa31a2c805c73d32796340edb",
+      "sha256": "52bd14564f171f81a699162b2fa24e0eeff105058b45b9f95bbc4c9914997281"
+    },
+    {
+      "path": "client-files/FIXON catalog Denmark.html",
+      "sourceSha256": "37286904625c794a7c1fccbcc45423f2b5f9400bb7fbbc2b38626c00353185d2",
+      "sha256": "e8427fec249a38cde6ed608af60c9a6b2423aad6b23a7e37129817946201bbb3"
+    },
+    {
+      "path": "markets/EE/client-qualification-catalog.html",
+      "sourceSha256": "7dcb09bd40a05fb42d7e80648a1e0ec9da874a40eddcf54ac4522dbec2cc1e01",
+      "sha256": "1634789aa8412bc13824a1e2b4fb2aa0119e54feb6beba46d757afc4c3fb3aac"
+    },
+    {
+      "path": "client-files/FIXON catalog Estonia.html",
+      "sourceSha256": "890c262ffbfa8bd4c713000dc3ceb3750a46d1df949033cd7fb4d87dafda595c",
+      "sha256": "1085ade5a52b259f5ca81e801a61e5ffeb9cb216f23b5774cbbea5c079e349b8"
+    },
+    {
+      "path": "markets/ES/client-qualification-catalog.html",
+      "sourceSha256": "244db963773db064f8b1e1fe06b257e869c086e06714030d351a2db55cbfa177",
+      "sha256": "8f7a07e10d90095e6d2991435755737365d81ee306cb4a0af35339eab327ad70"
+    },
+    {
+      "path": "client-files/FIXON catalog Spain.html",
+      "sourceSha256": "2bf1d5d9375be5340da971b4c0c84dee21af9cf2a404b13f4c31da893cec5605",
+      "sha256": "27513956e0f9b9ef766889aed23fbe50563d83307883b4f9b5ec51ef1843cd6e"
+    },
+    {
+      "path": "markets/FI/client-qualification-catalog.html",
+      "sourceSha256": "53234e7627f4e2a702f50a682bda244bcc913474cc7ceb392665aa89daa010e5",
+      "sha256": "26dcfa5b36392a6ce3471e920eccd496809c094af09f27758bee1735862a1ec3"
+    },
+    {
+      "path": "client-files/FIXON catalog Finland.html",
+      "sourceSha256": "8fd149f5f79874b108e6e483d9780885ba2f6a6ec3fc8bb379b4621641705469",
+      "sha256": "8233de866d69d0cc3edf3b8c3a987609d5cc26ccb6fe820263b2c1c5da24252f"
+    },
+    {
+      "path": "markets/FR/client-qualification-catalog.html",
+      "sourceSha256": "76d8bbdffcbb05138af3b2c0f4a2815a37ea526f13cd6f7a65176a486357b442",
+      "sha256": "8814c443545a7bfbe6dffadde61399d66c167fe0f5d1539dc2eb8ea38a344e77"
+    },
+    {
+      "path": "client-files/FIXON catalog France.html",
+      "sourceSha256": "347f38e52bf986e03c2bf66f4c41b409e540d81c2aa231f48971295d906b09da",
+      "sha256": "3ef7f035232264545af2b12e172c96feefa6f45e21a3c550b98eba8476c488c8"
+    },
+    {
+      "path": "markets/GB/client-qualification-catalog.html",
+      "sourceSha256": "f467518152f0e8a992803a738c47880f35b0365dc9777604d7aa337857a2ae5a",
+      "sha256": "ec17e6817400ea6c1dffcd42a99c973f205b587e1f9b8640bb3e0770280c7650"
+    },
+    {
+      "path": "client-files/FIXON catalog United Kingdom.html",
+      "sourceSha256": "5ed2264a004300eca10375d1cdaacf04bfc851d5bac88c39f76bcc0f3bbe4345",
+      "sha256": "03596479941a35f5d258aaa03e0c8bafd50fda03a185d95a9e8a11f1fd241216"
+    },
+    {
+      "path": "markets/GE/client-qualification-catalog.html",
+      "sourceSha256": "107631aacc03087276b1504b0e23a7a2c588c6f5603eb06c7f25ee13462409fb",
+      "sha256": "ff483b453a156ab89615f9bf82b3ad283df311c84fac22b1ae2db1472bd11645"
+    },
+    {
+      "path": "client-files/FIXON catalog Georgia.html",
+      "sourceSha256": "b26ef8bebadb06532d519bab5ef9ba891c6d182cc5e72e963a3eed4f2cd51bef",
+      "sha256": "23d7be770461fabe2e4a835986fd199d72c7f6da2d70068e91e015cceebb4c2e"
+    },
+    {
+      "path": "markets/GR/client-qualification-catalog.html",
+      "sourceSha256": "61c53e191be0e34cec5eaa03436e425635d28783558cdd51c010539ca9bd1a73",
+      "sha256": "6acdcfe09c4898fe92679aa2c6fea5fe02cfb459dec7268f412fb205756cfafb"
+    },
+    {
+      "path": "client-files/FIXON catalog Greece.html",
+      "sourceSha256": "a448358e1530d917f52bbe684251977a17875d6438a01ce54653f30e2e616f92",
+      "sha256": "c1cbd4d0a7320b383c800cbb2b931a05ae7b3031a311f9c4e82bbdab9ee8326b"
+    },
+    {
+      "path": "markets/HR/client-qualification-catalog.html",
+      "sourceSha256": "6e26516c65fa96b3305e3b1654477b34316b31f6df15217558a07e00c2e19436",
+      "sha256": "b4b90302094b5c406b7f062e3d3125aa19697e7e4a83dbe75d665f6ab52e3e54"
+    },
+    {
+      "path": "client-files/FIXON catalog Croatia.html",
+      "sourceSha256": "8629daf09b0a8e03e88b0ddfa324e3449342bf5562209f3ffde40a005a45fd27",
+      "sha256": "68a33dfa8e5b7f3da58c1d1e33c2edaeea9a53505dc1521dd8946adedb4c913f"
+    },
+    {
+      "path": "markets/HU/client-qualification-catalog.html",
+      "sourceSha256": "3de8e714cd8624b3bdc51c9f0760652a0ed5a7d33a98ef464b563c84ceb28a9b",
+      "sha256": "4e0b12c7dc948d053f9f922ec2a9bc166598042927606cd15ef8cf73541cbc28"
+    },
+    {
+      "path": "client-files/FIXON catalog Hungary.html",
+      "sourceSha256": "fd7d989d8ca0b94d328c08e5a94cb98381224f90d02ea34d06e3e9a018227301",
+      "sha256": "0f941022223358f68a4d33b997fd3a3988c72287ca54308c226c0c713f5f56f5"
+    },
+    {
+      "path": "markets/IE/client-qualification-catalog.html",
+      "sourceSha256": "419175132d2ff10e4258cede58a2937f951b1e0f141f4235bd7a36a6a5ec7bdd",
+      "sha256": "2564364cf703b5536fb52aaab17ec865e871c8f7f1a56a241af555d634c82929"
+    },
+    {
+      "path": "client-files/FIXON catalog Ireland.html",
+      "sourceSha256": "0ebcc1618f6f95cfe08f7c942a6e3cdfc46b826a79564f32a47ee65df053c3d8",
+      "sha256": "a1f78d7274da5246dfcd1f386a894588a9472af78600b32ce89fc149fccd9326"
+    },
+    {
+      "path": "markets/IS/client-qualification-catalog.html",
+      "sourceSha256": "d9ce5b041f00222debbfc52ef6aabc757c6f229f08ed67fe3298bab35e4b7fae",
+      "sha256": "d4f40d95f9e749f5b7c3e94adbaad0655eca69a2ee40a8ef03691a289679364e"
+    },
+    {
+      "path": "client-files/FIXON catalog Iceland.html",
+      "sourceSha256": "7c6e50e9cab8d81fb815f0e19261432a7e7e9a4af3921dd6716c7701aeb9b744",
+      "sha256": "79ad6645d5a4f0592b8d19c1b5877948f89ec2bc134dea47bdff94fa94bf4d1d"
+    },
+    {
+      "path": "markets/IT/client-qualification-catalog.html",
+      "sourceSha256": "815104b429769b2146858cc69e4934f7af9df0c4329026958a566d727f566d79",
+      "sha256": "3b5ced31818085fb911d19b9ed148c75c36e440799f4d3e6ae0d19d7a56c5cc5"
+    },
+    {
+      "path": "client-files/FIXON catalog Italy.html",
+      "sourceSha256": "448e9bdba7f52d0091ea3d430cb63e4c4f6460b974fa084c27860e5d4ca4fb86",
+      "sha256": "c1ff04f2a025e290ee98f069fdc7f6c0ce00707921c3fe83a053aa507224cf56"
+    },
+    {
+      "path": "markets/KZ/client-qualification-catalog.html",
+      "sourceSha256": "2128d1e27f17ddd1d67b754ae86bbac08147830a19f79e9570bbf165a41918c8",
+      "sha256": "93780972d6e8a69f9d3236512f19c7d6c769596e3360a3d7a52887bc09916cab"
+    },
+    {
+      "path": "client-files/FIXON catalog Kazakhstan.html",
+      "sourceSha256": "42262ae4ccf7d0a5b5d85bf8897155e31f6448b3a7b56b9b27503c7693921975",
+      "sha256": "eb5c4009e4243c16b86f1922b823942fb55e8b76c71e8464973707a1b6a05b53"
+    },
+    {
+      "path": "markets/LI/client-qualification-catalog.html",
+      "sourceSha256": "d644aae1b734100ef8c1f1b876733b4733e092171c32fc0bddae361b4f376479",
+      "sha256": "8240d0f356b0df10835ac54e611fd712eeaf3ed43ac3d80f9ac0cc5e2966faaa"
+    },
+    {
+      "path": "client-files/FIXON catalog Liechtenstein.html",
+      "sourceSha256": "5297301a56a31b4318206e1f79dcd5613c76969ad8e1646de559d1f5b01cb1cd",
+      "sha256": "4dfdb2991df9ba0c54bf9eba2f5c9c42df129b8a98be401fe59be391591e1ad2"
+    },
+    {
+      "path": "markets/LT/client-qualification-catalog.html",
+      "sourceSha256": "9685c3004225e37f86436dd8ca04eb52b6bd63b9d89513fa5fe900a95448989d",
+      "sha256": "512dac35ed64cb01ac29b6886955540cd380bc3646c2231d9f024531a935745b"
+    },
+    {
+      "path": "client-files/FIXON catalog Lithuania.html",
+      "sourceSha256": "d2a1cd1b8d990c57f92ad41027d7918230982fa153e4260c5cc6de854148adaf",
+      "sha256": "185727010dad05e703dc36eb5aac9bbb43e36e58986246b15838289e600b34e2"
+    },
+    {
+      "path": "markets/LU/client-qualification-catalog.html",
+      "sourceSha256": "036ef18474802d6c48797a10bb48cea46e6ddb767bb5baca624766dfbfe0549b",
+      "sha256": "147d5e0f1ab465c00aae513a6d8b548d61e2322d605a9b158b5f1185ea699b31"
+    },
+    {
+      "path": "client-files/FIXON catalog Luxembourg.html",
+      "sourceSha256": "aec749b29fcbd81193e466f5d917437918446b5f5e1e16d874978ea2836def5a",
+      "sha256": "5157c6998857f767bfc8a1bcc15ce9eb671dd4f4feb5f7f9ae407ee8afc88017"
+    },
+    {
+      "path": "markets/LV/client-qualification-catalog.html",
+      "sourceSha256": "6fbfc51b1552b44a9c85dda00b886038a3711a32343b6993642bca3ac270705a",
+      "sha256": "41e6d17efeb4dcfc6094b7a091806fa32a40b57bb9a833d5ebf31d2a1362b346"
+    },
+    {
+      "path": "client-files/FIXON catalog Latvia.html",
+      "sourceSha256": "e9a91dba4a0803c81b121e8969d6615352a0ebe7b0abe8868ad1bd09bca46b09",
+      "sha256": "6ea302b5cba5f6d5d93f913da5eccdd30121671f245db0dac9a0fd27a71b9adf"
+    },
+    {
+      "path": "markets/MC/client-qualification-catalog.html",
+      "sourceSha256": "b854be16ce00af73f1725dc661b6438c216a0c1fbcc35acf79d72351895db6cb",
+      "sha256": "5126aec80624ac29501b3ec918f2b1c218171663cefeed9f4eeaf2e8df174249"
+    },
+    {
+      "path": "client-files/FIXON catalog Monaco.html",
+      "sourceSha256": "cd4006314a378bafd16eda42cc428b0160b7397b3b3323dcc635c3fe5069bde9",
+      "sha256": "da00f8dfa5ec45ded1a4bd9bbbdf44d5cf40f5a960f7b1dac6c94a6c9da04d96"
+    },
+    {
+      "path": "markets/MD/client-qualification-catalog.html",
+      "sourceSha256": "9136e778b411096d7f86ce9dbc3f6c8d432ae7ce287cc7da10b08a5672fc21ec",
+      "sha256": "fb41b151999bff1aba87eb3d9f009176bd34ab4c5586cc1f152ae9b8ad566101"
+    },
+    {
+      "path": "client-files/FIXON catalog Moldova.html",
+      "sourceSha256": "9178bfc632734995b32bf2625c12262f5fb04a60d666d6bb816ad6b3199e5948",
+      "sha256": "4bc43e139c816f67d559253ca1160a6459602e629332d2205372593f425ac8da"
+    },
+    {
+      "path": "markets/ME/client-qualification-catalog.html",
+      "sourceSha256": "ff76eb3da6f33e1df47037927835a9dc3ffedfabb24095a448670aaddcabff2f",
+      "sha256": "0d996737f3f48a30f3245428dcad9850026eaf6921cbe4c73a8a8e459524b7a2"
+    },
+    {
+      "path": "client-files/FIXON catalog Montenegro.html",
+      "sourceSha256": "57d524fdd37cb728277c04dc50fa08269d0cef343ef6f7bb6ab091c2e176ccd6",
+      "sha256": "f527511516e8c0f1671e74964a4f56e698ccb65d1b4233ad69d23a93959b26aa"
+    },
+    {
+      "path": "markets/MK/client-qualification-catalog.html",
+      "sourceSha256": "8779482626727427f9c18ae7d44a772bbf1f9dc66cc0d0679487955587523ac0",
+      "sha256": "cb985f01a09f217b341235a787dd6255967154c057a14a6ce49314200974d4a0"
+    },
+    {
+      "path": "client-files/FIXON catalog North Macedonia.html",
+      "sourceSha256": "df07261638cf43b64223eeaf750b5472c5e659581ffc8698b17de5e899b390c8",
+      "sha256": "2b78604239b54618c220aa24e1a2a4f416d8303d805a4dabf7e3d856ef2d5a22"
+    },
+    {
+      "path": "markets/MT/client-qualification-catalog.html",
+      "sourceSha256": "3d86fc3ca6afefbeba99aabdf99bb0702c5988af267d9582979cd615a59bf956",
+      "sha256": "7b8a6e634566e6a4ab62b9a4db22b82303bdf9c4ca8a57f44120ef998c1a8452"
+    },
+    {
+      "path": "client-files/FIXON catalog Malta.html",
+      "sourceSha256": "7547f19da7f92a67a636bcb57e4efd5e85e087a7bd9d5242d91523225f2b5c70",
+      "sha256": "a041686b0a5ea5fed45c6ddb358639c1bb53d45e990567565ac0567445e75d67"
+    },
+    {
+      "path": "markets/NL/client-qualification-catalog.html",
+      "sourceSha256": "dd6ffa6b0efd46474c82e114d1a7342d5ff7d4bd404afd16430c90f78a4792dd",
+      "sha256": "6ce35697f7ad60d373a9d2f22a1410bc061716b6e15af5c0cf2cf970d5ac6c90"
+    },
+    {
+      "path": "client-files/FIXON catalog Netherlands.html",
+      "sourceSha256": "2b6dc0d66f21bd8640e1d4a428efc2a4e99b2f1594c8d6f82c36f9eb3e470415",
+      "sha256": "c9ea0c4668a5bd2ac16fee449e74db11bafd02d885b754f82e5777e0ad57616a"
+    },
+    {
+      "path": "markets/NO/client-qualification-catalog.html",
+      "sourceSha256": "5c42529eff05c9a45026fdd205da5960c521104bbe3bd6edc9735bc03f489498",
+      "sha256": "38583751a3edd6843f89dc5e16b30e1282a1c0f7ea861869a5be95af4b20a980"
+    },
+    {
+      "path": "client-files/FIXON catalog Norway.html",
+      "sourceSha256": "2dae6b257087e029fdd7ecaa87b650b04fbd75c2e50ad055f12ba31b28325238",
+      "sha256": "9241646a2879dca2cc5785203a82a8cc91a798815a78e5ca010e7f12d70643df"
+    },
+    {
+      "path": "markets/PL/client-qualification-catalog.html",
+      "sourceSha256": "9c8b099d8fac8690f7f5b48e63e0a6b9d9eafce960913e3e2e4a2f80eee7afec",
+      "sha256": "0770a9403c8fb38362e71ec43e89ca9932b27cc2502c9d4c17880350740c11ac"
+    },
+    {
+      "path": "client-files/FIXON catalog Poland.html",
+      "sourceSha256": "adec300dc6b53c9d0f7a31818d33b32897b8b3db532cf7d1d07d53955aff3b84",
+      "sha256": "1519c8503f8e48ef1b2ae107884bd98b38b63de8c32b4ca23a6463350accae33"
+    },
+    {
+      "path": "markets/PT/client-qualification-catalog.html",
+      "sourceSha256": "a9bef41dc8c24ac1e7d0044d8cb343c2fa3ca9f0b8a987dbdefc862107ddd828",
+      "sha256": "9bf0ab2bdeedfb7c0d3c9a7acdd148af27d2eee5ff2587ed930eae80f3bb0a87"
+    },
+    {
+      "path": "client-files/FIXON catalog Portugal.html",
+      "sourceSha256": "bd597378e2f1fc7aa8172cce46c83d0c412cfd72175852f534b77f45c3061027",
+      "sha256": "2378ec908098d805c920fe6edb2c3f49552cc50e726b41bfe4fefaadfe357448"
+    },
+    {
+      "path": "markets/RO/client-qualification-catalog.html",
+      "sourceSha256": "8a2b8ea1e855b1ba7fdc6360d219df4fd7419b4e07485c4959d39e96ba800427",
+      "sha256": "df1af9d571b734cfb805a38639bc5e79be24e8ec652376f361a9f9ccc81780b5"
+    },
+    {
+      "path": "client-files/FIXON catalog Romania.html",
+      "sourceSha256": "fb13c4b429168413d92c2327427ec3484bd7254dc9de4151159ec609ec2a9f13",
+      "sha256": "7b97bb440b42f9a0ce7fcb9a6cee942c09caf9a757f99e69f910dd7486bded2c"
+    },
+    {
+      "path": "markets/RS/client-qualification-catalog.html",
+      "sourceSha256": "884ff044a7b3113e24b4cccdbf4de087a11154c957ecf9bb8685d81f3d7bf3a6",
+      "sha256": "70eefe5bdea6795a81bf57b55f9c8f4ddc1b68f5f8a7f3b85cb888b22fca9d2a"
+    },
+    {
+      "path": "client-files/FIXON catalog Serbia.html",
+      "sourceSha256": "844b31fdc12ff4345894df5cfccc142256c9284303d85c6e9cf8978481dd6757",
+      "sha256": "52a616e838cf6516bc6121598d384d851fd576635179f33c4d5746513d2015bc"
+    },
+    {
+      "path": "markets/SE/client-qualification-catalog.html",
+      "sourceSha256": "dd399330785631040677e54266e508b21764a3075a0c7d466a90fa6a60fae434",
+      "sha256": "9984df0798f3aa8bce8f9f1cc6a7a56c9fcdab70651bd50f89e9a2328b20da00"
+    },
+    {
+      "path": "client-files/FIXON catalog Sweden.html",
+      "sourceSha256": "e958a01121545842ba630f03904c74e7e7a57b40958cb159a4eabc1b76368c34",
+      "sha256": "5aaf8a875b93158a7b5a3e909843b340fdb747667e4e8fd15d7c3df2af8659d2"
+    },
+    {
+      "path": "markets/SI/client-qualification-catalog.html",
+      "sourceSha256": "734f0da2218cc2d245cdea9d1626c4dc97b578a0edbe4e5f7d2a565996365038",
+      "sha256": "074933c2f56fc494c79d7b970a795f3f92b8584b21b73c6ceeb278ed7d803c32"
+    },
+    {
+      "path": "client-files/FIXON catalog Slovenia.html",
+      "sourceSha256": "6c5cb1e1fd7ac340eefe2cfab71ac19697a7e61a8688d43c79dcd85c25a5e873",
+      "sha256": "57f75c9d1fce1448bb5ba16d191c21db75d3b943e50dce3c32ca380a0fdb62d0"
+    },
+    {
+      "path": "markets/SK/client-qualification-catalog.html",
+      "sourceSha256": "2f736b4158c3887ef75b4f077d873152e5a869fe9e9846b6f9ead7825c6fdf7a",
+      "sha256": "3395b46eb00913df9736331875792c805d2713eab710636f9747f88cc8d34079"
+    },
+    {
+      "path": "client-files/FIXON catalog Slovakia.html",
+      "sourceSha256": "cabd45c7f4f9141d7110ea5cb3dfa695dde8bf86ad307320529559cdc8b0988d",
+      "sha256": "d53d98e6fc29e464b507fac891731d693449dc4934e2b764d5c829ec972e2001"
+    },
+    {
+      "path": "markets/SM/client-qualification-catalog.html",
+      "sourceSha256": "612b8e7e57f28896079cf4e6c211e7a748df9f462573fda66fb4e520a5566c92",
+      "sha256": "33fa7a6fafe74c614ef8d1b17d4ac5e72dc0cf070a6097838e2ce08368fd4551"
+    },
+    {
+      "path": "client-files/FIXON catalog San Marino.html",
+      "sourceSha256": "70e2617a499827cc1ec14a6e4114416258c14de23d6b112ed0f56c3118dc4dc8",
+      "sha256": "8f82f22f11cb38d92dbc84a9f08fad08369259c28bde2f7c92b6a9836d358e00"
+    },
+    {
+      "path": "markets/TR/client-qualification-catalog.html",
+      "sourceSha256": "d48cd3a0c8b702bc9feea4ed84a4c847df2c1257eb5017e868b54e29933c98f0",
+      "sha256": "744fbdb4d2037c87393e7a16f08d23c0e8cdd869e31dec7514f4583b75c02b93"
+    },
+    {
+      "path": "client-files/FIXON catalog Turkey.html",
+      "sourceSha256": "a479934d87f3058ab95e400317d72b76d73d145d365b474c5e55887143361ece",
+      "sha256": "64633137a8e3ab621306f6618aa944f53cc013b332a23689acaf636486dede30"
+    },
+    {
+      "path": "markets/UA/client-qualification-catalog.html",
+      "sourceSha256": "80345ad9dbca3e5ad51ffff55639f451d7b6e3c1fc65ac3fa4a51aa3b3a43aaa",
+      "sha256": "2ccb8f7dde648c35bfd33faf79719fad53bad1687766b584fb3840721ee31143"
+    },
+    {
+      "path": "client-files/FIXON catalog Ukraine.html",
+      "sourceSha256": "bd1b1a2e512377154e355e94c43ba12a05e04b8d7942539def9ccc4dd278dddf",
+      "sha256": "b500781d50f9046abfc38f61e3e7d4d04ff24c6dbc448c4f12b864dadb2c7c2a"
+    },
+    {
+      "path": "markets/VA/client-qualification-catalog.html",
+      "sourceSha256": "e71500ef199bb21b98a1b9f5789e155f83a2aab9bd490a56441046b605797270",
+      "sha256": "167f92994560550d29426a44f898537e02d555f8c407560f387a019921f52af1"
+    },
+    {
+      "path": "client-files/FIXON catalog Vatican City.html",
+      "sourceSha256": "8be225c1eed516ddb5d727d2ae3b56bdc67ef1d7d2ae106e7de1b9b8cd1b7107",
+      "sha256": "ed5eb76eb62c2bbcdb79a7982b303b0bb64b618507f88413a612793047335734"
+    },
+    {
+      "path": "markets/XK/client-qualification-catalog.html",
+      "sourceSha256": "b31caf3cd23fb4e1968d05353efcc564de4b23cda2e028e14571852ed12e977e",
+      "sha256": "acedc70ea03f3e9a4d4e861a83c8900c5a738652bee3f3783e07def5b45fb023"
+    },
+    {
+      "path": "client-files/FIXON catalog Kosovo.html",
+      "sourceSha256": "60bb5af4b487f928ed16c8c3fdb0c6a17702c25f5e62c75742a7262fd296441a",
+      "sha256": "684b7d413c8a747580a391e7acedba1088cc112d506c66fc808832ad9420c029"
+    }
+  ],
+  "checkedCountries": 49
+}

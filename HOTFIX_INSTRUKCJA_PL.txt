@@ -1,0 +1,7 @@
+FIXON R4: HOTFIX CIEMNEGO TLA
+
+Dotyczy tylko koloru tla naglowka. Tresc, logo, fonty, kalkulator i ceny sa identyczne z R4.
+
+GITHUB: rozpakuj ZIP github, skopiuj folder markets do glownego folderu repozytorium z zastapieniem plikow. Commit > Push origin. Po publikacji odswiez Ctrl+F5. Nie zmieniaj folderu prices.
+
+CLIENT: ZIP client zawiera samodzielne katalogi HTML dla klientow.
