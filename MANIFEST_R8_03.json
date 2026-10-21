@@ -1,0 +1,67 @@
+[
+  {
+    "path": "prices/FIXON prices Poland.html",
+    "bytes": 4920200,
+    "sha256": "2e4a64a3168585f77c26d3455c75f9cc4afb8f4f3226b4eda98a207005565e70"
+  },
+  {
+    "path": "prices/FIXON prices WARSAW HOME.html",
+    "bytes": 4921085,
+    "sha256": "03994b326880acb6853abb11c834f5a31866ce2ea157934b770fd1111ea3140c"
+  },
+  {
+    "path": "markets/PL/client-qualification-catalog.html",
+    "bytes": 4401364,
+    "sha256": "3dd0e6c025a709e1ea8275cb8d2a6d2257ed0317064e64387bae08217d0d8342"
+  },
+  {
+    "path": "markets/WH/client-qualification-catalog.html",
+    "bytes": 4402530,
+    "sha256": "ecb3939c7dbc838a039c7e7feb0e5a9c2fb061c0dea1169779bdbab5fedde6cd"
+  },
+  {
+    "path": "downloads/fairs/FIXON_STANDARD_PL.pdf",
+    "bytes": 34549902,
+    "sha256": "f7873771d28c5c0d76740abe0938fdaeceef2af07c8733572e6f55ddc9a7e337"
+  },
+  {
+    "path": "downloads/fairs/FIXON_STANDARD_EN.pdf",
+    "bytes": 34549183,
+    "sha256": "cf2318fb0e7ad35891125c9b80a9a702811c9ef35d691469407ab307ccec61db"
+  },
+  {
+    "path": "downloads/fairs/FIXON_WARSAWHOME_PL.pdf",
+    "bytes": 34549959,
+    "sha256": "128999a18979f9f447819626cb6ad2e3499936bea525c621758a2eb562831759"
+  },
+  {
+    "path": "downloads/fairs/FIXON_WARSAWHOME_EN.pdf",
+    "bytes": 34549217,
+    "sha256": "e8bfbe5b068d99e640ba5f489b31ec638b5365e31ef1a1da9aa0a72de3b4b1e7"
+  },
+  {
+    "path": "updates/FIXON-program-R8.html",
+    "bytes": 1500898,
+    "sha256": "82158cfb69bbbfeee96a7f1661e28dca223cd70dfd7efd60f59182da3d87c8fe"
+  },
+  {
+    "path": "assets/fonts/google/inter/OFL.txt",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  {
+    "path": "assets/fonts/google/oswald/OFL.txt",
+    "bytes": 4483,
+    "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652"
+  },
+  {
+    "path": "INSTRUKCJA_R8_03_PL.md",
+    "bytes": 5440,
+    "sha256": "400cf8328dc15832cf4105acb3bb38b9a9da41d05049587dd219870d3e542079"
+  },
+  {
+    "path": "KONTROLA_R8_03.json",
+    "bytes": 9650,
+    "sha256": "909fd17ba720f70be20766edb833b4869457bbe80a993840491cbddfc74d4e99"
+  }
+]

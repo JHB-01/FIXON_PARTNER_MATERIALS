@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "visualApproved": true,
+  "visualReview": "Parent reviewed all12 PL/EN assets in a contact sheet plus six full-size representative online/booth renders; actual GRIX/EDGELOCK/KATFIX photos contain, current logo, explicit category fair conditions, readable contact and QR; no overflow. Print masters still require printer preflight for bleed, profiles and image resolution.",
+  "assets": [
+    {
+      "file": "en-backdrop.svg",
+      "width": 3000,
+      "height": 2500,
+      "print": true,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-ads-r8\\en-backdrop.png",
+      "textBoxes": 8
+    },
+    {
+      "file": "en-counter.svg",
+      "width": 1000,
+      "height": 900,
+      "print": true,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-ads-r8\\en-counter.png",
+      "textBoxes": 8
+    },
+    {
+      "file": "en-landscape.svg",
+      "width": 1200,
+      "height": 628,
+      "print": false,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\creative-release\\marketing\\r8-ads\\en-landscape.png",
+      "textBoxes": 6
+    },
+    {
+      "file": "en-rollup.svg",
+      "width": 850,
+      "height": 2000,
+      "print": true,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-ads-r8\\en-rollup.png",
+      "textBoxes": 8
+    },
+    {
+      "file": "en-square.svg",
+      "width": 1080,
+      "height": 1080,
+      "print": false,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\creative-release\\marketing\\r8-ads\\en-square.png",
+      "textBoxes": 6
+    },
+    {
+      "file": "en-story.svg",
+      "width": 1080,
+      "height": 1920,
+      "print": false,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\creative-release\\marketing\\r8-ads\\en-story.png",
+      "textBoxes": 6
+    },
+    {
+      "file": "pl-backdrop.svg",
+      "width": 3000,
+      "height": 2500,
+      "print": true,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-ads-r8\\pl-backdrop.png",
+      "textBoxes": 8
+    },
+    {
+      "file": "pl-counter.svg",
+      "width": 1000,
+      "height": 900,
+      "print": true,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-ads-r8\\pl-counter.png",
+      "textBoxes": 8
+    },
+    {
+      "file": "pl-landscape.svg",
+      "width": 1200,
+      "height": 628,
+      "print": false,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\creative-release\\marketing\\r8-ads\\pl-landscape.png",
+      "textBoxes": 6
+    },
+    {
+      "file": "pl-rollup.svg",
+      "width": 850,
+      "height": 2000,
+      "print": true,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-ads-r8\\pl-rollup.png",
+      "textBoxes": 8
+    },
+    {
+      "file": "pl-square.svg",
+      "width": 1080,
+      "height": 1080,
+      "print": false,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\creative-release\\marketing\\r8-ads\\pl-square.png",
+      "textBoxes": 6
+    },
+    {
+      "file": "pl-story.svg",
+      "width": 1080,
+      "height": 1920,
+      "print": false,
+      "overflow": false,
+      "preview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\creative-release\\marketing\\r8-ads\\pl-story.png",
+      "textBoxes": 6
+    }
+  ]
+}

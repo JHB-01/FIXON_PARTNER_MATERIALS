@@ -1,0 +1,159 @@
+{
+  "version": "R8.03",
+  "installedBaseline": "R6",
+  "partialScope": [
+    "PL",
+    "WARSAW HOME"
+  ],
+  "requiresR7": false,
+  "filesDeleted": [],
+  "checks": {
+    "retail-integration-review-r8.json": {
+      "passed": true,
+      "products": 73,
+      "scenarios": 292,
+      "negativeMargins": 2,
+      "unknownShipping": [
+        "FIXON-004-ZESTAW-KRAWEZNIK-PRO",
+        "FIXON-019-LINEFIX",
+        "FIXON-028-KRAWFIX-ROLLER",
+        "FIXON-030-WALLFIX",
+        "FIXON-047-BRUKFILL",
+        "FIXON-048-MONOX-6-0",
+        "FIXON-049-MONOX-8-0",
+        "FIXON-056-LEVELFIX-PRO",
+        "FIXON-062-GRIX-SYSTEM-ADAPTER",
+        "FIXON-064-HARDTAP-PAD",
+        "FIXON-068-PROFILFIX-200",
+        "FIXON-069-ROLLIFT-DUO",
+        "FIXON-070-PROFILFIX-3000",
+        "FIXON-071-FLATFIX-SLIDE",
+        "FIXON-072-ROLLIFT-VARIO",
+        "FIXON-073-PROFILFIX-GRIP"
+      ],
+      "checkAt": "2026-10-21T20:13:12.092Z",
+      "whatsAppSent": false,
+      "example": {
+        "product": "GRIX",
+        "retailGross": 230,
+        "unitStoreDeliveredCap": 230.21,
+        "wholesale100Margin": 38.76758695652175,
+        "singleUnitMargin": 31.898021739130435
+      }
+    },
+    "retail-web-review-r8.json": {
+      "passed": true,
+      "pages": [
+        {
+          "path": "prices/FIXON prices Poland.html",
+          "priceRules": "PL/EN modes, 73 products, unknown costs, qty-dependent margin, old data attributes retained",
+          "errors": [],
+          "assets": {
+            "broken": [],
+            "unreferred": []
+          },
+          "mobileOverflow": false
+        },
+        {
+          "path": "prices/FIXON prices WARSAW HOME.html",
+          "priceRules": "PL/EN modes, 73 products, unknown costs, qty-dependent margin, old data attributes retained",
+          "errors": [],
+          "assets": {
+            "broken": [],
+            "unreferred": []
+          },
+          "mobileOverflow": false
+        },
+        {
+          "path": "markets/PL/client-qualification-catalog.html",
+          "order": {
+            "products": 73,
+            "sourceShipping": 45,
+            "cost": 281.94492902479,
+            "margin": 38.637152173913044,
+            "text": "KOSZYK PARTNERA · POLSKA\n×\nZamówienie testowe\nZamówienie hurtowe\nDropshipping\n\nTowar i modelowa dostawa: kwoty netto. VAT i ewentualne opłaty dodatkowe potwierdzimy w ofercie. Kwoty prezentowane w PLN.\n\nRabaty według wartości zakupów\n\nJeden zakup lub opłacone zakupy z ostatnich 30 dni. Wartość netto przed rabatem, bez VAT i dostawy. Poziom na 12 miesięcy.\n\nEUR\tFIXON\tURBANROOT\n1 000+\t10%\t15%\n5 000+\t20%\t25%\n25 000+\t30%\t35%\n100 000+\t35%\t40%\n\nMaszyny mają osobne rabaty 5–20%, zależne od poziomu EUR i łącznej liczby maszyn w zamówieniu. Test: FIXON 20%, maszyny 10%, URBANROOT 25%. Targi: od 25%, maszyny 15%, URBANROOT od 30%.\n\nPoniżej 1000 EUR: aktualne warunki sklepu dla zwykłych produktów. Wycena koszyka uwzględnia jego wartość; wcześniejsze zakupy i utrzymany poziom potwierdzimy przy zamówieniu.\n\nZobacz pełne zasady\nGRIX\nFIXON-007-GRIX · Zniżka: Wymaga wyceny\nWymaga wyceny × 10 = Wymaga wyceny\nIlość GRIX\n×\nTowar po rabacie, netto\nWymaga wyceny\nSzacowana dostawa · netto\n36,59 zł\nRyzyko PLN\n0,00 zł\nRazem\nWymaga wyceny\nWartość zakupów do progu: 419,93 €\n\nDo kolejnego poziomu: 580,07 €\n\nMarża · Koszyk partnera\n\nCena detaliczna w punkcie sprzedaży: Wymaga wyceny\n\nPartner B2B: Wymaga wyceny\n\nRCD: min((0,9 × cena sklepu netto + jednostkowa dostawa netto) / 0,8, cena sklepu netto z dostawą). VAT doliczany później. Koszt dostawy na sztukę zależy od pakowania. Marża to sprzedaż netto minus zakup i dostawa netto, podzielone przez sprzedaż netto. RCD jest rekomendacją, nie obowiązkiem.\n\nWarunki indywidualne · Szacunek, wymaga wyceny\n\nWymaga wyceny\n\nWymaga wyceny\n\nCzas: ?\n\nWymaga wyceny\n\nReguła\nMiasto i kod pocztowy\nZapytaj przez WhatsApp\nPodgląd wiadomości",
+            "message": "FIXON | Poland | Zamówienie hurtowe\nMiasto i kod pocztowy: ?\nFIXON-007-GRIX | GRIX | 10 x Wymaga wyceny = Wymaga wyceny | Zniżka: Wymaga wyceny\nTowar po rabacie, netto: Wymaga wyceny\nSzacowana dostawa: 36,59 zł\nRyzyko PLN: 0,00 zł\nRazem: Wymaga wyceny\nWycena orientacyjna. Opłacone zakupy i utrzymany poziom do potwierdzenia przez FIXON.\nWymiary i wagi opakowań szacunkowe; jeden adres; potwierdzenie przed zamówieniem.\nCeny produktów: 2026-10-19 · Kurs lokalny: 2026-10-19 · Archiwalne taryfy transportu: 2026-10-21\nhttp://fixon.test/markets/PL/client-qualification-catalog.html"
+          },
+          "errors": [],
+          "assets": {
+            "broken": [],
+            "unreferred": []
+          },
+          "mobileOverflow": false
+        },
+        {
+          "path": "markets/WH/client-qualification-catalog.html",
+          "order": {
+            "products": 73,
+            "sourceShipping": 45,
+            "cost": 281.94492902479,
+            "margin": 38.637152173913044,
+            "text": "KOSZYK PARTNERA · WARSAW HOME SPECIAL OFFER\n×\nZamówienie testowe\nZamówienie hurtowe\nDropshipping\n\nTowar i modelowa dostawa: kwoty netto. VAT i ewentualne opłaty dodatkowe potwierdzimy w ofercie. Kwoty prezentowane w PLN.\n\nRabaty według wartości zakupów\n\nJeden zakup lub opłacone zakupy z ostatnich 30 dni. Wartość netto przed rabatem, bez VAT i dostawy. Poziom na 12 miesięcy.\n\nEUR\tFIXON\tURBANROOT\n1 000+\t10%\t15%\n5 000+\t20%\t25%\n25 000+\t30%\t35%\n100 000+\t35%\t40%\n\nMaszyny mają osobne rabaty 5–20%, zależne od poziomu EUR i łącznej liczby maszyn w zamówieniu. Test: FIXON 20%, maszyny 10%, URBANROOT 25%. Targi: od 25%, maszyny 15%, URBANROOT od 30%.\n\nPoniżej 1000 EUR: aktualne warunki sklepu dla zwykłych produktów. Wycena koszyka uwzględnia jego wartość; wcześniejsze zakupy i utrzymany poziom potwierdzimy przy zamówieniu.\n\nZobacz pełne zasady\nGRIX\nFIXON-007-GRIX · Zniżka: Wymaga wyceny\nWymaga wyceny × 10 = Wymaga wyceny\nIlość GRIX\n×\nTowar po rabacie, netto\nWymaga wyceny\nSzacowana dostawa · netto\n36,59 zł\nRyzyko PLN\n0,00 zł\nRazem\nWymaga wyceny\nWartość zakupów do progu: 419,93 €\n\nDo kolejnego poziomu: 580,07 €\n\nMarża · Koszyk partnera\n\nCena detaliczna w punkcie sprzedaży: Wymaga wyceny\n\nPartner B2B: Wymaga wyceny\n\nRCD: min((0,9 × cena sklepu netto + jednostkowa dostawa netto) / 0,8, cena sklepu netto z dostawą). VAT doliczany później. Koszt dostawy na sztukę zależy od pakowania. Marża to sprzedaż netto minus zakup i dostawa netto, podzielone przez sprzedaż netto. RCD jest rekomendacją, nie obowiązkiem.\n\nWarunki indywidualne · Szacunek, wymaga wyceny\n\nWymaga wyceny\n\nWymaga wyceny\n\nCzas: ?\n\nWymaga wyceny\n\nReguła\nMiasto i kod pocztowy\nZapytaj przez WhatsApp\nPodgląd wiadomości",
+            "message": "FIXON | WARSAW HOME SPECIAL OFFER | Zamówienie hurtowe\nMiasto i kod pocztowy: ?\nFIXON-007-GRIX | GRIX | 10 x Wymaga wyceny = Wymaga wyceny | Zniżka: Wymaga wyceny\nTowar po rabacie, netto: Wymaga wyceny\nSzacowana dostawa: 36,59 zł\nRyzyko PLN: 0,00 zł\nRazem: Wymaga wyceny\nWycena orientacyjna. Opłacone zakupy i utrzymany poziom do potwierdzenia przez FIXON.\nWymiary i wagi opakowań szacunkowe; jeden adres; potwierdzenie przed zamówieniem.\nCeny produktów: 2026-10-19 · Kurs lokalny: 2026-10-19 · Archiwalne taryfy transportu: 2026-10-21\nhttp://fixon.test/markets/WH/client-qualification-catalog.html"
+          },
+          "errors": [],
+          "assets": {
+            "broken": [],
+            "unreferred": []
+          },
+          "mobileOverflow": false
+        }
+      ],
+      "installedBaseline": "R6",
+      "r7Required": false,
+      "whatsAppSent": false
+    },
+    "compact-pdf-review-r8.json": {
+      "passed": true,
+      "pdfs": [
+        {
+          "file": "FIXON_STANDARD_EN.pdf",
+          "pages": 7,
+          "productPages": 6,
+          "productsPerPage": 12,
+          "coverProducts": 1,
+          "bytes": 34549183
+        },
+        {
+          "file": "FIXON_STANDARD_PL.pdf",
+          "pages": 7,
+          "productPages": 6,
+          "productsPerPage": 12,
+          "coverProducts": 1,
+          "bytes": 34549902
+        },
+        {
+          "file": "FIXON_WARSAWHOME_EN.pdf",
+          "pages": 7,
+          "productPages": 6,
+          "productsPerPage": 12,
+          "coverProducts": 1,
+          "bytes": 34549217
+        },
+        {
+          "file": "FIXON_WARSAWHOME_PL.pdf",
+          "pages": 7,
+          "productPages": 6,
+          "productsPerPage": 12,
+          "coverProducts": 1,
+          "bytes": 34549959
+        }
+      ],
+      "pagesRendered": 28,
+      "visualApproved": true,
+      "visualReview": "Parent reviewed all28 rendered pages through four full contact sheets after final checkout-delivery cap rebuild; clean white contain images,12products/page, visible margin labels, no text overlap. Financial card checks passed separately."
+    },
+    "compact-pdf-financial-review-r8.json": {
+      "passed": true,
+      "productsChecked": 288,
+      "files": [
+        "FIXON_STANDARD_PL.pdf",
+        "FIXON_STANDARD_EN.pdf",
+        "FIXON_WARSAWHOME_PL.pdf",
+        "FIXON_WARSAWHOME_EN.pdf"
+      ]
+    }
+  },
+  "sourcePrices": "2026-10-19 rechecked unchanged2026-10-21",
+  "delivery": "FIXON calculator PL05-077,21Oct2026; per-pallet oversized rate is a labeled estimate"
+}
