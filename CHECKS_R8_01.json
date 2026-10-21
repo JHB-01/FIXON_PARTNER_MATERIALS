@@ -1,0 +1,151 @@
+{
+  "engine": {
+    "passed": true,
+    "checks": 36,
+    "shippingParity": true,
+    "categorySkuCount": 8,
+    "sourceDate": "2026-10-19",
+    "actualWebsiteIntegrationPending": true
+  },
+  "browser": {
+    "passed": true,
+    "catalogs": [
+      {
+        "path": "markets/PL/client-qualification-catalog.html",
+        "products": 73,
+        "trialRates": [
+          0.2,
+          0.1,
+          0.25
+        ],
+        "errors": [],
+        "desktopOverflow": false,
+        "mobileOverflow": false,
+        "messageCheckedNotSent": true
+      },
+      {
+        "path": "markets/WH/client-qualification-catalog.html",
+        "products": 73,
+        "trialRates": [
+          0.25,
+          0.15,
+          0.3
+        ],
+        "errors": [],
+        "desktopOverflow": false,
+        "mobileOverflow": false,
+        "messageCheckedNotSent": true
+      },
+      {
+        "path": "client-files/FIXON catalog Poland.html",
+        "products": 73,
+        "trialRates": [
+          0.2,
+          0.1,
+          0.25
+        ],
+        "errors": [],
+        "desktopOverflow": false,
+        "mobileOverflow": false,
+        "messageCheckedNotSent": true
+      }
+    ],
+    "prices": [
+      {
+        "file": "FIXON prices Poland.html",
+        "lang": "pl",
+        "products": 73,
+        "samples": [
+          {
+            "id": 8,
+            "text": "Kategoria standardowaCena detaliczna brutto (orientacyjna)290,00 PLNCena sprzedaży B2B netto188,62 PLNCena zakupu netto152,65 PLNRabat produktu35%Marża przy dostawie 1 szt.24.9%Szacunek dostawy 1 szt. z rezerwą24,42 PLNCena orientacyjna; koszty dostawy i importu wymagają osobnego potwierdzenia."
+          },
+          {
+            "id": 43,
+            "text": "Gradery drogowe, BrukFill i maszyny LoncinCena detaliczna brutto (orientacyjna)4700,00 PLNCena sprzedaży B2B netto3056,91 PLNCena zakupu netto3247,97 PLNRabat produktu15%Marża przy dostawie 1 szt.-4.3%Szacunek dostawy 1 szt. z rezerwą736,62 PLNCena orientacyjna; koszty dostawy i importu wymagają osobnego potwierdzenia."
+          },
+          {
+            "id": 50,
+            "text": "URBANROOTCena detaliczna brutto (orientacyjna)1970,00 PLNCena sprzedaży B2B netto1281,30 PLNCena zakupu netto960,98 PLNRabat produktu40%Marża przy dostawie 1 szt.-6.0%Szacunek dostawy 1 szt. z rezerwą736,62 PLNCena orientacyjna; koszty dostawy i importu wymagają osobnego potwierdzenia."
+          }
+        ],
+        "mobileOverflow": false
+      },
+      {
+        "file": "FIXON prices Poland.html",
+        "lang": "en",
+        "products": 73,
+        "samples": [
+          {
+            "id": 8,
+            "text": "Standard categoryIndicative gross retail price290.00 PLNB2B net selling price188.62 PLNNet purchase price152.65 PLNProduct discount35%Margin with delivery of 1 unit24.9%Estimated delivery of 1 unit, including reserve24.42 PLNIndicative price; shipping and import costs require separate confirmation."
+          },
+          {
+            "id": 43,
+            "text": "Road graders, BrukFill and Loncin machinesIndicative gross retail price4,700.00 PLNB2B net selling price3,056.91 PLNNet purchase price3,247.97 PLNProduct discount15%Margin with delivery of 1 unit-4.3%Estimated delivery of 1 unit, including reserve736.62 PLNIndicative price; shipping and import costs require separate confirmation."
+          },
+          {
+            "id": 50,
+            "text": "URBANROOTIndicative gross retail price1,970.00 PLNB2B net selling price1,281.30 PLNNet purchase price960.98 PLNProduct discount40%Margin with delivery of 1 unit-6.0%Estimated delivery of 1 unit, including reserve736.62 PLNIndicative price; shipping and import costs require separate confirmation."
+          }
+        ],
+        "mobileOverflow": false
+      },
+      {
+        "file": "FIXON prices WARSAW HOME.html",
+        "lang": "pl",
+        "products": 73,
+        "samples": [
+          {
+            "id": 8,
+            "text": "Kategoria standardowaCena detaliczna brutto (orientacyjna)290,00 PLNCena sprzedaży B2B netto188,62 PLNCena zakupu netto152,65 PLNRabat produktu35%Marża przy dostawie 1 szt.24.9%Szacunek dostawy 1 szt. z rezerwą24,42 PLNCena orientacyjna; koszty dostawy i importu wymagają osobnego potwierdzenia."
+          },
+          {
+            "id": 43,
+            "text": "Gradery drogowe, BrukFill i maszyny LoncinCena detaliczna brutto (orientacyjna)4700,00 PLNCena sprzedaży B2B netto3056,91 PLNCena zakupu netto3247,97 PLNRabat produktu15%Marża przy dostawie 1 szt.-4.3%Szacunek dostawy 1 szt. z rezerwą736,62 PLNCena orientacyjna; koszty dostawy i importu wymagają osobnego potwierdzenia."
+          },
+          {
+            "id": 50,
+            "text": "URBANROOTCena detaliczna brutto (orientacyjna)1970,00 PLNCena sprzedaży B2B netto1281,30 PLNCena zakupu netto960,98 PLNRabat produktu40%Marża przy dostawie 1 szt.-6.0%Szacunek dostawy 1 szt. z rezerwą736,62 PLNCena orientacyjna; koszty dostawy i importu wymagają osobnego potwierdzenia."
+          }
+        ],
+        "mobileOverflow": false
+      },
+      {
+        "file": "FIXON prices WARSAW HOME.html",
+        "lang": "en",
+        "products": 73,
+        "samples": [
+          {
+            "id": 8,
+            "text": "Standard categoryIndicative gross retail price290.00 PLNB2B net selling price188.62 PLNNet purchase price152.65 PLNProduct discount35%Margin with delivery of 1 unit24.9%Estimated delivery of 1 unit, including reserve24.42 PLNIndicative price; shipping and import costs require separate confirmation."
+          },
+          {
+            "id": 43,
+            "text": "Road graders, BrukFill and Loncin machinesIndicative gross retail price4,700.00 PLNB2B net selling price3,056.91 PLNNet purchase price3,247.97 PLNProduct discount15%Margin with delivery of 1 unit-4.3%Estimated delivery of 1 unit, including reserve736.62 PLNIndicative price; shipping and import costs require separate confirmation."
+          },
+          {
+            "id": 50,
+            "text": "URBANROOTIndicative gross retail price1,970.00 PLNB2B net selling price1,281.30 PLNNet purchase price960.98 PLNProduct discount40%Margin with delivery of 1 unit-6.0%Estimated delivery of 1 unit, including reserve736.62 PLNIndicative price; shipping and import costs require separate confirmation."
+          }
+        ],
+        "mobileOverflow": false
+      }
+    ],
+    "program": [
+      {
+        "lang": "pl",
+        "overflow": false,
+        "imagesLoaded": true
+      },
+      {
+        "lang": "en",
+        "overflow": false,
+        "imagesLoaded": true
+      }
+    ],
+    "whatsAppSent": false
+  },
+  "published": false,
+  "whatsAppSent": false
+}

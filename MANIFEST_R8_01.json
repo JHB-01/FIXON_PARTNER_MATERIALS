@@ -1,0 +1,59 @@
+{
+  "release": "R8.01",
+  "installedBaseline": "R6",
+  "partialRelease": true,
+  "markets": [
+    "PL",
+    "WH"
+  ],
+  "languages": [
+    "pl",
+    "en"
+  ],
+  "products": 73,
+  "sourcePriceDate": "2026-10-19",
+  "requiresR7Install": false,
+  "removals": [],
+  "files": {
+    "prices/FIXON prices Poland.html": {
+      "sha256": "9adfcd63ded66d810e6f639f4f0e64a59003d429b02c310a54b0546f18da1dcc",
+      "bytes": 4852151,
+      "r6EffectiveBaseSha256": "da17558cd293945a0c2248707eafd84d549ec1f7010d22f4c892c3b10aabeaa3"
+    },
+    "prices/FIXON prices WARSAW HOME.html": {
+      "sha256": "5002b154e872bc269899e6c490faf9bfe6b201eb99fc31041a8df77f7b8cea60",
+      "bytes": 4853036,
+      "r6EffectiveBaseSha256": "475836e4e9542432d772e3e8d8f80bbe6df74f5743585bc862d0ab1603b5d697"
+    },
+    "markets/PL/client-qualification-catalog.html": {
+      "sha256": "cdf6705f97aa0ef43a4085f8512859969f8d76dbd048976090d9a7e7949a2eaf",
+      "bytes": 3902589,
+      "r6EffectiveBaseSha256": "8f5fcbb462d66d0debd34790bcceccc2d1c8455d82a4b6e4d8ba9fc7c1085a25"
+    },
+    "markets/WH/client-qualification-catalog.html": {
+      "sha256": "a361777fb39634141d503ef53283cd51596181fbe06f3628a3bd228f1ad6a1b0",
+      "bytes": 3903773,
+      "r6EffectiveBaseSha256": "e9817179282c6dc772481b4c9d015d308094778350a71af3ae843f9eedd1e287"
+    },
+    "updates/FIXON-program-R8.html": {
+      "sha256": "82158cfb69bbbfeee96a7f1661e28dca223cd70dfd7efd60f59182da3d87c8fe",
+      "bytes": 1500898,
+      "r6EffectiveBaseSha256": null
+    },
+    "INSTRUKCJA_R8_01_PL.md": {
+      "sha256": "735a112130b7a2629b9c5d967fbf18cbf6e9a87991d7ec4c4ac6c83aa317e8ea",
+      "bytes": 3636,
+      "r6EffectiveBaseSha256": null
+    },
+    "licenses/R8_01_inter_OFL.txt": {
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "bytes": 4377,
+      "r6EffectiveBaseSha256": null
+    },
+    "licenses/R8_01_oswald_OFL.txt": {
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+      "bytes": 4483,
+      "r6EffectiveBaseSha256": null
+    }
+  }
+}
