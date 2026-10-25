@@ -1,6 +1,11 @@
-FIXON R8 marketing assets
-PL/EN: square 1080x1080, landscape 1200x628, story 1080x1920; roll-up 850x2000 mm, backdrop 3000x2500 mm, counter 1000x900 mm.
-Each SVG embeds the approved R5 logo, three unmodified R6 product photos, and supplied variable Inter/Oswald TTF files as data URIs.
-Typography uses the supplied variable font files; browsers/renderers with incomplete SVG @font-face support may substitute fonts.
-Booth QR codes use ReportLab's QR encoder and link to https://wa.me/48570297007; no message is sent automatically.
-PNG variants are supplied for online ads; SVGs remain editable print masters. Font files and licences accompany the pack. Raster photo resolution depends on final print size; no blanket 300dpi claim is made.
+FIXON R9 marketing assets - PL / EN
+
+Digital PNG: square 1080x1080, landscape 1200x628, story 1080x1920.
+Booth SVG: roll-up 850x2000 mm, backdrop 3000x2500 mm, counter 1000x900 mm.
+
+All 12 SVG exports now contain actual Oswald/Inter glyph outlines and embedded product images. They do not depend on browser SVG @font-face support or locally installed fonts. Text is outlined, not directly editable as text. Corresponding live-font PDF masters, source fonts/licences and photos are in the separate complete R9 fair pack.
+
+The six digital PNGs were rendered again with the real brand fonts. Percentages explicitly mean discounts: standard trial fair offer from 25%, separate machines 15%, URBANROOT from 30%. Valid at the fair and for two weeks from the fair day; no set volume commitment or discount stacking. No event date is invented.
+
+QR opens https://wa.me/48570297007 only; no message is sent automatically.
+Print dimensions are trim sizes. Confirm bleed, colour profile, finishing/cassette/seam allowances and QR scan with the selected print vendor. Product raster resolution depends on physical output size; no universal 300 dpi claim is made. The website build keeps these large outlined SVGs in the repository and links to the same commit instead of adding print masters to the Pages artifact.
