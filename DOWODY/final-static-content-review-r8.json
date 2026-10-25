@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "pages": 438,
-  "legacyFindings": [],
-  "staticReferralFindings": [],
-  "scope": "Targeted visible-text patterns and static fixon.pro anchors. Dynamic/offline content is covered by separate source and browser proofs.",
-  "published": false
-}

@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "pages": 488,
-  "localUrlsChecked": 35600,
-  "missing": [],
-  "buildSha256": "a34a31678846ce0b67b527390365439e929632e31bf4c644fc63189b466a41ce",
-  "scope": "Static HTML attributes and CSS URLs, unpacked standalone sources included; JS-generated links and anchor semantics require browser QA.",
-  "published": false
-}

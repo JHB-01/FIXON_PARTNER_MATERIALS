@@ -1,6 +1,0 @@
-FIXON R8 marketing assets
-PL/EN: square 1080x1080, landscape 1200x628, story 1080x1920; roll-up 850x2000 mm, backdrop 3000x2500 mm, counter 1000x900 mm.
-Each SVG embeds the approved R5 logo, three unmodified R6 product photos, and supplied variable Inter/Oswald TTF files as data URIs.
-Typography uses the supplied variable font files; browsers/renderers with incomplete SVG @font-face support may substitute fonts.
-Booth QR codes use ReportLab's QR encoder and link to https://wa.me/48570297007; no message is sent automatically.
-PNG variants are supplied for online ads; SVGs remain editable print masters. Font files and licences accompany the pack. Raster photo resolution depends on final print size; no blanket 300dpi claim is made.
