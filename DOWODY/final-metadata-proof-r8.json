@@ -1,0 +1,639 @@
+{
+  "passed": true,
+  "scope": "Product-count labels and WH header/price-selector only; no numeric financial payload or product refresh",
+  "changes": [
+    {
+      "path": "markets/AD/ca/index.html",
+      "sourceSha256": "38cda11e6f966d0e6cdd46127f8c6f152851f906ecce7de67e3b041489e44e92",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Productes</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Productes</span>",
+      "outputSha256": "922de906954e4f056f0286cc5c62907a6015b7137488a3a3fbb1eb45a8c44514"
+    },
+    {
+      "path": "markets/AL/sq/index.html",
+      "sourceSha256": "6f54f89d26ac3566d37af2b63ec860ed0782cb4acc5724b4546280adca17b5d4",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produktet</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produktet</span>",
+      "outputSha256": "6db2fc0594df9ebd80162349e783f45b91a6b83d7cf319c1d4a416af11e24fbc"
+    },
+    {
+      "path": "markets/AM/hy/index.html",
+      "sourceSha256": "3e687304d2b1d43ec1af4da68f5898fdfde057158f98bb3f83a02e945b6cc916",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Ապրանքներ</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Ապրանքներ</span>",
+      "outputSha256": "d0067388998e981e33c648d6879fe89808d856a3ecbead4947d92e30a91153a0"
+    },
+    {
+      "path": "markets/AT/de/index.html",
+      "sourceSha256": "e9648f3d745e3432090390d854461655c2e5d41ee0d8bdd0e3976fc3281eaf81",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkte</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkte</span>",
+      "outputSha256": "bb5e0f28d9a32c72c148fcae482969549f7c1fbc20f57d4fbb86329e1fd22047"
+    },
+    {
+      "path": "markets/AZ/az/index.html",
+      "sourceSha256": "90c95739310c7a7ce68563886fb4df65101fc9d2e175bcce6c319aa777f86977",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Məhsullar</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Məhsullar</span>",
+      "outputSha256": "1827665fbce05ec963a5e378f521845b575ecce44bea68712e9b7ffc556259d2"
+    },
+    {
+      "path": "markets/BA/bs/index.html",
+      "sourceSha256": "55800e4038aa6a4a0a2cbef6973b3faaf703f5b68c761b88967c9272da53f01c",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Proizvodi</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Proizvodi</span>",
+      "outputSha256": "1b614b49d66553f1612e39c5e2887ec62c9a65f7ba4aa06d5338d8b527f8a646"
+    },
+    {
+      "path": "markets/BA/hr/index.html",
+      "sourceSha256": "b3d6c9e6ae101d501b15741fc86b0b0ac6ed8dd0c666a303503a0181a81fe1b6",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Proizvodi</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Proizvodi</span>",
+      "outputSha256": "e7ea0ec59de5164d41175e80c51fb705e23b0e2700d34040d57686f54103e45c"
+    },
+    {
+      "path": "markets/BA/sr/index.html",
+      "sourceSha256": "e4607c96c0d7a0251c71fb444167ce17d513456ae594c9ac38701e994ab5170b",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Производи</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Производи</span>",
+      "outputSha256": "67c362eed6c913bd395e2fe2d841d889d6d58086bd4721cab4c7e6868f4907f4"
+    },
+    {
+      "path": "markets/BE/de/index.html",
+      "sourceSha256": "b99d1ddbbf8326e270794d1b5520fffd85ca62e7efa0a40c542c15c568b5a49d",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkte</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkte</span>",
+      "outputSha256": "3d5645c9ab9f1f27a443803cc8b4c77ac5f6f00a329be33c136cfdce6175c3d7"
+    },
+    {
+      "path": "markets/BE/fr/index.html",
+      "sourceSha256": "410931bab198e10cf85bfd0f696b0c9a67f342cb67945b6f16954f8368339f9b",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produits</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produits</span>",
+      "outputSha256": "4e1d2b0edf6d2d7741dd3323d9c028f3c2e6c26377281371e5fb71f6fc501374"
+    },
+    {
+      "path": "markets/BE/nl/index.html",
+      "sourceSha256": "3ca3561efa0e5a76e929ca76fe4fc4d41af7e807319b2854ad69cb3ec8ed10ca",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Producten</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Producten</span>",
+      "outputSha256": "6acdad7a91bb12983d721ff9aaa82961f8fe6a7aff202aeb79c88f3c9d6a0be5"
+    },
+    {
+      "path": "markets/BG/bg/index.html",
+      "sourceSha256": "abf91d94025851d5d788930237464977214a28dcf07730a1cec063f76869ef14",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Продукти</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Продукти</span>",
+      "outputSha256": "20c06e6d99f208201909fc54b05f234a7c588b25a4785d03f7ce72d3b8ae9eee"
+    },
+    {
+      "path": "markets/CH/de/index.html",
+      "sourceSha256": "74bb0c3da314fb8470702c971cd7c6269cec9145ada01ac9c94d3c7b4ba06c9e",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkte</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkte</span>",
+      "outputSha256": "708ff4ef035727633c6382f2a8269aebf3afa579728c1298de1e96f8ebe3c218"
+    },
+    {
+      "path": "markets/CH/fr/index.html",
+      "sourceSha256": "bcb6f8da0b5c4e6081e302a6e4138627c2da3de612fdb42265a8730c9121a810",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produits</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produits</span>",
+      "outputSha256": "d1ed104e787940f3168a042e5c9d83724b74af4e18cac08027b7b432363234a1"
+    },
+    {
+      "path": "markets/CH/it/index.html",
+      "sourceSha256": "22bb258c309c6c22842f5f8ea6b8df7b722d18593a94c55b1e73ceb9581eb78c",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Prodotti</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Prodotti</span>",
+      "outputSha256": "f078b34fae50efa5ad39c08c9c8dbaec150979779f798d8530bfbd76ec1f024e"
+    },
+    {
+      "path": "markets/CY/el/index.html",
+      "sourceSha256": "7fff07302136224e4aefb1442064877db29b64157225a4c14ee0a93e71b1cf61",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Προϊόντα</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Προϊόντα</span>",
+      "outputSha256": "e53ed80a1d91378d90e2913df45525f62fdb26f764157649ec796a61321c5589"
+    },
+    {
+      "path": "markets/CY/tr/index.html",
+      "sourceSha256": "9c802960ee0a8d79727f8c09da55258670402fdef707b32174fab394bbca5959",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Ürünler</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Ürünler</span>",
+      "outputSha256": "b88543c38a5d532f02a437263dec34070f8cd5d7d770ddeb960ffd304f1c8ca3"
+    },
+    {
+      "path": "markets/CZ/cs/index.html",
+      "sourceSha256": "1be66c47eba820d6333c3f45feeede1d222f6ab8d086bb8b27cd0a3bb91597a5",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkty</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkty</span>",
+      "outputSha256": "d622de90cd773fe4bdd4494ad655e398b9a57224643949aad38cc4085fca72ae"
+    },
+    {
+      "path": "markets/DE/de/index.html",
+      "sourceSha256": "9c1d77bcf58bef27e280f2ea4b82a57ed46c79cfaf3180aad0d9fc8633e7653a",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkte</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkte</span>",
+      "outputSha256": "e5bc45fb8fb7a6823e309a0cea2da1e1465bd3941889324bb3e16b0d722d02e4"
+    },
+    {
+      "path": "markets/DK/da/index.html",
+      "sourceSha256": "b70aceb51b8ab35a82574748a99e31da4b170918168456cd192152b105c6b716",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkter</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkter</span>",
+      "outputSha256": "1a38d837a0b9aa19f866d4fe248546afdae029cfca4a3c494dddb14a7be6c8f6"
+    },
+    {
+      "path": "markets/EE/et/index.html",
+      "sourceSha256": "4e4ceb458db0b33ede838ac5f72bbe7ae04c9d2fec930fc3aa04c495ccd999bd",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Tooted</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Tooted</span>",
+      "outputSha256": "91b23de91d741ca0c16e3b5e6832bdd081b28ecb7f2388c13539b00cbfb9fca8"
+    },
+    {
+      "path": "markets/ES/ca/index.html",
+      "sourceSha256": "09ada2dd07ea73b1a25fd1157b3feae22a9558e5c0f6711cc58223fdca70d52a",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Productes</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Productes</span>",
+      "outputSha256": "1362d23e64bb7043c1698bb88706f602d8d74be5889cba02015affae36aa00d1"
+    },
+    {
+      "path": "markets/ES/es/index.html",
+      "sourceSha256": "8228af744876c9928f0c38fd31f992d14adad6958bcda0dafc2a6eb2495da9aa",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Productos</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Productos</span>",
+      "outputSha256": "fb98575d95c4e27339a01c6f27017179cf74c35defcd1b96e42c77ce42511406"
+    },
+    {
+      "path": "markets/ES/eu/index.html",
+      "sourceSha256": "2c4d444a9f56a86b52f25413d7e596f781db74bb00ade6600870885f740d7089",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Products</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produktuak</span>",
+      "outputSha256": "ec1326e1a190fe358610288714834ca3883d2e24eea228cc5e7c81dd7b493748"
+    },
+    {
+      "path": "markets/ES/gl/index.html",
+      "sourceSha256": "1b8b494a7759e2a61d02a206b6048e1dfb8885902248f6a8d3b9193391b87f74",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Products</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produtos</span>",
+      "outputSha256": "32b288919d93388af5796a7d37f5277290926ac1487eeb72ea5f9c9068ee9609"
+    },
+    {
+      "path": "markets/FI/fi/index.html",
+      "sourceSha256": "4f184a8eb18a503daeeca896553859ec513e8092b991935ade6180db76286250",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Tuotteet</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Tuotteet</span>",
+      "outputSha256": "4d81f762c4968b24b5372d4d2386c65773cc2aff783e45b5031d8f58e534dbc2"
+    },
+    {
+      "path": "markets/FI/sv/index.html",
+      "sourceSha256": "d79cc434445df15c270953311eb09459cdd812ffe96e337593e1c3290abce0fb",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkter</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkter</span>",
+      "outputSha256": "961431df103ebf198ed1751af58f1176141ac90575833cde1d2444fe91a5a7df"
+    },
+    {
+      "path": "markets/FR/fr/index.html",
+      "sourceSha256": "fe0ae413b759d0ed75136b309b602cff80256d69990ac6b2efadac8c6beb681a",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produits</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produits</span>",
+      "outputSha256": "0585bc84db6b88ef326d6116a770e783fe9517c3d7e32125ac51315042ad91ef"
+    },
+    {
+      "path": "markets/GB/cy/index.html",
+      "sourceSha256": "919156eed317422bd5c036f7493a00f2b40a0d59d88f2259df1809635bdd874d",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Products</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Cynhyrchion</span>",
+      "outputSha256": "814008d66f135ce7863062610b65d957fed5e71e55807060859bf1178b5bd9e7"
+    },
+    {
+      "path": "markets/GB/en/index.html",
+      "sourceSha256": "37181345b6188acff2934524a084e9dcc1eb2b1c70802383f8655b59cb7d840c",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Products</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Products</span>",
+      "outputSha256": "ac35824c8c5444e77fdfe4643ec9b697955be76623f59ea900f058a184a8fedb"
+    },
+    {
+      "path": "markets/GE/ka/index.html",
+      "sourceSha256": "b011fe6d1cd8565d14ed4e2c3a3cdba4a04b4a5dbb1ea61253bdb2efaadbde80",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> პროდუქტები</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> პროდუქტები</span>",
+      "outputSha256": "447684d25392fb0aad9c85087b6c5b7957187440bfd926abc2da1c94c54772be"
+    },
+    {
+      "path": "markets/GR/el/index.html",
+      "sourceSha256": "2ab14056c2351bd9092931578ab2aee095d09bb72ffb4d2c96452072fdd66229",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Προϊόντα</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Προϊόντα</span>",
+      "outputSha256": "4d9531867899eae010a1402c488693aea5246c087688b707410f10650c2a6110"
+    },
+    {
+      "path": "markets/HR/hr/index.html",
+      "sourceSha256": "6fa431994a3a07a72b8c249f57fee7c5b30c39fba0a9aab3b6a61ad2a2db7c15",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Proizvodi</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Proizvodi</span>",
+      "outputSha256": "da40d1a85c011f0182c5f31cbce8c31e1f0c4820ad5769c929942088018cdcaa"
+    },
+    {
+      "path": "markets/HU/hu/index.html",
+      "sourceSha256": "d5e69842091786483802d2c88565f4557c9329a496a5d76b62e87f3fd6743451",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Termékek</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Termékek</span>",
+      "outputSha256": "d6a0fa34fce0c6d6eca337cdb70effd85dc902e32f1fcf0f06eaed5ebba12f20"
+    },
+    {
+      "path": "markets/IE/en/index.html",
+      "sourceSha256": "06aeb339b8d77eea90bec9389d5b9760bdf7d13ca3ee4483bd69d1f6de472fb6",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Products</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Products</span>",
+      "outputSha256": "2210ee00e3ac9651d38dcf208e35e672b7c52cce63d851bec6d8dc6c7c13d373"
+    },
+    {
+      "path": "markets/IE/ga/index.html",
+      "sourceSha256": "6ce565ebb5199eb7fadd44771a475f3931468811f5ddfc537c789d6a7e893495",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Táirgí</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Táirgí</span>",
+      "outputSha256": "674f665b017253e7b847baee89b1001017aa88a6ccf11bea7067a1e7e0521089"
+    },
+    {
+      "path": "markets/IS/is/index.html",
+      "sourceSha256": "b6f578c92737eedf1620ad417f28f6374f7b828fcd192a35efd416daeadd3510",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Vörur</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Vörur</span>",
+      "outputSha256": "b3f951e084662a543819a80eee6f0954136e2008b5ff2fd3368f2fdca77066df"
+    },
+    {
+      "path": "markets/IT/it/index.html",
+      "sourceSha256": "687236157605fbac0fbdcf764374e6efcc2398a5c480e53e704635e38dddb51e",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Prodotti</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Prodotti</span>",
+      "outputSha256": "e1e9a0938a0d1b4794c2535bedf92e761168508cf0c406a43594f32f0d14f7da"
+    },
+    {
+      "path": "markets/KZ/kk/index.html",
+      "sourceSha256": "54415133a05e32ff3bd7558f0a8c956cac80071f0355e5c24e8335112abe94c9",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Өнімдер</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Өнімдер</span>",
+      "outputSha256": "8adeccf09429fbff3241cf6a9e477ddcfcac0b9791074e7dbbbaa99b901c69b3"
+    },
+    {
+      "path": "markets/KZ/ru/index.html",
+      "sourceSha256": "bdc2157a7a3896a48269582e1e7c17ae18ceb046a4648b5658ba9c6a9b656255",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Products</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Товары</span>",
+      "outputSha256": "95757fcec7a703b09e1834543bc8f97c17789bde2cfe505f69ac65ea6933a8d6"
+    },
+    {
+      "path": "markets/LI/de/index.html",
+      "sourceSha256": "0eaa1815ebc1bee77abd1fd389641853a3bdb18485f1d2888d9e1e929d9e3216",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkte</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkte</span>",
+      "outputSha256": "37a13d124eeb1df8fd1e544cef18667aac1b1afba40fd74efc9560cdeb64df74"
+    },
+    {
+      "path": "markets/LT/lt/index.html",
+      "sourceSha256": "7e297962478ebc99ebe60ef400eaa3b51aaca065e7b6522d88b53f128f080823",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produktai</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produktai</span>",
+      "outputSha256": "0043e3fa6cb9bb2cab969ebf4cfee4530ebe0965ee3f8a6346d00324ad86aafc"
+    },
+    {
+      "path": "markets/LU/de/index.html",
+      "sourceSha256": "9aaf02e8302b8dc453f70ff5c851b32c39cb1e70d8bc69961247dcd78d9bc145",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkte</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkte</span>",
+      "outputSha256": "707ef2778fe9c2a8f9ef0bd4d770ec6dd7e8c21f532a686a1a54b3e1954f7357"
+    },
+    {
+      "path": "markets/LU/fr/index.html",
+      "sourceSha256": "318a5ff5a1c2d6f0a31eac1bb64dcc14f86b84a2502737d75ccde429e969d374",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produits</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produits</span>",
+      "outputSha256": "d1e11e1cfca38de04807d9647427591ee3a002acc18f21b8db503577996d05cf"
+    },
+    {
+      "path": "markets/LU/lb/index.html",
+      "sourceSha256": "843050782ddf224517ff625793142b3252cccbbd1ac0d1759bf007079e14978f",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Products</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkter</span>",
+      "outputSha256": "3f9ddd47b48ee5a02ba5cae2327323c9700ba5a91144760d9f0b5d53dfdcd7cb"
+    },
+    {
+      "path": "markets/LV/lv/index.html",
+      "sourceSha256": "925a189ee1c18c08107d923839ff91f6a90c4e3e1ccce1e1a2c79613531cd9f8",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkti</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkti</span>",
+      "outputSha256": "b4a43defdca35c3d63b5f9ee99d0ac0208973943e24a76f577e071738da05c3a"
+    },
+    {
+      "path": "markets/MC/fr/index.html",
+      "sourceSha256": "527a3c1f2f1bf99bde3f9a98fec1778b964d062edf62971b01c7f80dd210fb08",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produits</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produits</span>",
+      "outputSha256": "1a462f54b670d67d0576f23315d77047cd74e242a2971b8a4f0e00da218a69ec"
+    },
+    {
+      "path": "markets/MD/ro/index.html",
+      "sourceSha256": "96d93f7eff5d0ba7cf31d694d504a08e30db8570d0d79a5fe29e99df3f8e1731",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produse</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produse</span>",
+      "outputSha256": "9fd272bb1cf5cae71db1c5602684fa9769ef88cdf545029ec1420d9d719f39df"
+    },
+    {
+      "path": "markets/ME/sr/index.html",
+      "sourceSha256": "c8eca4e0b7a2a08657938a7afbb4f47805a354efd7bfa298a82d1d936eecc3f2",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Производи</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Производи</span>",
+      "outputSha256": "8d7ae1c16f14f419616acce5f8fc352a2bc5ebd99df545fc7b666f245ade9838"
+    },
+    {
+      "path": "markets/MK/mk/index.html",
+      "sourceSha256": "784ebc8edf518320ed08d00f2ab74c38d3d1aed62a86c765dbd7a6f7a7ed9714",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Производи</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Производи</span>",
+      "outputSha256": "8f3bb9a185c454d092eaa77625b4f63fa6ba8d55d82583410d80a252cbdcb3b3"
+    },
+    {
+      "path": "markets/MK/sq/index.html",
+      "sourceSha256": "ea80aebf9de403b32935708148f5ed4ac77844fe2440baa62201e879994cc01f",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produktet</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produktet</span>",
+      "outputSha256": "b38fa62df2bf046b1d028b291cdbf0e87d03169e0c0b92ba91b7373d42cf71e7"
+    },
+    {
+      "path": "markets/MT/mt/index.html",
+      "sourceSha256": "153c7f4ae4d314f0238dd9445b3799747ad083d27eeea7dc3a8e26ef7b077729",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Prodotti</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Prodotti</span>",
+      "outputSha256": "5909db43c4507f96418b0e6bbb9d84bf523f8f5ead583b54f2a5ba802fa151f8"
+    },
+    {
+      "path": "markets/NL/nl/index.html",
+      "sourceSha256": "de5262d275034e30fb1b1c9bd6261dc1561fb8879aa8f34e90c8837efd21b51c",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Producten</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Producten</span>",
+      "outputSha256": "8ff3f454a16aac6a68847cc58d81d13f73a57b6ae5e66549557cac667f11ca27"
+    },
+    {
+      "path": "markets/NO/no/index.html",
+      "sourceSha256": "60a369a49fed43876d609123fa88fcb280155c2688f5ce690959bf04e290bac5",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkter</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkter</span>",
+      "outputSha256": "ce3eb7802f6d3b689a68582d700806a846fd565be92756bf041ec712441abef6"
+    },
+    {
+      "path": "markets/PL/pl/index.html",
+      "sourceSha256": "208196280545ac48f013dcd3fa4e469170e3cd4506cdb17438e8fde62178c432",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkty</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkty</span>",
+      "outputSha256": "3b63390c3b4217f96258d4e31a799283abef6560d9c3aec04285136a4b32fa9b"
+    },
+    {
+      "path": "markets/PT/pt/index.html",
+      "sourceSha256": "ed86bd553c5497a2136ac5a2b30da18ffd829d3dd4b73b3051513cac3796e148",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produtos</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produtos</span>",
+      "outputSha256": "dc022a92125f615bf9aae8d8f25c227a0a54fa23cefcd9925f7b165981ea9d0d"
+    },
+    {
+      "path": "markets/RO/ro/index.html",
+      "sourceSha256": "e46845cae350bf8ed96797eb621da0c200a715029ff4b916dfa953e8d6a1a03f",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produse</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produse</span>",
+      "outputSha256": "8a4e01074ebc6428974a2d45afe0eecafa044436596ffbf810152ee4336517b0"
+    },
+    {
+      "path": "markets/RS/sr/index.html",
+      "sourceSha256": "46f479dce6be3eb60aa878fe994def553489a1a7ac0ed7638d568992211e7b77",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Производи</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Производи</span>",
+      "outputSha256": "e37b5d520f63dee7d539c08774a4654c5d112dc6c71b08243fd143cd6cff90fe"
+    },
+    {
+      "path": "markets/SE/sv/index.html",
+      "sourceSha256": "9fda6b1afa3f9d9dd85f190284e2a6cd347b4e93dc1ab7e029f04eb170cc20ff",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkter</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkter</span>",
+      "outputSha256": "5467b7214f71090a1881fa9c45af2d9747cddc3c0e023004c27d469d7e6a5f3a"
+    },
+    {
+      "path": "markets/SI/sl/index.html",
+      "sourceSha256": "b227cb7928af0afda77a04ffac4f529d4dc7e332e66fdc5743fcebe7a21fba82",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Izdelki</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Izdelki</span>",
+      "outputSha256": "1fce5217eba97afafd529f486fe20f2ead0bd6bf3efc6b32ad437290111320dd"
+    },
+    {
+      "path": "markets/SK/sk/index.html",
+      "sourceSha256": "b53c65ad86865424bdb1b0e9f4a879b110ba51045c82fefc9df6634ceff4faa5",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produkty</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produkty</span>",
+      "outputSha256": "923ac90636ab6de02b4d24912fbda778a51ed55817e15bafafa7d5512e716590"
+    },
+    {
+      "path": "markets/SM/it/index.html",
+      "sourceSha256": "af37affe6534095ea64a06d782ca7715222dfaa2ac4febcf7a504d3ddfbd63c3",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Prodotti</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Prodotti</span>",
+      "outputSha256": "1decd46688af7e5423b07ef543e5afd7cf4bd7cf167373560b6004faf3fa0e2f"
+    },
+    {
+      "path": "markets/TR/tr/index.html",
+      "sourceSha256": "69a1e56bed91681698263234edafcc7cd94b571c20f8bf4b7802dd3ef37e16ef",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Ürünler</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Ürünler</span>",
+      "outputSha256": "134392a1992694e71c217687cd7c6263cf08c57dca47abe9058fb130ca211239"
+    },
+    {
+      "path": "markets/UA/uk/index.html",
+      "sourceSha256": "381eebe5c6da2d7ff43c9500e9e1760f52c0116be19a886f71d05a04bfa4761c",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Продукти</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Продукти</span>",
+      "outputSha256": "28ebd32e78f128e87cd03e7880c71b3db64a702d231b2b0bfa5acc68b5a6ba74"
+    },
+    {
+      "path": "markets/VA/it/index.html",
+      "sourceSha256": "8d2d565fa6c1e2a30df23f3c05c7c1b23c8aebd538a60b336c6ec842ddcb1e27",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Prodotti</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Prodotti</span>",
+      "outputSha256": "12c0ff3a6224e2f1a26f3e43639ca00d1fa11f962e40825676456ff83ec4785e"
+    },
+    {
+      "path": "markets/XK/sq/index.html",
+      "sourceSha256": "b4f28ed085c9cd5b92131d64d111db6b6d1b08c42715ce49c508d2c71a44eca4",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Produktet</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Produktet</span>",
+      "outputSha256": "2607ce0f42a4b40369f796b1887f993a02880436260c3ba2f85ff893bba01fd8"
+    },
+    {
+      "path": "markets/XK/sr/index.html",
+      "sourceSha256": "38145ca84c60fabe758f8a5fb13787c96cd9a953a69018cb39d26bafe494664b",
+      "kind": "product-count-metadata-only",
+      "inverseExact": true,
+      "oldFragment": "<div class=\"hero-stats\"><span><strong>68</strong> Производи</span>",
+      "newFragment": "<div class=\"hero-stats\"><span><strong>73</strong> Производи</span>",
+      "outputSha256": "4c872b42ecba44453214958328585c4a764fae188a41d5b91cc24a2eda8b9198"
+    },
+    {
+      "path": "prices/FIXON prices WARSAW HOME.html",
+      "sourceSha256": "589c5d644af806bc545a0fa8f63d244ee659b45be24a91a64e40f00b76447370",
+      "kind": "WH-header-only-financial-code-unchanged",
+      "inverseExact": true,
+      "edits": [
+        [
+          "WARSAW HOME SPECIAL OFFER · 25%",
+          "WARSAW HOME SPECIAL OFFER · OD / FROM 25%"
+        ],
+        [
+          "25% rabatu na zamówienie testowe złożone w ciągu dwóch tygodni od dnia targowego.",
+          "Na targach i przez dwa tygodnie od dnia targowego: produkty standardowe od 25%, maszyny 15%, URBANROOT od 30%. Bez zobowiązania wolumenowego. Wyższe warunki wymagają uzgodnienia; nie dodajemy rabatów do siebie. Oferta targowa nie zmienia zwykłych warunków programu."
+        ],
+        [
+          "25% off a trial order placed within two weeks of the fair day.",
+          "At the fair and for two weeks after the fair day: standard products from 25% off, machines 15%, URBANROOT from 30%. No volume commitment is needed. Higher terms need agreement; discounts do not add together. The fair offer does not change normal programme terms."
+        ]
+      ],
+      "outputSha256": "1a79bf9996c91eed9a5fe35a7b788acb4bd1265e31597d82785982d4e8b8638f"
+    },
+    {
+      "path": "prices/index.html",
+      "sourceSha256": "e6f5f77d700efc2c119811e42f76bdf24f10297d172834356090fcd9a73d8511",
+      "kind": "50-market-price-selector",
+      "inverseExact": true,
+      "outputSha256": "0a51e0902c0e32b3fff411de2a5c564e249adade65bca2233695a939afc82f81"
+    }
+  ],
+  "priceIndexReviewSha256": "864dd8843a1559aece265fcff51d6a2f6b2da396851a1b332061d07c53d5a938",
+  "approvedFairCopySha256": "343c9be9a39c405fd16c6502848cd186959b8d05ad524d9574c0eb25c19d8b51"
+}

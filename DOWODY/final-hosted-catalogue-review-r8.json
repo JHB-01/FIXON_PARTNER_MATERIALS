@@ -1,0 +1,2585 @@
+{
+  "passed": true,
+  "markets": [
+    {
+      "code": "AD",
+      "path": "markets/AD/client-qualification-catalog.html",
+      "sourceSha256": "fe5edb4f2aa0717524d8798eb0e08b099c7c535e81b7d8e9dbe75c766c031b72",
+      "finalSha256": "278ae9ddbd60f68ccbff9e1ae0fc00c3e0f346772fbf51a3f1b482df006a7bad",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "AL",
+      "path": "markets/AL/client-qualification-catalog.html",
+      "sourceSha256": "c099e54e7282f033cef37a5d5f8c416fdb74aa441dfc77cf2dc8d9d069dfa3e4",
+      "finalSha256": "9e1fde98902cb94f53cda1179226f8106c5612b147ede83aef3c0ff0b24d0cd4",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "AM",
+      "path": "markets/AM/client-qualification-catalog.html",
+      "sourceSha256": "3e1ea9d1d39202078f0eea4fc5dac4c4c618fd18c50b017c3f392798e07907f9",
+      "finalSha256": "8b0e58c3cc8dd0ca3023396dccf177963266a072d77d854db58151a9ada18443",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "path": "markets/AT/client-qualification-catalog.html",
+      "sourceSha256": "6214dafd2b326829ee6f0c7928ffae1b680623b039b738f8f897026a5719f85a",
+      "finalSha256": "5f00319b9b6258fc40455aadae2a29b9ea81dfb1124698c269e5ce1ff66d1271",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 1245
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "AZ",
+      "path": "markets/AZ/client-qualification-catalog.html",
+      "sourceSha256": "8e6d0a980d4140f71b623baed87f2d61974b0b1dcbb478517cea43cf6eee1fc8",
+      "finalSha256": "8ca2308fd8dd178dc072a91cf1bd6baff2710a9aa440262674646b63b70495c9",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 552
+        },
+        {
+          "mode": "trial",
+          "messageLength": 451
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 452
+        }
+      ]
+    },
+    {
+      "code": "BA",
+      "path": "markets/BA/client-qualification-catalog.html",
+      "sourceSha256": "48d48cccb666e64c038117bd93c29a1d908f6466c23785f802c02abe9b4729fc",
+      "finalSha256": "45523d9b165467f7def9e365c3d5fce1bdf0416bb56541512bda1738c238033e",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 564
+        },
+        {
+          "mode": "trial",
+          "messageLength": 463
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 464
+        }
+      ]
+    },
+    {
+      "code": "BE",
+      "path": "markets/BE/client-qualification-catalog.html",
+      "sourceSha256": "d9034adfba14f820e17cb200226cafb8f09731ffe463417d6929486de6d2691e",
+      "finalSha256": "42673397f71e80ad5fb1bdbcc7f853ed034f356836becee3feea295effb7a4f8",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "BG",
+      "path": "markets/BG/client-qualification-catalog.html",
+      "sourceSha256": "78066dc5035c892bfdb2faca2913fad089cc5dec3d00b9418c740724122d371d",
+      "finalSha256": "a7ff5ca67daf93a836833194afa73953cefdb8066671b39198b77a8bdd85468e",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 550
+        },
+        {
+          "mode": "trial",
+          "messageLength": 449
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 450
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "path": "markets/CH/client-qualification-catalog.html",
+      "sourceSha256": "050c174b8fd2d01606704d9ad7481ab533d55db4da2ecd90dd724451ab038d77",
+      "finalSha256": "e78ef4760ab29de634ea03b155122f0203039ba391032c866f949729f5d07af6",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 553
+        },
+        {
+          "mode": "trial",
+          "messageLength": 452
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 453
+        }
+      ]
+    },
+    {
+      "code": "CY",
+      "path": "markets/CY/client-qualification-catalog.html",
+      "sourceSha256": "a23da6d1c35da8806e64ba86cc14d0f279e92786d9c16d0578c9e454323a34b4",
+      "finalSha256": "f640f69bb374ab59f629cf40c89aa99f35f5bf43c89ab8eefb112d85189777ae",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "CZ",
+      "path": "markets/CZ/client-qualification-catalog.html",
+      "sourceSha256": "ad0b2d2cde36dc3ebd30c35f20caf961a7e3220c5aeaad5d12f3a88efc967452",
+      "finalSha256": "4708a8cfe969668c0e345753e0a82f0ae418795a3510724fe445202ddd539110",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "path": "markets/DE/client-qualification-catalog.html",
+      "sourceSha256": "bd93b1c4740f3b1fa1f912fb23a8de8f7285516a35dd2d91a9a77aa529c9aa6f",
+      "finalSha256": "7fefc584f0db0134be00e6cd33c9ff865982c47ee393ef8524f8336a9c731a28",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "DK",
+      "path": "markets/DK/client-qualification-catalog.html",
+      "sourceSha256": "d33ecca93f039b231efd08b50ee87f035c70280f3d8f41508fe4bfa468988546",
+      "finalSha256": "85e5193730a67797a526657b0abe4be352a03b8a528f4d9b75084108e79d2e2c",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "EE",
+      "path": "markets/EE/client-qualification-catalog.html",
+      "sourceSha256": "8ab8854203c96b05ab26a61c7395e69815d5e50d86276dc4032f2b9927dda6eb",
+      "finalSha256": "d76957116db39bfe2ddb956e653f128efabf35c8da09cc7cefea811f526fd7c6",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "path": "markets/ES/client-qualification-catalog.html",
+      "sourceSha256": "78f9e6b49b038fec771cec506c0e4d489a552f844b188ca0e6ffdc03f419fe87",
+      "finalSha256": "706eb31d1bff47c024d363e602fcfc0fc3820285dd26225a419593aed7ce37c8",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 547
+        },
+        {
+          "mode": "trial",
+          "messageLength": 446
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 447
+        }
+      ]
+    },
+    {
+      "code": "FI",
+      "path": "markets/FI/client-qualification-catalog.html",
+      "sourceSha256": "5fa974cb38adf55ee9b87cfddc756a710f895c8caf6a68b3510815949ab2bd45",
+      "finalSha256": "112c56ccfac9e495fbe08327951692fc2f5ccd134fb72329fad985a93551e922",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "path": "markets/FR/client-qualification-catalog.html",
+      "sourceSha256": "5324afa31e12be0c31d75395a82b774c5221fc1b4ed7a16af98a2d4cf8365b38",
+      "finalSha256": "adfe4eef0bd0c593f264784394520daed8592d500dd545d6c915825025c11953",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "path": "markets/GB/client-qualification-catalog.html",
+      "sourceSha256": "2dea641deef4ad294eac5d135acf2f5cf933621ce5325acca3facf5318d60a15",
+      "finalSha256": "e12f970fe78312611016d8ef5ea75804f634350bbdf35f7e972f4487dc99fd88",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 565
+        },
+        {
+          "mode": "trial",
+          "messageLength": 471
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 465
+        }
+      ]
+    },
+    {
+      "code": "GE",
+      "path": "markets/GE/client-qualification-catalog.html",
+      "sourceSha256": "b6b2367e34dd83e4c1191f44c3e0df85375dd28154d4989191debb7ca770e4b8",
+      "finalSha256": "92ff5f4f2d0781b5ae386f2a42402bff6eb667612fb39439e6758f2eab31b51d",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "path": "markets/GR/client-qualification-catalog.html",
+      "sourceSha256": "0f7113b25c94e8a8de11282af86ee0938bcfed671bb3c7b6dec3cd7190986e6c",
+      "finalSha256": "66b733c1569ed4914a7213702d3ef2670b6ee9e470ea953595c83cbda0b62613",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "HR",
+      "path": "markets/HR/client-qualification-catalog.html",
+      "sourceSha256": "bafbf8817a59c42181be6d5e02783a23933fc8f46b7e7c3006a9fcb4169d6d88",
+      "finalSha256": "1c80b9e48e54cf962a7a62a403b130aa9ad3bd9b43a8d036ab2ef89620077afe",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "HU",
+      "path": "markets/HU/client-qualification-catalog.html",
+      "sourceSha256": "f572e16ea2a3335098fc725ebf5c67bc9bcce2d2856309b35cf53f61e96a1e87",
+      "finalSha256": "277202b70b8298e255a1b029e19dd82509282818962a339b6bb9050dd3c89618",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "IE",
+      "path": "markets/IE/client-qualification-catalog.html",
+      "sourceSha256": "5975994bf00640caa4e308cec32a0005b5e69b9bb1eea6ee63f7615e5e538aa3",
+      "finalSha256": "4707e2c73c431e74315bfc4049be085288e779db4f8e9a439aec6c4ea40d64b5",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "IS",
+      "path": "markets/IS/client-qualification-catalog.html",
+      "sourceSha256": "cdb002458b0d5bdfc3d581f441c9f3eb4afc451ad372010ac2624445296be0dc",
+      "finalSha256": "5f9a7c300005a02f603aecce1eaf5f115168dadd6cd070c0acdf77ca0430497b",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "path": "markets/IT/client-qualification-catalog.html",
+      "sourceSha256": "179faf81a160cf89ecee753a5472e9c9ab13f831c6f7c3d92054185cdd9049ec",
+      "finalSha256": "7beaa8e72d302f3f9fb7154a387b7eea923cb76c3d8784c12d78a00de30a450a",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 547
+        },
+        {
+          "mode": "trial",
+          "messageLength": 1139
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 447
+        }
+      ]
+    },
+    {
+      "code": "KZ",
+      "path": "markets/KZ/client-qualification-catalog.html",
+      "sourceSha256": "a5e3705eda882342a45f6f9dfb4affc70fdec7ea3e07d37344f48ecfe23329a8",
+      "finalSha256": "caea5f0805957cd14d1f734ad20c4b7d9e027ccc92200db4be5cf0e71b2b9440",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "ru",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 668
+        },
+        {
+          "mode": "trial",
+          "messageLength": 543
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 541
+        }
+      ]
+    },
+    {
+      "code": "LI",
+      "path": "markets/LI/client-qualification-catalog.html",
+      "sourceSha256": "76e7ada393c016f009cd7538a76f6412619ae4c07f26937644f11876a070020d",
+      "finalSha256": "40d4a1507409b37e75b81e0bf1115b367a95530b9c207032c9a00309e39b5830",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 555
+        },
+        {
+          "mode": "trial",
+          "messageLength": 454
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 455
+        }
+      ]
+    },
+    {
+      "code": "LT",
+      "path": "markets/LT/client-qualification-catalog.html",
+      "sourceSha256": "f9de567f3b814ac0f1392f293c46860ec8bc816e326a92a1d5646f703ab3c217",
+      "finalSha256": "9a318f7ad1b33a87cfa6968bc79b4503d8cf08cc7dfc769b7b9b0cbe109efd5a",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 551
+        },
+        {
+          "mode": "trial",
+          "messageLength": 450
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 451
+        }
+      ]
+    },
+    {
+      "code": "LU",
+      "path": "markets/LU/client-qualification-catalog.html",
+      "sourceSha256": "cdaf309476974a89eeb5f5f4f9c658f6c9da5d9afa4bb1905b13d41c8ac305d6",
+      "finalSha256": "83667ad0399c04a31bf4c7434b135a0ccffb5f275018792c4c3cf50aa703d87d",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 552
+        },
+        {
+          "mode": "trial",
+          "messageLength": 451
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 452
+        }
+      ]
+    },
+    {
+      "code": "LV",
+      "path": "markets/LV/client-qualification-catalog.html",
+      "sourceSha256": "d61b57b7aaf6726db2f0a00e75f34775f5189db9567bf6513ce5cdd2227a86eb",
+      "finalSha256": "601666de38e9f12357fcc64aaee702992b099e0c4bbe622ee7ccdc2f60deabec",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 1246
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "path": "markets/MC/client-qualification-catalog.html",
+      "sourceSha256": "e5e55e77bcda26656b28f95067c3fda67d390bbeb5d8e1145d1985653c34aac6",
+      "finalSha256": "e5117a086b436e0cc7291932bc292e5bbb4e735827e7064580136db9240eb858",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "MD",
+      "path": "markets/MD/client-qualification-catalog.html",
+      "sourceSha256": "d8ba7821ac6f6b30ede7a05970dacfc87dce3f3d6aa9206303801e36d18895b9",
+      "finalSha256": "aedbdc36b33290e328327945a3555d55d4eef5a1852c637b18aa7a9bc88c6709",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "ME",
+      "path": "markets/ME/client-qualification-catalog.html",
+      "sourceSha256": "b7fe0638c3d4a66dcf0dc9d427f388084fb4410a6a79b003982c2024c9c37ff1",
+      "finalSha256": "01a8eefcf9ef9e37a899c67c659fd52e3dac32e18534c47bed8dd999d0e985f6",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 552
+        },
+        {
+          "mode": "trial",
+          "messageLength": 451
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 452
+        }
+      ]
+    },
+    {
+      "code": "MK",
+      "path": "markets/MK/client-qualification-catalog.html",
+      "sourceSha256": "6112a8e6b827d276bdd8c42734a19a341f4c365c035dd653759bc3e3bd5ac3ab",
+      "finalSha256": "21d863dc7fa8ec30dc1698200b8b03dc3bd92eacc40a1c30943464be7c6fd706",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 557
+        },
+        {
+          "mode": "trial",
+          "messageLength": 456
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 457
+        }
+      ]
+    },
+    {
+      "code": "MT",
+      "path": "markets/MT/client-qualification-catalog.html",
+      "sourceSha256": "8717357f84f99595c334aad5f8be3f4e9670191df2a8ab3a979df89c7ed32a1b",
+      "finalSha256": "1112af74458b331036c9b0aa900b1eeac5f29bd950035e8e6c490b22812407b9",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 547
+        },
+        {
+          "mode": "trial",
+          "messageLength": 446
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 447
+        }
+      ]
+    },
+    {
+      "code": "NL",
+      "path": "markets/NL/client-qualification-catalog.html",
+      "sourceSha256": "f2d68fa8fcd465c0addf5810547512e64fadb66ce873578f0468faf0d92fd064",
+      "finalSha256": "ce4a3bebf6fb7260d91bac3b1cc4ef9d0bc4cb36debaafb3ff2095d394be5c63",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 553
+        },
+        {
+          "mode": "trial",
+          "messageLength": 1249
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 453
+        }
+      ]
+    },
+    {
+      "code": "NO",
+      "path": "markets/NO/client-qualification-catalog.html",
+      "sourceSha256": "3c3ab6402a57b1fe02832574c8450a2aa3fba5c7a5a2173945df88975ff3456c",
+      "finalSha256": "3584a60f0bcf7441d5158de93745bb99462b1b2e2d9758b495555298691958d4",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "PL",
+      "path": "markets/PL/client-qualification-catalog.html",
+      "sourceSha256": "ac4b7c66ff6d2e7b82a2c45e3e2dfeb08db368d25e41286ac7ae969e2da54e2b",
+      "finalSha256": "4114bc93f047756419222dba25703474b914e120905e7b6e63b9a8c43552ded6",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 588
+        },
+        {
+          "mode": "trial",
+          "messageLength": 488
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 489
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "path": "markets/PT/client-qualification-catalog.html",
+      "sourceSha256": "6f056dba9597d788174644c014fb55a7c774df399f37ad79c06ba90c429acd3c",
+      "finalSha256": "3b53d17cb806e0e961902fe5e6370e464b9ad83841f9620f6abb3920c6224390",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 550
+        },
+        {
+          "mode": "trial",
+          "messageLength": 1140
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 450
+        }
+      ]
+    },
+    {
+      "code": "RO",
+      "path": "markets/RO/client-qualification-catalog.html",
+      "sourceSha256": "c0a51286458487b8ce734e49c66229e055d70625295b13d0acf794649fa5380f",
+      "finalSha256": "9f4735cb6bb2984390ac6f9f7d9a59e21057af16643abc1808a16df381aef190",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "RS",
+      "path": "markets/RS/client-qualification-catalog.html",
+      "sourceSha256": "004345c66436d45f98ac6d2a40e1dc59922605730addc72cb2e058038dcf40e6",
+      "finalSha256": "3e3a084728ccf63b942a311eb08d68ba45f243768166fe5d08fe649f8e8b8138",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "path": "markets/SE/client-qualification-catalog.html",
+      "sourceSha256": "9c9cb392da59a2b45188d28951df382362531d6f3cc75054e54e9c24d08d7dc5",
+      "finalSha256": "cf04493ce23bb8179a0d8ce347c10a2ba0e530ab2bc3e9853c1f4ce57fe6dcd1",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 1139
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "SI",
+      "path": "markets/SI/client-qualification-catalog.html",
+      "sourceSha256": "f268b3152f0ec5286c96ae4dfee819605f45fa6bbc7d3f2a82a99f2226326d6e",
+      "finalSha256": "3126319149e408a91b91839fc6fe33f349ba2500441ef1219c65717f25b79ed9",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 550
+        },
+        {
+          "mode": "trial",
+          "messageLength": 449
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 450
+        }
+      ]
+    },
+    {
+      "code": "SK",
+      "path": "markets/SK/client-qualification-catalog.html",
+      "sourceSha256": "a7e72b54eb100afb5ac6e5e2a9af57e49934dd9f1075bede6eba31175ff96306",
+      "finalSha256": "0b8f20b2254f1731efb00917b02d273401824d5b0e440329775e9da1ec73a97b",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 550
+        },
+        {
+          "mode": "trial",
+          "messageLength": 449
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 450
+        }
+      ]
+    },
+    {
+      "code": "SM",
+      "path": "markets/SM/client-qualification-catalog.html",
+      "sourceSha256": "f37887b50e6b35bf63be0e7a494ffffe77b54bf8aaa3e52ae6755c3b90af6fa0",
+      "finalSha256": "507c44017258168b9cfd4314746cc991c780213fbd016b1e7bd89dca2903dac0",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 552
+        },
+        {
+          "mode": "trial",
+          "messageLength": 451
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 452
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "path": "markets/TR/client-qualification-catalog.html",
+      "sourceSha256": "4f3d60ceb0660296002aef609f7212c082e5927bcd3ffde7ff26d2a135d2d0b9",
+      "finalSha256": "6b7e91aea2e3a48ca7a82d9bf4b6f36bc1a6a15c6df3ed02ab4308fa11c2ee63",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    },
+    {
+      "code": "UA",
+      "path": "markets/UA/client-qualification-catalog.html",
+      "sourceSha256": "9f250f9c60e5850ea2ccc46b5d33d55bcf7f361edb867cec3e3aaff83e256336",
+      "finalSha256": "5a272fe8b9b524d7ac9eab6a6a5b4c6394fbc6626e78cd7c9b74095896c0e1be",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 549
+        },
+        {
+          "mode": "trial",
+          "messageLength": 448
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 449
+        }
+      ]
+    },
+    {
+      "code": "VA",
+      "path": "markets/VA/client-qualification-catalog.html",
+      "sourceSha256": "dc4d4f0f48992e8306cc9d6fc498eefa058428661052c76a974f802458f21f68",
+      "finalSha256": "baeed3700d9770b5366f7ec0d776161d0a7ef3aab7f1e0d13548f85935c57fbc",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 554
+        },
+        {
+          "mode": "trial",
+          "messageLength": 453
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 454
+        }
+      ]
+    },
+    {
+      "code": "WH",
+      "path": "markets/WH/client-qualification-catalog.html",
+      "sourceSha256": "4a3ed8b54e81188fdf6314359fde5353e2744560770d9e0b3a21474d225dbadd",
+      "finalSha256": "bf43b1e4808bacadeff5f1f119154a9434568cbbaf447382c37b579b07325ff2",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 607
+        },
+        {
+          "mode": "trial",
+          "messageLength": 507
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 508
+        }
+      ]
+    },
+    {
+      "code": "XK",
+      "path": "markets/XK/client-qualification-catalog.html",
+      "sourceSha256": "ffe3e265c0315b614ee69c6987da12e404346664a9d23290dd9e4bec8a314348",
+      "finalSha256": "fdd67955879045b030067256c58c2ec26bd2589f94199e2ba354107d00499ff6",
+      "quoteCases": 657,
+      "runtimeExactApartFromByteIdenticalAssetUrls": true,
+      "views": [
+        {
+          "version": "local",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "pl",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        },
+        {
+          "version": "en",
+          "assets": {
+            "broken": 0,
+            "products": 73,
+            "oswald": true,
+            "inter": true
+          }
+        }
+      ],
+      "modes": [
+        {
+          "mode": "wholesale",
+          "messageLength": 548
+        },
+        {
+          "mode": "trial",
+          "messageLength": 447
+        },
+        {
+          "mode": "dropship",
+          "messageLength": 448
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\GE-1440.png",
+      "sha256": "4ec3aaa2258db11978ced1f751caadca66981defd4b0d96abff459728ba4c604",
+      "nonblank": true
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\GE-390.png",
+      "sha256": "363b88e722539e86816afac420532b3a4ff72765d39fe663f1d83169403b0794",
+      "nonblank": true
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\KZ-1440.png",
+      "sha256": "763135324160d6f09950f2ee2ec07dcc9ec697375ec155af756a74c2aa271291",
+      "nonblank": true
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\KZ-390.png",
+      "sha256": "ff94c37994dc355386d3ef692b42579192d76921efdfaeabe8b15932ca015e18",
+      "nonblank": true
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\PL-1440.png",
+      "sha256": "cb9063dd9132bba3905a8f203579eea47e36cf2b69b301ad394b70625a1a5c4a",
+      "nonblank": true
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\PL-390.png",
+      "sha256": "359f0dea4a237b0a5fbdb5ec66fc54a5aa8815ceef896a8acf2a9851dd5b06d1",
+      "nonblank": true
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\WH-1440.png",
+      "sha256": "9bd0cb7ac17b984937a013112d332b052d6508480e3abd0476d98a7f58e1fc32",
+      "nonblank": true
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-hosted-catalogue-screens-r8\\WH-390.png",
+      "sha256": "0c2b52be26b331a3abe50d5868e65135cc1ab973d829e7755a51196c3bfeef3c",
+      "nonblank": true
+    }
+  ],
+  "failures": [],
+  "whatsAppSent": false,
+  "published": false,
+  "browserClosed": true,
+  "serverClosed": true,
+  "checkedAt": "2026-10-24T20:44:05.758Z"
+}

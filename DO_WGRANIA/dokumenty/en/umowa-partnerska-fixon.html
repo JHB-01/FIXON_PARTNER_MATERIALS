@@ -1,0 +1,370 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FIXON Partner Agreement | FIXON</title>
+  <style>
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:FIXONInter, Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
+  </style>
+<style id="fixon-contract-r8-style">@font-face{font-family:"FIXONInter";font-weight:100 900;font-display:swap;src:url(../../assets/r8-shared/29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031.ttf)}@font-face{font-family:"FIXONOswald";font-weight:100 900;font-display:swap;src:url(../../assets/r8-shared/5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817.ttf)}body{font-family:FIXONInter,Arial,sans-serif!important}h1,h2,h3{font-family:FIXONOswald,Arial,sans-serif!important}.r8-legacy-anchor{display:block;width:0;height:0;overflow:hidden;line-height:0;font-size:0;visibility:hidden}.doc-tools a[href$=".docx"],.doc-tools a[href$=".doc"],.doc-tools a[href$=".pdf"],.download-actions a[href$=".docx"],.download-actions a[href$=".doc"],.download-actions a[href$=".pdf"]{display:none!important}.r8-print-button{min-height:42px;padding:11px 14px;border:1px solid #124A2E;border-radius:4px;background:#124A2E;color:#fff;font:inherit;font-weight:700;cursor:pointer}.brand-logo{content:url("../../assets/r8-shared/49bd50a7339d931e566acc7d0cd10672433d78c7981005838fbb38d4408f8c75.png")}.r8-contract-logo{display:block;width:180px;max-width:100%;height:auto;background:white;padding:8px;margin-bottom:20px}.r8-contract-table{max-width:100%;overflow-x:auto}.r8-contract-table td,.r8-contract-table th{overflow-wrap:anywhere;vertical-align:top}.doc-section-body p{line-height:1.7}button{font:inherit}.hero h1{font-size:48px}@media(max-width:700px){.hero h1{font-size:30px}.doc-section-body{overflow-wrap:anywhere}.r8-contract-table{font-size:14px}}@media print{header,.doc-nav,.doc-tools,.download-actions{display:none!important}.doc-shell{display:block}.hero{background:white!important;color:#151a18!important;padding:0}.hero p{color:#151a18!important}.doc-section{break-inside:auto}details.doc-section>.doc-section-body{display:block!important}.doc-section-body p{orphans:3;widows:3}}</style><style id="fixon-contract-r8-mobile-tables">@media(max-width:700px){.r8-contract-table table,.r8-contract-table tbody{display:block!important;width:100%!important;min-width:0!important}.r8-contract-table thead{display:none!important}.r8-contract-table tr{display:block!important;border-bottom:2px solid var(--line,#d9e0db);padding:8px 0;margin:0 0 12px}.r8-contract-table td{display:block!important;width:100%!important;min-width:0!important;border:0!important;padding:8px!important;white-space:normal!important;overflow-wrap:anywhere;word-break:break-word}.r8-contract-table td::before{content:attr(data-label);display:block;color:#124a2e;font-weight:700;margin-bottom:4px}}</style></head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../../index.html">Back to documents</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Table of contents</button>
+      <div class="meta">FIXON R8<br>Updated: 22 October 2026</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero"><img class="r8-contract-logo" src="../../assets/r8-shared/49bd50a7339d931e566acc7d0cd10672433d78c7981005838fbb38d4408f8c75.png" alt="FIXON Professional Tools">
+      <span class="kicker">FIXON Tools &amp; Tech</span>
+      <h1>FIXON Partner Agreement</h1>
+      <p>Preview of the agreement governing commercial and programme cooperation.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Close">×</button>
+        <strong>Document navigation</strong>
+        <a href="#section-umowa-partnerska-fixon">FIXON PARTNERSHIP AGREEMENT</a>
+<a href="#section-strony-umowy">CONTRACT PARTIES</a>
+<a href="#section-1-definicje">§1 Definitions</a>
+<a href="#section-2-cel-wspolpracy">§2 Objective of cooperation</a>
+<a href="#section-3-zakres-wspolpracy">§3 Scope of cooperation</a>
+<a href="#section-4-program-ekspozycyjny">§4 Display programme</a>
+<a href="#section-5-stany-magazynowe">§5 Storage</a>
+<a href="#section-6-zamowienia-i-rozliczenia">§6 Procurement and settlement</a>
+<a href="#section-7-system-rabatowy">§7 Discount system</a>
+<a href="#section-8-ochrona-marki-i-polityka-sprzedazy">§8 Brand protection and sales policy</a>
+<a href="#section-9-partner-strategiczny-i-centrum-demonstracyjne-fixon">§9 Strategic Partner and FIXON Demonstration Centre</a>
+<a href="#section-10-czas-trwania-umowy-rozwiazanie-i-rozliczenie-stanow">§10 Duration of the Agreement, termination and settlement of states</a>
+<a href="#section-11-poufnosc">§11 Confidentiality</a>
+<a href="#section-12-wlasnosc-intelektualna-i-prawa-do-marki-fixon">§12 Intellectual property and rights to FIXON brand</a>
+<a href="#section-13-sila-wyzsza">§13 Force majeure</a>
+<a href="#section-14-postanowienia-koncowe">§14 Final provisions</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Expand Everything</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Collapse Everything</button>
+        <button type="button" class="r8-print-button">Print / Save as PDF</button></div>
+        <div class="doc-tools"><a class="download-button secondary" href="../umowa-partnerska-fixon.html">PL</a><a class="download-button secondary" href="../en/umowa-partnerska-fixon.html">EN</a></div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-umowa-partnerska-fixon" open="">
+<summary><span>FIXON PARTNERSHIP AGREEMENT</span></summary>
+<div class="doc-section-body">
+<p>Distribution Programme with Product Display and Guaranteed Warehouse Access</p>
+</div></details>
+<details class="doc-section" id="section-strony-umowy" open="">
+<summary><span>CONTRACT PARTIES</span></summary>
+<div class="doc-section-body">
+<p>FIXON IRYNA MUKOSII, ul. Mazowiecka 57, 05-077 Warszawa (Wesoła), NIP: 1133178861, REGON: 542679041, which owns the trademark of FIXON brand No. XXXX, hereinafter referred to as ‘the Supplier’, represented at the conclusion of this Agreement by an authorised commercial representative authorised to negotiate and conclude partnership agreements on behalf of the brand's owner on the basis of the mandate granted,</p>
+<p>JHB FAMILY sp. z o.o., registered office in Łopacin, Łopacin 68E, 06-430 Sońsk, Poland, NIP 5662035359, REGON 527556531, KRS 0001084261, represented by HEORHII BRONNIKOV, President of the Management Board, referred to as the Intermediary.</p>
+<p>and</p>
+<p>................................................................................................................................................................................, hereinafter referred to as ‘Partner’.</p>
+<p>The supplier and Partner are hereinafter referred to together as ‘the Parties’. The intermediary shall participate in the implementation of the Agreement to the extent indicated in its provisions.</p>
+</div></details>
+<details class="doc-section" id="section-1-definicje" open="">
+<summary><span>§1 Definitions</span></summary>
+<div class="doc-section-body">
+<p>1. Agreement – this FIXON Partner Agreement together with the annexes and Programme Documents made available to the Partner by the Supplier or the Intermediary.</p>
+<p>2. Supplier – FIXON IRYNA MUKOSII or another entity indicated in the Agreement's composition as owner of the FIXON brand or entity authorized to organise the FIXON Partner Programme.</p>
+<h3 id="3-partner-podmiot-zawierajacy-umowe-w-celu-dystrybucji-promocji-oraz-sprzedazy-produktow-fixon">3. Partner – entity concluding the Agreement for distribution, promotion and sale of FIXON Products.</h3>
+<p>4. Intermediary – an entity identified in the introductory part of the Agreement, authorized to maintain the current relationship with the Partner, to provide commercial information, price lists, product lists, Programme Documents and to coordinate cooperation.</p>
+<p>5. FIXON brand – trademark, visual identification, marketing materials and other elements related to products offered under FIXON brand.</p>
+<p>6. FIXON products – products offered under the FIXON brand, in particular tools, equipment, accessories, demonstration elements, test products and goods indicated in the current offer of the Supplier.</p>
+<p>7. FIXON Partner Programme – a commercial cooperation system covering distribution, display, stock support, discounts, bonuses, market protection, product exclusivity, Strategic Partner status and FIXON Demonstration Centre.</p>
+<p>8. Stock Support Programme – part of the FIXON Partner Programme consisting in assigning to the Partner a defined level of availability or replenishment for products intended for current sale, display or demonstration, with product sales carried out under an order with 100% prepayment.</p>
+<p>9. List of Products Covered by Stock Support – the current list of products supported, transmitted to the Partner by the Supplier or Intermediary. Product range means every product in this list.</p>
+<p>10. Stock Level – the number of units of a given assortment item representing the Partner's assigned availability or replenishment level under the Stock Support Programme. The Alarm Threshold means the minimum Stock Level at which the Partner reports the replenishment need and places an order.</p>
+<p>10a. Order – an order for FIXON Products placed by the Partner in a form agreed by the Parties, including by e-mail, B2B system, CRM, form or another documented channel.</p>
+<p>10b. Prepayment – payment of 100% of the gross Order value before its performance. Prepayment is the basic payment mechanism in the Programme. Each Order is paid 100% before performance unless mandatory law requires another payment documentation method.</p>
+<h3 id="11-okres-rozliczeniowy-miesiac-kalendarzowy-chyba-ze-strony-postanowia-inaczej-w-formie-pisemnej-lub-dokumentowej">11. Settlement period — calendar month, unless the Parties decide otherwise in written or documentary form.</h3>
+<p>12. Sales Result means the actual units sold of a product, recorded in the operational report. It supports stock availability and agreed programme benefits. The discount level uses purchase value under §7, not a sales-unit conversion.</p>
+<p>13. Products for Individual Order – products carried out or delivered only on individual order of the client, not covered by the Standard Stock Support Programme, unless the Supplier decides otherwise.</p>
+<p>14. Consumables are products intended for use, periodic replacement or servicing. The Product List states availability and any exclusion from stock support. This description alone does not exclude their value from the purchase thresholds in §7.</p>
+<h3 id="15-ceny-katalogowe-aktualne-ceny-produktow-fixon-obowiazujace-w-danym-okresie-rozliczeniowym-przekazywane-partnerowi-przez-dostawce-lub-posrednika">15. Catalogue prices – current prices of FIXON products in the relevant Settlement Period, transmitted to the Partner by the Supplier or Intermediary.</h3>
+<p>16. Strategic Partner, Strategic Entitlement, Additional Strategic Discount, Market Protection, Product Exclusivity, Extended Stock Support Programme and FIXON Demonstration Centre – the status and privileges described in the FIXON Partner Programme and Programme Documents.</p>
+<p>17. Programme Documents – Regulations, price lists, product lists, display standards, stock support rules, procedures, instructions and other documents concerning the FIXON Partner Programme.</p>
+<p>18. Document Form – e-mail, PDF document, message in CRM/B2B system, communicator used in cooperation or other permanent content fixation to identify the person making the statement.</p>
+<h3 id="19-w-przypadku-rozbieznosci-pomiedzy-umowa-a-dokumentami-programowymi-pierwszenstwo-maja-postanowienia-umowy-chyba-ze-strony-wyraznie-postanowia-inaczej">19. In the event of disagreement between the Agreement and the Programme Documents, the provisions of the Agreement shall prevail unless the Parties expressly agree otherwise.</h3>
+</div></details>
+<details class="doc-section" id="section-2-cel-wspolpracy" open="">
+<summary><span>§2 Objective of cooperation</span></summary>
+<div class="doc-section-body">
+<h3 id="1-celem-umowy-jest-budowa-i-rozwoj-dlugoterminowej-wspolpracy-handlowej-w-zakresie-dystrybucji-promocji-oraz-sprzedazy-produktow-fixon">1. The purpose of the Agreement is to build and develop long-term commercial cooperation in the distribution, promotion and sale of FIXON Products.</h3>
+<p>2. The cooperation is carried out under the FIXON Partner Programme, which aims to create a stable distribution network for product availability, professional customer service, sales development and FIXON brand value protection.</p>
+<p>3. The FIXON Partner Programme aims in particular at: (a) increasing the availability of FIXON Products, (b) building brand recognition, (c) giving customers the opportunity to get acquainted with the products through display and demonstration, (d) maintaining sales continuity, (e) developing local and regional sales channels, (f) supporting Partners in commercial, marketing and training activities.</p>
+<p>4. The Partner commits to actively support the objectives of the FIXON Partner Programme by maintaining display, sales development, reliable reporting and cooperation with the Supplier and Intermediary in the planning of cargo and commercial activities.</p>
+</div></details>
+<details class="doc-section" id="section-3-zakres-wspolpracy" open="">
+<summary><span>§3 Scope of cooperation</span></summary>
+<div class="doc-section-body">
+<p>1. Under the Agreement, the Supplier grants the Partner the status of Authorized Partner FIXON and allows participation in the FIXON Partner Programme on the terms set out in the Agreement and Programme Documents.</p>
+<p>2. The cooperation shall include in particular: (a) the sale of FIXON Products by the Partner, (b) the maintenance of the display, (c) participation in the Stock Support Programme, (d) promotional and marketing activities, (e) product and commercial training, (f) technical support and product advice, (g) participation in discount, bonus and incentive schemes.</p>
+<p>3. The supplier undertakes to make available current commercial, technical and marketing materials, to provide sales and product support and to carry out activities supporting the recognition of FIXON brand.</p>
+<p>4. The Partner undertakes to actively offer and promote FIXON Products, maintain standards of exhibition, keep sales records, maintain a positive brand image and provide information necessary for the proper implementation of the Partner Programme.</p>
+<p>5. The partner maintains full organisational, commercial and economic autonomy. The Agreement shall not form a company, representativeship, employment relationship, exclusive agency or joint venture.</p>
+<p>6. Detailed rules of the FIXON Partner Programme, including display standards, stock support, bonuses, rebates, market protection and incentive programs, can be specified in Programme Documents. The supplier may update them to the extent that the essential conditions of the Agreement do not deteriorate.</p>
+</div></details>
+<details class="doc-section" id="section-4-program-ekspozycyjny" open="">
+<summary><span>§4 Display programme</span></summary>
+<div class="doc-section-body">
+<h3 id="1-partner-zobowiazuje-sie-do-utrzymywania-aktywnej-ekspozycji-produktow-fixon-przez-caly-okres-obowiazywania-umowy">1. The Partner undertakes to maintain the active display of FIXON Products throughout the duration of the Agreement.</h3>
+<p>2. The purpose of the exhibition is to provide customers with the opportunity to familiarize themselves with the products, their functionality, quality of performance and application, as well as to support the sales activities of the Partner.</p>
+<p>3. The display should ensure adequate visibility of marketing products and materials and enable the presentation of products to customers visiting the point of sale, in particular to test their functionality.</p>
+<p>4. The supplier may set minimum display standards for the number of products presented, the presentation method, the location of the display, the use of marketing materials and the FIXON brand marking.</p>
+<p>5. The Partner undertakes to maintain the exhibition products in a condition that enables them to be presented, taking into account the normal consumption resulting from the demonstration function.</p>
+<h3 id="6-produkty-ekspozycyjne-moga-byc-wykorzystywane-do-prezentacji-handlowych-pokazow-szkolen-dni-otwartych-targow-oraz-innych-dzialan-wspierajacych-sprzedaz">6. Exhibition products can be used for commercial presentations, shows, trainings, open days, fairs and other sales support activities.</h3>
+<h3 id="7-partner-nie-moze-usuwac-ekspozycji-produktow-i-materialow-fixon-bez-uprzedniego-poinformowania-dostawcy">7. The Partner cannot remove the display of FIXON products and materials without informing the Supplier.</h3>
+<p>8. The supplier may provide the Partner with materials supporting the display, in particular catalogues, POS materials, displays, stands, samples, training and multimedia materials. The partner uses them as intended and takes care of their proper condition.</p>
+<p>9. An agreed display is a condition of support for that display and related benefits. Display requirements do not change purchase-value discount qualification under §7.</p>
+<p>10. The supplier may verify the standard of display by visiting representatives, photographic documentation, Partner reports or remote verification with the Partner's consent. In the event of irregularities, the Supplier may call on the Partner to remove them and the lack of improvement for more than 30 days may result in a limitation or suspension of the selected programme benefits.</p>
+</div></details>
+<details class="doc-section" id="section-5-stany-magazynowe" open="">
+<summary><span>§5 Stock levels and availability</span></summary>
+<div class="doc-section-body">
+<p>1. To ensure sales continuity, the Supplier may grant the Partner stock support understood as an assigned level of availability, reservation or replenishment for selected FIXON Products. The list of Products covered by Stock Support is provided together with catalogue price updates by the Supplier or the Intermediary.</p>
+<p>2. In the first Settlement Period, the Supplier may assign the Partner an individually agreed display starter package. The PLN 15,000 gross limit applies only to display, demonstration, POS, marketing or other offer-presentation materials and not to products provided to the Partner for resale. Products intended for sale are purchased under Orders paid 100% before performance.</p>
+<p>3. In subsequent Settlement Periods, the stock level for each assortment item is set at 40% of the highest sales result for that item achieved by the Partner in one Settlement Period out of up to twelve previous Settlement Periods. The result is rounded up to full units.</p>
+<h3 id="4-dla-kazdej-pozycji-asortymentowej-ustala-sie-prog-alarmowy-rowny-25-przyznanego-poziomu-stanow-magazynowych-nie-mniej-niz-2-sztuki">4. For each assortment item, the Alarm Threshold equals 25% of the assigned stock level, but not less than 2 units.</h3>
+<p>5. If the stock level of a given item falls below the Alarm Threshold, the Partner reports the replenishment need and places an Order. The Supplier performs the replenishment delivery after accepting the Order and receiving 100% Prepayment, in a quantity allowing the level defined in section 3 to be restored, no more than once in any seven consecutive calendar days.</p>
+<p>6. The Supplier guarantees availability and proper operation of the stock-support mechanism within the assigned levels, the current list of Products covered by Stock Support and production availability. The Partner purchases products under Orders paid 100% before performance.</p>
+<h3 id="7-partner-przeprowadza-inwentaryzacje-produktow-objetych-programem-wsparcia-stanow-magazynowych-nie-rzadziej-niz-raz-na-kwartal">7. The Partner carries out an inventory of products covered by the Stock Support Programme at least once per quarter.</h3>
+<p>8. From receipt of products or materials entrusted to the Partner, the Partner is responsible for their loss, damage, theft or destruction in accordance with the Agreement, Programme Documents and the relevant sales, delivery or entrustment documents.</p>
+</div></details>
+<details class="doc-section" id="section-6-zamowienia-i-rozliczenia" open="">
+<summary><span>§6 Orders, prepayments and settlement</span></summary>
+<div class="doc-section-body">
+<h3 id="1-partner-dokonuje-sprzedazy-produktow-fixon-we-wlasnym-imieniu-i-na-wlasny-rachunek">1. The Partner sells FIXON Products in its own name and on its own account.</h3>
+<p>2. FIXON Products are purchased by the Partner on the basis of Orders placed in a form agreed by the Parties. An Order should specify at least the product, quantity, price, discount, delivery location and responsible person on the Partner's side.</p>
+<p>3. The basic and binding payment mechanism in the Programme is 100% Prepayment with the Order. The Supplier does not perform an Order before receiving full payment, unless mandatory law requires another method of documenting payment.</p>
+<p>4. The Supplier or Intermediary may provide the Partner with an Order confirmation, pro forma invoice, payment link, payment request or another document enabling Prepayment. A VAT invoice is issued in accordance with applicable regulations after payment or acceptance of the Order for performance, depending on the applicable accounting model.</p>
+<p>5. Catalogue Prices and discounts applied to an Order are determined according to the current Price List, the Partner's discount level and the Programme rules effective on the date the Order is accepted, unless the Parties agree another price date in writing.</p>
+<p>6. Sales reporting does not determine payment for purchased products or the discount level. It supports availability and replenishment planning, returns, complaints and agreed benefits. Paid purchases for discount qualification are checked separately under §7.</p>
+<p>7. The Partner keeps current sales records for products covered by the FIXON Partner Programme and sends the Supplier a sales report for the previous Settlement Period no later than the 5th day of each month.</p>
+<h3 id="5-raport-sprzedazy-powinien-zawierac-co-najmniej-nazwe-produktu-liczbe-sprzedanych-sztuk-oraz-informacje-o-produktach-zwroconych-lub-reklamowanych">8. The sales report should include at least the product name, number of units sold, current stock levels and information on returned or complained products.</h3>
+<p>9. The Supplier may verify the sales report by analysing sales documents, stock analysis or an agreed stock audit. The Partner immediately informs the Supplier of discrepancies concerning stock levels.</p>
+<p>10. Products damaged, lost, destroyed or impossible to resell for reasons attributable to the Partner are settled in accordance with the Agreement, Programme and the relevant sales or handover documents. Such events do not increase the Sales Result unless the Supplier expressly decides otherwise.</p>
+<p>11. End-customer complaints follow the complaints procedure and applicable law. Other returns require confirmation of their basis and collection arrangements, without removing the unsuccessful-trial return right in §7. That right is not subject to a discretionary Supplier decision.</p>
+<p>12. The Supplier issues invoices and settlement documents electronically, including through the National e-Invoice System, and sends them to the e-mail address indicated by the Partner. The Partner agrees to receive electronic invoices.</p>
+<h3 id="12-w-przypadku-okresu-rozliczeniowego-innego-niz-miesiac-kalendarzowy-progi-rabatowe-opisane-w-7-ulegaja-proporcjonalnej-zmianie">13. Reporting months support stock operations. Discount qualification uses paid purchases in the preceding 30 days. The thresholds in §7 are not scaled to reporting-period length.</h3>
+</div></details>
+<details class="doc-section" id="section-7-system-rabatowy" open="">
+<summary><span>§7 Discount system</span></summary>
+<div class="doc-section-body"><p>1. The business level uses net goods value before discount in EUR, excluding VAT and delivery. The current purchase or paid purchases in the preceding 30 days can qualify. The same purchase value is not counted twice.</p><p>2. The discount applies to the order that reaches the threshold and to later orders for 12 months from qualification. Earlier purchases are not recalculated. The level confirmation records its start and expiry dates.</p><p>3. For purchases in another currency, the order confirmation states the exchange rate and date used to assess the EUR threshold. This does not change the exact purchase price in the invoice currency. Purchase prices and discounts are not rounded through whole PLN or EUR amounts; cents are used for presentation and proper invoice settlement.</p><p>4. Level names describe business scale. They do not dictate a delivery method or grant exclusivity. Selecting a level in the price list is a preview; eligibility requires qualifying purchases or the signed commitment described below.</p><div class="r8-contract-table"><table><thead><tr><th scope="col">Business model</th><th scope="col">Net purchases before discount</th><th scope="col">Standard products</th></tr></thead><tbody><tr><td data-label="Business model">Consumer purchase</td><td data-label="Net purchases before discount">Below EUR 1,000</td><td data-label="Standard products">Current fixon.pro terms</td></tr><tr><td data-label="Business model">Dropshipping</td><td data-label="Net purchases before discount">From EUR 1,000</td><td data-label="Standard products">10%</td></tr><tr><td data-label="Business model">Small retail display</td><td data-label="Net purchases before discount">From EUR 5,000</td><td data-label="Standard products">20%</td></tr><tr><td data-label="Business model">Network of sales outlets</td><td data-label="Net purchases before discount">From EUR 25,000</td><td data-label="Standard products">30%</td></tr><tr><td data-label="Business model">National general distribution</td><td data-label="Net purchases before discount">From EUR 100,000</td><td data-label="Standard products">35%</td></tr></tbody></table></div><p>URBANROOT gets five extra percentage points on the standard rates: 15%, 25%, 35% and 40%. Trial: 25%. Fair offer: from 30%. Below EUR 1,000, use the store's actual consumer terms, not an assumed 0% discount.</p><p>All road graders, BrukFill machines and LONCIN machines form a separate category. Count these machines together across models in the current order. Other tools do not count as machines.</p><div class="r8-contract-table"><table><thead><tr><th scope="col">Purchase-value level</th><th scope="col">Machines in this order</th><th scope="col">Discount</th></tr></thead><tbody><tr><td data-label="Purchase-value level">Below EUR 25,000</td><td data-label="Machines in this order">1</td><td data-label="Discount">5%</td></tr><tr><td data-label="Purchase-value level">Below EUR 25,000</td><td data-label="Machines in this order">2 or more</td><td data-label="Discount">10%</td></tr><tr><td data-label="Purchase-value level">EUR 25,000 to below EUR 100,000</td><td data-label="Machines in this order">Up to 5</td><td data-label="Discount">10%</td></tr><tr><td data-label="Purchase-value level">EUR 25,000 to below EUR 100,000</td><td data-label="Machines in this order">6 or more</td><td data-label="Discount">15%</td></tr><tr><td data-label="Purchase-value level">From EUR 100,000</td><td data-label="Machines in this order">Up to 20</td><td data-label="Discount">15%</td></tr><tr><td data-label="Purchase-value level">From EUR 100,000</td><td data-label="Machines in this order">21 or more</td><td data-label="Discount">20%</td></tr></tbody></table></div><p>Machines get 10% on a trial order and 15% under the fair offer. These replace the standard trial and fair rates. Discounts do not add together.</p><p>The normal trial order gives 20% on standard products, 10% on machines and 25% on URBANROOT. We will help choose products that fit your customers.</p><p>A higher discount can be agreed from day one through a signed commitment to further purchases. For example, 30% on standard products requires a further EUR 25,000 in net goods before discount, bought no later than three months after the first delivery. The first trial order does not count. The highest level granted in advance — standard 35%, URBANROOT 40% — requires a signed exclusive general distribution agreement. A level earned through actual purchases does not require exclusivity. Machines still follow their separate table.</p><p>Exclusive general distribution covers the named country and all FIXON products. The first term is one year. A further three years require written confirmation from both parties. After the first three months, at least EUR 25,000 in new net orders before discount is required each month. Orders from that country placed through fixon.pro or directly with FIXON are passed to the distributor. A separate agreement sets the working terms, subject to applicable law.</p><p>At the fair and for two weeks after the fair day: standard products from 25% off, machines 15%, URBANROOT from 30%. No volume commitment is needed. Higher terms need agreement; discounts do not add together. The fair offer does not change normal programme terms.</p><p>For a trial linked to a purchase commitment, the agreed full-value goods return is available if both conditions are met: sales in three months are below 20% of the ordered net value before discount, and documented spending to sell FIXON is at least the first trial's net value before discount. Advertising, fairs, displays and demonstrations can count; buying the goods themselves cannot. FIXON pays return transport. The agreement sets the records and settlement process.</p><p>5. The unsuccessful-trial return applies to a trial linked to a purchase commitment. Once its conditions are met, the Partner may leave that commitment. Checking the records and the goods does not permit a discretionary refusal when the conditions are met. There is no blanket requirement that every full-value product must never have been used.</p><p>6. Return settlement uses the amount actually paid for the returned products and the required accounting documents. There is no automatic penalty for missing the volume, unagreed restocking fee or unagreed retrospective discount clawback. The parties confirm the refund method and timing when arranging the return, in accordance with applicable law.</p><p>7. Discounts from different offers do not automatically add together. A mixed basket uses the applicable rate for each category. Count all eligible machines together only in the current order; a retained value level does not retain the machine count from an earlier order.</p><p>8. Sales Result in units remains an operational basis for stock support and agreed benefits, not discount qualification. General discount thresholds are not converted into units or scaled to the length of a reporting month.</p><p>9. Additional bonuses and individual strategic rights need express agreement. An earlier extra strategic discount does not automatically add to these rates. Existing signed individual rights must be addressed by agreement; a website update does not revoke them.</p><span id="1-partnerowi-przysluguja-rabaty-handlowe-zgodnie-z-aktualnym-programem-partnerskim-fixon" class="r8-legacy-anchor" aria-hidden="true"></span><span id="6-poziomy-rabatowe-wynosza-a-5-20-sztuk-5-b-21-100-sztuk-10-c-101-500-sztuk-15-d-powyzej-500-sztuk-20" class="r8-legacy-anchor" aria-hidden="true"></span></div></details>
+<details class="doc-section" id="section-8-ochrona-marki-i-polityka-sprzedazy" open="">
+<summary><span>§8 Brand protection and sales policy</span></summary>
+<div class="doc-section-body"><p>1. The Partner gives truthful information about FIXON products, uses, specifications, quality and availability. It must not mislead customers or infringe brand rights.</p><p>2. Supplied names, logos, photographs, videos, catalogues and descriptions may be used to promote and sell products covered by the Agreement, subject to brand guidelines and content rights. Changes to marks or technical specifications need Supplier approval.</p><p>3. The Partner independently sets resale prices, promotions and discounts. Recommended retail prices and margin calculations are information only; they are not minimum or mandatory prices.</p><p>4. A lawful resale price different from the recommendation is not, by itself, grounds to remove a discount, support or status, or to terminate the Agreement. The Partner need not justify its independent pricing policy to the Supplier.</p><p>5. Any territorial or channel protection requires an express agreement consistent with applicable law. This Agreement does not impose a general ban on passive sales, responding to unsolicited enquiries from other countries or effective internet use.</p><p>6. Actual breaches of truthful product information, brand rights or other duties are handled under the Agreement and applicable law. Brand protection must not be used to impose resale prices indirectly.</p><span id="4-partner-nie-podejmuje-dzialan-mogacych-wprowadzac-klientow-w-blad-co-do-pochodzenia-jakosci-parametrow-przeznaczenia-lub-dostepnosci-produktow-fixon" class="r8-legacy-anchor" aria-hidden="true"></span></div></details>
+<details class="doc-section" id="section-9-partner-strategiczny-i-centrum-demonstracyjne-fixon" open="">
+<summary><span>§9 Strategic Partner and FIXON Demonstration Centre</span></summary>
+<div class="doc-section-body">
+<p>1. The partner, who achieves above average sales results, actively develops the FIXON product market and pursues the objectives of the FIXON Partner Programme, can become a Strategic Partner.</p>
+<p>2. The status of Strategic Partner is awarded only by the Supplier on the basis of an individual assessment of cooperation. The Strategic Partner has the right to choose one Strategic Powers from the catalogue set out in the FIXON Partner Programme.</p>
+<p>3. The scope, duration and terms of use of Strategic Rights are defined by the Supplier. In principle, the Strategic Partner has one active Strategic Entitlement and in justified cases The supplier may grant more than one entitlement.</p>
+<p>4. Within 12 months of the granting of Strategic Power, the Partner may request its change. The supplier may agree after assessing the course of cooperation.</p>
+<p>5. Strategic powers may be restricted, suspended or revoked in the event of a breach of the Agreement, loss of the status of Strategic Partner or circumstances justifying a change in the structure of the FIXON distribution network.</p>
+<p>6. The FIXON Demonstration Centre is the highest level of cooperation within the FIXON Partner Programme and can only be awarded to the Strategic Partner.</p>
+<p>7. The granting of FIXON Demonstration Centre status shall not result in the loss or limitation of the previously granted Strategic Powers. The Centre may also benefit from the benefits of other Strategic Entitlements, with their scope limited to the scope of the Partner for which the right is fundamental.</p>
+<p>8. FIXON Demonstration Centre is an authorized point of presentation, demonstration, testing, implementation and distribution of FIXON Products. Its purpose is to serve customers requiring extended technical or commercial support.</p>
+<p>9. The partner running the FIXON Demonstration Centre maintains the display of the products indicated by the Supplier and ensures that they can be demonstrated and presented. The Centre can be presented, tested, stored or demonstrated standard products, products covered by Product Exclusivity, test products, prototype products, pre-premiere products, prepared for implementation and products available from the other Partners only on order.</p>
+<p>10. The Supplier may grant the Demonstration Centre the right to maintain stock levels of products that are not covered by the Stock Support Programme with other Partners, are available only on order or have not yet been introduced into the standard distribution.</p>
+<p>11. The demonstration centre can serve as the regional reference magazine of FIXON brand. The supplier may address to him customers, commercial inquiries, investment projects, promotional activities and customers interested in special or non-standard products.</p>
+<p>12. Detailed scope of activity, area of activity, scope of benefit and range of products covered by the status of the Demonstration Centre is defined by the Supplier. Status may be restricted, suspended or revoked on the terms of the Strategic Partner.</p>
+<p>13. An individual strategic right does not automatically add an extra discount to §7. Its scope and any combination with R8 rates require express confirmation. Changes to an existing signed rights card require agreement, not unilateral revocation through a website update. National general exclusivity is governed by a separate agreement; it is not the same as selecting one strategic right.</p><p><a href="umowa-generalnej-dystrybucji-wylacznej-fixon.html">Separate exclusive general distribution agreement template</a></p></div></details>
+<details class="doc-section" id="section-10-czas-trwania-umowy-rozwiazanie-i-rozliczenie-stanow" open="">
+<summary><span>§10 Term, termination and final settlement</span></summary>
+<div class="doc-section-body">
+<p>1. The Agreement is concluded for an indefinite period. Either Party may terminate the Agreement with three months' notice effective at the end of a Settlement Period.</p>
+<h3 id="2-w-okresie-wypowiedzenia-strony-wykonuja-obowiazki-wynikajace-z-umowy-na-dotychczasowych-zasadach">2. During the notice period, the Parties perform their obligations under the Agreement under the existing rules, including the rule of 100% Prepayment for each Order.</h3>
+<p>3. The Supplier may terminate the Agreement with immediate effect in the event of: (a) the Partner providing false information material to the Agreement, (b) breach of brand protection, confidentiality or intellectual property rights, (c) payment arrears or failure to make the required Prepayment, (d) breach of the Partner Programme despite a request to remedy it, (e) opening liquidation of the Partner, filing for bankruptcy or starting restructuring.</p>
+<p>4. The Partner may terminate the Agreement with immediate effect in the event of a material breach of the Agreement by the Supplier, after the ineffective lapse of 30 days from delivery of a request to remedy the breach.</p>
+<p>5. Termination of the Agreement automatically terminates Strategic Partner status, FIXON Demonstration Centre status and all benefits granted under the FIXON Partner Programme, unless the Parties agree otherwise in final settlement.</p>
+<p>6. Within 14 days from termination or expiry of the Agreement, the Partner stops using FIXON brand marks and returns materials, documents, demonstration, display or test products owned by the Supplier if such obligation follows from separate arrangements.</p>
+<p>7. Termination of the Agreement does not release the Parties from the obligation to make mutual settlements. Provisions on confidentiality, brand protection, intellectual property and settlements remain in force after termination or expiry of the Agreement.</p>
+<p>8. In the event of termination, notice or expiry of the Agreement, the Partner prepares within 7 days a final report of sales, stock levels, Orders, Prepayments, returns, complaints and products provided to it for display, testing or demonstration.</p>
+<p>9. Orders fully paid before termination of the Agreement are performed according to their terms unless the Parties agree to refund the Prepayment, change the Order or use another final settlement method.</p>
+<p>10. Products purchased and paid for by the Partner remain the Partner's products unless the Parties agree their return, buy-back, exchange or another settlement. Products provided to the Partner without transfer of ownership, in particular display, demonstration or test materials, are returned or settled in accordance with Programme Documents.</p>
+<p>11. The Partner enables collection of products and materials subject to return by the Supplier or its designated carrier. Transport cost is borne by the Supplier unless collection results from the Partner's breach of the Agreement.</p>
+<p>12. Products or materials returned to the Supplier should be in a condition allowing further use, taking into account normal demonstration or display wear. Products damaged, destroyed, lost or without commercial value for reasons attributable to the Partner are settled according to the Programme and relevant handover documents.</p>
+<p>13. This section applies accordingly to demonstration, display and other products provided to the Partner in connection with the FIXON Partner Programme.</p>
+</div></details>
+<details class="doc-section" id="section-11-poufnosc" open="">
+<summary><span>§11 Confidentiality</span></summary>
+<div class="doc-section-body">
+<h3 id="1-partner-zobowiazuje-sie-zachowac-w-poufnosci-wszelkie-informacje-uzyskane-od-dostawcy-lub-posrednika-w-zwiazku-z-zawarciem-i-wykonywaniem-umowy">1. The Partner undertakes to keep confidential any information obtained from the Supplier or Intermediary in connection with the conclusion and implementation of the Agreement.</h3>
+<p>2. Confidential information is considered, in particular, commercial terms, discounts, bonuses and other benefits, FIXON Partner Programme rules, Strategic Rights, stock information, sales data, network development plans, information on new and pre-release products, technical documentation, non-public marketing materials and sales, logistics and marketing strategies.</p>
+<h3 id="3-partner-nie-ujawnia-informacji-poufnych-osobom-trzecim-bez-uprzedniej-zgody-dostawcy-i-wykorzystuje-je-wylacznie-w-celu-wykonywania-umowy">3. The Partner does not disclose Confidential Information to third parties without prior consent of the Supplier and uses it solely for the purpose of executing the Agreement.</h3>
+<p>4. The obligation of confidentiality shall not apply to publicly available information which is disclosed under the law requested by a competent public authority or legally obtained from a third party not covered by the obligation of confidentiality.</p>
+<h3 id="5-partner-odpowiada-za-dzialania-swoich-pracownikow-wspolpracownikow-przedstawicieli-oraz-osob-ktorym-udostepnil-informacje-poufne">5. The Partner shall be responsible for the activities of its employees, co-workers, representatives and persons to whom Confidential Information has been made available.</h3>
+<p>6. At the request of the Supplier, the Partner ceases to use Confidential Information and returns or removes media containing such information unless they are necessary for the performance of legal obligations.</p>
+<p>7. Confidentiality shall apply during the duration of the Agreement and for 5 years after its termination or expiry. The breach of confidentiality may constitute the basis for the withdrawal of the status and the programming powers and the termination of the Agreement with immediate effect.</p>
+</div></details>
+<details class="doc-section" id="section-12-wlasnosc-intelektualna-i-prawa-do-marki-fixon" open="">
+<summary><span>§12 Intellectual property and rights to FIXON brand</span></summary>
+<div class="doc-section-body">
+<p>1. All rights to the FIXON brand, trademarks, trade marks, product names, marketing materials, technical documentation, product designs and visual identification elements belong exclusively to the Supplier or entities cooperating with the Supplier.</p>
+<p>2. Conclusion of the Agreement shall not result in the transfer to the Partner of any intellectual property rights related to the FIXON brand. The Partner obtains a non-exclusive, non-transferable and revokeable right to use the materials made available by the Supplier only to the extent necessary to perform the Agreement.</p>
+<p>3. The Partner may use FIXON brand markings only for the promotion and sale of FIXON Products, in accordance with the Supplier's guidelines and for the duration of the Agreement.</p>
+<p>4. The Partner shall not be entitled to register trademarks or domains similar to FIXON markings, copy or modify materials outside the scope of the Agreement, delete brand designations or take action infringing the Supplier's intellectual property rights.</p>
+<p>5. In particular, FIXON trademarks, logos, product names, product designs, technical documentation, instructions, catalogues, photographs, films, graphics, visualizations, 3D models, training materials, demonstrations and online content are subject to protection.</p>
+<p>6. Materials developed by Partner using materials Suppliers may only be used in connection with the Agreement. If Partner creates materials for FIXON Products, The supplier obtains the free, non-exclusive and unlimited territorial right to use them for the promotion and sale of FIXON products.</p>
+<p>7. The Partner shall immediately inform the Supplier of known violations of brand rights, unauthorised use of trademarks, counterfeiting of products or copying of materials.</p>
+<p>8. Upon termination or expiry of the Agreement, the Partner ceases to use FIXON brand markings, except for products legally acquired and remaining in its offer. The provisions of this paragraph shall remain in force indefinitely.</p>
+</div></details>
+<details class="doc-section" id="section-13-sila-wyzsza" open="">
+<summary><span>§13 Force majeure</span></summary>
+<div class="doc-section-body">
+<p>1. Neither party is liable for failure to perform an obligation to the extent that the failure is caused by Force Majeure.</p>
+<p>2. Force Majeure means an external, exceptional event beyond the affected party's control that could not reasonably have been foreseen or prevented with due care. Examples include natural disasters, fires, floods, epidemics, war, terrorism, civil unrest, general strikes, transport blockades, critical infrastructure failures, public-authority measures and interruptions of energy, raw materials or supplies.</p>
+<p>3. The affected party notifies the other party promptly after learning of the event. Performance deadlines are extended by the period of the impediment and the time needed to restore normal operations.</p>
+<p>4. If Force Majeure continues for more than 90 days, either party may terminate the Agreement on 30 days' notice, without claiming compensation or lost profit for that termination.</p>
+</div></details>
+<details class="doc-section" id="section-14-postanowienia-koncowe" open="">
+<summary><span>§14 Final provisions</span></summary>
+<div class="doc-section-body">
+<h3 id="1-w-sprawach-nieuregulowanych-umowa-zastosowanie-maja-przepisy-prawa-polskiego-w-szczegolnosci-kodeksu-cywilnego">1. In matters not regulated by the Agreement, Polish law, in particular the Civil Code, applies.</h3>
+<p>2. Declarations, notices, commercial information, price lists, product lists, Programme Documents, Calls and other information related to the implementation of the Agreement may be transmitted in the Document Form.</p>
+<p>3. In particular, information transmitted by e-mail, by CRM/B2B, communicators used in the current cooperation or via the Intermediary shall be considered to be effectively served.</p>
+<p>4. The intermediary is entitled to the current trade service of the Partner, to provide commercial information, price lists, product lists and Programme Documents, to receive applications, coordinate cooperation and transfer and receive accounting documents. Statements and information provided to the Partner by the Intermediary for the implementation of the Agreement shall be deemed to have been provided by the Supplier.</p>
+<p>5. The supplier may periodically update Catalogue Prices, List of Products Covered by Stock Support, exhibition standards, principles of the Partner Programme, rules for granting Strategic Rights, principles of operation of Demonstration Centres and Programme Documents.</p>
+<p>6. Operational document updates may address matters that do not alter essential terms of the signed Agreement. Changes to discounts, purchase commitments, exclusivity or essential return rights require the appropriate agreement or amendment. Publishing an update and the Partner's silence do not establish consent to those changes.</p>
+<p>7. The signed Agreement and agreed amendments take precedence over conflicting programme documents. A later document date alone does not change essential terms. The unsuccessful-trial return in §7 takes precedence over the general returns procedure.</p>
+<p>8. The Parties undertake to resolve disputes amicably. If it proves impossible to resolve the dispute by negotiation within 30 days of the submission of the dispute, it will be subject to the decision of the general court of the place of establishment of the Supplier.</p>
+<p>9. The Agreement constitutes the complete and independent understanding between the Parties regarding its subject matter. Amendment of the Agreement requires Documentary Form under the pain of invalidity, unless the Agreement provides for the possibility of amendment by updating the Programme Documents.</p>
+<p>10. The Agreement shall be drawn up in two identical copies, one for each Party. Annexes, Programme Documents and documents to which the Agreement refers shall form an integral part thereof.</p>
+<p>SUPPLIER: ................................................................... INTERMEDIATE: ................................................................... PARTNER: ...................................................................</p>
+</div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>R8 document</strong>
+    <p>This page contains the updated text. Print or save a PDF from the current version.</p>
+  </div>
+  <div class="download-actions">
+    
+    
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>The static preview of the FIXON software document.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+
+
+<script id="fixon-contract-r8-print">document.querySelectorAll(".r8-print-button").forEach(button=>button.addEventListener("click",()=>window.print()));window.addEventListener("beforeprint",()=>document.querySelectorAll("details.doc-section").forEach(section=>section.open=true));</script></body></html>

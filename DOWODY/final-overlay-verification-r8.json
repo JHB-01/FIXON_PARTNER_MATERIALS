@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "baseline": "fresh conservative effective R6 + R8.01 reconstruction",
+  "baselineFiles": 638,
+  "overlayFiles": 482,
+  "matchedFinalFiles": 753,
+  "extraUserFilesPreserved": [
+    "USER_PRESERVATION_FIXTURE.txt",
+    ".gitattributes"
+  ],
+  "optionalOldLogoRemovalNotRequired": true,
+  "noActualUserRepositoryTouched": true,
+  "published": false,
+  "verifiedPayloadCandidateZipSha256": "2b28114ba0e2efa6569a0e6d0bc7ab1d4fa415581d5db3fde1333e195b2db818",
+  "payloadManifestSha256": "4592559ac9e3975d4ebe9c11de78eec11bea5b9e1b730ce09eb331f56f03217c",
+  "scope": "The payload was reapplied before embedding this report. Final container CRC and member hashes are checked separately at delivery."
+}

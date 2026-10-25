@@ -1,0 +1,216 @@
+<!DOCTYPE html><html lang="pl"><head><meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Załącznik: Procedura Zwrotu Towaru | FIXON</title>
+  <style>
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:FIXONInter, Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
+  </style>
+<style id="fixon-contract-r8-style">@font-face{font-family:"FIXONInter";font-weight:100 900;font-display:swap;src:url(../assets/r8-shared/29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031.ttf)}@font-face{font-family:"FIXONOswald";font-weight:100 900;font-display:swap;src:url(../assets/r8-shared/5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817.ttf)}body{font-family:FIXONInter,Arial,sans-serif!important}h1,h2,h3{font-family:FIXONOswald,Arial,sans-serif!important}.r8-legacy-anchor{display:block;width:0;height:0;overflow:hidden;line-height:0;font-size:0;visibility:hidden}.doc-tools a[href$=".docx"],.doc-tools a[href$=".doc"],.doc-tools a[href$=".pdf"],.download-actions a[href$=".docx"],.download-actions a[href$=".doc"],.download-actions a[href$=".pdf"]{display:none!important}.r8-print-button{min-height:42px;padding:11px 14px;border:1px solid #124A2E;border-radius:4px;background:#124A2E;color:#fff;font:inherit;font-weight:700;cursor:pointer}.brand-logo{content:url("../assets/r8-shared/49bd50a7339d931e566acc7d0cd10672433d78c7981005838fbb38d4408f8c75.png")}.r8-contract-logo{display:block;width:180px;max-width:100%;height:auto;background:white;padding:8px;margin-bottom:20px}.r8-contract-table{max-width:100%;overflow-x:auto}.r8-contract-table td,.r8-contract-table th{overflow-wrap:anywhere;vertical-align:top}.doc-section-body p{line-height:1.7}button{font:inherit}.hero h1{font-size:48px}@media(max-width:700px){.hero h1{font-size:30px}.doc-section-body{overflow-wrap:anywhere}.r8-contract-table{font-size:14px}}@media print{header,.doc-nav,.doc-tools,.download-actions{display:none!important}.doc-shell{display:block}.hero{background:white!important;color:#151a18!important;padding:0}.hero p{color:#151a18!important}.doc-section{break-inside:auto}details.doc-section>.doc-section-body{display:block!important}.doc-section-body p{orphans:3;widows:3}}</style><style id="fixon-contract-r8-mobile-tables">@media(max-width:700px){.r8-contract-table table,.r8-contract-table tbody{display:block!important;width:100%!important;min-width:0!important}.r8-contract-table thead{display:none!important}.r8-contract-table tr{display:block!important;border-bottom:2px solid var(--line,#d9e0db);padding:8px 0;margin:0 0 12px}.r8-contract-table td{display:block!important;width:100%!important;min-width:0!important;border:0!important;padding:8px!important;white-space:normal!important;overflow-wrap:anywhere;word-break:break-word}.r8-contract-table td::before{content:attr(data-label);display:block;color:#124a2e;font-weight:700;margin-bottom:4px}}</style></head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../index.html">Wróć do dokumentów</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Spis treści</button>
+      <div class="meta">FIXON R8<br>Aktualizacja: 22.10.2026</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero"><img class="r8-contract-logo" src="../assets/r8-shared/49bd50a7339d931e566acc7d0cd10672433d78c7981005838fbb38d4408f8c75.png" alt="FIXON Professional Tools">
+      <span class="kicker">FIXON Tools &amp; Tech</span>
+      <h1>Załącznik: Procedura Zwrotu Towaru</h1>
+      <p>Zasady obsługi zwrotów produktów w modelu partnerskim.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Zamknij">×</button>
+        <strong>Nawigacja dokumentu</strong>
+        <a href="#section-zalacznik-nr-11">ZAŁĄCZNIK NR 11</a>
+<a href="#section-procedura-zwrotu-towaru-fixon">PROCEDURA ZWROTU TOWARU FIXON</a>
+<a href="#section-1-cel-procedury">§ 1. Cel procedury</a>
+<a href="#section-2-zakres-zastosowania">§ 2. Zakres zastosowania</a>
+<a href="#section-3-zgloszenie-zwrotu">§ 3. Zgłoszenie zwrotu</a>
+<a href="#section-4-akceptacja-zwrotu">§ 4. Akceptacja zwrotu</a>
+<a href="#section-5-warunki-przyjecia-towaru">§ 5. Warunki przyjęcia towaru</a>
+<a href="#section-6-koszty-transportu-i-ryzyko">§ 6. Koszty transportu i ryzyko</a>
+<a href="#section-7-weryfikacja-zwrotu">§ 7. Weryfikacja zwrotu</a>
+<a href="#section-8-rozliczenie-zwrotu">§ 8. Rozliczenie zwrotu</a>
+<a href="#section-9-zwrot-przy-zakonczeniu-wspolpracy">§ 9. Zwrot przy zakończeniu współpracy</a>
+<a href="#section-10-dokumentacja-zwrotu">§ 10. Dokumentacja zwrotu</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Rozwiń wszystko</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Zwiń wszystko</button>
+        <button type="button" class="r8-print-button">Drukuj / Zapisz PDF</button></div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-zalacznik-nr-11" open="">
+<summary><span>ZAŁĄCZNIK NR 11</span></summary>
+<div class="doc-section-body"><p>Załącznik nr 11 do Umowy Partnerskiej FIXON. Wersja R8 z 22 października 2026.</p></div></details>
+<details class="doc-section" id="section-procedura-zwrotu-towaru-fixon" open="">
+<summary><span>PROCEDURA ZWROTU TOWARU FIXON</span></summary>
+<div class="doc-section-body"><p>Procedura obejmuje zgłoszenie, odbiór, weryfikację i rozliczenie zwrotów. Szczególne prawo do zwrotu po nieskutecznym teście ma pierwszeństwo przed zasadami ogólnymi.</p><div class="r8-contract-table"><table><thead><tr><th scope="col">Pole</th><th scope="col">Dane</th></tr></thead><tbody><tr><td data-label="Pole">Numer dokumentu</td><td data-label="Dane">ZST/FIXON/____/____</td></tr><tr><td data-label="Pole">Data</td><td data-label="Dane">____ / ____ / ______</td></tr><tr><td data-label="Pole">Partner</td><td data-label="Dane">________________________________</td></tr><tr><td data-label="Pole">Dostawca</td><td data-label="Dane">FIXON IRYNA MUKOSII</td></tr><tr><td data-label="Pole">Pośrednik</td><td data-label="Dane">JHB FAMILY sp. z o.o.</td></tr><tr><td data-label="Pole">Umowa / zamówienie</td><td data-label="Dane">________________________________</td></tr></tbody></table></div></div></details>
+<details class="doc-section" id="section-1-cel-procedury" open="">
+<summary><span>§ 1. Cel procedury</span></summary>
+<div class="doc-section-body"><p>Procedura porządkuje zwroty towaru kupionego przez Partnera oraz materiałów i produktów demonstracyjnych powierzonych mu bez przeniesienia własności. Sam udział produktu we wsparciu magazynowym nie oznacza, że zakupiony i opłacony towar należy do Dostawcy.</p></div></details>
+<details class="doc-section" id="section-2-zakres-zastosowania" open="">
+<summary><span>§ 2. Zakres zastosowania</span></summary>
+<div class="doc-section-body"><p>Procedura obejmuje zwroty po nieskutecznym teście związanym ze zobowiązaniem zakupowym, zakończenie współpracy, wymianę ekspozycji, błędną dostawę, wycofanie produktu i inne uzgodnione podstawy. Nie zastępuje procedury reklamacyjnej ani uprawnień wynikających z bezwzględnie obowiązujących przepisów.</p></div></details>
+<details class="doc-section" id="section-3-zgloszenie-zwrotu" open="">
+<summary><span>§ 3. Zgłoszenie zwrotu</span></summary>
+<div class="doc-section-body"><p>Partner zgłasza zwrot przed wysyłką. Podaje dane kontaktowe, podstawę zwrotu, produkty i SKU, liczbę sztuk, stan towaru oraz numery zamówień, faktur lub dokumentów powierzenia. Strony uzgadniają odbiór i zabezpieczenie przesyłki.</p><p>Przy nieskutecznym teście Partner dołącza dokumenty sprzedaży i nakładów na sprzedaż FIXON. Nakłady mogą obejmować reklamę, targi, ekspozycję i prezentacje, ale nie zakup samego towaru.</p></div></details>
+<details class="doc-section" id="section-4-akceptacja-zwrotu" open="">
+<summary><span>§ 4. Akceptacja zwrotu</span></summary>
+<div class="doc-section-body"><p>Przy teście połączonym ze zobowiązaniem do zakupów można skorzystać z uzgodnionego zwrotu pełnowartościowego towaru. Warunki: sprzedaż w trzy miesiące poniżej 20% wartości zamówionego towaru netto przed rabatem oraz udokumentowane nakłady na sprzedaż FIXON co najmniej równe wartości pierwszego testu netto przed rabatem. Reklama, targi, ekspozycja i pokazy mogą być takimi nakładami; zakup samego towaru nie. Transport zwrotny pokrywa FIXON. Dokumentację i rozliczenie określa umowa.</p><p>Po spełnieniu warunków Partner może wycofać się z uzgodnionego zobowiązania zakupowego i zwrócić pełnowartościowy towar objęty próbą. Dostawca potwierdza podstawę i organizację odbioru. Weryfikacja nie daje swobody odmowy mimo spełnienia warunków. Inne dobrowolne zwroty wymagają uzgodnienia, chyba że uprawnienie wynika z Umowy lub przepisów.</p></div></details>
+<details class="doc-section" id="section-5-warunki-przyjecia-towaru" open="">
+<summary><span>§ 5. Warunki przyjęcia towaru</span></summary>
+<div class="doc-section-body"><p>Towar należy zidentyfikować i bezpiecznie przygotować do transportu. Przy zwrocie po nieskutecznym teście wymagany jest towar pełnowartościowy; nie wprowadza się automatycznego warunku, że każdy produkt był nigdy nieużywany. Ocena uwzględnia rzeczywisty stan, kompletność i możliwość dalszej sprzedaży.</p><p>Stan materiałów powierzonych do ekspozycji lub demonstracji ocenia się z uwzględnieniem normalnego zużycia zgodnego z przeznaczeniem. Ewentualne szkody rozlicza się na udokumentowanej podstawie, zgodnie z Umową i właściwymi przepisami.</p></div></details>
+<details class="doc-section" id="section-6-koszty-transportu-i-ryzyko" open="">
+<summary><span>§ 6. Koszty transportu i ryzyko</span></summary>
+<div class="doc-section-body"><p>Transport zwrotny po spełnieniu warunków nieskutecznego testu opłaca FIXON. Przy innych zwrotach stosuje się Umowę i uzgodnienie konkretnego zwrotu; jeżeli brak innej podstawy, koszt ponosi Partner. Ta zasada ogólna nie ogranicza zwrotu finansowanego przez FIXON.</p><p>Strony uzgadniają przewoźnika, odbiór i zabezpieczenie przesyłki przed wysłaniem. Odpowiedzialność za transport i uszkodzenia ustala się według Umowy, uzgodnionych warunków przewozu i przepisów; samo zgłoszenie zwrotu nie zmienia własności towaru.</p></div></details>
+<details class="doc-section" id="section-7-weryfikacja-zwrotu" open="">
+<summary><span>§ 7. Weryfikacja zwrotu</span></summary>
+<div class="doc-section-body"><p>Dostawca sprawdza ilość, tożsamość i stan produktów oraz zgodność dokumentów. Wynik zapisuje w protokole lub wiadomości dokumentowej i udostępnia Partnerowi. Rozbieżności powinny być opisane i możliwe do zweryfikowania. Nieznany stan lub koszt nie są automatycznie traktowane jako zerowa wartość towaru.</p></div></details>
+<details class="doc-section" id="section-8-rozliczenie-zwrotu" open="">
+<summary><span>§ 8. Rozliczenie zwrotu</span></summary>
+<div class="doc-section-body"><p>Przy zwrocie po nieskutecznym teście podstawą rozliczenia jest rzeczywiście zapłacona cena zwracanych produktów, nie cena przed rabatem. Strony potwierdzają dokumenty księgowe, termin i sposób zwrotu środków zgodnie z przepisami. Nie nalicza się nieuzgodnionej opłaty za przyjęcie zwrotu, automatycznej kary za wolumen ani nieuzgodnionego wyrównania rabatu wstecz.</p><p>Pozostałe zwroty rozlicza się zgodnie z ich podstawą, np. przez korektę faktury, wymianę lub uzgodniony zwrot środków. Inna forma rozliczenia nie może zastępować należnego zwrotu bez właściwej podstawy albo uzgodnienia.</p></div></details>
+<details class="doc-section" id="section-9-zwrot-przy-zakonczeniu-wspolpracy" open="">
+<summary><span>§ 9. Zwrot przy zakończeniu współpracy</span></summary>
+<div class="doc-section-body"><p>Zwraca się materiały i produkty, które rzeczywiście pozostają własnością Dostawcy zgodnie z dokumentem powierzenia. Zakupiony i opłacony towar Partnera nie podlega automatycznemu zwrotowi tylko dlatego, że był objęty mechanizmem dostępności magazynowej. Uzgodniony zwrot, odkupienie lub szczególne prawo po nieskutecznym teście pozostają możliwe.</p><p>Partner przygotowuje uzgodnione zestawienie stanów i umożliwia odbiór. Rozliczenie materiałów demonstracyjnych uwzględnia normalne zużycie zgodne z przeznaczeniem.</p></div></details>
+<details class="doc-section" id="section-10-dokumentacja-zwrotu" open="">
+<summary><span>§ 10. Dokumentacja zwrotu</span></summary>
+<div class="doc-section-body"><p>Dokumentacja obejmuje zgłoszenie, zestawienie SKU i ilości, podstawę zwrotu, stan produktów, powiązane faktury i uzgodnienie odbioru. Zdjęcia i protokół mogą służyć weryfikacji. Dla nieskutecznego testu należy wykazać obie wartości netto przed rabatem: sprzedaż poniżej 20% towaru objętego próbą oraz nakłady na sprzedaż co najmniej równe pierwszemu testowi.</p><p>Zmiana istotnych praw lub obowiązków wymaga odpowiedniego porozumienia stron. Milczenie i samo opublikowanie procedury nie oznaczają zgody na nowe zobowiązania.</p><div class="r8-contract-table"><table><thead><tr><th scope="col">SKU / produkt</th><th scope="col">Ilość</th><th scope="col">Stan / podstawa</th><th scope="col">Dokument / wartość zapłacona</th></tr></thead><tbody><tr><td data-label="SKU / produkt">________________</td><td data-label="Ilość">____</td><td data-label="Stan / podstawa">________________</td><td data-label="Dokument / wartość zapłacona">________________</td></tr><tr><td data-label="SKU / produkt">________________</td><td data-label="Ilość">____</td><td data-label="Stan / podstawa">________________</td><td data-label="Dokument / wartość zapłacona">________________</td></tr><tr><td data-label="SKU / produkt">________________</td><td data-label="Ilość">____</td><td data-label="Stan / podstawa">________________</td><td data-label="Dokument / wartość zapłacona">________________</td></tr><tr><td data-label="SKU / produkt">________________</td><td data-label="Ilość">____</td><td data-label="Stan / podstawa">________________</td><td data-label="Dokument / wartość zapłacona">________________</td></tr><tr><td data-label="SKU / produkt">________________</td><td data-label="Ilość">____</td><td data-label="Stan / podstawa">________________</td><td data-label="Dokument / wartość zapłacona">________________</td></tr></tbody></table></div><p>Dostawca: __________________  Partner: __________________  Pośrednik: __________________</p><p>Data i podpisy / uzgodnione podpisy elektroniczne: __________________</p></div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>Dokument R8</strong>
+    <p>Aktualna treść znajduje się na tej stronie. Wydruk lub zapis PDF wykonaj z aktualnego widoku.</p>
+  </div>
+  <div class="download-actions">
+    
+    
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>Podgląd statyczny dokumentu programowego FIXON.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+
+
+<script id="fixon-contract-r8-print">document.querySelectorAll(".r8-print-button").forEach(button=>button.addEventListener("click",()=>window.print()));window.addEventListener("beforeprint",()=>document.querySelectorAll("details.doc-section").forEach(section=>section.open=true));</script></body></html>

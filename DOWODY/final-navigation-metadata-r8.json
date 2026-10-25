@@ -1,0 +1,718 @@
+{
+  "passed": true,
+  "scope": "Final narrow navigation and metadata browser QA only",
+  "source": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\repository-release-r8",
+  "checks": [
+    {
+      "name": "prior-proofs",
+      "passed": true,
+      "landing": true,
+      "metadata": true,
+      "priceIndexInverse": true
+    },
+    {
+      "name": "native-count",
+      "passed": true,
+      "count": 69
+    },
+    {
+      "name": "metadata-inverse",
+      "passed": true,
+      "changes": 69,
+      "productCountChanges": 67
+    },
+    {
+      "name": "markets/AD/ca/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Productes</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/AL/sq/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produktet</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/AM/hy/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Ապրանքներ</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/AT/de/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkte</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/AZ/az/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Məhsullar</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/BA/bs/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Proizvodi</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/BA/hr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Proizvodi</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/BA/sr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Производи</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/BE/de/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkte</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/BE/fr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produits</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/BE/nl/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Producten</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/BG/bg/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Продукти</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/CH/de/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkte</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/CH/fr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produits</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/CH/it/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Prodotti</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/CY/el/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Προϊόντα</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/CY/tr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Ürünler</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/CZ/cs/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkty</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/DE/de/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkte</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/DK/da/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkter</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/EE/et/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Tooted</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/ES/ca/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Productes</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/ES/es/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Productos</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/ES/eu/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produktuak</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/ES/gl/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produtos</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/FI/fi/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Tuotteet</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/FI/sv/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkter</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/FR/fr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produits</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/GB/cy/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Cynhyrchion</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/GB/en/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Products</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/GE/ka/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> პროდუქტები</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/GR/el/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Προϊόντα</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/HR/hr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Proizvodi</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/HU/hu/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Termékek</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/IE/en/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Products</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/IE/ga/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Táirgí</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/IS/is/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Vörur</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/IT/it/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Prodotti</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/KZ/kk/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Өнімдер</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/KZ/ru/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Товары</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/LI/de/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkte</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/LT/lt/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produktai</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/LU/de/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkte</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/LU/fr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produits</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/LU/lb/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkter</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/LV/lv/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkti</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/MC/fr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produits</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/MD/ro/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produse</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/ME/sr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Производи</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/MK/mk/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Производи</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/MK/sq/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produktet</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/MT/mt/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Prodotti</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/NL/nl/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Producten</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/NO/no/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkter</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/PL/pl/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkty</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/PT/pt/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produtos</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/RO/ro/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produse</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/RS/sr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Производи</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/SE/sv/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkter</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/SI/sl/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Izdelki</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/SK/sk/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produkty</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/SM/it/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Prodotti</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/TR/tr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Ürünler</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/UA/uk/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Продукти</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/VA/it/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Prodotti</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/WH/en/index.html",
+      "passed": true,
+      "heroStat": "<span>73 Products</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/WH/pl/index.html",
+      "passed": true,
+      "heroStat": "<span>73 Produkty</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/XK/sq/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Produktet</span>",
+      "overflow": 0
+    },
+    {
+      "name": "markets/XK/sr/index.html",
+      "passed": true,
+      "heroStat": "<span><strong>73</strong> Производи</span>",
+      "overflow": 0
+    },
+    {
+      "name": "PL-terms-1440",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 140,
+          "right": 1300,
+          "width": 1160
+        },
+        {
+          "left": 160,
+          "right": 1284,
+          "width": 1124
+        }
+      ]
+    },
+    {
+      "name": "PL-terms-390",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 12,
+          "right": 378,
+          "width": 366
+        },
+        {
+          "left": 32,
+          "right": 362,
+          "width": 330
+        }
+      ]
+    },
+    {
+      "name": "DE-terms-1440",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 140,
+          "right": 1300,
+          "width": 1160
+        },
+        {
+          "left": 160,
+          "right": 1284,
+          "width": 1124
+        }
+      ]
+    },
+    {
+      "name": "DE-terms-390",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 12,
+          "right": 378,
+          "width": 366
+        },
+        {
+          "left": 32,
+          "right": 362,
+          "width": 330
+        }
+      ]
+    },
+    {
+      "name": "WH-terms-1440",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 140,
+          "right": 1300,
+          "width": 1160
+        },
+        {
+          "left": 160,
+          "right": 1284,
+          "width": 1124
+        }
+      ]
+    },
+    {
+      "name": "WH-terms-390",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 12,
+          "right": 378,
+          "width": 366
+        },
+        {
+          "left": 32,
+          "right": 362,
+          "width": 330
+        }
+      ]
+    },
+    {
+      "name": "GE-terms-1440",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 140,
+          "right": 1300,
+          "width": 1160
+        },
+        {
+          "left": 160,
+          "right": 1284,
+          "width": 1124
+        }
+      ]
+    },
+    {
+      "name": "GE-terms-390",
+      "passed": true,
+      "overflow": 0,
+      "rects": [
+        {
+          "left": 12,
+          "right": 378,
+          "width": 366
+        },
+        {
+          "left": 32,
+          "right": 362,
+          "width": 330
+        }
+      ]
+    },
+    {
+      "name": "root-market-index",
+      "passed": true,
+      "cards": 50
+    },
+    {
+      "name": "search-WH",
+      "passed": true,
+      "matches": 1
+    },
+    {
+      "name": "search-PL",
+      "passed": true,
+      "matches": 1
+    },
+    {
+      "name": "programme-and-ads-links",
+      "passed": true,
+      "hrefs": [
+        "updates/FIXON-program-R8.html#pl",
+        "updates/FIXON-program-R8.html#en",
+        "marketing/r8-ads/index.html"
+      ]
+    },
+    {
+      "name": "price-index",
+      "passed": true,
+      "priceLinks": 50
+    },
+    {
+      "name": "WH-payload",
+      "passed": true,
+      "payloadType": "window.FIXON_PRICE_RETAIL_R8",
+      "signature": "cde66843efe699954475c39ffaa84651e5daa99d3931992130d05c13c46135ba"
+    },
+    {
+      "name": "WH-fair-aside",
+      "passed": true,
+      "text": "WARSAW HOME SPECIAL OFFER · OD / FROM 25%\n\nNa targach i przez dwa tygodnie od dnia targowego: produkty standardowe od 25%, maszyny 15%, URBANROOT od 30%. Bez zobowiązania wolumenowego. Wyższe warunki wymagają uzgodnienia; nie dodajemy rabatów do siebie. Oferta targowa nie zmienia zwykłych warunków programu. Rabaty nie łączą się. Dostawa i pozostałe koszty wymagają potwierdzenia.\n\nAt the fair and for two weeks after the fair day: standard products from 25% off, machines 15%, URBANROOT from 30%. No volume commitment is needed. Higher terms need agreement; discounts do not add together. The fair offer does not change normal programme terms. Discounts do not stack. Delivery and other costs need confirmation."
+    },
+    {
+      "name": "WH-price-pl-1440",
+      "passed": true,
+      "cards": 73,
+      "skus": 73,
+      "tiers": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "images": 73,
+      "overflow": 0,
+      "fonts": []
+    },
+    {
+      "name": "WH-price-pl-390",
+      "passed": true,
+      "cards": 73,
+      "skus": 73,
+      "tiers": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "images": 73,
+      "overflow": 0,
+      "fonts": []
+    },
+    {
+      "name": "WH-price-en-1440",
+      "passed": true,
+      "cards": 73,
+      "skus": 73,
+      "tiers": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "images": 73,
+      "overflow": 0,
+      "fonts": []
+    },
+    {
+      "name": "WH-price-en-390",
+      "passed": true,
+      "cards": 73,
+      "skus": 73,
+      "tiers": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "images": 73,
+      "overflow": 0,
+      "fonts": []
+    }
+  ],
+  "failures": [],
+  "screenshots": [
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\PL-1440.png",
+      "sha256": "be0864232a71453892c0362e9ce50e9832a4e5a0df1991be54e8cde01d0acc0e"
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\PL-390.png",
+      "sha256": "3ae50aa6d1f95eae81278dc3a919ee89509829ef06eb6958204a7e24909d2e58"
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\DE-1440.png",
+      "sha256": "6fa5649a82d4f96ebd41bd51c17d8223ec8a927fd75b719f30d898d56b761c07"
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\DE-390.png",
+      "sha256": "1a919cdef9081fa820603e6557422b8eac7b53ee1095e39a771139c8eb9bdf57"
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\WH-1440.png",
+      "sha256": "8cfcb64eeefa822bd0c516357f9bcc344c09ebe5cc6d2ed38d713610ccdb93d4"
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\WH-390.png",
+      "sha256": "d1c61fd21591ed69d059cfbe4e76f4dacd300b0e7ff15b0c3f3d9052ceba3fa3"
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\GE-1440.png",
+      "sha256": "5ea48f3cc05b92994aee3de43eae74dba2249d20c3defe6e93c4ea1c9020c1f7"
+    },
+    {
+      "path": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\final-navigation-metadata-screens-r8\\GE-390.png",
+      "sha256": "5a3978267f310be45c776e39cfba4196f9910e57fb3350c038231aa6643aaefb"
+    }
+  ],
+  "startedAt": "2026-10-24T21:14:23.291Z",
+  "browserClosed": true,
+  "serverClosed": true,
+  "finishedAt": "2026-10-24T21:15:58.052Z"
+}

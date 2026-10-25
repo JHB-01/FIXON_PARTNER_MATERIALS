@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Appendix: Strategic Entitlement Card | FIXON</title>
+  <style>
+    :root { --green:#124A2E; --dark:#06271b; --ink:#151a18; --muted:#63706a; --line:#d9e0db; --bg:#f2f4ef; --soft:#e8f0eb; --paper:#fff; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:FIXONInter, Arial, sans-serif; letter-spacing:0; }
+    header { position:sticky; top:0; z-index:10; border-bottom:1px solid var(--line); background:rgba(255,255,255,.94); backdrop-filter:blur(12px); }
+    .bar { width:min(1180px, calc(100% - 28px)); margin:0 auto; min-height:68px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    a { color:inherit; }
+    .back { display:inline-flex; align-items:center; min-height:40px; padding:10px 13px; border-radius:4px; background:var(--green); color:#fff; font-weight:700; text-decoration:none; }
+    .meta { color:var(--muted); font-size:13px; line-height:1.35; text-align:right; }
+    .nav-toggle, .nav-close, .nav-backdrop { display:none; }
+    .nav-toggle { align-items:center; min-height:40px; padding:10px 13px; border:1px solid var(--green); border-radius:4px; background:#fff; color:var(--green); font-weight:900; cursor:pointer; }
+    .nav-close { width:38px; height:38px; margin:0 0 12px auto; place-items:center; border:1px solid var(--line); border-radius:999px; background:#fff; color:var(--green); font-size:24px; line-height:1; cursor:pointer; }
+    main { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:44px 0 70px; }
+    .hero { padding:34px; border-radius:8px; background:linear-gradient(135deg, var(--dark), var(--green)); color:#fff; }
+    .kicker { display:inline-flex; margin-bottom:14px; padding:6px 9px; border:1px solid rgba(255,255,255,.22); border-radius:4px; color:rgba(255,255,255,.82); font-size:12px; font-weight:800; text-transform:uppercase; }
+    h1 { max-width:880px; margin:0 0 12px; font-size:clamp(34px, 6vw, 64px); line-height:.98; text-transform:uppercase; letter-spacing:0; }
+    .hero p { max-width:760px; margin:0; color:rgba(255,255,255,.78); font-size:18px; line-height:1.5; }
+    .doc-shell { display:grid; grid-template-columns:280px minmax(0, 1fr); gap:22px; margin-top:22px; align-items:start; }
+    .doc-nav { position:sticky; top:88px; max-height:calc(100vh - 110px); overflow:auto; padding:18px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 16px 42px rgba(15,22,18,.06); }
+    .doc-nav strong { display:block; margin-bottom:12px; color:var(--dark); text-transform:uppercase; }
+    .doc-nav a { display:block; padding:9px 0; border-top:1px solid var(--line); color:var(--muted); font-size:14px; line-height:1.35; text-decoration:none; }
+    .doc-nav a:hover { color:var(--green); }
+    .doc-tools { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+    .doc-tools button { min-height:36px; padding:8px 10px; border:1px solid var(--green); border-radius:4px; background:var(--green); color:#fff; font-weight:700; cursor:pointer; }
+    .doc-tools button.secondary { background:#fff; color:var(--green); }
+    .doc { min-width:0; }
+    .doc-section { margin-bottom:14px; border:1px solid var(--line); border-radius:8px; background:#fff; box-shadow:0 12px 32px rgba(15,22,18,.045); overflow:hidden; }
+    .doc-section summary { padding:18px 22px; color:var(--green); font-size:22px; line-height:1.18; font-weight:900; text-transform:uppercase; cursor:pointer; list-style:none; }
+    .doc-section summary::-webkit-details-marker { display:none; }
+    .doc-section summary::after { content:"+"; float:right; color:var(--muted); font-size:22px; }
+    .doc-section[open] summary::after { content:"-"; }
+    .doc-section-body { padding:0 22px 24px; border-top:1px solid var(--line); }
+    .chapter-kicker { display:inline-flex; margin:18px 0 8px; padding:6px 9px; border-radius:4px; background:var(--soft); color:var(--green); font-size:12px; font-weight:900; text-transform:uppercase; }
+    .doc h3 { margin:24px 0 10px; color:var(--dark); font-size:18px; line-height:1.22; letter-spacing:0; }
+    .doc p, .doc li { color:#28302d; font-size:15.5px; line-height:1.68; }
+    .doc p { margin:0 0 13px; }
+    .doc ul { margin:0 0 18px; padding-left:23px; }
+    .table-scroll { width:100%; overflow:auto; margin:18px 0 24px; border:1px solid var(--line); border-radius:7px; }
+    table { width:100%; border-collapse:collapse; min-width:620px; background:#fff; }
+    th, td { padding:11px 12px; border:1px solid var(--line); text-align:left; vertical-align:top; font-size:14px; line-height:1.45; }
+    th { background:var(--soft); color:var(--dark); font-weight:900; }
+    tr:nth-child(even) td { background:#fbfcfa; }
+    .download-panel { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:22px; padding:22px; border-radius:8px; background:var(--dark); color:#fff; }
+    .download-panel strong { display:block; margin-bottom:6px; font-size:22px; text-transform:uppercase; }
+    .download-panel p { margin:0; color:rgba(255,255,255,.74); }
+    .download-actions { display:flex; flex-wrap:wrap; gap:10px; }
+    .download-button { display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:11px 14px; border-radius:4px; border:1px solid #fff; background:#fff; color:var(--dark); font-weight:900; text-decoration:none; }
+    .download-button.secondary { background:transparent; color:#fff; }
+    footer { width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:0 0 34px; color:var(--muted); font-size:13px; }
+    @media (max-width: 900px) {
+      body.nav-open { overflow:hidden; }
+      .bar { flex-wrap:wrap; }
+      .nav-toggle { display:inline-flex; }
+      .nav-close { display:grid; }
+      .nav-backdrop { position:fixed; inset:0; z-index:30; background:rgba(6,39,27,.42); opacity:0; pointer-events:none; transition:opacity .2s ease; }
+      body.nav-open .nav-backdrop { display:block; opacity:1; pointer-events:auto; }
+      .doc-shell { grid-template-columns:1fr; }
+      .doc-nav { position:fixed; top:0; left:0; z-index:40; width:min(340px, 86vw); height:100vh; max-height:none; padding:18px; border-radius:0 8px 8px 0; transform:translateX(-104%); transition:transform .22s ease; }
+      body.nav-open .doc-nav { transform:translateX(0); }
+    }
+    @media (max-width: 720px) { .bar { align-items:flex-start; flex-direction:column; padding:12px 0; } .meta { text-align:left; } .hero { padding:22px; } .doc-section summary { padding:16px; font-size:18px; } .doc-section-body { padding:0 16px 18px; } .download-panel { align-items:flex-start; flex-direction:column; } .download-actions, .download-button { width:100%; } }
+    body.pdf-export { background:#fff; }
+    body.pdf-export header, body.pdf-export .doc-nav, body.pdf-export .nav-toggle, body.pdf-export .nav-backdrop, body.pdf-export .download-panel, body.pdf-export footer { display:none !important; }
+    body.pdf-export main { width:100%; padding:0; }
+    body.pdf-export .hero { border-radius:0; margin:0 0 16px; padding:22px; }
+    body.pdf-export .doc-shell { display:block; margin:0; }
+    body.pdf-export .doc { width:100%; }
+    body.pdf-export .doc-section { box-shadow:none; border:0; border-radius:0; margin:0 0 14px; }
+    body.pdf-export .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+    body.pdf-export .doc-section summary::after { display:none; }
+    body.pdf-export .doc-section-body { padding:0; border-top:0; }
+    body.pdf-export .table-scroll { overflow:visible; }
+    body.pdf-export table { min-width:0; }
+    @media print {
+      body { background:#fff; }
+      header, .doc-nav, .nav-toggle, .nav-backdrop, .download-panel, footer { display:none !important; }
+      main { width:100%; padding:0; }
+      .hero { border-radius:0; margin:0 0 16px; padding:22px; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .doc-shell { display:block; margin:0; }
+      .doc-section { break-inside:auto; box-shadow:none; border:0; margin:0 0 14px; }
+      .doc-section summary { display:block; padding:12px 0; border-bottom:1px solid var(--line); list-style:none; }
+      .doc-section summary::after { display:none; }
+      .doc-section-body { padding:0; border-top:0; }
+      .table-scroll { overflow:visible; break-inside:auto; }
+      table { min-width:0; page-break-inside:auto; }
+      tr { page-break-inside:avoid; page-break-after:auto; }
+    }
+  </style>
+<style id="fixon-contract-r8-style">@font-face{font-family:"FIXONInter";font-weight:100 900;font-display:swap;src:url(../../assets/r8-shared/29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031.ttf)}@font-face{font-family:"FIXONOswald";font-weight:100 900;font-display:swap;src:url(../../assets/r8-shared/5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817.ttf)}body{font-family:FIXONInter,Arial,sans-serif!important}h1,h2,h3{font-family:FIXONOswald,Arial,sans-serif!important}.r8-legacy-anchor{display:block;width:0;height:0;overflow:hidden;line-height:0;font-size:0;visibility:hidden}.doc-tools a[href$=".docx"],.doc-tools a[href$=".doc"],.doc-tools a[href$=".pdf"],.download-actions a[href$=".docx"],.download-actions a[href$=".doc"],.download-actions a[href$=".pdf"]{display:none!important}.r8-print-button{min-height:42px;padding:11px 14px;border:1px solid #124A2E;border-radius:4px;background:#124A2E;color:#fff;font:inherit;font-weight:700;cursor:pointer}.brand-logo{content:url("../../assets/r8-shared/49bd50a7339d931e566acc7d0cd10672433d78c7981005838fbb38d4408f8c75.png")}.r8-contract-logo{display:block;width:180px;max-width:100%;height:auto;background:white;padding:8px;margin-bottom:20px}.r8-contract-table{max-width:100%;overflow-x:auto}.r8-contract-table td,.r8-contract-table th{overflow-wrap:anywhere;vertical-align:top}.doc-section-body p{line-height:1.7}button{font:inherit}.hero h1{font-size:48px}@media(max-width:700px){.hero h1{font-size:30px}.doc-section-body{overflow-wrap:anywhere}.r8-contract-table{font-size:14px}}@media print{header,.doc-nav,.doc-tools,.download-actions{display:none!important}.doc-shell{display:block}.hero{background:white!important;color:#151a18!important;padding:0}.hero p{color:#151a18!important}.doc-section{break-inside:auto}details.doc-section>.doc-section-body{display:block!important}.doc-section-body p{orphans:3;widows:3}}</style><style id="fixon-contract-r8-mobile-tables">@media(max-width:700px){.r8-contract-table table,.r8-contract-table tbody{display:block!important;width:100%!important;min-width:0!important}.r8-contract-table thead{display:none!important}.r8-contract-table tr{display:block!important;border-bottom:2px solid var(--line,#d9e0db);padding:8px 0;margin:0 0 12px}.r8-contract-table td{display:block!important;width:100%!important;min-width:0!important;border:0!important;padding:8px!important;white-space:normal!important;overflow-wrap:anywhere;word-break:break-word}.r8-contract-table td::before{content:attr(data-label);display:block;color:#124a2e;font-weight:700;margin-bottom:4px}}</style></head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="back" href="../../index.html">Back to documents</a>
+      <button class="nav-toggle" type="button" data-doc-action="toggle-nav" aria-controls="docNav" aria-expanded="false">Table of contents</button>
+      <div class="meta">FIXON R8<br>Updated: 22 October 2026</div>
+    </div>
+  </header>
+  <div class="nav-backdrop" data-doc-action="close-nav"></div>
+  <main>
+    <section class="hero"><img class="r8-contract-logo" src="../../assets/r8-shared/49bd50a7339d931e566acc7d0cd10672433d78c7981005838fbb38d4408f8c75.png" alt="FIXON Professional Tools">
+      <span class="kicker">FIXON Tools &amp; Tech</span>
+      <h1>Appendix: Strategic Entitlement Card</h1>
+      <p>Model card confirming individual strategic powers.</p>
+    </section>
+    <div class="doc-shell">
+      <aside class="doc-nav" id="docNav">
+        <button class="nav-close" type="button" data-doc-action="close-nav" aria-label="Close">×</button>
+        <strong>Document navigation</strong>
+        <a href="#section-zalacznik-nr-14-karta-uprawnienia-strategicznego-fixon">ANNEX No 14 CARD OF STRATEGIC POWER OF FIXON</a>
+        <div class="doc-tools">
+          <button type="button" data-doc-action="expand">Expand Everything</button>
+          <button class="secondary" type="button" data-doc-action="collapse">Collapse Everything</button>
+        <button type="button" class="r8-print-button">Print / Save as PDF</button></div>
+        <div class="doc-tools"><a class="download-button secondary" href="../zalacznik-karta-uprawnienia-strategicznego.html">PL</a><a class="download-button secondary" href="../en/zalacznik-karta-uprawnienia-strategicznego.html">EN</a></div>
+      </aside>
+      <article class="doc">
+<details class="doc-section" id="section-zalacznik-nr-14-karta-uprawnienia-strategicznego-fixon" open="">
+<summary><span>ANNEX No 14 CARD OF STRATEGIC POWER OF FIXON</span></summary>
+<div class="doc-section-body"><p>Annex 14. This card confirms one main strategic right and any expressly listed additional elements. It does not automatically grant other rights or national general exclusivity.</p><div class="r8-contract-table"><table><thead><tr><th scope="col">Card details</th><th scope="col">Value</th></tr></thead><tbody><tr><td data-label="Card details">Number / version</td><td data-label="Value">________________ / R8</td></tr><tr><td data-label="Card details">Date / term</td><td data-label="Value">________________ / from ______ to ______</td></tr><tr><td data-label="Card details">Partner / outlet / channel</td><td data-label="Value">________________________________</td></tr><tr><td data-label="Card details">Supplier</td><td data-label="Value">FIXON IRYNA MUKOSII</td></tr><tr><td data-label="Card details">Intermediary</td><td data-label="Value">JHB FAMILY sp. z o.o.</td></tr><tr><td data-label="Card details">Grounds</td><td data-label="Value">Sales performance / market development / wholesale customer / product contribution / other: __________</td></tr></tbody></table></div><div class="r8-contract-table"><table><thead><tr><th scope="col">Selection</th><th scope="col">Right</th><th scope="col">Scope to agree</th></tr></thead><tbody><tr><td data-label="Selection">YES / NO</td><td data-label="Right">Individual discount terms</td><td data-label="Scope to agree">Rate ______; products / channel ______; combination with R8 ______</td></tr><tr><td data-label="Selection">YES / NO</td><td data-label="Right">Market protection</td><td data-label="Scope to agree">Territory / channel / customer group / project ______</td></tr><tr><td data-label="Selection">YES / NO</td><td data-label="Right">Extended stock support</td><td data-label="Scope to agree">Factor ______; products ______</td></tr><tr><td data-label="Selection">YES / NO</td><td data-label="Right">Product / launch exclusivity</td><td data-label="Scope to agree">Products / launch / term ______</td></tr></tbody></table></div><p>1. An extra strategic discount does not automatically add to R8 rates. The card must expressly confirm the rate and any combination. Publishing an update does not revoke existing signed rights.</p><p>2. The card identifies products, territory, channel, customers or project and dates. Rights must not be described more broadly than agreed or transferred without Supplier consent.</p><p>3. The Partner independently sets resale prices. A difference from the recommended retail price alone does not justify withdrawing a right. Market protection must not impose unlawful passive-sales or effective-internet-use restrictions.</p><p>4. If a separate exclusive general distribution agreement is signed, fixon.pro and direct FIXON orders from its country are passed to the distributor under that agreement. This card creates no conflicting general exception for Supplier direct sales. Technical and service support alone does not grant a right to retain those orders.</p><p>5. Complete activity, reporting and review terms below. A review may address actual breaches, missing agreed activity, stock discrepancies or loss of the grounds for the right. It must not be used to impose resale prices.</p><p>6. Restriction, suspension or withdrawal follows the Agreement and agreed card terms, with a documented notice to the Partner. It does not automatically change other rights or the Agreement itself. Essential changes require the appropriate agreement.</p><p>7. Approval requires agreed signatures or another express confirmation in a permitted form. A failure to object within seven days alone does not create a new obligation or revoke an existing signed right.</p><div class="r8-contract-table"><table><thead><tr><th scope="col">Agreed item</th><th scope="col">Value</th></tr></thead><tbody><tr><td data-label="Agreed item">Products / territory / channel</td><td data-label="Value">________________________________</td></tr><tr><td data-label="Agreed item">Minimum activity / volume</td><td data-label="Value">________________________________</td></tr><tr><td data-label="Agreed item">Additional reporting</td><td data-label="Value">________________________________</td></tr><tr><td data-label="Agreed item">Review terms</td><td data-label="Value">________________________________</td></tr><tr><td data-label="Agreed item">Restriction / suspension / withdrawal terms</td><td data-label="Value">________________________________</td></tr></tbody></table></div><p>Supplier: __________________  Partner: __________________  Intermediary: __________________</p><p>Date and signatures / agreed electronic signatures: __________________</p><span id="1-dane-dokumentu" class="r8-legacy-anchor" aria-hidden="true"></span><span id="2-strony-i-identyfikacja-partnera" class="r8-legacy-anchor" aria-hidden="true"></span><span id="3-rodzaj-przyznanego-uprawnienia-strategicznego" class="r8-legacy-anchor" aria-hidden="true"></span><span id="4-uzasadnienie-przyznania-uprawnienia" class="r8-legacy-anchor" aria-hidden="true"></span><span id="5-warunki-korzystania-z-uprawnienia" class="r8-legacy-anchor" aria-hidden="true"></span><span id="6-parametry-szczegolowe-uprawnienia" class="r8-legacy-anchor" aria-hidden="true"></span><span id="7-przeglad-ograniczenie-i-cofniecie-uprawnienia" class="r8-legacy-anchor" aria-hidden="true"></span><span id="8-zastrzezenia-i-zatwierdzenie" class="r8-legacy-anchor" aria-hidden="true"></span><span id="9-podpisy-zatwierdzenie-koncowej-wersji" class="r8-legacy-anchor" aria-hidden="true"></span></div></details>
+
+<div class="download-panel">
+  <div>
+    <strong>R8 document</strong>
+    <p>This page contains the updated text. Print or save a PDF from the current version.</p>
+  </div>
+  <div class="download-actions">
+    
+    
+  </div>
+</div>
+      </article>
+    </div>
+  </main>
+  <footer>The static preview of the FIXON software document.</footer>
+  <script>
+    if (new URLSearchParams(location.search).get('pdf') === '1') {
+      document.body.classList.add('pdf-export');
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    }
+    document.querySelector('[data-doc-action="expand"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = true);
+    });
+    document.querySelector('[data-doc-action="collapse"]')?.addEventListener('click', () => {
+      document.querySelectorAll('.doc-section').forEach(section => section.open = false);
+    });
+    document.querySelectorAll('.doc-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target && target.tagName === 'DETAILS') target.open = true;
+        setNav(false);
+      });
+    });
+    const navToggle = document.querySelector('[data-doc-action="toggle-nav"]');
+    const setNav = (isOpen) => {
+      document.body.classList.toggle('nav-open', isOpen);
+      navToggle?.setAttribute('aria-expanded', String(isOpen));
+    };
+    navToggle?.addEventListener('click', () => setNav(!document.body.classList.contains('nav-open')));
+    document.querySelectorAll('[data-doc-action="close-nav"]').forEach(button => {
+      button.addEventListener('click', () => setNav(false));
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') setNav(false);
+    });
+  </script>
+
+
+<script id="fixon-contract-r8-print">document.querySelectorAll(".r8-print-button").forEach(button=>button.addEventListener("click",()=>window.print()));window.addEventListener("beforeprint",()=>document.querySelectorAll("details.doc-section").forEach(section=>section.open=true));</script></body></html>

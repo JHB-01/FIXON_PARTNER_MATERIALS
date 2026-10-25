@@ -1,0 +1,10 @@
+{
+  "version": "FIXON_R8_CUMULATIVE_2026-10-24",
+  "programme": "R8",
+  "updateFrom": "R8.01",
+  "markets": 49,
+  "eventMarket": "WARSAW HOME",
+  "productPriceSourceDate": "2026-10-19",
+  "deliverySourceDate": "2026-10-21",
+  "note": "Release identifier. Publication is performed by the repository owner, not asserted by this file."
+}

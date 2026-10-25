@@ -1,0 +1,2 @@
+# Preserve losslessly packed offline catalogues without line-ending conversion.
+*.html binary

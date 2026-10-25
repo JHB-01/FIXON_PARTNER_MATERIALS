@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "scope": "Local verified update package, not a published site",
+  "markets": 50,
+  "priceLanguageViews": 148,
+  "hostedLanguageViews": 148,
+  "offlineLanguageViews": 148,
+  "hostedExactQuoteCases": 32850,
+  "offlineExactQuoteCases": 32850,
+  "commercialFiles": 138,
+  "nativeLandingPages": 69,
+  "pdfFiles": 4,
+  "sourceFiles": 753,
+  "deltaFiles": 482,
+  "newFiles": 115,
+  "changedFiles": 367,
+  "unchangedBaselineFiles": 271,
+  "publicationPreparation": {
+    "publishedBytes": 979741380,
+    "strictMaximumBytes": 1000000000,
+    "publishedFiles": 735,
+    "remainingBytes": 20258620
+  },
+  "proofs": {
+    "packed-base122-final-review-r8.json": "af9daf15281f25b15dee7cc1a9d6dd6b4d6bb5ec3d1aacfef1778a217caa98bd",
+    "final-hosted-catalogue-review-r8.json": "2b5b6363f1773863c89303e083c5fc6c6ab3c4ad719d35a5026031a69346a082",
+    "final-prices-browser-r8.json": "e6a839108d6d44952ee1897dd47124f8fb3ff8fd08c16df872c3f038413ee271",
+    "landing-r8-final-review-r8.json": "422e294ee7ef9f3978b0399fed7de372a73cd176c459d39e84b22d17d91d7707",
+    "price-index-final-review-r8.json": "864dd8843a1559aece265fcff51d6a2f6b2da396851a1b332061d07c53d5a938",
+    "final-navigation-metadata-r8.json": "2f070e7d340f8b10d7805a708e3fa4fecec7b9d1336a84b42a52d2c377532b94",
+    "contract-link-font-fix-review-r8.json": "3b9c8d4bb5518ca220359ee6a8edd6bc2fb634e8252ac61c1cbf933244e511be",
+    "cover-typography-review-r8.json": "12bd9f0d845c4c2e045973634d51933a5acfceaee43cde59af545ddd488f854a",
+    "pages-final-review-r8.json": "7571d1820885e96c4f268b26c74c0b44446e2b710df5f205353fbe66254ca8d0",
+    "final-links-ready-r8.json": "3f669f6aa96a8445fa2e4256343f94ea46858295b29927f963613515f8d98c2c",
+    "final-static-content-review-r8.json": "886c6fe3cb955f76fc77c8019733bd42dcdc3ea5720640805b3e6932b5821f95",
+    "offline-git-byte-review-r8.json": "a96a698b70f77eb1de01de6f33cf6ec9bec81504b41b8f7311d82e829f5dad21",
+    "delivery-scripts-test-r8.json": "81e02ceda22f9fecca39931afc7deedf436b3f5482255b40e7c1527e3a999b6a"
+  },
+  "freshShopRefresh": false,
+  "independentFreshTaxAudit": false,
+  "published": false,
+  "auditMayStart": false
+}

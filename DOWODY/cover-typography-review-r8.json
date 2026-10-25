@@ -1,0 +1,345 @@
+{
+  "review": "Warsaw Home cover typography r8",
+  "visualApproved": true,
+  "automatedQAPassed": true,
+  "parentVisualReview": {
+    "PL": "approved by parent",
+    "EN": "approved by parent after final600-weight font correction",
+    "overallApproved": true
+  },
+  "visualApprovalNote": "Parent inspected final PL and EN144dpi covers and both-cover contact sheet after correcting ReportLab regular-face aliasing. Actual embedded Oswald-SemiBold600 and Inter-SemiBold600 checked from PDF FontFile2 OS/2 tables, not font labels. Final heading/price emphasis is clean with no overlap. Every original word, photo, financial fact and phone preserved; pages2-7 pixel-identical. Independent parent approval records exact final SHA256 hashes.",
+  "passed": true,
+  "poppler": "C:\\Users\\Karolina\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE",
+  "coverContactSheet": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-cover-typography\\FIXON_WARSAWHOME-contact.png",
+  "fileSHA256": {
+    "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\correction-release\\downloads\\fairs\\FIXON_WARSAWHOME_PL.pdf": "128999a18979f9f447819626cb6ad2e3499936bea525c621758a2eb562831759",
+    "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\correction-release\\downloads\\fairs\\FIXON_WARSAWHOME_EN.pdf": "e8bfbe5b068d99e640ba5f489b31ec638b5365e31ef1a1da9aa0a72de3b4b1e7",
+    "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\cover-typography-release\\downloads\\fairs\\FIXON_WARSAWHOME_PL.pdf": "0aa155dd79b07352f68218cf61d6bd6aff59983a5792dfc041f5cf0801f4345b",
+    "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\cover-typography-release\\downloads\\fairs\\FIXON_WARSAWHOME_EN.pdf": "07db47e809917a144a5c31d2b4ebe894d0173ae96fcf67bfecd26773c6b57ad5"
+  },
+  "missingFiles": [],
+  "pdfs": [
+    {
+      "language": "PL",
+      "baseline": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\correction-release\\downloads\\fairs\\FIXON_WARSAWHOME_PL.pdf",
+      "new": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\cover-typography-release\\downloads\\fairs\\FIXON_WARSAWHOME_PL.pdf",
+      "checks": {
+        "pageCount": {
+          "passed": true,
+          "baseline": 7,
+          "new": 7,
+          "expected": 7
+        },
+        "coverWordsAndNumbersPreserved": {
+          "passed": true,
+          "baselineTokenCount": 145,
+          "newTokenCount": 145
+        },
+        "currentOfferAndPhone": {
+          "passed": true,
+          "required": [
+            "OD 25%",
+            "+48 570 297 007"
+          ]
+        },
+        "noEurPricesOnCover": {
+          "passed": true,
+          "matches": []
+        },
+        "embeddedCoverFonts": {
+          "passed": true,
+          "fonts": [
+            {
+              "name": "/Helvetica",
+              "embedded": false,
+              "weightClasses": []
+            },
+            {
+              "name": "/AAAAAA+Inter-Regular",
+              "embedded": true,
+              "weightClasses": [
+                400
+              ]
+            },
+            {
+              "name": "/AAAAAA+Oswald-SemiBold",
+              "embedded": true,
+              "weightClasses": [
+                600
+              ]
+            },
+            {
+              "name": "/AAAAAA+Inter-SemiBold",
+              "embedded": true,
+              "weightClasses": [
+                600
+              ]
+            }
+          ]
+        },
+        "decodedCoverImagesIdentical": {
+          "passed": true,
+          "baselineImageCount": 2,
+          "newImageCount": 2
+        },
+        "newPdfWordBounds": {
+          "passed": true,
+          "issues": []
+        },
+        "pages2to7": {
+          "passed": true,
+          "pages": [
+            {
+              "page": 2,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 3,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 4,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 5,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 6,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 7,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            }
+          ]
+        },
+        "renderedPages2to7Identical": {
+          "available": true,
+          "renderer": "C:\\Users\\Karolina\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE",
+          "dpi": 96,
+          "comparison": "SHA256 of normalized RGB raw pixel bytes; rendered sequentially",
+          "popplerTimeoutSeconds": 90,
+          "passed": true,
+          "renders": [
+            {
+              "role": "baseline",
+              "returncode": 0,
+              "timedOut": false,
+              "pixelSHA256": [
+                "f13969afd84be9b28e0f041cf7164594905fbb774703f3fc1547ca9ba0b4fee2",
+                "3ba5efffcc9530a387f1b990d5ca1fab66160c2634d0ad733b1e086e3f041851",
+                "3fcd694205f6e786103b397de4985cfec58d3a85146f70bfa81c2218549d7b54",
+                "a25c27be8ab2e94b70dc0683cece9bc7d277c5bea309be0caa7b9d26a9e85063",
+                "8b6bb4e9d1f8db4c1e36070cc761129f020d4c86014a367b5f49a07165304ddf",
+                "95086e6676c0964bcd5d6890f355e2c2b2d6f060a05c9c480548460215abea4c"
+              ]
+            },
+            {
+              "role": "new",
+              "returncode": 0,
+              "timedOut": false,
+              "pixelSHA256": [
+                "f13969afd84be9b28e0f041cf7164594905fbb774703f3fc1547ca9ba0b4fee2",
+                "3ba5efffcc9530a387f1b990d5ca1fab66160c2634d0ad733b1e086e3f041851",
+                "3fcd694205f6e786103b397de4985cfec58d3a85146f70bfa81c2218549d7b54",
+                "a25c27be8ab2e94b70dc0683cece9bc7d277c5bea309be0caa7b9d26a9e85063",
+                "8b6bb4e9d1f8db4c1e36070cc761129f020d4c86014a367b5f49a07165304ddf",
+                "95086e6676c0964bcd5d6890f355e2c2b2d6f060a05c9c480548460215abea4c"
+              ]
+            }
+          ]
+        }
+      },
+      "coverPreview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-cover-typography\\FIXON_WARSAWHOME_PL-01.png",
+      "coverPreviewPixelSHA256": "67e8d8ab39b033c79c7ea6b4c89f8b2310f905a2d29506c1293dcc6700c87038",
+      "passed": true
+    },
+    {
+      "language": "EN",
+      "baseline": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\correction-release\\downloads\\fairs\\FIXON_WARSAWHOME_EN.pdf",
+      "new": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\cover-typography-release\\downloads\\fairs\\FIXON_WARSAWHOME_EN.pdf",
+      "checks": {
+        "pageCount": {
+          "passed": true,
+          "baseline": 7,
+          "new": 7,
+          "expected": 7
+        },
+        "coverWordsAndNumbersPreserved": {
+          "passed": true,
+          "baselineTokenCount": 162,
+          "newTokenCount": 162
+        },
+        "currentOfferAndPhone": {
+          "passed": true,
+          "required": [
+            "FROM 25%",
+            "+48 570 297 007"
+          ]
+        },
+        "noEurPricesOnCover": {
+          "passed": true,
+          "matches": []
+        },
+        "embeddedCoverFonts": {
+          "passed": true,
+          "fonts": [
+            {
+              "name": "/Helvetica",
+              "embedded": false,
+              "weightClasses": []
+            },
+            {
+              "name": "/AAAAAA+Inter-Regular",
+              "embedded": true,
+              "weightClasses": [
+                400
+              ]
+            },
+            {
+              "name": "/AAAAAA+Oswald-SemiBold",
+              "embedded": true,
+              "weightClasses": [
+                600
+              ]
+            },
+            {
+              "name": "/AAAAAA+Inter-SemiBold",
+              "embedded": true,
+              "weightClasses": [
+                600
+              ]
+            }
+          ]
+        },
+        "decodedCoverImagesIdentical": {
+          "passed": true,
+          "baselineImageCount": 2,
+          "newImageCount": 2
+        },
+        "newPdfWordBounds": {
+          "passed": true,
+          "issues": []
+        },
+        "pages2to7": {
+          "passed": true,
+          "pages": [
+            {
+              "page": 2,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 3,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 4,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 5,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 6,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            },
+            {
+              "page": 7,
+              "textContentIdentical": true,
+              "decodedContentStreamBytesIdentical": true,
+              "mediaboxIdentical": true,
+              "annotationsAndSemanticUrlsIdentical": true,
+              "decodedEmbeddedImagesIdentical": true
+            }
+          ]
+        },
+        "renderedPages2to7Identical": {
+          "available": true,
+          "renderer": "C:\\Users\\Karolina\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.EXE",
+          "dpi": 96,
+          "comparison": "SHA256 of normalized RGB raw pixel bytes; rendered sequentially",
+          "popplerTimeoutSeconds": 90,
+          "passed": true,
+          "renders": [
+            {
+              "role": "baseline",
+              "returncode": 0,
+              "timedOut": false,
+              "pixelSHA256": [
+                "715cd1a450d178deaf3de43582c68e4be589b42f276f76cc43c3e2d6ad0a2861",
+                "36938b004d818b43fc50caa0e75e701d5fb70a6b1d486d779c729167c97f8f28",
+                "9f51dbe9edd17e9f45590830bea6bd9bff52bd2263edccbfbbbad018b87cc8ea",
+                "73c5a0641355a58b9c832dd315f7263327e9345a48bcdb235e558e2dbe9f63ad",
+                "17593a8fd5a0c3541d33047ce61c47b717990c006f632efb4b7653ff06120ed3",
+                "760a9e5b5cfb2478ceaa5e9395630ee7c1c5b45135e625274da10c35dafb16be"
+              ]
+            },
+            {
+              "role": "new",
+              "returncode": 0,
+              "timedOut": false,
+              "pixelSHA256": [
+                "715cd1a450d178deaf3de43582c68e4be589b42f276f76cc43c3e2d6ad0a2861",
+                "36938b004d818b43fc50caa0e75e701d5fb70a6b1d486d779c729167c97f8f28",
+                "9f51dbe9edd17e9f45590830bea6bd9bff52bd2263edccbfbbbad018b87cc8ea",
+                "73c5a0641355a58b9c832dd315f7263327e9345a48bcdb235e558e2dbe9f63ad",
+                "17593a8fd5a0c3541d33047ce61c47b717990c006f632efb4b7653ff06120ed3",
+                "760a9e5b5cfb2478ceaa5e9395630ee7c1c5b45135e625274da10c35dafb16be"
+              ]
+            }
+          ]
+        }
+      },
+      "coverPreview": "C:\\Users\\Karolina\\Documents\\FIXON\\_staging_20261021_r8\\preview-cover-typography\\FIXON_WARSAWHOME_EN-01.png",
+      "coverPreviewPixelSHA256": "7de7dc07a1d07fe1cf22fd9eabe17e15f2b43ebe0de3e6c5ed5150d5d02f99f8",
+      "passed": true
+    }
+  ]
+}

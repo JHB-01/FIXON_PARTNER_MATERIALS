@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "Synthetic local repository only; no commits, remotes or publication",
+  "coreAutocrlf": true,
+  "parentTextAutoPreserved": true,
+  "nestedBinaryOverride": true,
+  "attributes": "client-files/sample.html: text: unset\nclient-files/sample.html: diff: unset\nclient-files/sample.html: merge: unset\n",
+  "originalSha256": "1b65d225b1a5fe6d7fdf57c7a5a429324984af0c7ef3d40ec9afcbd23897434b",
+  "stagedBlobSha256": "1b65d225b1a5fe6d7fdf57c7a5a429324984af0c7ef3d40ec9afcbd23897434b",
+  "bytes": 13799136
+}
