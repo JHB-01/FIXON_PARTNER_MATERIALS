@@ -56,6 +56,48 @@
 })();
 
 (function(){
+  function simplify(nav, links, inPage){
+    if(!nav || links.length<7) return;
+    var labels=inPage
+      ? {start:'Start',price:links[1].querySelector('strong').textContent,catalog:links[4].querySelector('strong').textContent,documents:document.documentElement.lang==='en'?'Documents':'Dokumenty'}
+      : {start:links[0].textContent,price:links[1].textContent,catalog:links[4].textContent,documents:document.documentElement.lang==='en'?'Documents':'Dokumenty'};
+    var primary=[0,1,4].map(function(index){
+      var anchor=document.createElement('a');
+      anchor.href=links[index].getAttribute('href');
+      anchor.dataset.fixonNavIndex=index;
+      anchor.textContent=labels[['start','price','catalog'][[0,1,4].indexOf(index)]];
+      return anchor;
+    });
+    var menu=document.createElement('details');
+    menu.className='fx-r10-documents';
+    var summary=document.createElement('summary');
+    summary.textContent=labels.documents;
+    menu.appendChild(summary);
+    var list=document.createElement('div');
+    [2,3,5,6].forEach(function(index){var a=links[index].cloneNode(true);a.dataset.fixonNavIndex=index;list.appendChild(a);});
+    menu.appendChild(list);
+    nav.replaceChildren.apply(nav,primary.concat(menu));
+  }
+  document.querySelectorAll('.fixon-suite-nav').forEach(function(nav){
+    simplify(nav,Array.from(nav.children).filter(function(node){return node.tagName==='A';}),false);
+  });
+  document.querySelectorAll('.desktop-nav').forEach(function(nav){
+    var links=Array.from(document.querySelector('.direct-links')?.querySelectorAll(':scope > a') || []);
+    simplify(nav,links,true);
+  });
+  var style=document.createElement('style');
+  style.textContent='.fx-r10-documents{position:relative;flex:0 0 auto;color:inherit}.fx-r10-documents summary{display:block;cursor:pointer;list-style:none;padding:12px 14px;font:700 12px/1.2 Arial,sans-serif;white-space:nowrap}.fx-r10-documents summary::-webkit-details-marker{display:none}.fx-r10-documents>div{position:absolute;right:0;bottom:100%;min-width:220px;max-width:min(90vw,340px);display:grid;background:#06271b;border:1px solid rgba(255,255,255,.25);box-shadow:0 10px 35px rgba(0,0,0,.24)}.fx-r10-documents:not([open])>div{display:none}.fx-r10-documents a{white-space:normal!important}.desktop-nav .fx-r10-documents>div{top:100%;bottom:auto;background:#fff;color:#06271b}.desktop-nav .fx-r10-documents a{color:#06271b;padding:10px 12px}.desktop-nav .fx-r10-documents summary{font:800 13px/1.2 var(--fx-r2-font);padding:9px 10px}.fixon-suite-nav{overflow:visible!important}.fixon-suite-nav .fx-r10-documents a{display:block}.fixon-suite-nav .fx-r10-documents summary{color:#fff}.fixon-suite-nav .fx-r10-documents summary:hover,.fixon-suite-nav .fx-r10-documents summary:focus-visible{background:#c7df47;color:#06271b}';
+  style.textContent+='@media(max-width:700px){.fixon-suite-nav{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));width:calc(100% - 20px)!important;max-width:none!important;left:10px!important;right:10px!important;transform:none!important;box-sizing:border-box}.fixon-suite-nav>a,.fixon-suite-nav>.fx-r10-documents{min-width:0;max-width:100%;box-sizing:border-box}.fixon-suite-nav>a{padding:10px 4px!important;white-space:normal!important;overflow-wrap:anywhere;line-height:1.25}.fixon-suite-nav .fx-r10-documents summary{padding:10px 4px;white-space:normal;overflow-wrap:anywhere;line-height:1.25;text-align:center}.fixon-suite-nav .fx-r10-documents>div{max-width:calc(100vw - 24px)}}';
+  document.head.appendChild(style);
+  function translateDocuments(){
+    var names={pl:'Dokumenty',en:'Documents',de:'Dokumente',fr:'Documents',nl:'Documenten',it:'Documenti',es:'Documentos',pt:'Documentos',ca:'Documents',cs:'Dokumenty',sk:'Dokumenty',hu:'Dokumentumok',ro:'Documente',da:'Dokumenter',sv:'Dokument',fi:'Asiakirjat',no:'Dokumenter',is:'Skjöl',hr:'Dokumenti',bs:'Dokumenti',sr:'Документи',sl:'Dokumenti',bg:'Документи',mk:'Документи',sq:'Dokumente',et:'Dokumendid',lv:'Dokumenti',lt:'Dokumentai',el:'Έγγραφα',tr:'Belgeler',uk:'Документи',ru:'Документы',kk:'Құжаттар',az:'Sənədlər',hy:'Փաստաթղթեր',ka:'დოკუმენტები',ga:'Doiciméid',mt:'Dokumenti'};
+    document.querySelectorAll('.fx-r10-documents>summary').forEach(function(summary){summary.textContent=names[document.documentElement.lang]||'Documents';});
+  }
+  translateDocuments();
+  document.addEventListener('fixonlanguagechange',translateDocuments);
+})();
+
+(function(){
   var REF_CODE='6oxwxmm663ix';
   var STORAGE_KEY='fixonReferralAttribution';
   var THIRTY_DAYS_MS=30*24*60*60*1000;
